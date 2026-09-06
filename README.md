@@ -2,32 +2,34 @@
 
 Public editorial metadata only: YouTube IDs, approved channels, English language, exact series IDs and season coverage. No video files, account data, API credentials, or app source are published here.
 
-## Initial setup status
+## Live status
 
-The catalog and hosting code are published on GitHub. Cloudflare deployment and the GitHub workflows still require authentication setup; they are not active until the steps below are completed.
+The catalog is live at https://nuvio-recaps.marvins-dashboard.workers.dev/v1/catalog.json (revision 2). GitHub validation and the daily review workflow are enabled and have passed. The tvOS bootstrap now contains this endpoint; its live update/cache/304 test passed.
+
+Cloudflare's Git integration is still waiting for the GitHub browser login. Until that connection is completed, pushes validate the catalog but do not automatically publish it to Cloudflare. Wrangler manual deployment works. No Cloudflare deployment secret is stored in GitHub.
 
 ## Publishing
 
-`catalog.json` is the source of truth after this hosting repository is deployed. Change approved entries there and increase `revision` for every change, including withdrawals. `enabled: false` removes a video from the app. Correct mistakes with a higher revision, not by restoring an older release number.
+`catalog.json` is the editorial source. Change approved entries and increase `revision` for every change, including withdrawals. `enabled: false` removes a video from the app. Correct mistakes with a higher revision, not by restoring an older release number.
 
-Push to `main` runs validation and publishes `/v1/catalog.json` to Cloudflare Workers Static Assets. The Wrangler configuration has no application script, KV, R2, database, or paid bindings. Keep the Cloudflare account on Workers Free. Static asset requests are currently free and unlimited; GitHub standard hosted runners are free for public repositories. Do not enable paid plans for this project.
+Cloudflare Workers Static Assets serves only `/v1/catalog.json`. There is no application script, KV, R2, database, or paid binding. Keep the account on Workers Free. Static asset requests are currently free and unlimited; GitHub standard hosted runners are free for public repositories. A paid domain is unnecessary.
 
-Setup, once:
+Complete the Git connection once in Cloudflare's `nuvio-recaps` Worker → Settings → Builds → GitHub. Choose only `nobnobz/nuvio-recap-catalog`, production branch `main`, build command `npm test && npm run build`, deploy command `npm run deploy`. Set build variable `CATALOG_URL` to the live endpoint above. Restrict build watch paths to `catalog.json`, `scripts/*`, `tests/*`, `package.json`, `package-lock.json`, and `wrangler.jsonc`; exclude the daily `review/*` report to avoid unnecessary builds. Disable preview branch builds for this catalog. The GitHub workflow validates changes; Cloudflare alone deploys them.
 
-1. Authenticate Wrangler with `npx wrangler login`, then run `npm ci`, `npm test`, `npm run build`, and `npm run deploy` on the intended Cloudflare account. Use the resulting stable workers.dev address; a paid domain is unnecessary.
-2. In GitHub repository secrets, set `CLOUDFLARE_ACCOUNT_ID` and a scoped `CLOUDFLARE_API_TOKEN` with Workers Scripts edit permission for this account. Use GitHub's secret UI or `gh secret set`; never put tokens into catalog files, commits, the app, or chat. Protect the `production` environment against untrusted branches.
-3. Set repository variable `CATALOG_URL` to the actual HTTPS `/v1/catalog.json` endpoint. This enables pre-deployment comparison with the currently published revision. Keep it unset only for the initial deployment.
-4. Add that same URL as `updateURL` in `catalog.json`, increase its revision, and publish it. Copy the resulting catalog once into the app's bundled `SeasonRecapCatalog.json`. Build/install the app once with this bootstrap endpoint. Future catalog changes need no app build. Schema/code changes may still need an app update.
-5. Verify HTTP 200 + JSON + ETag, then HTTP 304 with If-None-Match. Run the GitHub publication workflow once with the configured secrets. Confirm a higher revision reaches the app and that offline launch retains the last valid copy.
+After connecting, publish a higher catalog revision through Git and verify Cloudflare picked it up without a manual deploy. That final Git-to-Cloudflare check is still pending.
+
+Manual fallback:
 
 ```sh
 npm ci
 npm test
-npm run build
-npm run deploy
+CATALOG_URL=https://nuvio-recaps.marvins-dashboard.workers.dev/v1/catalog.json npm run build
+CLOUDFLARE_ACCOUNT_ID=ddf3f2e63080257eff83d13a7a9f7666 npm run deploy
 ```
 
-Cloudflare Workers Builds with Git integration can alternatively run the same build/deploy commands without GitHub deployment secrets. Use one deployment pipeline, not both.
+Wrangler authentication is stored in the macOS keychain with account/user read and Workers deployment scopes. Never place OAuth credentials or API tokens in commits, catalog data or the app.
+
+One initial app build/install with the endpoint is necessary. Future catalog changes require no app build; schema/code changes can still need an app update. The bundled JSON is the bootstrap/fallback, not the ongoing editorial source.
 
 ## Automatic discovery and health checks
 
