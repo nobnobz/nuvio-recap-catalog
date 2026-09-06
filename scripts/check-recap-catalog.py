@@ -57,6 +57,9 @@ def verify_video(video):
         assert match, 'No player metadata'
         player = json.JSONDecoder().raw_decode(html[match.end():])[0]
         details = player.get('videoDetails', {})
+        status = player.get('playabilityStatus', {}).get('status', 'MISSING')
+        if status != 'OK' or not details:
+            return False, f'UNKNOWN {key}: YouTube metadata unavailable from this runner ({status}); not evidence of a removed video'
         assert details.get('videoId') == key, 'Video identity mismatch'
         assert details.get('channelId') == video['channelID'], 'Channel identity mismatch'
         assert abs(int(details.get('lengthSeconds', 0)) - video['durationSeconds']) <= 1, 'Duration changed; review required'
