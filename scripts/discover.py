@@ -20,7 +20,9 @@ def parse_feed(raw, channel, known):
     if len(raw) > 1_048_576:
         raise ValueError('Feed exceeds size limit')
     root = ET.fromstring(raw)
-    if root.findtext('yt:channelId', namespaces=NS) != channel['id']:
+    feed_id = root.findtext('yt:channelId', default='', namespaces=NS)
+    # YouTube Atom feeds use the channel identity without the UC prefix.
+    if feed_id not in (channel['id'], channel['id'][2:]):
         raise ValueError('Channel identity mismatch')
     result = []
     for entry in root.findall('a:entry', NS)[:30]:
@@ -44,7 +46,7 @@ def fetch_channel(channel, known):
             raw = response.read(1_048_577)
         return parse_feed(raw, channel, known), None
     except Exception as error:
-        return [], {'channelID': channel['id'], 'error': type(error).__name__}
+        return [], {'channelID': channel['id'], 'error': type(error).__name__, 'httpStatus': getattr(error, 'code', None)}
 
 
 def main():

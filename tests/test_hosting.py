@@ -27,6 +27,7 @@ class HostingTests(unittest.TestCase):
         result = discover.parse_feed(raw, channel, set())
         self.assertEqual([v['videoID'] for v in result], ['abcdefghijk'])
         self.assertEqual(result[0]['status'], 'needs_review')
+        self.assertEqual(discover.parse_feed(raw.replace(b'>UC123<', b'>123<'), channel, set()), result)
         self.assertNotIn('imdbID', result[0])
         self.assertEqual(discover.parse_feed(raw, channel, {'abcdefghijk'}), [])
         with self.assertRaises(ValueError):

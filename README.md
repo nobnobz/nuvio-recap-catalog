@@ -2,6 +2,10 @@
 
 Public editorial metadata only: YouTube IDs, approved channels, English language, exact series IDs and season coverage. No video files, account data, API credentials, or app source are published here.
 
+## Initial setup status
+
+The catalog and hosting code are published on GitHub. Cloudflare deployment and the GitHub workflows still require authentication setup; they are not active until the steps below are completed.
+
 ## Publishing
 
 `catalog.json` is the source of truth after this hosting repository is deployed. Change approved entries there and increase `revision` for every change, including withdrawals. `enabled: false` removes a video from the app. Correct mistakes with a higher revision, not by restoring an older release number.
