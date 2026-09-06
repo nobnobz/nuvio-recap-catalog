@@ -1,269 +1,39 @@
 {
-  "checkedAt": "2026-09-06T18:50:19.603317+00:00",
-  "catalogRevision": 3,
-  "candidates": [
-    {
-      "videoID": "_MRarQMYlSI",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "THE GENTLEMEN Season 1 Recap | Must Watch Before Season 2 | Series Explained",
-      "published": "2026-09-02T14:00:40+00:00",
-      "url": "https://www.youtube.com/watch?v=_MRarQMYlSI",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "m59PNhgi2tI",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "DARK MATTER Season 1 Recap | Must Watch Before Season 2 | Series Explained",
-      "published": "2026-08-27T14:00:16+00:00",
-      "url": "https://www.youtube.com/watch?v=m59PNhgi2tI",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "B5zyhXdCHoI",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "Recap Before INSIDIOUS: OUT OF THE FURTHER | INSIDIOUS Movie Series Explained",
-      "published": "2026-08-20T14:00:29+00:00",
-      "url": "https://www.youtube.com/watch?v=B5zyhXdCHoI",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "FLz-vnPu30Q",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "OUTER BANKS Season 1-4 Recap | Must Watch Before Season 5 | Series Explained",
-      "published": "2026-08-19T14:00:38+00:00",
-      "url": "https://www.youtube.com/watch?v=FLz-vnPu30Q",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "hgQohAWBw4w",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "REACHER Season 1-3 Recap | Must Watch Before Season 4 | Series Explained",
-      "published": "2026-08-11T14:00:24+00:00",
-      "url": "https://www.youtube.com/watch?v=hgQohAWBw4w",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "6V1NAm_ZuMM",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "Spider-Man RECAP before Brand New Day",
-      "published": "2026-07-30T14:17:59+00:00",
-      "url": "https://www.youtube.com/watch?v=6V1NAm_ZuMM",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "Nee2hyspP6Q",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "Recap Before SPIDER-MAN: BRAND NEW DAY",
-      "published": "2026-07-29T14:00:02+00:00",
-      "url": "https://www.youtube.com/watch?v=Nee2hyspP6Q",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "bgcUyYmGevg",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "ANIMAL KINGDOM Full Series Recap | Season 1-6 | Ending Explained",
-      "published": "2026-07-21T14:00:21+00:00",
-      "url": "https://www.youtube.com/watch?v=bgcUyYmGevg",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "8dG2UrNNomg",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "Avatar the Last Airbender RECAP before Season 2 #avatarthelastairbender #recap",
-      "published": "2026-06-25T15:37:48+00:00",
-      "url": "https://www.youtube.com/watch?v=8dG2UrNNomg",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "-u7mXJ7CFZo",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "THE BEAR Season 1-4 Recap | Must Watch Before Season 5 | Series Explained",
-      "published": "2026-06-25T13:00:22+00:00",
-      "url": "https://www.youtube.com/watch?v=-u7mXJ7CFZo",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "2Y9gCjgMcRE",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "Avatar: The Last Airbender RECAP: Season 1",
-      "published": "2026-06-24T16:35:35+00:00",
-      "url": "https://www.youtube.com/watch?v=2Y9gCjgMcRE",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "jqFSU30V1_k",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "AVATAR: THE LAST AIRBENDER Season 1 Recap | Must Watch Before Season 2 | Netflix Series Explained",
-      "published": "2026-06-24T14:00:01+00:00",
-      "url": "https://www.youtube.com/watch?v=jqFSU30V1_k",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "sOh49MB0jVo",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "House of the Dragon RECAP before Season 3",
-      "published": "2026-06-20T14:33:15+00:00",
-      "url": "https://www.youtube.com/watch?v=sOh49MB0jVo",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "Pr0zEw1jb2o",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "HOUSE OF THE DRAGON Season 1 & 2 Recap | Must Watch Before Season 3 | Series Explained",
-      "published": "2026-06-20T14:00:34+00:00",
-      "url": "https://www.youtube.com/watch?v=Pr0zEw1jb2o",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "szIZ29mLP_8",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "Toy Story RECAP before Toy Story 5",
-      "published": "2026-06-19T15:17:35+00:00",
-      "url": "https://www.youtube.com/watch?v=szIZ29mLP_8",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "dLKSOs6fhJE",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "TOY STORY 1-4 Recap | Must Before TOY STORY 5 | Movie Series Explained",
-      "published": "2026-06-18T14:00:19+00:00",
-      "url": "https://www.youtube.com/watch?v=dLKSOs6fhJE",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "CNBh7pAMTLg",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "INTERVIEW WITH THE VAMPIRE Season 1 & 2 Recap | Must Watch Before THE VAMPIRE LESTAT",
-      "published": "2026-06-06T14:00:03+00:00",
-      "url": "https://www.youtube.com/watch?v=CNBh7pAMTLg",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "CtaeIh_GM1U",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "The Boys RECAP: Final Season",
-      "published": "2026-06-05T15:37:12+00:00",
-      "url": "https://www.youtube.com/watch?v=CtaeIh_GM1U",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "LUZnoktD3FU",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "EUPHORIA Full Series Recap | Season 1-3 | Ending Explained",
-      "published": "2026-06-01T05:44:01+00:00",
-      "url": "https://www.youtube.com/watch?v=LUZnoktD3FU",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "Kzhmd4matdg",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "Vox Machina RECAP before Season 4 #thelegendofvoxmachina",
-      "published": "2026-05-30T15:25:07+00:00",
-      "url": "https://www.youtube.com/watch?v=Kzhmd4matdg",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "vXvKcRQVRRc",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "The Legend of Vox Machina RECAP: Season 3",
-      "published": "2026-05-30T15:19:07+00:00",
-      "url": "https://www.youtube.com/watch?v=vXvKcRQVRRc",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "_dVlYk77O6w",
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "channelName": "Recap & Chill",
-      "title": "THE BOYS Full Series Recap | Season 1-5 | Ending Explained",
-      "published": "2026-05-20T17:38:50+00:00",
-      "url": "https://www.youtube.com/watch?v=_dVlYk77O6w",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "5p08riRrdTM",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "The Mandalorian RECAP before the Movie #themandalorian",
-      "published": "2026-05-16T14:50:23+00:00",
-      "url": "https://www.youtube.com/watch?v=5p08riRrdTM",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "yV7XjvSQze8",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "The Mandalorian RECAP: Full Series",
-      "published": "2026-05-16T14:43:50+00:00",
-      "url": "https://www.youtube.com/watch?v=yV7XjvSQze8",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "wIEftIBbWAE",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "The Punisher RECAP before One Last Kill",
-      "published": "2026-05-09T20:31:36+00:00",
-      "url": "https://www.youtube.com/watch?v=wIEftIBbWAE",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "2fbdqabTZmc",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "Euphoria RECAP before Season 3",
-      "published": "2026-04-12T15:32:07+00:00",
-      "url": "https://www.youtube.com/watch?v=2fbdqabTZmc",
-      "status": "needs_review"
-    },
-    {
-      "videoID": "zJ8GckstFDA",
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "channelName": "Man of Recaps",
-      "title": "The Boys RECAP before the Final Season #theboys #recap",
-      "published": "2026-04-08T16:18:33+00:00",
-      "url": "https://www.youtube.com/watch?v=zJ8GckstFDA",
-      "status": "needs_review"
-    }
-  ],
+  "checkedAt": "2026-09-06T19:35:02.165003+00:00",
+  "catalogRevision": 4,
+  "candidates": [],
+  "healthChecked": 29,
+  "healthTotal": 29,
   "feedErrors": [],
   "availabilityReview": [
-    "UNKNOWN qTApgkJIpWo: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
-    "UNKNOWN vX0JAT709Ds: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
     "UNKNOWN 3H57mIqK-P8: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
-    "UNKNOWN _y8XSEf7Uo8: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
-    "UNKNOWN -pNtq9OvxNw: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
-    "UNKNOWN ycnZy5I32Io: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN 6ozR8k5Ga4g: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN CNBh7pAMTLg: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN FLz-vnPu30Q: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN Fkt4PODtHMU: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN Pr0zEw1jb2o: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
     "UNKNOWN RK38g5pR3b8: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
     "UNKNOWN SLxdHq3sjXw: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
-    "UNKNOWN ceYm0eDw7tg: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
-    "UNKNOWN Fkt4PODtHMU: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
-    "UNKNOWN 6ozR8k5Ga4g: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
     "UNKNOWN YY5lrIhcVzE: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
-    "UNKNOWN pgeVNbuRDB8: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
-    "UNKNOWN gTp7hqLOw7U: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
-    "UNKNOWN arIiRPOky80: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN _MRarQMYlSI: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
     "UNKNOWN _vFbzpEUM_k: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
-    "UNKNOWN uz9O8cIeDQ0: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video"
+    "UNKNOWN _y8XSEf7Uo8: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN arIiRPOky80: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN ceYm0eDw7tg: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN gTp7hqLOw7U: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN hgQohAWBw4w: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN jqFSU30V1_k: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN m59PNhgi2tI: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN pgeVNbuRDB8: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN qTApgkJIpWo: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN uz9O8cIeDQ0: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN vX0JAT709Ds: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN vXvKcRQVRRc: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN ycnZy5I32Io: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN -pNtq9OvxNw: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN -u7mXJ7CFZo: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN 0-1r9Oo7sEQ: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN 2Y9gCjgMcRE: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN 2fbdqabTZmc: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video"
   ]
 }
