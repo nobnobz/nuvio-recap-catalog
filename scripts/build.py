@@ -23,7 +23,7 @@ def build():
     if previous_url:
         if not previous_url.startswith('https://'):
             raise ValueError('CATALOG_URL must use HTTPS')
-        with urllib.request.urlopen(urllib.request.Request(previous_url, headers={'Cache-Control':'no-cache'}), timeout=15) as response:
+        with urllib.request.urlopen(urllib.request.Request(previous_url, headers={'Cache-Control':'no-cache', 'User-Agent':'NuvioCatalogPublisher/1.0'}), timeout=15) as response:
             raw = response.read(1048577)
         if len(raw) > 1048576:
             raise ValueError('Published catalog too large')

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 1,
+  "revision": 2,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -249,5 +249,6 @@
       "reviewedAt": "2026-09-06",
       "enabled": true
     }
-  ]
+  ],
+  "updateURL": "https://nuvio-recaps.marvins-dashboard.workers.dev/v1/catalog.json"
 }
