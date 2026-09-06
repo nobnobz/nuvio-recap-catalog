@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-09-06T18:38:37.396907+00:00",
-  "catalogRevision": 1,
+  "checkedAt": "2026-09-06T18:50:19.603317+00:00",
+  "catalogRevision": 3,
   "candidates": [
     {
       "videoID": "_MRarQMYlSI",
@@ -248,22 +248,22 @@
   ],
   "feedErrors": [],
   "availabilityReview": [
-    "REVIEW qTApgkJIpWo: AssertionError: Video identity mismatch",
-    "REVIEW vX0JAT709Ds: AssertionError: Video identity mismatch",
-    "REVIEW 3H57mIqK-P8: AssertionError: Video identity mismatch",
-    "REVIEW _y8XSEf7Uo8: AssertionError: Video identity mismatch",
-    "REVIEW -pNtq9OvxNw: AssertionError: Video identity mismatch",
-    "REVIEW ycnZy5I32Io: AssertionError: Video identity mismatch",
-    "REVIEW RK38g5pR3b8: AssertionError: Video identity mismatch",
-    "REVIEW SLxdHq3sjXw: AssertionError: Video identity mismatch",
-    "REVIEW ceYm0eDw7tg: AssertionError: Video identity mismatch",
-    "REVIEW Fkt4PODtHMU: AssertionError: Video identity mismatch",
-    "REVIEW 6ozR8k5Ga4g: AssertionError: Video identity mismatch",
-    "REVIEW YY5lrIhcVzE: AssertionError: Video identity mismatch",
-    "REVIEW pgeVNbuRDB8: AssertionError: Video identity mismatch",
-    "REVIEW gTp7hqLOw7U: AssertionError: Video identity mismatch",
-    "REVIEW arIiRPOky80: AssertionError: Video identity mismatch",
-    "REVIEW _vFbzpEUM_k: AssertionError: Video identity mismatch",
-    "REVIEW uz9O8cIeDQ0: AssertionError: Video identity mismatch"
+    "UNKNOWN qTApgkJIpWo: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN vX0JAT709Ds: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN 3H57mIqK-P8: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN _y8XSEf7Uo8: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN -pNtq9OvxNw: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN ycnZy5I32Io: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN RK38g5pR3b8: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN SLxdHq3sjXw: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN ceYm0eDw7tg: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN Fkt4PODtHMU: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN 6ozR8k5Ga4g: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN YY5lrIhcVzE: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN pgeVNbuRDB8: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN gTp7hqLOw7U: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN arIiRPOky80: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN _vFbzpEUM_k: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video",
+    "UNKNOWN uz9O8cIeDQ0: YouTube metadata unavailable from this runner (LOGIN_REQUIRED); not evidence of a removed video"
   ]
 }
