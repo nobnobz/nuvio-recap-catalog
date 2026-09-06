@@ -4,9 +4,9 @@ Public editorial metadata only: YouTube IDs, approved channels, English language
 
 ## Live status
 
-The catalog is live at https://nuvio-recaps.marvins-dashboard.workers.dev/v1/catalog.json (revision 2). GitHub validation and the daily review workflow are enabled and have passed. The tvOS bootstrap now contains this endpoint; its live update/cache/304 test passed.
+The catalog is live at https://nuvio-recaps.marvins-dashboard.workers.dev/v1/catalog.json (revision 3). GitHub validation and the daily review workflow are enabled and have passed. The tvOS bootstrap now contains this endpoint; its live update/cache/304 test passed.
 
-Cloudflare's Git integration is still waiting for the GitHub browser login. Until that connection is completed, pushes validate the catalog but do not automatically publish it to Cloudflare. Wrangler manual deployment works. No Cloudflare deployment secret is stored in GitHub.
+Cloudflare Git builds are connected to `nobnobz/nuvio-recap-catalog`, branch `main`. Commit c2d7d2a automatically published revision 3; Cloudflare build e1e0810b-16d0-4087-8b30-cd68c73122d8 and GitHub validation both succeeded. The Workers Free account plan was confirmed in the dashboard. No Cloudflare deployment secret is stored in GitHub.
 
 ## Publishing
 
@@ -14,9 +14,9 @@ Cloudflare's Git integration is still waiting for the GitHub browser login. Unti
 
 Cloudflare Workers Static Assets serves only `/v1/catalog.json`. There is no application script, KV, R2, database, or paid binding. Keep the account on Workers Free. Static asset requests are currently free and unlimited; GitHub standard hosted runners are free for public repositories. A paid domain is unnecessary.
 
-Complete the Git connection once in Cloudflare's `nuvio-recaps` Worker → Settings → Builds → GitHub. Choose only `nobnobz/nuvio-recap-catalog`, production branch `main`, build command `npm test && npm run build`, deploy command `npm run deploy`. Set build variable `CATALOG_URL` to the live endpoint above. Restrict build watch paths to `catalog.json`, `scripts/*`, `tests/*`, `package.json`, `package-lock.json`, and `wrangler.jsonc`; exclude the daily `review/*` report to avoid unnecessary builds. Disable preview branch builds for this catalog. The GitHub workflow validates changes; Cloudflare alone deploys them.
+Build configuration: production branch `main`, build command `npm test && npm run build`, deploy command `npm run deploy`. Build variable `CATALOG_URL` points to the live endpoint above. Include watch paths are `catalog.json`, `scripts/**`, `tests/**`, `package.json`, `package-lock.json`, and `wrangler.jsonc`. Daily `review/*` reports and documentation changes do not trigger builds. Preview branch builds are disabled. GitHub validates changes; Cloudflare alone deploys them. The scoped deployment token is managed inside Cloudflare Builds.
 
-After connecting, publish a higher catalog revision through Git and verify Cloudflare picked it up without a manual deploy. That final Git-to-Cloudflare check is still pending.
+The first automatic deployment completed in about 20 seconds. Live HTTP 200 returned revision 3 and matching If-None-Match returned 304. The bundled app fallback deliberately remains revision 2, so subsequent published revisions arrive through the updater without rebuilding the app.
 
 Manual fallback:
 
