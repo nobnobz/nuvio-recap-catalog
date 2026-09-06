@@ -1,0 +1,47 @@
+name: Validate and publish catalog
+on:
+  push:
+    branches: [main]
+    paths: [catalog.json, scripts/**, package.json, package-lock.json, wrangler.jsonc, .github/workflows/publish.yml]
+  pull_request:
+    paths: [catalog.json, scripts/**, tests/**, package.json, package-lock.json, wrangler.jsonc, .github/workflows/publish.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: recap-publish-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - run: python3 -m unittest discover -s tests
+      - run: python3 scripts/build.py
+        env:
+          CATALOG_URL: ${{ vars.CATALOG_URL }}
+  publish:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment: production
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - run: npm ci --ignore-scripts
+      - run: npm run build
+        env:
+          CATALOG_URL: ${{ vars.CATALOG_URL }}
+      - name: Publish static assets
+        run: npm run deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
