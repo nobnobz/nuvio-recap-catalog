@@ -41,8 +41,6 @@ class HostingTests(unittest.TestCase):
         result = build.validator.validate(ROOT / 'catalog.json')
         self.assertTrue(all(v['language'] == 'en' for v in result['videos']))
 
-if __name__ == '__main__':
-    unittest.main()
 
 class FreeHostingTests(unittest.TestCase):
     def test_runtime_and_paid_bindings_are_rejected(self):
@@ -86,3 +84,17 @@ class ReviewImportTests(unittest.TestCase):
                 path = root / 'draft.json'; path.write_text(json.dumps(draft))
                 with self.assertRaises(ValueError): review.import_draft(path)
                 self.assertEqual((root / 'catalog.json').read_bytes(), original)
+
+class CatalogCompatibilityTests(unittest.TestCase):
+    def test_fractional_numbers_cannot_publish_an_app_incompatible_catalog(self):
+        import json, tempfile
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'catalog.json'
+            for key in ['firstSeason', 'lastSeason', 'durationSeconds', 'tmdbID']:
+                data = json.loads((ROOT / 'catalog.json').read_text())
+                data['videos'][0][key] = 1.5
+                path.write_text(json.dumps(data))
+                with self.assertRaises(AssertionError): build.validator.validate(path)
+
+if __name__ == '__main__':
+    unittest.main()
