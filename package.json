@@ -1,0 +1,12 @@
+{
+  "name": "nuvio-recap-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "test": "python3 -m unittest discover -s tests",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev --ip 127.0.0.1 --port 8794"
+  },
+  "devDependencies": { "wrangler": "4.129.0" }
+}

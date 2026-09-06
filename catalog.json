@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "channels": [
+    {
+      "id": "UC1Myj674wRVXB9I4c6Hm5zA",
+      "name": "Apple TV",
+      "official": true,
+      "rank": 0
+    },
+    {
+      "id": "UCx-KWLTKlB83hDI6UKECtJQ",
+      "name": "HBO Max",
+      "official": true,
+      "rank": 0
+    },
+    {
+      "id": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "name": "Man of Recaps",
+      "official": false,
+      "rank": 10
+    },
+    {
+      "id": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "name": "Recap & Chill",
+      "official": false,
+      "rank": 20
+    }
+  ],
+  "videos": [
+    {
+      "videoID": "qTApgkJIpWo",
+      "imdbID": "tt10986410",
+      "tmdbID": 97546,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 412,
+      "title": "Ted Lasso RECAP: Season 1",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "vX0JAT709Ds",
+      "imdbID": "tt10986410",
+      "tmdbID": 97546,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 266,
+      "title": "Ted Lasso Season 1 Recap | Everything You Need To Know Before Season 2 Explained",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "3H57mIqK-P8",
+      "imdbID": "tt10986410",
+      "tmdbID": 97546,
+      "firstSeason": 1,
+      "lastSeason": 2,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 471,
+      "title": "TED LASSO Season 1 & 2 Recap | Everything You Need To Know Before Season 3 | Apple Series Explained",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "_y8XSEf7Uo8",
+      "imdbID": "tt10986410",
+      "tmdbID": 97546,
+      "firstSeason": 1,
+      "lastSeason": 3,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 764,
+      "title": "TED LASSO Season 1-3 Recap | Must Watch Before Season 4 | Series Explained",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "-pNtq9OvxNw",
+      "imdbID": "tt10986410",
+      "tmdbID": 97546,
+      "firstSeason": 1,
+      "lastSeason": 3,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 849,
+      "title": "Ted Lasso RECAP before Season 4",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "ycnZy5I32Io",
+      "imdbID": "tt11280740",
+      "tmdbID": 95396,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UC1Myj674wRVXB9I4c6Hm5zA",
+      "language": "en",
+      "durationSeconds": 119,
+      "title": "Severance — Season 1 Recap | Apple TV",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "RK38g5pR3b8",
+      "imdbID": "tt11280740",
+      "tmdbID": 95396,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 537,
+      "title": "Severance RECAP: Season 1",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "SLxdHq3sjXw",
+      "imdbID": "tt11280740",
+      "tmdbID": 95396,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 585,
+      "title": "SEVERANCE Season 1 Recap | Must Watch Before Season 2 | Series Explained",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "ceYm0eDw7tg",
+      "imdbID": "tt14688458",
+      "tmdbID": 125988,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UC1Myj674wRVXB9I4c6Hm5zA",
+      "language": "en",
+      "durationSeconds": 282,
+      "title": "Silo — Season 1 Recap | Apple TV",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "Fkt4PODtHMU",
+      "imdbID": "tt14688458",
+      "tmdbID": 125988,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 662,
+      "title": "Silo RECAP: Season 1",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "6ozR8k5Ga4g",
+      "imdbID": "tt14688458",
+      "tmdbID": 125988,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 481,
+      "title": "SILO Season 1 Recap | Must Watch Before Season 2 | Series Explained",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "YY5lrIhcVzE",
+      "imdbID": "tt14688458",
+      "tmdbID": 125988,
+      "firstSeason": 2,
+      "lastSeason": 2,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 372,
+      "title": "Silo RECAP: Season 2",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "pgeVNbuRDB8",
+      "imdbID": "tt14688458",
+      "tmdbID": 125988,
+      "firstSeason": 1,
+      "lastSeason": 2,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 1138,
+      "title": "SILO Season 1 & 2 Recap | Must Watch Before Season 3 | Series Explained",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "gTp7hqLOw7U",
+      "imdbID": "tt3581920",
+      "tmdbID": 100088,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCx-KWLTKlB83hDI6UKECtJQ",
+      "language": "en",
+      "durationSeconds": 334,
+      "title": "The Last of Us Season 1 Recap | The Last of Us | Max",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "arIiRPOky80",
+      "imdbID": "tt3581920",
+      "tmdbID": 100088,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 402,
+      "title": "The Last of Us RECAP: Season 1",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "_vFbzpEUM_k",
+      "imdbID": "tt3581920",
+      "tmdbID": 100088,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 520,
+      "title": "THE LAST OF US Season 1 Recap | Must Watch Before Season 2 | Series Explained",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    },
+    {
+      "videoID": "uz9O8cIeDQ0",
+      "imdbID": "tt12637874",
+      "tmdbID": 106379,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 611,
+      "title": "Fallout RECAP: Season 1",
+      "reviewedAt": "2026-09-06",
+      "enabled": true
+    }
+  ]
+}
