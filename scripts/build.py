@@ -18,6 +18,10 @@ def check_revision(current, previous):
         raise ValueError('Catalog changed without increasing revision')
 
 def build():
+    free_spec = importlib.util.spec_from_file_location('free_hosting', ROOT / 'scripts/check-free-hosting.py')
+    free = importlib.util.module_from_spec(free_spec)
+    free_spec.loader.exec_module(free)
+    free.check(json.loads((ROOT / 'wrangler.jsonc').read_text()))
     catalog = validator.validate(ROOT / 'catalog.json')
     previous_url = os.environ.get('CATALOG_URL')
     if previous_url:
@@ -28,6 +32,10 @@ def build():
         if len(raw) > 1048576:
             raise ValueError('Published catalog too large')
         check_revision(catalog, json.loads(raw))
+    public = ROOT / 'public'
+    allowed = {'v1/catalog.json', '_headers'}
+    if public.exists() and any(str(p.relative_to(public)) not in allowed for p in public.rglob('*') if p.is_file()):
+        raise ValueError('Unexpected public asset; do not publish review files or tooling')
     target = ROOT / 'public/v1'
     target.mkdir(parents=True, exist_ok=True)
     (target / 'catalog.json').write_bytes((ROOT / 'catalog.json').read_bytes())

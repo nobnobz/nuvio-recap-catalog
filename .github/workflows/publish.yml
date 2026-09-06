@@ -13,6 +13,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   validate:
+    if: github.event.repository.private == false
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:

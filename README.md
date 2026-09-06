@@ -4,7 +4,7 @@ Public editorial metadata only: YouTube IDs, approved channels, English language
 
 ## Live status
 
-The catalog is live at https://nuvio-recaps.marvins-dashboard.workers.dev/v1/catalog.json (revision 3). GitHub validation and the daily review workflow are enabled and have passed. The tvOS bootstrap now contains this endpoint; its live update/cache/304 test passed.
+The catalog is live at https://nuvio-recaps.marvins-dashboard.workers.dev/v1/catalog.json (revision 4: 29 videos / 16 series). GitHub validation and the daily review workflow are enabled and have passed. The tvOS bootstrap now contains this endpoint; its live update/cache/304 test passed.
 
 Cloudflare Git builds are connected to `nobnobz/nuvio-recap-catalog`, branch `main`. Commit c2d7d2a automatically published revision 3; Cloudflare build e1e0810b-16d0-4087-8b30-cd68c73122d8 and GitHub validation both succeeded. The Workers Free account plan was confirmed in the dashboard. No Cloudflare deployment secret is stored in GitHub.
 
@@ -48,3 +48,13 @@ The native app displays the cached catalog immediately, coalesces concurrent che
 - [Cloudflare static asset pricing](https://developers.cloudflare.com/workers/static-assets/billing-and-limitations/)
 - [Cloudflare ETag and headers](https://developers.cloudflare.com/workers/static-assets/headers/)
 - [GitHub Actions billing](https://docs.github.com/en/actions/concepts/billing-and-usage)
+
+## Review desk and free-hosting safeguards
+
+Run `npm run review` and open `reports/review.html` locally. Choose a candidate, inspect its actual spoken language and coverage, enter the exact series IDs and duration, and confirm the three review checks. Download the additive draft, then run `npm run review -- --import-draft /path/to/catalog-draft.json`. The importer refuses stale revisions, changed existing entries, channels or update endpoints. Run `npm test` and the online catalog validator, inspect the diff, then commit `catalog.json` to main. Cloudflare publishes it automatically. The desk never uploads anything and contains no credentials.
+
+`review/decisions.json` records excluded candidates with reasons; discovery does not repeatedly re-add them. Remove a decision to reconsider a video. Movies, short promotional recaps and cross-series coverage stay out of this series-only catalog. Review evidence for the initial expansion is retained in the app workspace artifacts; metadata checks do not prove every minute spoiler-free.
+
+Daily health checks rotate through at most 60 enabled videos using three workers; feeds admit at most 30 approved channels and the inbox retains at most 500 candidates. The scheduled public-repository job has a ten-minute timeout, validation five minutes, and both skip private repositories. Review reports and decisions do not trigger Cloudflare builds. `check-free-hosting.py` runs before deployment and the build: it rejects runtime scripts, bindings, routes and altered asset routing. The build rejects unexpected public files. This is a configuration guard, not an account-wide spending cap or a billing-plan monitor; keep Workers Free active.
+
+The new native library groups exact coverage ranges and keeps up to three sources per range. Earlier recaps are available only below the selected season. The same creator may have a single-season and a cumulative alternative. A season-by-season run is offered only when every preceding season has an individual recap, with an explicit Next action between videos and no episode progress/scrobbling. Manual catalog checks share an hourly persisted cooldown across shows and app restarts. Automatic checks remain daily. On-device YouTube discovery is an explicit QR link to an approved creator's channel search on the phone, not an embedded unreviewed results API. No paid search backend is used.

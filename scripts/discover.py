@@ -49,9 +49,19 @@ def fetch_channel(channel, known):
         return [], {'channelID': channel['id'], 'error': type(error).__name__, 'httpStatus': getattr(error, 'code', None)}
 
 
+def health_batch(videos, day):
+    enabled = sorted((v for v in videos if v['enabled']), key=lambda v: v['videoID'])
+    if not enabled:
+        return []
+    start = (day * 60) % len(enabled)
+    return (enabled[start:] + enabled[:start])[:60]
+
+
 def main():
     catalog = validator.validate(ROOT / 'catalog.json')
-    known = {v['videoID'] for v in catalog['videos']}
+    decisions_path = ROOT / 'review/decisions.json'
+    decisions = json.loads(decisions_path.read_text()) if decisions_path.exists() else {}
+    known = {v['videoID'] for v in catalog['videos']} | set(decisions)
     target = ROOT / 'review/inbox.json'
     previous = json.loads(target.read_text()) if target.exists() else {}
     allowed = {c['id'] for c in catalog['channels']}
@@ -62,9 +72,11 @@ def main():
             pending.update({v['videoID']: v for v in candidates})
             if error:
                 errors.append(error)
-        health = list(pool.map(validator.verify_video, (v for v in catalog['videos'] if v['enabled'])))
+        batch = health_batch(catalog['videos'], datetime.date.today().toordinal())
+        health = list(pool.map(validator.verify_video, batch))
     report = {'checkedAt': datetime.datetime.now(datetime.timezone.utc).isoformat(), 'catalogRevision': catalog['revision'],
               'candidates': sorted(pending.values(), key=lambda v: v['published'], reverse=True)[:500],
+              'healthChecked': len(batch), 'healthTotal': sum(v['enabled'] for v in catalog['videos']),
               'feedErrors': errors, 'availabilityReview': [message for ok, message in health if not ok]}
     target.parent.mkdir(exist_ok=True)
     target.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')

@@ -43,3 +43,46 @@ class HostingTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+class FreeHostingTests(unittest.TestCase):
+    def test_runtime_and_paid_bindings_are_rejected(self):
+        import json
+        check = module('check-free-hosting').check
+        config = json.loads((ROOT / 'wrangler.jsonc').read_text())
+        check(config)
+        for key, value in [('main','worker.js'), ('kv_namespaces',[]), ('r2_buckets',[]), ('routes',[]), ('triggers',{})]:
+            with self.assertRaises(ValueError):
+                check({**config, key: value})
+        with self.assertRaises(ValueError):
+            check({**config, 'assets': {**config['assets'], 'run_worker_first': True}})
+
+    def test_health_budget_rotates_without_growing_with_catalog(self):
+        videos = [{'videoID': str(i).zfill(11), 'enabled': True} for i in range(140)]
+        days = [discover.health_batch(videos, day) for day in range(3)]
+        self.assertTrue(all(len(day) == 60 for day in days))
+        self.assertEqual(len({v['videoID'] for day in days for v in day}), 140)
+        self.assertEqual(discover.health_batch([], 1), [])
+
+    def test_review_page_does_not_execute_feed_markup(self):
+        html = module('review').render({}, {'candidates':[{'title':'</script><script>alert(1)</script>'}]})
+        self.assertNotIn('</script><script>alert(1)</script>', html)
+        self.assertIn('\\u003c/script>', html)
+
+class ReviewImportTests(unittest.TestCase):
+    def test_stale_or_destructive_drafts_do_not_replace_catalog(self):
+        import json, tempfile
+        review = module('review')
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            review.ROOT = root
+            (root / 'scripts').symlink_to(ROOT / 'scripts', target_is_directory=True)
+            current = json.loads((ROOT / 'catalog.json').read_text())
+            (root / 'catalog.json').write_text(json.dumps(current))
+            original = (root / 'catalog.json').read_bytes()
+            for mutate in [lambda d: d.update(revision=d['revision']),
+                           lambda d: d.update(revision=d['revision']+1, videos=[]),
+                           lambda d: d.update(revision=d['revision']+1, updateURL='https://other.example/catalog.json')]:
+                draft = json.loads(json.dumps(current)); mutate(draft)
+                path = root / 'draft.json'; path.write_text(json.dumps(draft))
+                with self.assertRaises(ValueError): review.import_draft(path)
+                self.assertEqual((root / 'catalog.json').read_bytes(), original)

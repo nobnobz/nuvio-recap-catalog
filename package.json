@@ -5,8 +5,11 @@
   "scripts": {
     "build": "python3 scripts/build.py",
     "test": "python3 -m unittest discover -s tests",
-    "deploy": "wrangler deploy",
-    "preview": "wrangler dev --ip 127.0.0.1 --port 8794"
+    "deploy": "python3 scripts/check-free-hosting.py && wrangler deploy",
+    "preview": "wrangler dev --ip 127.0.0.1 --port 8794",
+    "review": "python3 scripts/review.py"
   },
-  "devDependencies": { "wrangler": "4.129.0" }
+  "devDependencies": {
+    "wrangler": "4.129.0"
+  }
 }

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="de"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Recaps · Freigabe</title>
+<style>
+body{font:16px system-ui;background:#101114;color:#f4f4f6;max-width:1160px;margin:48px auto;padding:0 24px}h1{font-size:38px;margin-bottom:8px}p{color:#b9bac3;line-height:1.5}main{display:grid;grid-template-columns:1fr 1fr;gap:28px}section{background:#1e2026;padding:24px;border-radius:18px}label{display:block;margin:18px 0 8px}input,select,button{font:inherit;padding:12px;border-radius:8px;border:1px solid #555;background:#292c34;color:white;box-sizing:border-box}input:not([type=checkbox]),select{width:100%}button{cursor:pointer;background:#e8e9ee;color:#13151a;margin:18px 12px 0 0}a{color:#b9d5ff}#pending{max-height:170px;overflow:auto}#status{min-height:30px;color:#a8d7ad}@media(max-width:800px){main{grid-template-columns:1fr}}
+</style>
+<h1>Recaps freigeben</h1><p id="summary"></p>
+<main><section><h2>Fundstück prüfen</h2><label for="candidate">Video</label><select id="candidate"></select>
+<p id="source"></p><a id="watch" target="_blank" rel="noopener noreferrer">Auf YouTube ansehen ↗</a>
+<p>Nur vollständige englische Staffelrückblicke aufnehmen. Keine Trailer, Shorts, Vorschauen, Buch- oder Spielspoiler und keine Handlung aus anderen Serien.</p>
+<label><input type="checkbox" id="language"> Englische Originalsprache geprüft</label>
+<label><input type="checkbox" id="coverage"> Abgedeckte Staffeln und spätere Spoiler geprüft</label>
+<label><input type="checkbox" id="identity"> Video, Kanal und Serienfassung stimmen</label>
+</section><section><h2>Zuordnung</h2>
+<label for="imdb">IMDb-ID der Serie</label><input id="imdb" placeholder="tt11280740" pattern="tt[0-9]+">
+<label for="tmdb">TMDB-ID der Serie</label><input id="tmdb" type="number" min="1">
+<label for="first">Erste abgedeckte Staffel</label><input id="first" type="number" min="1" max="100" value="1">
+<label for="last">Letzte abgedeckte Staffel</label><input id="last" type="number" min="1" max="100" value="1">
+<label for="duration">Videolänge in Sekunden</label><input id="duration" type="number" min="30" max="7200">
+<button id="add">Zum Entwurf hinzufügen</button>
+</section></main>
+<p id="status" role="status"></p><ul id="pending"></ul><button id="export" disabled>Geprüften Entwurf herunterladen</button>
+<p>Dieser lokale Entwurf veröffentlicht nichts. Nach dem Import werden Schema und Versionsstand erneut geprüft. Bestehende Einträge bleiben erhalten.</p>
+<script type="application/json" id="data">__REVIEW_DATA__</script>
+<script>
+const $=id=>document.getElementById(id), data=JSON.parse($('data').textContent), draft=structuredClone(data.catalog);
+const candidates=data.inbox.candidates.filter(v=>/^[A-Za-z0-9_-]{11}$/.test(v.videoID)&&draft.channels.some(c=>c.id===v.channelID)&&!draft.videos.some(x=>x.videoID===v.videoID));
+let added=0;
+$('summary').textContent=`${candidates.length} Fundstücke · Katalog ${draft.revision} · geprüft am ${data.inbox.checkedAt}`;
+for(const [index,v] of candidates.entries()){const option=document.createElement('option');option.value=index;option.textContent=v.title;$('candidate').append(option)}
+function selected(){return candidates[Number($('candidate').value)]}
+function change(){const v=selected();if(!v)return;$('source').textContent=draft.channels.find(c=>c.id===v.channelID).name;$('watch').href=`https://www.youtube.com/watch?v=${v.videoID}`;for(const key of ['language','coverage','identity'])$(key).checked=false;$('duration').value='';$('status').textContent=''}
+$('candidate').onchange=change;change();
+$('add').onclick=()=>{
+ const v=selected(),first=Number($('first').value),last=Number($('last').value),duration=Number($('duration').value),tmdb=Number($('tmdb').value),imdb=$('imdb').value.trim();
+ const fail=message=>{$('status').textContent=message};
+ if(!v)return fail('Keine Fundstücke verfügbar.');
+ if(!['language','coverage','identity'].every(k=>$(k).checked))return fail('Bitte das Video prüfen und alle drei Punkte bestätigen.');
+ if(!/^tt[0-9]+$/.test(imdb)||!Number.isInteger(tmdb)||tmdb<=0)return fail('Gültige Serien-IDs eintragen.');
+ if(![first,last,duration].every(Number.isInteger)||first<1||last<first||last>100||!(first===1||first===last)||duration<30||duration>7200)return fail('Einzelstaffel oder zusammenhängende Staffeln ab Staffel 1 und gültige Videolänge wählen.');
+ if(draft.videos.some(x=>x.videoID===v.videoID))return fail('Dieses Video ist bereits im Entwurf.');
+ if(draft.videos.some(x=>(x.imdbID===imdb&&x.tmdbID!==tmdb)||(x.tmdbID===tmdb&&x.imdbID!==imdb)))return fail('Serien-IDs widersprechen einem vorhandenen Eintrag.');
+ if(draft.videos.length>=3000)return fail('Kataloglimit erreicht.');
+ draft.videos.push({videoID:v.videoID,imdbID:imdb,tmdbID:tmdb,firstSeason:first,lastSeason:last,channelID:v.channelID,language:'en',durationSeconds:duration,title:v.title,reviewedAt:new Date().toISOString().slice(0,10),enabled:true});
+ added++;draft.revision=data.catalog.revision+1;const li=document.createElement('li');li.textContent=`${v.title} · ${imdb} · Staffeln ${first}–${last}`;$('pending').append(li);$('export').disabled=false;fail(`${added} Video(s) im Entwurf`);
+};
+$('export').onclick=()=>{const text=JSON.stringify(draft,null,2)+'\n';if(new TextEncoder().encode(text).length>1048576){$('status').textContent='Katalog überschreitet 1 MiB.';return}const url=URL.createObjectURL(new Blob([text],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='catalog-draft.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+</script></html>
