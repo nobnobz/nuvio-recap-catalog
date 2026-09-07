@@ -25,3 +25,11 @@ The standalone Recaps tab uses all matching catalog coverage, newest ending seas
 ## Validation
 
 Run `python3 -m unittest discover -s tests`, then `YOUTUBE_API_KEY=... python3 scripts/automate.py` with the key injected through the environment (never commit it). `python3 scripts/build.py` publishes only schema-compatible catalog data. In CI, the secret is scoped to the discovery step. A successful API run and a separately verified live catalog revision are required before claiming end-to-end activation; app/device playback is separate evidence.
+
+## Activation evidence — September 7
+
+Google Cloud project `Nuvio Recap Catalog` (`crack-decorator-507908-u4`) has YouTube Data API v3 enabled. The dedicated key is restricted to this API and stored only as repository Actions secret `YOUTUBE_API_KEY`; no billing/trial subscription was activated during setup.
+
+Run [34099342080](https://github.com/nobnobz/nuvio-recap-catalog/actions/runs/34099342080) checked 433 candidates, admitted 33 videos and verified public r5 (62 videos / 24 series). Follow-up [34099531302](https://github.com/nobnobz/nuvio-recap-catalog/actions/runs/34099531302) resumed stored state, checked 280 candidates, admitted another 29 and verified public r6 (91 videos / 31 series). Both completed all steps, including Cloudflare publication verification; neither withdrew any videos. The runs used 34 and 26 YouTube API calls respectively.
+
+Archive scanning and deferred identity resolution continue daily at 05:17 UTC. The archive is intentionally incremental and is not yet fully scanned. The app downloads catalog changes on its existing update interval (up to 24 hours); no further app build is needed for catalog-only updates. API availability checks do not prove playback on every device.

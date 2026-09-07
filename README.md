@@ -1,4 +1,4 @@
-> September 7 update: [Automatic catalog maintenance](AUTOMATION.md) supersedes the manual daily review workflow described below. The new job uses a YouTube API secret and deterministic admission; operational activation must be verified separately.
+> September 7 update: [Automatic catalog maintenance](AUTOMATION.md) is live and supersedes the manual daily review workflow below. Two successful end-to-end runs published revision 6: 91 videos across 31 series. Daily discovery, admission and Cloudflare publication now run without editorial intervention.
 
 # Nuvio recap catalog
 
