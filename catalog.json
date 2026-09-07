@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 21,
+  "revision": 22,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -2755,6 +2755,45 @@
       "language": "en",
       "durationSeconds": 361,
       "title": "THE FLIGHT ATTENDANT Season 1 Recap | Must Watch Before Season 2 | HBO Max Series Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "-LIeN443vAU",
+      "imdbID": "tt5071412",
+      "tmdbID": 69740,
+      "firstSeason": 1,
+      "lastSeason": 4,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 1525,
+      "title": "OZARK Full Series Recap | Season 1-4 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "1f8hbwO4lRw",
+      "imdbID": "tt2707408",
+      "tmdbID": 63351,
+      "firstSeason": 1,
+      "lastSeason": 3,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 1578,
+      "title": "NARCOS Full Series Recap | Season 1-3 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "2An5ljBmJyg",
+      "imdbID": "tt1405406",
+      "tmdbID": 18165,
+      "firstSeason": 1,
+      "lastSeason": 8,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 3051,
+      "title": "THE VAMPIRE DIARIES Full Series Recap | Season 1-8 Ending Explained",
       "reviewedAt": "2026-09-07",
       "enabled": true
     }
