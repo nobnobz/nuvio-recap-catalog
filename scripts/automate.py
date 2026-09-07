@@ -4,6 +4,9 @@
 Only approved channels and exact registered series aliases can auto-publish.
 State and evidence are private build inputs, never public Worker assets.
 """
+import calendar
+import collections
+import hashlib
 import copy
 import datetime as dt
 import importlib.util
@@ -19,12 +22,62 @@ import urllib.error
 ROOT = Path(__file__).resolve().parents[1]
 MAX_CALLS = 180
 ARCHIVE_PAGES = min(20, max(1, int(os.environ.get('RECAP_ARCHIVE_PAGES', '4'))))
-POLICY_VERSION = 1
+POLICY_VERSION = 2
+DISCOVERY_VERSION = 1
+REJECTION_RECHECK_DAYS = 30
+MAX_RECHECKS = 500
 TITLE_PATTERN = r'(.+?)\s*(?:[—–:-]\s*)?(?:RECAP\s*:\s*)?Seasons?\s+(\d{1,2})(?:\s*([-–&])\s*(\d{1,2}))?\s*(?:RECAP)?(?:\s*\|\s*(.*))?'
 
 
 def normalize(text):
     return re.sub(r'[^a-z0-9]+', ' ', text.casefold()).strip()
+
+
+def six_months_after(value):
+    day = dt.date.fromisoformat(value)
+    month = day.month + 5
+    year, month = day.year + month // 12, month % 12 + 1
+    return day.replace(year=year, month=month, day=min(day.day, calendar.monthrange(year, month)[1])).isoformat()
+
+
+def digest(value):
+    return hashlib.sha256(json.dumps(value, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+
+
+def rejection_due(record, today, signature):
+    return record.get('rulesSignature') != signature or record.get('checkedAt', '') <= (dt.date.fromisoformat(today) - dt.timedelta(days=REJECTION_RECHECK_DAYS)).isoformat()
+
+
+def rejection_reason(item, channel, series):
+    if not item:
+        return 'metadata_unavailable'
+    snippet, content, status = (item.get(k, {}) for k in ('snippet', 'contentDetails', 'status'))
+    if snippet.get('channelId') != channel:
+        return 'channel_mismatch'
+    language = snippet.get('defaultAudioLanguage', '')
+    if not language:
+        return 'audio_language_missing'
+    if language.lower().split('-')[0] != 'en':
+        return 'non_english_audio'
+    if status.get('privacyStatus') != 'public' or status.get('uploadStatus') != 'processed' or status.get('embeddable') is not True:
+        return 'unavailable_or_not_embeddable'
+    if snippet.get('liveBroadcastContent', 'none') != 'none' or content.get('regionRestriction') or content.get('contentRating', {}).get('ytRating') == 'ytAgeRestricted':
+        return 'live_region_or_age_restriction'
+    if not 60 <= duration(content.get('duration', '')) <= 7200:
+        return 'duration_outside_limits'
+    title, description = snippet.get('title', ''), snippet.get('description', '')
+    match = re.fullmatch(TITLE_PATTERN, title.strip(), re.I)
+    if not match or not re.search(r'\brecap\b', title, re.I):
+        return 'coverage_title_not_explicit'
+    name, start, separator, end, suffix = match.groups()
+    start, end = int(start), int(end or start)
+    if not (0 < start <= end <= 100 and start in (1, end)) or (separator == '&' and end != start + 1):
+        return 'unsupported_or_discontinuous_coverage'
+    if not any(normalize(name) in [normalize(alias) for alias in show['aliases']] for show in series):
+        return 'series_identity_unresolved'
+    if re.search(r'\b(trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|movie recap)\b', title + ' ' + description, re.I):
+        return 'mixed_format_or_description_flag'
+    return 'coverage_context_or_suffix_conflict'
 
 
 def validate_series(series, catalog):
@@ -188,6 +241,7 @@ def video_items(api, ids):
 
 def run(catalog, state, series, decisions, api, today, resolver=None):
     validate_series(series, catalog)
+    signature = digest({'policyVersion': POLICY_VERSION, 'series': series, 'channels': catalog['channels']})
     catalog, state = copy.deepcopy(catalog), copy.deepcopy(state)
     state.setdefault('channels', {})
     state.setdefault('health', {})
@@ -198,9 +252,15 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
             series.append(show)
     validate_series(series, catalog)
     state.setdefault('identityChecks', {})
+    state.setdefault('rejected', {})
     known = {v['videoID'] for v in catalog['videos']} | set(decisions)
     allowed = {c['id'] for c in catalog['channels']}
+    state['rejected'] = {key: row for key, row in state['rejected'].items()
+                         if key not in known and (row.get('channelID') is None or row.get('channelID') in allowed)}
     candidates = {key: channel for key, channel in state.get('pending', {}).items() if key not in known and channel in allowed}
+    due = sorted(((key, row) for key, row in state['rejected'].items() if rejection_due(row, today, signature)),
+                 key=lambda pair: (pair[1].get('checkedAt', ''), pair[0]))[:MAX_RECHECKS]
+    candidates.update({key: row.get('channelID') for key, row in due})
     archive_pages = min(ARCHIVE_PAGES, max(0, (MAX_CALLS - 2 - len(catalog['channels']) * 3) // max(1, 2 * len(catalog['channels']))))
     for channel in catalog['channels']:
         channel_id = channel['id']
@@ -214,7 +274,12 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
         head = api.get('playlistItems', part='snippet,contentDetails', playlistId=playlist, maxResults=50)
         pages = [head]
         token = checkpoint.get('nextPageToken')
-        restart = checkpoint.get('completedAt', '') <= (dt.date.fromisoformat(today) - dt.timedelta(days=30)).isoformat()
+        discovery_changed = checkpoint.get('discoveryVersion', DISCOVERY_VERSION) != DISCOVERY_VERSION
+        if discovery_changed:
+            token = None
+            checkpoint.pop('completedAt', None)
+        checkpoint['discoveryVersion'] = DISCOVERY_VERSION
+        restart = not checkpoint.get('completedAt') or today >= six_months_after(checkpoint['completedAt'])
         if not token and (not checkpoint.get('completedAt') or restart):
             token = head.get('nextPageToken')
         for _ in range(archive_pages):
@@ -237,13 +302,29 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
             for item in page['items']:
                 key = item.get('contentDetails', {}).get('videoId', '')
                 title = item.get('snippet', {}).get('title', '')
-                if key not in known and re.fullmatch(r'[A-Za-z0-9_-]{11}', key) and re.search(r'\brecap\b', title, re.I):
+                if key not in known and rejection_due(state['rejected'].get(key, {}), today, signature) and re.fullmatch(r'[A-Za-z0-9_-]{11}', key) and re.search(r'\brecap\b', title, re.I):
                     candidates[key] = channel_id
     details = video_items(api, candidates)
     added, pending = [], {}
-    resolutions, identity_errors = 0, 0
+    resolutions, identity_errors, unchanged_rechecks = 0, 0, 0
+    attempted_names = set()
     for key, channel in sorted(candidates.items()):
         item = details.get(key)
+        if channel is None:
+            channel = item.get('snippet', {}).get('channelId') if item else None
+        if channel not in allowed:
+            if item is None:
+                state['rejected'][key] = {**state['rejected'].get(key, {}), 'channelID': channel,
+                    'reason': 'metadata_unavailable', 'checkedAt': today, 'rulesSignature': signature}
+            else:
+                state['rejected'].pop(key, None)
+            continue
+        fingerprint = digest({k: item.get(k) for k in ('snippet', 'contentDetails', 'status')} if item else None)
+        prior = state['rejected'].get(key, {})
+        if prior.get('fingerprint') == fingerprint and prior.get('rulesSignature') == signature and key not in state.get('pending', {}):
+            prior['checkedAt'] = today
+            unchanged_rechecks += 1
+            continue
         if item and resolver:
             snippet = item.get('snippet', {})
             title = re.fullmatch(TITLE_PATTERN, snippet.get('title', '').strip(), re.I)
@@ -251,9 +332,10 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
             registered = any(normalize(name) in [normalize(a) for a in show['aliases']] for show in series)
             if name and not registered and snippet.get('defaultAudioLanguage', '').lower().split('-')[0] == 'en':
                 checked = state['identityChecks'].get(normalize(name), '')
-                due = checked <= (dt.date.fromisoformat(today) - dt.timedelta(days=30)).isoformat()
+                due = (key in state.get('pending', {}) or prior.get('rulesSignature') != signature or checked <= (dt.date.fromisoformat(today) - dt.timedelta(days=REJECTION_RECHECK_DAYS)).isoformat()) and normalize(name) not in attempted_names
                 if due and resolutions < 8:
                     resolutions += 1
+                    attempted_names.add(normalize(name))
                     try:
                         show = resolver.resolve(name)
                         if show:
@@ -276,6 +358,16 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
             state['approved'][key] = {'policyVersion': POLICY_VERSION, 'checkedAt': today,
                                       'audioLanguage': item['snippet']['defaultAudioLanguage']}
             added.append(key)
+            state['rejected'].pop(key, None)
+        else:
+            snippet = item.get('snippet', {}) if item else {}
+            description = snippet.get('description', '')
+            flag = re.search(r'.{0,70}\b(?:trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|movie recap)\b.{0,70}', description, re.I)
+            state['rejected'][key] = {'channelID': channel, 'title': snippet.get('title', ''),
+                'reason': rejection_reason(item, channel, series), 'checkedAt': today,
+                'fingerprint': fingerprint, 'rulesSignature': signature,
+                'audioLanguage': snippet.get('defaultAudioLanguage', ''),
+                'flagExcerpt': flag[0] if flag else ''}
     # Rotating health coverage; two transient misses never withdraw a video.
     # A repeated run on the same day cannot count as another confirmation.
     existing = sorted((v for v in catalog['videos'] if v['videoID'] not in added and v['videoID'] not in decisions
@@ -315,7 +407,9 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
               'candidatesChecked': len(candidates), 'added': added, 'withdrawn': withdrawn, 'restored': restored,
               'skipped': sorted(set(candidates) - set(added)), 'healthChecked': len(batch),
               'apiCalls': api.calls, 'seriesResolutions': resolutions, 'identityErrors': identity_errors,
-              'pendingIdentities': len(state['pending']), 'archivesComplete': all(c.get('completedAt') and not c.get('nextPageToken') for c in state['channels'].values())}
+              'pendingIdentities': len(state['pending']), 'unchangedRechecks': unchanged_rechecks,
+              'rejectionsByReason': dict(collections.Counter(v['reason'] for v in state['rejected'].values())),
+              'rejectionsTracked': len(state['rejected']), 'archivesComplete': all(c.get('completedAt') and not c.get('nextPageToken') for c in state['channels'].values())}
     return catalog, state, report
 
 

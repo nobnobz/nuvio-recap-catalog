@@ -118,7 +118,7 @@ class AutomationTests(unittest.TestCase):
         a.run(catalog(), state, [SHOW], {}, third, '2026-09-09')
         self.assertEqual(third.tokens, [''])
         fourth = FakeAPI(pages=pages)
-        a.run(catalog(), state, [SHOW], {}, fourth, '2026-10-09')
+        a.run(catalog(), state, [SHOW], {}, fourth, '2027-03-09')
         self.assertEqual(fourth.tokens, ['', '1', '2', '3', '4'])
 
     def test_withdrawal_requires_three_distinct_days_and_can_recover(self):
@@ -213,3 +213,43 @@ class InitialArchiveTests(unittest.TestCase):
 
 
 if __name__ == '__main__': unittest.main()
+
+class RetryScheduleTests(unittest.TestCase):
+    def test_six_calendar_months_clamps_month_end(self):
+        self.assertEqual(a.six_months_after('2026-08-31'), '2027-02-28')
+        self.assertEqual(a.six_months_after('2023-08-31'), '2024-02-29')
+        self.assertEqual(a.six_months_after('2026-09-07'), '2027-03-07')
+
+    def test_monthly_does_not_restart_archive(self):
+        pages = {'': {'items': [], 'nextPageToken': 'old'}}
+        api = FakeAPI(items=[], pages=pages)
+        state = {'channels': {CHANNEL: {'completedAt': '2026-09-07', 'nextPageToken': None}}}
+        a.run(catalog(), state, [SHOW], {}, api, '2026-10-08')
+        self.assertEqual(api.tokens, [''])
+
+    def test_rejected_video_is_not_requeried_daily_but_monthly_checks_metadata(self):
+        video = item(); video['snippet'].pop('defaultAudioLanguage')
+        data, state, report = a.run(catalog(), {}, [SHOW], {}, FakeAPI([video]), '2026-09-07')
+        self.assertEqual(report['rejectionsByReason'], {'audio_language_missing': 1})
+        data, state, report = a.run(data, state, [SHOW], {}, FakeAPI([video]), '2026-09-08')
+        self.assertEqual(report['candidatesChecked'], 0)
+        data, state, report = a.run(data, state, [SHOW], {}, FakeAPI([video]), '2026-10-07')
+        self.assertEqual(report['unchangedRechecks'], 1)
+        # The same ID becomes eligible when the uploader adds language metadata.
+        data, state, report = a.run(data, state, [SHOW], {}, FakeAPI(), '2026-11-06')
+        self.assertEqual(report['added'], ['abcdefghijk'])
+        self.assertFalse(state['rejected'])
+
+    def test_rule_change_rechecks_old_ids_outside_recent_uploads(self):
+        from unittest.mock import patch
+        video = item(); video['snippet'].pop('defaultAudioLanguage')
+        data, state, _ = a.run(catalog(), {}, [SHOW], {}, FakeAPI([video]), '2026-09-07')
+        api = FakeAPI([item()], pages={'': {'items': []}})
+        with patch.object(a, 'POLICY_VERSION', 999):
+            data, _, report = a.run(data, state, [SHOW], {}, api, '2026-09-08')
+        self.assertEqual(report['added'], ['abcdefghijk'])
+
+    def test_legacy_rejection_metadata_unavailable_is_retained(self):
+        seed = {'rejected': {'abcdefghijk': {'channelID': None, 'reason': 'legacy'}}}
+        _, state, report = a.run(catalog(), seed, [SHOW], {}, FakeAPI(items=[]), '2026-09-07')
+        self.assertEqual(report['rejectionsByReason'], {'metadata_unavailable': 1})
