@@ -22,7 +22,7 @@ import urllib.error
 ROOT = Path(__file__).resolve().parents[1]
 MAX_CALLS = 180
 ARCHIVE_PAGES = min(20, max(1, int(os.environ.get('RECAP_ARCHIVE_PAGES', '4'))))
-POLICY_VERSION = 5
+POLICY_VERSION = 6
 DISCOVERY_VERSION = 1
 REJECTION_RECHECK_DAYS = 30
 MAX_RECHECKS = 500
@@ -52,12 +52,67 @@ def rejection_due(record, today, signature):
 FULL_TITLE_PATTERN = r'(.+?) Full Series Recap\s*\|\s*Seasons? (\d{1,2}(?:\s*[-–&]\s*\d{1,2})?) (?:Ending )?Explained'
 
 
-def parse_title(title):
-    full = re.fullmatch(FULL_TITLE_PATTERN, title.strip(), re.I)
+NUMBER_SCOPE = r'\d{1,2}(?:\s*(?:[-–&+]|,\s*(?:and\s+)?|\band\b)\s*\d{1,2})*'
+DESCRIPTION_TITLE_PATTERN = r'(.+?)\s*(?:[—–:-]\s*)?RECAP\s*:\s*Full Series(?: before the Final Season)?'
+
+
+def numeric_scope(value):
+    numbers = [int(n) for n in re.findall(r'\d+', value)]
+    if len(numbers) == 2 and re.search(r'[-–]', value):
+        numbers = list(range(numbers[0], numbers[1] + 1))
+    if not numbers or not 0 < numbers[0] <= numbers[-1] <= 100:
+        return None
+    if numbers != list(range(numbers[0], numbers[-1] + 1)):
+        return None
+    return numbers[0], numbers[-1]
+
+
+def clean_title(title):
+    # Only trailing hashtag tokens, not arbitrary trailing prose.
+    return re.sub(r'(?:\s+#[\w]+)+\s*$', '', title).strip()
+
+
+def full_series_title(title):
+    return bool(re.fullmatch(FULL_TITLE_PATTERN, clean_title(title), re.I) or
+                re.fullmatch(DESCRIPTION_TITLE_PATTERN, clean_title(title), re.I))
+
+
+def description_coverage(description):
+    claims = list(re.finditer(r'\bfull series recap of seasons?\s+(' + NUMBER_SCOPE + r')', description, re.I))
+    spans = [numeric_scope(m[1]) for m in claims]
+    if not spans or spans[0] is None or spans[0][0] != 1 or any(v != spans[0] for v in spans):
+        return None
+    # Independent chapter evidence must enumerate exactly the declared seasons.
+    chapters = re.findall(r'(?im)^\s*Season (\d{1,2})\s+\d{1,2}:\d{2}(?::\d{2})?\s*$', description)
+    if [int(n) for n in chapters] != list(range(spans[0][0], spans[0][1] + 1)):
+        return None
+    return spans[0]
+
+
+def parse_title(title, description=''):
+    title = clean_title(title)
+    full = re.fullmatch(FULL_TITLE_PATTERN, title, re.I)
+    described = re.fullmatch(DESCRIPTION_TITLE_PATTERN, title, re.I)
     if full:
         title = f'{full[1]} Season {full[2]} Recap'
-    match = re.fullmatch(TITLE_PATTERN, title.strip(), re.I)
+    elif described:
+        span = description_coverage(description)
+        if span is None:
+            return None
+        title = f'{described[1].strip(" —–:-")} Season {span[0]}-{span[1]} Recap'
+    match = re.fullmatch(TITLE_PATTERN, title, re.I)
     return match if match and '|' not in match[1] else None
+
+
+def mixed_format(title, description):
+    # An actor credit is not a prediction or fan theory; other occurrences stay.
+    description = re.sub(r"\b[A-Z][a-z]+ Theory as [A-Z][A-Za-z'’–-]+", '[cast credit]', description)
+    return bool(re.search(r'\b(trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|movie recap)\b|#(?:shorts|highlights)\b', title + ' ' + description, re.I))
+
+
+def mixed_full_series(description):
+    description = re.sub(r'\bthe two-part final season\b', 'the final season', description, flags=re.I)
+    return bool(re.search(r'\b(?:film|movie|parts?|volumes?|miniseries|spin.?off)\b', description, re.I))
 
 
 def content_description(description):
@@ -75,7 +130,7 @@ def valid_suffix(suffix, name, end):
             continue
         if re.fullmatch(r'(?:Apple TV(?: Plus)?|Max|HBO Max|Netflix|HBO|Hulu|Starz|Showtime)', piece, re.I):
             continue
-        if re.fullmatch(r'(?:(?:TV|Apple|Apple TV(?: Plus)?|Netflix|HBO(?: Max)?|Hulu|Starz|Showtime|Amazon Prime Video) )?Series Explained', piece, re.I):
+        if re.fullmatch(r'(?:(?:TV|Apple|Apple TV(?: Plus)?|Netflix|HBO(?: Max)?|Hulu|Starz|Showtime|Amazon(?: Prime Video)?) )?Series Explained', piece, re.I):
             continue
         before = re.fullmatch(r'(?:Must Watch|Everything You Need To Know) Before (.*?)Season (\d{1,2})(?: Explained)?', piece, re.I)
         if before and (not before[1].strip() or normalize(before[1]) == normalize(name)) and int(before[2]) == end + 1:
@@ -102,7 +157,7 @@ def rejection_reason(item, channel, series):
     if not 60 <= duration(content.get('duration', '')) <= 7200:
         return 'duration_outside_limits'
     title, description = snippet.get('title', ''), content_description(snippet.get('description', ''))
-    match = parse_title(title)
+    match = parse_title(title, description)
     if not match or not re.search(r'\brecap\b', title, re.I):
         return 'coverage_title_not_explicit'
     name, start, separator, end, suffix = match.groups()
@@ -111,13 +166,13 @@ def rejection_reason(item, channel, series):
         return 'unsupported_or_discontinuous_coverage'
     if not valid_suffix(suffix, name, end):
         return 'coverage_context_or_suffix_conflict'
-    if re.search(r'\b(trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|movie recap)\b', title + ' ' + description, re.I):
+    if mixed_format(title, description):
         return 'mixed_format_or_description_flag'
-    if re.fullmatch(FULL_TITLE_PATTERN, title.strip(), re.I) and re.search(r'\b(?:film|movie|parts?|volumes?|miniseries|spin.?off)\b', description, re.I):
+    if full_series_title(title) and mixed_full_series(description):
         return 'mixed_format_or_description_flag'
     if not any(normalize(name) in [normalize(alias) for alias in show['aliases']] for show in series):
         return 'series_identity_unresolved'
-    if re.fullmatch(FULL_TITLE_PATTERN, title.strip(), re.I):
+    if full_series_title(title):
         show = next(show for show in series if normalize(name) in [normalize(alias) for alias in show['aliases']])
         if not all(n in show.get('seasonNumbers', []) for n in range(start, end + 1)):
             return 'season_numbering_unverified'
@@ -143,7 +198,7 @@ def validate_series(series, catalog):
 def coverage(title, series, description=''):
     # Full title grammar, not fuzzy search. "Before season 3" alone does not
     # say whether this covers season 2 or seasons 1-2 and is never admitted.
-    match = parse_title(title)
+    match = parse_title(title, description)
     if not match or not re.search(r'\brecap\b', title, re.I):
         return None
     name, start, separator, end, suffix = match.groups()
@@ -160,26 +215,26 @@ def coverage(title, series, description=''):
     if len(matches) != 1:
         return None
     show = matches[0]
-    if re.fullmatch(FULL_TITLE_PATTERN, title.strip(), re.I):
+    if full_series_title(title):
         # Cross-check uploader numbering against the app's episode metadata.
         if start != 1 or not all(n in show.get('seasonNumbers', []) for n in range(start, end + 1)):
             return None
-        if re.search(r'\b(?:film|movie|parts?|volumes?|miniseries|spin.?off)\b', description, re.I):
+        if mixed_full_series(description):
             return None
         for span in re.finditer(r'\bseasons?\s+(\d+)\s*[-–&]\s*(\d+)', description, re.I):
             if (int(span[1]), int(span[2])) != (start, end):
                 return None
-        for before in re.finditer(r'\b(?:before|prepare[^.\n]{0,60}for)\s+(?:\w+\s+){0,6}?season\s+(\d+)', description, re.I):
+        for before in re.finditer(r'\b(?:before|(?:prepare|get)[^.\n]{0,60}for)\s+(?:\w+\s+){0,6}?season\s+(\d+)', description, re.I):
             if int(before[1]) <= end:
                 return None
     context = normalize(title + ' ' + description)
     if show.get('requiredContext') and not any(normalize(c) in context for c in show['requiredContext']):
         return None
     # Conservative rejection of mixed formats and explicit contrary coverage.
-    if re.search(r'\b(trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|movie recap)\b', title + ' ' + description, re.I):
+    if mixed_format(title, description):
         return None
-    for mention in re.finditer(r'(?:recap(?: of)?|cover(?:s|ing)?)\s+(?:all\s+)?seasons?\s+(\d+)(?:\s*[-–&]\s*(\d+))?', description, re.I):
-        if (int(mention[1]), int(mention[2] or mention[1])) != (start, end):
+    for mention in re.finditer(r'(?:recap(?: of)?|cover(?:s|ing)?)\s+(?:all\s+)?seasons?\s+(' + NUMBER_SCOPE + r')', description, re.I):
+        if numeric_scope(mention[1]) != (start, end):
             return None
     return show, start, end
 
@@ -392,7 +447,7 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
             continue
         if item and resolver:
             snippet = item.get('snippet', {})
-            title = parse_title(snippet.get('title', ''))
+            title = parse_title(snippet.get('title', ''), snippet.get('description', ''))
             name = title[1].strip(' —–:-') if title else ''
             registered = any(normalize(name) in [normalize(a) for a in show['aliases']] for show in series)
             format_supported = name and coverage(snippet.get('title', ''), [{'aliases': [name], 'seasonNumbers': list(range(1, 101))}], snippet.get('description', '')) is not None
@@ -403,7 +458,7 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
                     resolutions += 1
                     attempted_names.add(normalize(name))
                     try:
-                        show = resolver.resolve(name)
+                        show = copy.deepcopy(resolver.resolve(name))
                         if show:
                             # Reject remapped IDs, alias collisions and sequels
                             # that resolve to an already known different title.
@@ -418,8 +473,8 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
                         pending[key] = channel
                 elif due:
                     pending[key] = channel
-        if item and resolver and format_supported and re.fullmatch(FULL_TITLE_PATTERN, item['snippet'].get('title', '').strip(), re.I):
-            parsed = parse_title(item['snippet']['title'])
+        if item and resolver and format_supported and full_series_title(item['snippet'].get('title', '')):
+            parsed = parse_title(item['snippet']['title'], item['snippet'].get('description', ''))
             matches = [show for show in series if normalize(parsed[1]) in [normalize(v) for v in show['aliases']]]
             stale_seasons = len(matches) == 1 and matches[0].get('seasonNumbersCheckedAt', '') <= (dt.date.fromisoformat(today) - dt.timedelta(days=REJECTION_RECHECK_DAYS)).isoformat()
             if len(matches) == 1 and ('seasonNumbers' not in matches[0] or stale_seasons):

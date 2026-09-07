@@ -74,6 +74,38 @@ class RuleTests(unittest.TestCase):
                       'Ted Lasso Full Series Recap | Season 1 & 3 Ending Explained']:
             self.assertIsNone(a.coverage(title, [show]))
 
+    def test_trailing_hashtags_keep_actual_title_scope(self):
+        self.assertEqual(a.coverage('Ted Lasso RECAP: Season 2 #tedlasso #recap', [SHOW])[1:], (2, 2))
+        for title in ['Ted Lasso RECAP: Season 2 and Season 3 #recap',
+                      'Ted Lasso RECAP: Season 2 #trailer', 'Ted Lasso RECAP: Season 2 #shorts',
+                      'Ted Lasso RECAP before Season 3 #recap']:
+            self.assertIsNone(a.coverage(title, [SHOW]))
+
+    def test_actor_credit_is_not_a_fan_theory(self):
+        title = 'Ted Lasso Season 1 Recap'
+        self.assertIsNotNone(a.coverage(title, [SHOW], 'Starring Angel Theory as Kelly, and other actors.'))
+        for description in ['Starring Angel Theory as Kelly. Includes theories about next season.',
+                            'An Angel Theory about the ending.', 'Includes trailer footage.']:
+            self.assertIsNone(a.coverage(title, [SHOW], description))
+
+    def test_amazon_publisher_suffix_still_rejects_mixed_shows(self):
+        self.assertIsNotNone(a.coverage('Ted Lasso Season 2 Recap | Must Watch Before Season 3 | Amazon Series Explained', [SHOW]))
+        self.assertIsNone(a.coverage('Ted Lasso Season 2 Recap | Amazon Series Explained | GEN V Explained', [SHOW]))
+
+    def test_description_coverage_needs_matching_chapters_and_episode_metadata(self):
+        title = 'Ted Lasso RECAP: Full Series before the Final Season'
+        description = 'This is the full series recap of seasons 1, 2, and 3, to get you ready for Ted Lasso season 4, the two-part final season.\nSeason 1 0:00\nSeason 2 6:32\nSeason 3 11:27'
+        show = {**SHOW, 'seasonNumbers': [1, 2, 3]}
+        self.assertEqual(a.coverage(title, [show], description)[1:], (1, 3))
+        self.assertIsNone(a.coverage(title, [SHOW], description))
+        for invalid in [description.replace('Season 3 11:27', ''),
+                        description.replace('1, 2, and 3', '1 and 3'),
+                        description.replace('season 4', 'season 3'),
+                        description + '\nThis also covers season 4.',
+                        description + '\nIncluding the movie.',
+                        'Get ready for season 4.\nSeason 1 0:00\nSeason 2 6:32\nSeason 3 11:27']:
+            self.assertIsNone(a.coverage(title, [show], invalid))
+
     def test_safe_publisher_suffixes_and_promotional_context(self):
         for suffix in ['Netflix Series Explained | Must Watch Before Season 2',
                        'Must Watch Before Season 2 | TV Series Explained',
@@ -150,6 +182,19 @@ class AutomationTests(unittest.TestCase):
         resolver.seasons = [1, 2, 3]
         result, state, report = a.run(result, state, [SHOW], {}, FakeAPI([video]), '2026-10-07', resolver)
         self.assertEqual(report['added'], [video['id']])
+
+    def test_description_candidate_resolves_then_verifies_numbering(self):
+        class Resolver:
+            def resolve(self, name): return SHOW
+            def season_numbers(self, show): return [1, 2, 3]
+        title = 'Ted Lasso RECAP: Full Series before the Final Season'
+        video = item(title=title)
+        video['snippet']['description'] = 'This is the full series recap of seasons 1, 2, and 3.\nSeason 1 0:00\nSeason 2 2:00\nSeason 3 4:00'
+        result, state, report = a.run(catalog(), {}, [], {}, FakeAPI([video]), '2026-09-07', Resolver())
+        self.assertEqual(report['added'], [video['id']])
+        self.assertEqual(result['videos'][0]['title'], title)
+        self.assertEqual(result['videos'][0]['lastSeason'], 3)
+        self.assertEqual(report['seriesResolutions'], 2)
 
     def test_full_series_uses_and_persists_verified_episode_numbering(self):
         class Resolver:
