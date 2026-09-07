@@ -1,10 +1,10 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNLb0xJaEJETWtFeFJUZzRSa0UxTmtRd1JqVTQ"
+      "nextPageToken": "EAAaH1BUOkNQSU1JaEEwTnpVMU1FVkdSRVpETjBFeVFVTTE"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNLb0xJaEF4TlRNelEwUXhSRFExUlRNeFJqVTI"
+      "nextPageToken": "EAAaH1BUOkNQSU1JaEJGUVVVeU9VUXlPRE00T1RoQk1UUXk"
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
       "nextPageToken": null,
@@ -493,6 +493,30 @@
       "checkedAt": "2026-09-07"
     },
     "Tp8gEHlldgw": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "KYq0tNNZXVM": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "YTGLaWnddy4": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "beMzAjCd5Nw": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "dgD-2ZZGiS0": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "gO5nqEv7kZk": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "hNXrRrfdCAg": {
       "misses": 0,
       "checkedAt": "2026-09-07"
     }
@@ -1027,6 +1051,26 @@
       "policyVersion": 1,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en"
+    },
+    "MlNxiZRLwYk": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "OZOfhx0AJ1E": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "P4AJS0-Lhf4": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "UxEWoFMChw8": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -1085,7 +1129,15 @@
     "and just like that": "2026-09-07",
     "warrior nun": "2026-09-07",
     "the flash": "2026-09-07",
-    "lost in space everything you need to know before": "2026-09-07"
+    "lost in space everything you need to know before": "2026-09-07",
+    "invincible": "2026-09-07",
+    "the pitt": "2026-09-07",
+    "yellowstone everything you need to know before": "2026-09-07",
+    "the boys": "2026-09-07",
+    "emily in paris": "2026-09-07",
+    "3 body problem": "2026-09-07",
+    "jack ryan": "2026-09-07",
+    "peacemaker": "2026-09-07"
   },
   "series": [
     {
@@ -1381,22 +1433,33 @@
       "aliases": [
         "WARRIOR NUN"
       ]
+    },
+    {
+      "imdbID": "tt31938062",
+      "tmdbID": 250307,
+      "aliases": [
+        "The Pitt"
+      ]
+    },
+    {
+      "imdbID": "tt8962124",
+      "tmdbID": 82596,
+      "aliases": [
+        "EMILY IN PARIS"
+      ]
+    },
+    {
+      "imdbID": "tt13016388",
+      "tmdbID": 108545,
+      "aliases": [
+        "3 Body Problem"
+      ]
     }
   ],
   "pending": {
-    "MbuXGXmrHFM": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "MlNxiZRLwYk": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "N-fldUq_IdQ": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Nwz68R4X0-o": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "ORoDJlCGBEI": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "OZOfhx0AJ1E": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "P4AJS0-Lhf4": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "PobPi9i0RL8": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "RelQ2qGZrng": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "TFLw7tOUVIM": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Tmv4LQOMh-s": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "TqTQ4sKA3UI": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "UxEWoFMChw8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "V6P2LkT0UuU": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "VCpZbjvJz6U": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "VDDhOmBW5ZA": "UCNCTxLZ3EKKry-oWgLlsYsw",
@@ -1406,14 +1469,12 @@
     "Vyjq-gsWfuU": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "W6U-iB3HY1w": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "WFeu3A2o4VE": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "WWxAl6uyNVs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "X3-KCQCT3WQ": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "XBwJ2834HlY": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Xgq0TI4NW2A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Y5833KeDmp4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "YVXIFLkQqg8": "UC1Myj674wRVXB9I4c6Hm5zA",
     "YZB9hBKINoY": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Yd2A-Od994E": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Yx-TqHUIhmU": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "Z_5VmxUyOHo": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "ZyvMhWD_co0": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1432,7 +1493,6 @@
     "hv8ROUg68l8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hw5grC9JhQg": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "iXqFeFvR6Io": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "iaSHPkw741A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "irOGuFFHzWA": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "kWe9LAJNGF0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "l21mwWGzBK4": "UCNCTxLZ3EKKry-oWgLlsYsw",
@@ -1448,7 +1508,6 @@
     "r682TrOVvj0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "rht9P0bYSFI": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "stauPK3FIaQ": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "tjnYV-MdhO0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "uRg-UxrbQ2U": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "ud8QKPBHw2w": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "ugUyeaDF1y4": "UCNCTxLZ3EKKry-oWgLlsYsw",
@@ -1463,8 +1522,7 @@
     "zNCr801BJ60": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "zQh28sxpvvg": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "zYDE9lABgeE": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "zmTwTI9P9kY": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "zwZrfHp0_Ik": "UCNCTxLZ3EKKry-oWgLlsYsw"
+    "zmTwTI9P9kY": "UCnFL_hmp-nc-l2QlLzxZdhg"
   },
   "checkedAt": "2026-09-07"
 }
