@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 26,
+  "revision": 27,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -3106,6 +3106,58 @@
       "language": "en",
       "durationSeconds": 5219,
       "title": "GAME OF THRONES Full Series Recap | Season 1-8 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "-Ho92HBllDA",
+      "imdbID": "tt5071412",
+      "tmdbID": 69740,
+      "firstSeason": 1,
+      "lastSeason": 3,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 1164,
+      "title": "Ozark RECAP: Full Series before the Final Season",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "0Us_RLfsb7k",
+      "imdbID": "tt9253284",
+      "tmdbID": 83867,
+      "firstSeason": 2,
+      "lastSeason": 2,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 121,
+      "title": "Andor RECAP: Season 2 #andor #starwars",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "ROgUFPA8A6k",
+      "imdbID": "tt13443470",
+      "tmdbID": 119051,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 79,
+      "title": "Wednesday RECAP: Season 1 #wednesday #longstoryshort",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "pgdJvnIEc44",
+      "imdbID": "tt10919420",
+      "tmdbID": 93405,
+      "firstSeason": 2,
+      "lastSeason": 2,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 159,
+      "title": "Squid Game RECAP: Season 2  #squidgame #longstoryshort",
       "reviewedAt": "2026-09-07",
       "enabled": true
     }
