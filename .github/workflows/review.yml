@@ -9,6 +9,11 @@ on:
         type: choice
         options: ['4', '20']
         default: '4'
+      identity_checks:
+        description: Metadata lookups (32 accelerates pending identity checks)
+        type: choice
+        options: ['8', '32']
+        default: '8'
 permissions:
   contents: write
 concurrency:
@@ -29,6 +34,7 @@ jobs:
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           RECAP_ARCHIVE_PAGES: ${{ inputs.archive_pages || '4' }}
+          RECAP_IDENTITY_CHECKS: ${{ inputs.identity_checks || '8' }}
         run: python3 scripts/automate.py
       - name: Validate publishable catalog
         env:

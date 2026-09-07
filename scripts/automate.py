@@ -26,6 +26,7 @@ POLICY_VERSION = 4
 DISCOVERY_VERSION = 1
 REJECTION_RECHECK_DAYS = 30
 MAX_RECHECKS = 500
+MAX_RESOLUTIONS = min(32, max(1, int(os.environ.get('RECAP_IDENTITY_CHECKS', '8'))))
 TITLE_PATTERN = r'(.+?)\s*(?:[—–:-]\s*)?(?:RECAP\s*:\s*)?Seasons?\s+(\d{1,2})(?:\s*([-–&])\s*(\d{1,2}))?\s*(?:RECAP)?(?:\s*\|\s*(.*))?'
 
 
@@ -55,7 +56,8 @@ def parse_title(title):
     full = re.fullmatch(FULL_TITLE_PATTERN, title.strip(), re.I)
     if full:
         title = f'{full[1]} Season {full[2]} Recap'
-    return re.fullmatch(TITLE_PATTERN, title.strip(), re.I)
+    match = re.fullmatch(TITLE_PATTERN, title.strip(), re.I)
+    return match if match and '|' not in match[1] else None
 
 
 def content_description(description):
@@ -107,14 +109,18 @@ def rejection_reason(item, channel, series):
     start, end = int(start), int(end or start)
     if not (0 < start <= end <= 100 and start in (1, end)) or (separator == '&' and end != start + 1):
         return 'unsupported_or_discontinuous_coverage'
+    if not valid_suffix(suffix, name, end):
+        return 'coverage_context_or_suffix_conflict'
+    if re.search(r'\b(trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|movie recap)\b', title + ' ' + description, re.I):
+        return 'mixed_format_or_description_flag'
+    if re.fullmatch(FULL_TITLE_PATTERN, title.strip(), re.I) and re.search(r'\b(?:film|movie|parts?|volumes?|miniseries|spin.?off)\b', description, re.I):
+        return 'mixed_format_or_description_flag'
     if not any(normalize(name) in [normalize(alias) for alias in show['aliases']] for show in series):
         return 'series_identity_unresolved'
     if re.fullmatch(FULL_TITLE_PATTERN, title.strip(), re.I):
         show = next(show for show in series if normalize(name) in [normalize(alias) for alias in show['aliases']])
         if not all(n in show.get('seasonNumbers', []) for n in range(start, end + 1)):
             return 'season_numbering_unverified'
-    if re.search(r'\b(trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|movie recap)\b', title + ' ' + description, re.I):
-        return 'mixed_format_or_description_flag'
     return 'coverage_context_or_suffix_conflict'
 
 
@@ -390,7 +396,7 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
             if format_supported and not registered and snippet.get('defaultAudioLanguage', '').lower().split('-')[0] == 'en':
                 checked = state['identityChecks'].get(normalize(name), '')
                 due = (key in state.get('pending', {}) or prior.get('rulesSignature') != signature or checked <= (dt.date.fromisoformat(today) - dt.timedelta(days=REJECTION_RECHECK_DAYS)).isoformat()) and normalize(name) not in attempted_names
-                if due and resolutions < 8:
+                if due and resolutions < MAX_RESOLUTIONS:
                     resolutions += 1
                     attempted_names.add(normalize(name))
                     try:
@@ -409,11 +415,11 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
                         pending[key] = channel
                 elif due:
                     pending[key] = channel
-        if item and resolver and re.fullmatch(FULL_TITLE_PATTERN, item['snippet'].get('title', '').strip(), re.I):
+        if item and resolver and format_supported and re.fullmatch(FULL_TITLE_PATTERN, item['snippet'].get('title', '').strip(), re.I):
             parsed = parse_title(item['snippet']['title'])
             matches = [show for show in series if normalize(parsed[1]) in [normalize(v) for v in show['aliases']]]
             if len(matches) == 1 and 'seasonNumbers' not in matches[0]:
-                if resolutions < 8:
+                if resolutions < MAX_RESOLUTIONS:
                     resolutions += 1
                     try:
                         matches[0]['seasonNumbers'] = resolver.season_numbers(matches[0])

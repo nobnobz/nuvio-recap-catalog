@@ -34,7 +34,7 @@ Run [34099342080](https://github.com/nobnobz/nuvio-recap-catalog/actions/runs/34
 
 Archive scanning and deferred identity resolution continue daily at 05:17 UTC. The initial incremental archive was subsequently completed; see the completion evidence below. The app downloads catalog changes on its existing update interval (up to 24 hours); no further app build is needed for catalog-only updates. API availability checks do not prove playback on every device.
 
-Manual initial backfill can select `archive_pages: 20` in workflow dispatch. The daily default remains four pages. The same 180-call ceiling and per-channel budget calculation apply; saved cursors continue across runs.
+Manual initial backfill can select `archive_pages: 20` in workflow dispatch. The daily default remains four pages. Manual `identity_checks: 32` accelerates deferred identity/episode-numbering checks (up to 64 Cinemeta requests); the daily default stays eight checks and 16 requests. The same 180-call ceiling and per-channel budget calculation apply; saved cursors continue across runs.
 
 ## Initial archive completed — September 7
 
