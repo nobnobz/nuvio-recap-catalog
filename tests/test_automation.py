@@ -139,6 +139,18 @@ class AutomationTests(unittest.TestCase):
         self.assertEqual(report['seriesResolutions'], 0)
         self.assertFalse(report['added'])
 
+    def test_monthly_retry_refreshes_previously_missing_season_number(self):
+        class Resolver:
+            def __init__(self): self.seasons = [1, 2]
+            def season_numbers(self, show): return self.seasons
+        resolver = Resolver()
+        video = item(title='Ted Lasso Full Series Recap | Season 1-3 Ending Explained')
+        result, state, report = a.run(catalog(), {}, [SHOW], {}, FakeAPI([video]), '2026-09-07', resolver)
+        self.assertFalse(report['added'])
+        resolver.seasons = [1, 2, 3]
+        result, state, report = a.run(result, state, [SHOW], {}, FakeAPI([video]), '2026-10-07', resolver)
+        self.assertEqual(report['added'], [video['id']])
+
     def test_full_series_uses_and_persists_verified_episode_numbering(self):
         class Resolver:
             def season_numbers(self, show): return [1, 2, 3]

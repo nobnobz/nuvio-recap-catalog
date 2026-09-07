@@ -22,7 +22,7 @@ import urllib.error
 ROOT = Path(__file__).resolve().parents[1]
 MAX_CALLS = 180
 ARCHIVE_PAGES = min(20, max(1, int(os.environ.get('RECAP_ARCHIVE_PAGES', '4'))))
-POLICY_VERSION = 4
+POLICY_VERSION = 5
 DISCOVERY_VERSION = 1
 REJECTION_RECHECK_DAYS = 30
 MAX_RECHECKS = 500
@@ -307,11 +307,14 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
     state.setdefault('approved', {})
     series = copy.deepcopy(series)
     for show in state.get('series', []):
+        if 'seasonNumbers' in show:
+            show.setdefault('seasonNumbersCheckedAt', today)
         established = next((v for v in series if v['imdbID'] == show['imdbID']), None)
         if established is None:
             series.append(show)
         elif 'seasonNumbers' in show:
             established['seasonNumbers'] = show['seasonNumbers']
+            established['seasonNumbersCheckedAt'] = show.get('seasonNumbersCheckedAt', today)
     validate_series(series, catalog)
     state.setdefault('identityChecks', {})
     state.setdefault('rejected', {})
@@ -418,16 +421,19 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
         if item and resolver and format_supported and re.fullmatch(FULL_TITLE_PATTERN, item['snippet'].get('title', '').strip(), re.I):
             parsed = parse_title(item['snippet']['title'])
             matches = [show for show in series if normalize(parsed[1]) in [normalize(v) for v in show['aliases']]]
-            if len(matches) == 1 and 'seasonNumbers' not in matches[0]:
+            stale_seasons = len(matches) == 1 and matches[0].get('seasonNumbersCheckedAt', '') <= (dt.date.fromisoformat(today) - dt.timedelta(days=REJECTION_RECHECK_DAYS)).isoformat()
+            if len(matches) == 1 and ('seasonNumbers' not in matches[0] or stale_seasons):
                 if resolutions < MAX_RESOLUTIONS:
                     resolutions += 1
                     try:
                         matches[0]['seasonNumbers'] = resolver.season_numbers(matches[0])
+                        matches[0]['seasonNumbersCheckedAt'] = today
                         stored = next((v for v in state.get('series', []) if v['imdbID'] == matches[0]['imdbID']), None)
                         if stored is None:
                             state.setdefault('series', []).append(copy.deepcopy(matches[0]))
                         else:
                             stored['seasonNumbers'] = matches[0]['seasonNumbers']
+                            stored['seasonNumbersCheckedAt'] = today
                     except (RuntimeError, KeyError, ValueError):
                         identity_errors += 1
                         pending[key] = channel
