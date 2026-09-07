@@ -22,7 +22,7 @@ import urllib.error
 ROOT = Path(__file__).resolve().parents[1]
 MAX_CALLS = 180
 ARCHIVE_PAGES = min(20, max(1, int(os.environ.get('RECAP_ARCHIVE_PAGES', '4'))))
-POLICY_VERSION = 2
+POLICY_VERSION = 3
 DISCOVERY_VERSION = 1
 REJECTION_RECHECK_DAYS = 30
 MAX_RECHECKS = 500
@@ -48,6 +48,30 @@ def rejection_due(record, today, signature):
     return record.get('rulesSignature') != signature or record.get('checkedAt', '') <= (dt.date.fromisoformat(today) - dt.timedelta(days=REJECTION_RECHECK_DAYS)).isoformat()
 
 
+def content_description(description):
+    # Publisher service advertisements are not a description of this video.
+    description = re.split(r'(?im)^About (?:HBO Max|Max):\s*$', description, maxsplit=1)[0]
+    # Ignore a standalone link to another recap, never an unlinked scope claim.
+    return '\n'.join(line for line in description.splitlines() if not re.fullmatch(
+        r'\s*Watch\b[^\n]*\brecap\b[^\n]*https?://\S+\s*', line, re.I))
+
+
+def valid_suffix(suffix, name, end):
+    for piece in (suffix or '').split('|'):
+        piece = piece.strip()
+        if not piece or normalize(piece) == normalize(name):
+            continue
+        if re.fullmatch(r'(?:Apple TV(?: Plus)?|Max|HBO Max|Netflix|HBO|Hulu|Starz|Showtime)', piece, re.I):
+            continue
+        if re.fullmatch(r'(?:(?:TV|Apple|Apple TV(?: Plus)?|Netflix|HBO(?: Max)?|Hulu|Starz|Showtime|Amazon Prime Video) )?Series Explained', piece, re.I):
+            continue
+        before = re.fullmatch(r'(?:Must Watch|Everything You Need To Know) Before (.*?)Season (\d{1,2})(?: Explained)?', piece, re.I)
+        if before and (not before[1].strip() or normalize(before[1]) == normalize(name)) and int(before[2]) == end + 1:
+            continue
+        return False
+    return True
+
+
 def rejection_reason(item, channel, series):
     if not item:
         return 'metadata_unavailable'
@@ -65,7 +89,7 @@ def rejection_reason(item, channel, series):
         return 'live_region_or_age_restriction'
     if not 60 <= duration(content.get('duration', '')) <= 7200:
         return 'duration_outside_limits'
-    title, description = snippet.get('title', ''), snippet.get('description', '')
+    title, description = snippet.get('title', ''), content_description(snippet.get('description', ''))
     match = re.fullmatch(TITLE_PATTERN, title.strip(), re.I)
     if not match or not re.search(r'\brecap\b', title, re.I):
         return 'coverage_title_not_explicit'
@@ -109,12 +133,9 @@ def coverage(title, series, description=''):
     # 1 & 3 does not mean 1 through 3.
     if separator == '&' and end != start + 1:
         return None
-    if suffix and not re.fullmatch(
-        r'(?:(?:Must Watch|Everything You Need To Know) Before Season (\d{1,2})(?: Explained)?(?:\s*\|\s*(?:Apple |Netflix )?Series Explained)?|(?:Apple TV|Max|HBO Max|Series Explained))', suffix, re.I):
+    if not valid_suffix(suffix, name, end):
         return None
-    advertised = re.search(r'Before Season (\d+)', suffix or '', re.I)
-    if advertised and int(advertised[1]) != end + 1:
-        return None
+    description = content_description(description)
     matches = [show for show in series if normalize(name) in [normalize(a) for a in show['aliases']]]
     if len(matches) != 1:
         return None

@@ -59,6 +59,22 @@ class RuleTests(unittest.TestCase):
             with self.subTest(title=title):
                 self.assertIsNone(a.coverage(title, [SHOW]))
 
+    def test_safe_publisher_suffixes_and_promotional_context(self):
+        for suffix in ['Netflix Series Explained | Must Watch Before Season 2',
+                       'Must Watch Before Season 2 | TV Series Explained',
+                       'Ted Lasso | HBO Max', 'Apple TV Plus Series Explained',
+                       'Must Watch Before TED LASSO Season 2 | Hulu Series Explained']:
+            self.assertEqual(a.coverage('Ted Lasso Season 1 Recap | ' + suffix, [SHOW])[1:], (1, 1))
+        for suffix in ['Must Watch Before Silo Season 2', 'Must Watch Before Season 3',
+                       'Ted Lasso | Silo', 'HBO Series Explained | Season 2 Predictions']:
+            self.assertIsNone(a.coverage('Ted Lasso Season 1 Recap | ' + suffix, [SHOW]))
+        description = 'Recap of season 1.\n\nAbout HBO Max:\nStream The Big Bang Theory.'
+        self.assertIsNotNone(a.coverage('Ted Lasso Season 1 Recap', [SHOW], description))
+        self.assertIsNone(a.coverage('Ted Lasso Season 1 Recap', [SHOW], 'Includes theories.\nAbout Max:\nTV shows'))
+        promo = 'Watch the recap of seasons 1-3 now: https://example.com/recap\nRecap of season 1.'
+        self.assertIsNotNone(a.coverage('Ted Lasso Season 1 Recap', [SHOW], promo))
+        self.assertIsNone(a.coverage('Ted Lasso Season 1 Recap', [SHOW], 'Watch our recap of seasons 1-3'))
+
     def test_ambiguous_identity_and_description_fail_closed(self):
         show = {**SHOW, 'requiredContext': ['Apple TV']}
         self.assertIsNone(a.coverage('Ted Lasso Season 1 Recap', [show]))
