@@ -35,3 +35,7 @@ Run [34099342080](https://github.com/nobnobz/nuvio-recap-catalog/actions/runs/34
 Archive scanning and deferred identity resolution continue daily at 05:17 UTC. The archive is intentionally incremental and is not yet fully scanned. The app downloads catalog changes on its existing update interval (up to 24 hours); no further app build is needed for catalog-only updates. API availability checks do not prove playback on every device.
 
 Manual initial backfill can select `archive_pages: 20` in workflow dispatch. The daily default remains four pages. The same 180-call ceiling and per-channel budget calculation apply; saved cursors continue across runs.
+
+## Initial archive completed — September 7
+
+Final run [34101510865](https://github.com/nobnobz/nuvio-recap-catalog/actions/runs/34101510865) completed with all four channel archive cursors exhausted, `archivesComplete: true`, zero pending identities and zero identity errors. Live revision 20 was independently verified: 172 videos across 85 series. This covers the public uploads returned by the four approved channels, with metadata-based admission; it does not mean every video was watched or every offered recap was accepted. Daily head checks continue, and completed archives restart after 30 days.

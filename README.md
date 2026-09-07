@@ -1,4 +1,4 @@
-> September 7 update: [Automatic catalog maintenance](AUTOMATION.md) is live and supersedes the manual daily review workflow below. Two successful end-to-end runs published revision 6: 91 videos across 31 series. Daily discovery, admission and Cloudflare publication now run without editorial intervention.
+> September 7 update: [Automatic catalog maintenance](AUTOMATION.md) is live and supersedes the manual daily review workflow below. The initial archive scan is complete for all four channels: revision 20 contains 172 videos across 85 series, with no pending identity checks. Daily discovery, admission and Cloudflare publication now run without editorial intervention.
 
 # Nuvio recap catalog
 
