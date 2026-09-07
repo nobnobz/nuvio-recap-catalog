@@ -1,10 +1,10 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNQSU1JaEEwTnpVMU1FVkdSRVpETjBFeVFVTTE"
+      "nextPageToken": "EAAaH1BUOkNMb09JaEJFTkRZNU9FRTJSRVExTWtJd1FrTTI"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNQSU1JaEJGUVVVeU9VUXlPRE00T1RoQk1UUXk"
+      "nextPageToken": "EAAaH1BUOkNMb09JaEExTlRsRU5rWkZPVFl5UXpRMFJUSkI"
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
       "nextPageToken": null,
@@ -517,6 +517,42 @@
       "checkedAt": "2026-09-07"
     },
     "hNXrRrfdCAg": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "ih3oGg0KRTw": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "jigTTbCviL8": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "k7x0vuwH23M": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "l_s3yBYe3Ww": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "o87sPnsnlZg": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "osgVw3T82Gc": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "u1QIBWg8AtA": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "wPNJ3jjCM9Q": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "y3lLl5W1uEw": {
       "misses": 0,
       "checkedAt": "2026-09-07"
     }
@@ -1071,6 +1107,46 @@
       "policyVersion": 1,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en-US"
+    },
+    "TFLw7tOUVIM": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "Tmv4LQOMh-s": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "TqTQ4sKA3UI": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "VDDhOmBW5ZA": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "Yx-TqHUIhmU": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "luSguXy_XKE": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "p7YxwveUrjI": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "zQh28sxpvvg": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -1137,7 +1213,15 @@
     "emily in paris": "2026-09-07",
     "3 body problem": "2026-09-07",
     "jack ryan": "2026-09-07",
-    "peacemaker": "2026-09-07"
+    "peacemaker": "2026-09-07",
+    "dead to me": "2026-09-07",
+    "fubar": "2026-09-07",
+    "from": "2026-09-07",
+    "manifest": "2026-09-07",
+    "only murders in the building": "2026-09-07",
+    "the 100": "2026-09-07",
+    "loki": "2026-09-07",
+    "sex education": "2026-09-07"
   },
   "series": [
     {
@@ -1454,17 +1538,58 @@
       "aliases": [
         "3 Body Problem"
       ]
+    },
+    {
+      "imdbID": "tt8064302",
+      "tmdbID": 81357,
+      "aliases": [
+        "DEAD TO ME"
+      ]
+    },
+    {
+      "imdbID": "tt13064902",
+      "tmdbID": 221300,
+      "aliases": [
+        "FUBAR"
+      ]
+    },
+    {
+      "imdbID": "tt9813792",
+      "tmdbID": 124364,
+      "aliases": [
+        "FROM"
+      ]
+    },
+    {
+      "imdbID": "tt11691774",
+      "tmdbID": 107113,
+      "aliases": [
+        "ONLY MURDERS IN THE BUILDING"
+      ]
+    },
+    {
+      "imdbID": "tt2661044",
+      "tmdbID": 48866,
+      "aliases": [
+        "The 100"
+      ]
+    },
+    {
+      "imdbID": "tt9140554",
+      "tmdbID": 84958,
+      "aliases": [
+        "Loki"
+      ]
+    },
+    {
+      "imdbID": "tt7767422",
+      "tmdbID": 81356,
+      "aliases": [
+        "Sex Education"
+      ]
     }
   ],
   "pending": {
-    "TFLw7tOUVIM": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Tmv4LQOMh-s": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "TqTQ4sKA3UI": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "V6P2LkT0UuU": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "VCpZbjvJz6U": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "VDDhOmBW5ZA": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "VHMv61EJU58": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "VdQjJ5dmnik": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Vn2LD_0uoMA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Vyjq-gsWfuU": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "W6U-iB3HY1w": "UCNCTxLZ3EKKry-oWgLlsYsw",
@@ -1475,11 +1600,9 @@
     "Y5833KeDmp4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "YVXIFLkQqg8": "UC1Myj674wRVXB9I4c6Hm5zA",
     "YZB9hBKINoY": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Yx-TqHUIhmU": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "Z_5VmxUyOHo": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "ZyvMhWD_co0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "anu-A-p4Fbw": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "bQLhiIL2kLU": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "bTEa8dCyV38": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "bYuUiWLJtvw": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "eJgO8Rj9vQY": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1497,12 +1620,10 @@
     "kWe9LAJNGF0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "l21mwWGzBK4": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "l2E7yxarfQM": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "luSguXy_XKE": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "mU4RkxQl9lA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "mVTUYGZM4UY": "UCx-KWLTKlB83hDI6UKECtJQ",
     "nGhxB4Jfhr0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "o4gwnuRbBMU": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "p7YxwveUrjI": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qX2avMTn6yA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qqEcpjrPA0A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "r682TrOVvj0": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1520,7 +1641,6 @@
     "z6Jp3ovjUcY": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "z8UaIzJbFLc": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "zNCr801BJ60": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "zQh28sxpvvg": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "zYDE9lABgeE": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "zmTwTI9P9kY": "UCnFL_hmp-nc-l2QlLzxZdhg"
   },
