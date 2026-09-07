@@ -1,10 +1,10 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNKSVRJaEJETVRRNE56UTFNa013TUVKR01UVTU"
+      "nextPageToken": "EAAaH1BUOkNQb2FJaEF5UlRaQk1UVkJOakpDUWtaR1F6TTA"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNKSVRJaEJGUVVNek5qUXlSVUV3UTBFME1UbEQ"
+      "nextPageToken": "EAAaH1BUOkNQb2FJaEJCT1RsQ04wTkZRakJHTURZM1JrWTA"
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
       "nextPageToken": null,
@@ -621,6 +621,30 @@
       "checkedAt": "2026-09-07"
     },
     "zQh28sxpvvg": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "YVXIFLkQqg8": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "Z_5VmxUyOHo": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "eJgO8Rj9vQY": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "fqsRBeFCiZ4": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "fuAX_gNa3ls": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "hLnj0ZGe6O8": {
       "misses": 0,
       "checkedAt": "2026-09-07"
     }
@@ -1285,6 +1309,26 @@
       "policyVersion": 1,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en-US"
+    },
+    "818lvXmJGWg": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "irOGuFFHzWA": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "l21mwWGzBK4": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "ugUyeaDF1y4": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -1383,7 +1427,15 @@
     "a knight of the seven kingdoms": "2026-09-07",
     "foundation actually helpful recap fast forward to": "2026-09-07",
     "peaky blinders": "2026-09-07",
-    "must watch before the mandalorian": "2026-09-07"
+    "must watch before the mandalorian": "2026-09-07",
+    "schmigadoon": "2026-09-07",
+    "the morning show": "2026-09-07",
+    "one piece": "2026-09-07",
+    "cross": "2026-09-07",
+    "his dark materials": "2026-09-07",
+    "after life everything you need to know before": "2026-09-07",
+    "dark": "2026-09-07",
+    "daredevil born again": "2026-09-07"
   },
   "series": [
     {
@@ -1861,15 +1913,30 @@
       "aliases": [
         "PEAKY BLINDERS"
       ]
+    },
+    {
+      "imdbID": "tt11808942",
+      "tmdbID": 98892,
+      "aliases": [
+        "Schmigadoon!"
+      ]
+    },
+    {
+      "imdbID": "tt5753856",
+      "tmdbID": 70523,
+      "aliases": [
+        "Dark"
+      ]
+    },
+    {
+      "imdbID": "tt18923754",
+      "tmdbID": 202555,
+      "aliases": [
+        "Daredevil Born Again"
+      ]
     }
   ],
   "pending": {
-    "hj5iLn-kTA8": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "hv8ROUg68l8": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "hw5grC9JhQg": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "iXqFeFvR6Io": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "irOGuFFHzWA": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "l21mwWGzBK4": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "l2E7yxarfQM": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "mU4RkxQl9lA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "mVTUYGZM4UY": "UCx-KWLTKlB83hDI6UKECtJQ",
@@ -1878,11 +1945,11 @@
     "qX2avMTn6yA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qqEcpjrPA0A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "rht9P0bYSFI": "UCnFL_hmp-nc-l2QlLzxZdhg",
+    "tN8a6KfGFlk": "UC1Myj674wRVXB9I4c6Hm5zA",
     "uRg-UxrbQ2U": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "ud8QKPBHw2w": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "ugUyeaDF1y4": "UCNCTxLZ3EKKry-oWgLlsYsw",
+    "udT0DS0S5hM": "UCx-KWLTKlB83hDI6UKECtJQ",
     "vZZ6Z49JRaI": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "vqjy9Eob4So": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "wJPHrG21nFs": "UCx-KWLTKlB83hDI6UKECtJQ",
     "xTQoeV_XHqs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "xyom4WLco_I": "UCnFL_hmp-nc-l2QlLzxZdhg",
