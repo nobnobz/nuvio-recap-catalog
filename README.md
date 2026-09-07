@@ -1,3 +1,5 @@
+> September 7 update: [Automatic catalog maintenance](AUTOMATION.md) supersedes the manual daily review workflow described below. The new job uses a YouTube API secret and deterministic admission; operational activation must be verified separately.
+
 # Nuvio recap catalog
 
 Public editorial metadata only: YouTube IDs, approved channels, English language, exact series IDs and season coverage. No video files, account data, API credentials, or app source are published here.

@@ -86,6 +86,22 @@ class ReviewImportTests(unittest.TestCase):
                 self.assertEqual((root / 'catalog.json').read_bytes(), original)
 
 class CatalogCompatibilityTests(unittest.TestCase):
+    def test_nonstring_metadata_and_compact_dates_cannot_publish(self):
+        import json, tempfile
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'catalog.json'
+            for collection, key, value in [
+                ('channels', 'name', ['A channel']),
+                ('videos', 'title', ['A recap']),
+                ('videos', 'title', 42),
+                ('videos', 'reviewedAt', '20260906'),
+            ]:
+                data = json.loads((ROOT / 'catalog.json').read_text())
+                data[collection][0][key] = value
+                path.write_text(json.dumps(data))
+                with self.subTest(key=key, value=value), self.assertRaises(AssertionError):
+                    build.validator.validate(path)
+
     def test_fractional_numbers_cannot_publish_an_app_incompatible_catalog(self):
         import json, tempfile
         with tempfile.TemporaryDirectory() as directory:

@@ -2,9 +2,9 @@ name: Validate catalog
 on:
   push:
     branches: [main]
-    paths: [catalog.json, scripts/**, package.json, package-lock.json, wrangler.jsonc, .github/workflows/publish.yml]
+    paths: [catalog.json, series.json, tests/**, scripts/**, .github/workflows/review.yml, package.json, package-lock.json, wrangler.jsonc, .github/workflows/publish.yml]
   pull_request:
-    paths: [catalog.json, scripts/**, tests/**, package.json, package-lock.json, wrangler.jsonc, .github/workflows/publish.yml]
+    paths: [catalog.json, series.json, scripts/**, tests/**, .github/workflows/review.yml, package.json, package-lock.json, wrangler.jsonc, .github/workflows/publish.yml]
   workflow_dispatch:
 permissions:
   contents: read

@@ -25,7 +25,7 @@ def validate(path):
         key = channel['id']
         assert re.fullmatch(r'UC[A-Za-z0-9_-]{22}', key), 'Invalid channel ID'
         assert key not in channels and type(channel['rank']) is int and 0 <= channel['rank'] <= 100, 'Duplicate/invalid channel'
-        assert 0 < len(channel['name']) <= 64 and isinstance(channel['official'], bool)
+        assert isinstance(channel['name'], str) and 0 < len(channel['name']) <= 64 and isinstance(channel['official'], bool)
         channels[key] = channel
     ids, imdb, tmdb = set(), {}, {}
     for video in data['videos']:
@@ -36,8 +36,9 @@ def validate(path):
         assert video['language'] == 'en', f'{key}: English only'
         start, end = video['firstSeason'], video['lastSeason']
         assert type(start) is int and type(end) is int and 0 < start <= end <= 100 and start in (1, end), f'{key}: invalid coverage'
-        assert type(video['durationSeconds']) is int and 30 <= video['durationSeconds'] <= 7200 and video['title'], f'{key}: invalid metadata'
+        assert type(video['durationSeconds']) is int and 30 <= video['durationSeconds'] <= 7200 and isinstance(video['title'], str) and video['title'], f'{key}: invalid metadata'
         assert isinstance(video['enabled'], bool)
+        assert isinstance(video['reviewedAt'], str) and re.fullmatch(r'\d{4}-\d{2}-\d{2}', video['reviewedAt']), f'{key}: invalid review date'
         datetime.date.fromisoformat(video['reviewedAt'])
         i, t = video['imdbID'], video['tmdbID']
         assert re.fullmatch(r'tt[0-9]+', i) and type(t) is int and 0 < t <= 2147483647, f'{key}: invalid series identity'

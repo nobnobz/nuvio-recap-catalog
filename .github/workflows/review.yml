@@ -1,4 +1,4 @@
-name: Refresh review inbox
+name: Update recap catalog
 on:
   schedule:
     - cron: '17 5 * * *'
@@ -9,20 +9,46 @@ concurrency:
   group: recap-review
   cancel-in-progress: false
 jobs:
-  review:
+  update:
     if: github.event.repository.private == false
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
-      - run: python3 scripts/discover.py
-      - name: Store review results only
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+      - name: Verify automation before accessing YouTube
+        run: python3 -m unittest discover -s tests
+      - name: Discover, verify and update
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python3 scripts/automate.py
+      - name: Validate publishable catalog
+        env:
+          CATALOG_URL: https://nuvio-recaps.marvins-dashboard.workers.dev/v1/catalog.json
+        run: python3 scripts/build.py
+      - name: Publish catalog and persist discovery checkpoints
+        id: commit
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- review/inbox.json
+          if ! git diff --quiet -- catalog.json; then
+            echo "catalog_changed=true" >> "$GITHUB_OUTPUT"
+          fi
+          git add -- catalog.json review/automation-state.json review/automation-report.json
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh recap review inbox'
-            git pull --rebase origin main
+            git commit -m 'Update verified recaps and discovery checkpoints'
+            # A concurrent editorial commit rejects this push; no unsafe rebase
+            # of revisions or checkpoint state. The next run retries from main.
             git push origin HEAD:main
+          fi
+      - name: Verify Cloudflare publication
+        if: steps.commit.outputs.catalog_changed == 'true'
+        run: python3 scripts/verify-published.py
+      - name: Report automatic update
+        if: always()
+        run: |
+          if test -f review/automation-report.json; then
+            echo 'Recap automation result' >> "$GITHUB_STEP_SUMMARY"
+            cat review/automation-report.json >> "$GITHUB_STEP_SUMMARY"
           fi
