@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 14,
+  "revision": 15,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -1988,6 +1988,58 @@
       "language": "en",
       "durationSeconds": 702,
       "title": "THE LINCOLN LAWYER Season 1 & 2 Recap | Must Watch Before Season 3 | Series Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "Ewm3_nlQkvY",
+      "imdbID": "tt8888462",
+      "tmdbID": 110382,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UC1Myj674wRVXB9I4c6Hm5zA",
+      "language": "en",
+      "durationSeconds": 188,
+      "title": "Pachinko — Season 1 Recap | Apple TV",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "YVXIFLkQqg8",
+      "imdbID": "tt16418808",
+      "tmdbID": 203744,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UC1Myj674wRVXB9I4c6Hm5zA",
+      "language": "en",
+      "durationSeconds": 69,
+      "title": "Sugar — Season 1 Recap | Apple TV",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "Z_5VmxUyOHo",
+      "imdbID": "tt8466564",
+      "tmdbID": 92830,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 470,
+      "title": "Obi-Wan Kenobi: Season 1 RECAP",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "wHtZqojunC8",
+      "imdbID": "tt5834204",
+      "tmdbID": 69478,
+      "firstSeason": 1,
+      "lastSeason": 5,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 1190,
+      "title": "THE HANDMAID'S TALE Season 1-5 Recap | Must Watch Before Season 6 | Series Explained",
       "reviewedAt": "2026-09-07",
       "enabled": true
     }
