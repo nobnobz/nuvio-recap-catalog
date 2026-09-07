@@ -3,6 +3,12 @@ on:
   schedule:
     - cron: '17 5 * * *'
   workflow_dispatch:
+    inputs:
+      archive_pages:
+        description: Historical pages per channel (20 accelerates the initial archive)
+        type: choice
+        options: ['4', '20']
+        default: '4'
 permissions:
   contents: write
 concurrency:
@@ -22,6 +28,7 @@ jobs:
       - name: Discover, verify and update
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          RECAP_ARCHIVE_PAGES: ${{ inputs.archive_pages || '4' }}
         run: python3 scripts/automate.py
       - name: Validate publishable catalog
         env:

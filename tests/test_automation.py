@@ -198,4 +198,18 @@ class IdentityResolutionTests(unittest.TestCase):
         data, _, _ = a.run(catalog(), {}, [SHOW], {}, FakeAPI([item(title='New Show Season 1 Recap')]), '2026-09-07', Wrong())
         self.assertEqual(data, catalog())
 
+class InitialArchiveTests(unittest.TestCase):
+    def test_manual_archive_batch_expands_within_existing_budget(self):
+        from unittest.mock import patch
+        pages = {'': {'items': [], 'nextPageToken': '1'}}
+        for n in range(1, 25):
+            pages[str(n)] = {'items': [], 'nextPageToken': str(n + 1)}
+        api = FakeAPI(pages=pages)
+        with patch.object(a, 'ARCHIVE_PAGES', 20):
+            _, state, _ = a.run(catalog(), {}, [SHOW], {}, api, '2026-09-07')
+        self.assertEqual(len(api.tokens), 21)
+        self.assertEqual(state['channels'][CHANNEL]['nextPageToken'], '21')
+        self.assertLess(api.calls, a.MAX_CALLS)
+
+
 if __name__ == '__main__': unittest.main()

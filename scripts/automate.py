@@ -18,7 +18,7 @@ import urllib.error
 
 ROOT = Path(__file__).resolve().parents[1]
 MAX_CALLS = 180
-ARCHIVE_PAGES = 4
+ARCHIVE_PAGES = min(20, max(1, int(os.environ.get('RECAP_ARCHIVE_PAGES', '4'))))
 POLICY_VERSION = 1
 TITLE_PATTERN = r'(.+?)\s*(?:[—–:-]\s*)?(?:RECAP\s*:\s*)?Seasons?\s+(\d{1,2})(?:\s*([-–&])\s*(\d{1,2}))?\s*(?:RECAP)?(?:\s*\|\s*(.*))?'
 
