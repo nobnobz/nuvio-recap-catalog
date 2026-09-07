@@ -1,10 +1,10 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNKb0lJaEJCUVROR01rRkVPVEF3TVRoRVJqZEY"
+      "nextPageToken": "EAAaH1BUOkNPSUpJaEF6UmtNd05qUXdSREkxUlRFek0wUTI"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNKb0lJaEJHTXpCQ01qVkZSakpCUlRnNE9FWTE"
+      "nextPageToken": "EAAaH1BUOkNPSUpJaEEyTWtOR1FUZEZRMEZGUkRSRU0wTkY"
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
       "nextPageToken": null,
@@ -453,6 +453,30 @@
       "checkedAt": "2026-09-07"
     },
     "Oh59GOPm0PY": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "Ce4xLq6RTQc": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "D75SElfy7SM": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "DcawZCKqgX8": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "Et8MtQ2gfz0": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "P_EeEHXgcu0": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "TG_l58pIm1w": {
       "misses": 0,
       "checkedAt": "2026-09-07"
     }
@@ -952,6 +976,31 @@
       "policyVersion": 1,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en-US"
+    },
+    "EwqL4rRDt5c": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "GvIjUtMSMC4": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "HfOzOtTApxU": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "Tp8gEHlldgw": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "osgVw3T82Gc": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -994,7 +1043,15 @@
     "rings of power": "2026-09-07",
     "arcane": "2026-09-07",
     "vikings valhalla": "2026-09-07",
-    "the white lotus": "2026-09-07"
+    "the white lotus": "2026-09-07",
+    "acapulco": "2026-09-07",
+    "invasion": "2026-09-07",
+    "yellowstone": "2026-09-07",
+    "the walking dead dead city": "2026-09-07",
+    "ginny georgia": "2026-09-07",
+    "narcos mexico": "2026-09-07",
+    "slow horses": "2026-09-07",
+    "narcos mexico everything you need to know before": "2026-09-07"
   },
   "series": [
     {
@@ -1234,15 +1291,37 @@
       "aliases": [
         "THE WHITE LOTUS"
       ]
+    },
+    {
+      "imdbID": "tt18546730",
+      "tmdbID": 194583,
+      "aliases": [
+        "The Walking Dead: Dead City"
+      ]
+    },
+    {
+      "imdbID": "tt10813940",
+      "tmdbID": 117581,
+      "aliases": [
+        "GINNY & GEORGIA"
+      ]
+    },
+    {
+      "imdbID": "tt8714904",
+      "tmdbID": 80968,
+      "aliases": [
+        "NARCOS: MEXICO"
+      ]
+    },
+    {
+      "imdbID": "tt5875444",
+      "tmdbID": 95480,
+      "aliases": [
+        "SLOW HORSES"
+      ]
     }
   ],
   "pending": {
-    "EixoKpyGOms": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "EwqL4rRDt5c": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "GvIjUtMSMC4": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "HRdjdVUYAcU": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "HfOzOtTApxU": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Hnes3wennm8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "II1Bg-WnFqo": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "IN0osLg-Mn8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "JEIOdLcaa1Q": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1264,7 +1343,6 @@
     "SD9rVTAqx60": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "TFLw7tOUVIM": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Tmv4LQOMh-s": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Tp8gEHlldgw": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "TqTQ4sKA3UI": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "UxEWoFMChw8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "V6P2LkT0UuU": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1297,17 +1375,16 @@
     "fgEGOetkDY4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "fqsRBeFCiZ4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "fuAX_gNa3ls": "UCNCTxLZ3EKKry-oWgLlsYsw",
+    "gvXXaZKclBc": "UC1Myj674wRVXB9I4c6Hm5zA",
     "hLnj0ZGe6O8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hbFoToRr2hs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hj5iLn-kTA8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hv8ROUg68l8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hw5grC9JhQg": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "iR6BvWCzoFE": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "iXqFeFvR6Io": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "iaSHPkw741A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "irOGuFFHzWA": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "kWe9LAJNGF0": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "kg7M7G-rQ9s": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "l21mwWGzBK4": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "l2E7yxarfQM": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "luSguXy_XKE": "UCNCTxLZ3EKKry-oWgLlsYsw",
@@ -1316,7 +1393,6 @@
     "nGhxB4Jfhr0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "nkxrUJP8KxA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "o4gwnuRbBMU": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "osgVw3T82Gc": "UC1Myj674wRVXB9I4c6Hm5zA",
     "p7YxwveUrjI": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qX2avMTn6yA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qqEcpjrPA0A": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1331,7 +1407,6 @@
     "vqjy9Eob4So": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "wHtZqojunC8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "wJPHrG21nFs": "UCx-KWLTKlB83hDI6UKECtJQ",
-    "xLPoqbcnbP4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "xTQoeV_XHqs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "xyom4WLco_I": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "z6Jp3ovjUcY": "UCnFL_hmp-nc-l2QlLzxZdhg",
