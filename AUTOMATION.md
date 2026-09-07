@@ -39,3 +39,14 @@ Manual initial backfill can select `archive_pages: 20` in workflow dispatch. The
 ## Initial archive completed — September 7
 
 Final run [34101510865](https://github.com/nobnobz/nuvio-recap-catalog/actions/runs/34101510865) completed with all four channel archive cursors exhausted, `archivesComplete: true`, zero pending identities and zero identity errors. Live revision 20 was independently verified: 172 videos across 85 series. This covers the public uploads returned by the four approved channels, with metadata-based admission; it does not mean every video was watched or every offered recap was accepted. Daily head checks continue, and completed archives restart after six calendar months.
+
+
+## Six-month archive and rejection recovery — September 7
+
+Policy 5 is deployed. The initial 435 non-admitted candidates were revisited through YouTube metadata, with explicit reason codes and fingerprints now retained. Safe publisher suffixes and numeric full-series titles recovered 65 additional videos: public **r26 contains 237 videos across 115 series** (previously r20: 172 / 85). No video was withdrawn. Final recovery run [34103924437](https://github.com/nobnobz/nuvio-recap-catalog/actions/runs/34103924437) completed successfully, including Cloudflare publication verification, with zero pending identities and zero identity errors.
+
+The 370 remaining candidates have these primary reasons (one reason per video, not necessarily the only issue): 252 unsupported/non-explicit title formats, 49 unresolved exact series identities, 19 suffix/context conflicts, 17 mixed-format/description flags, 12 live/region/age restrictions, 10 missing audio-language declarations, 10 duration-limit exclusions, and one season-numbering mismatch. Unsupported titles include movie recaps, episode recaps, partial seasons, and “full series” without numeric coverage; this category is not a count of valid recaps accidentally lost. Candidates remain eligible for targeted automatic reconsideration.
+
+All 37 hosting tests passed. They cover six-calendar-month boundaries, changed-rule retries, unchanged-metadata caching, monthly recovery of series identities and episode numbering, safe versus conflicting title suffixes, and complete versus mixed/ambiguous full-series coverage. The public JSON was also independently compared with the committed catalog. Metadata-based verification does not establish audiovisual accuracy or physical-device playback.
+
+Normal-default follow-up [34104058930](https://github.com/nobnobz/nuvio-recap-catalog/actions/runs/34104058930) succeeded: zero candidates and identity lookups, no catalog changes, no pending work, and 10 YouTube requests for channel heads and rotating health checks. This verifies that completed archives and recent rejections are not redundantly reprocessed every day.

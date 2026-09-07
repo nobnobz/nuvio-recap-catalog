@@ -1,4 +1,4 @@
-> September 7 update: [Automatic catalog maintenance](AUTOMATION.md) is live and supersedes the manual daily review workflow below. The initial archive scan is complete for all four channels: revision 20 contains 172 videos across 85 series, with no pending identity checks. Daily discovery, admission and Cloudflare publication now run without editorial intervention.
+> September 7 update: [Automatic catalog maintenance](AUTOMATION.md) is live and supersedes the manual daily review workflow below. All four channel archives are complete; improved admission recovered 65 more recaps, bringing public revision 26 to 237 videos across 115 series. Daily discovery and health checks, monthly targeted rejection retries, and six-month full archives run automatically. There are no pending identity checks.
 
 # Nuvio recap catalog
 
