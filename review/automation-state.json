@@ -805,6 +805,18 @@
     "6qpoGNWOf8I": {
       "misses": 0,
       "checkedAt": "2026-09-07"
+    },
+    "5w65aDx9oSI": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "Az3PDPWnYhI": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "BtIJ3zE0lrU": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
     }
   },
   "approved": {
@@ -1732,6 +1744,61 @@
       "policyVersion": 4,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en-US"
+    },
+    "DsYU2AmhxWc": {
+      "policyVersion": 4,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "FFln2FPxvjg": {
+      "policyVersion": 4,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "FH-Awk9di-M": {
+      "policyVersion": 4,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "GhrNnJVQEWw": {
+      "policyVersion": 4,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "JTgsywVgQoA": {
+      "policyVersion": 4,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "NMeViaAgct8": {
+      "policyVersion": 4,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "PRM_LDiAUF4": {
+      "policyVersion": 4,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "XLOCmRxt-tI": {
+      "policyVersion": 4,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "XxbNPw1As6Y": {
+      "policyVersion": 4,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "YUlSYK-IIjE": {
+      "policyVersion": 4,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "ax0MYRxFpT0": {
+      "policyVersion": 4,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -1870,7 +1937,17 @@
     "the punisher": "2026-09-07",
     "riverdale": "2026-09-07",
     "supernatural": "2026-09-07",
-    "gossip girl": "2026-09-07"
+    "gossip girl": "2026-09-07",
+    "scandal": "2026-09-07",
+    "glee": "2026-09-07",
+    "lucifer": "2026-09-07",
+    "the originals": "2026-09-07",
+    "13 reasons why": "2026-09-07",
+    "lost": "2026-09-07",
+    "the wire": "2026-09-07",
+    "daredevil": "2026-09-07",
+    "legacies": "2026-09-07",
+    "prison break": "2026-09-07"
   },
   "series": [
     {
@@ -1941,6 +2018,13 @@
       "tmdbID": 78191,
       "aliases": [
         "YOU"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5
       ]
     },
     {
@@ -2130,6 +2214,11 @@
       "tmdbID": 80968,
       "aliases": [
         "NARCOS: MEXICO"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3
       ]
     },
     {
@@ -2353,6 +2442,14 @@
       "tmdbID": 60574,
       "aliases": [
         "PEAKY BLINDERS"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
       ]
     },
     {
@@ -2479,56 +2576,131 @@
         7,
         8
       ]
+    },
+    {
+      "imdbID": "tt1327801",
+      "tmdbID": 1417,
+      "aliases": [
+        "GLEE"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "imdbID": "tt4052886",
+      "tmdbID": 63174,
+      "aliases": [
+        "LUCIFER"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "imdbID": "tt2632424",
+      "tmdbID": 46896,
+      "aliases": [
+        "THE ORIGINALS"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "imdbID": "tt1837492",
+      "tmdbID": 86372,
+      "aliases": [
+        "13 REASONS WHY"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "imdbID": "tt0306414",
+      "tmdbID": 1438,
+      "aliases": [
+        "THE WIRE"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "imdbID": "tt3322312",
+      "tmdbID": 61889,
+      "aliases": [
+        "DAREDEVIL"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "imdbID": "tt8103070",
+      "tmdbID": 79460,
+      "aliases": [
+        "LEGACIES"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "imdbID": "tt4574334",
+      "tmdbID": 66732,
+      "aliases": [
+        "Stranger Things"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
     }
   ],
   "pending": {
-    "BCxgafjR6UE": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "C48Iw20U68I": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "CIzDTu3HKLs": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "CjeUx_HHtF0": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "DsYU2AmhxWc": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "EixoKpyGOms": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "FFln2FPxvjg": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "FH-Awk9di-M": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "GhrNnJVQEWw": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "I7Naa-YND0s": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "IzBgWDTMr5c": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "JTgsywVgQoA": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "JXO_Gd1jFIU": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "KvCitIkjkZs": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "MbuXGXmrHFM": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "NMeViaAgct8": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "ONIdaQ4Hcxs": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "OR90Q0aoMlo": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "P7cxgunKTnw": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "PRM_LDiAUF4": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "PobPi9i0RL8": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "QO_9pNsqA34": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "W6U-iB3HY1w": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "XKvOcQV6E5c": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "XLOCmRxt-tI": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "XxbNPw1As6Y": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "YLwbPbzGCTk": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "YUlSYK-IIjE": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "aefaV5Df1L0": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "ax0MYRxFpT0": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "bQ6O7QPMPQA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "c3EyZqEDKxA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "cVjdoKYcILU": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "dX-L5IStODY": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "ezr0ItjDAyE": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "f4lTX7qmNH4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "fF8OaCs1IaY": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "gvXXaZKclBc": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "gyBGKmiAu94": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hj5iLn-kTA8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hv8ROUg68l8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hw5grC9JhQg": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hxnoASYmLrk": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "iOz3a1QxMCk": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "iaSHPkw741A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "kYoUQNa2ApY": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "lUnN-zVKPAw": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "nGhxB4Jfhr0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "prBLNYcIP6g": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qR7wnJIwb0Q": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -2538,8 +2710,6 @@
     "tIBpWeqhPVk": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "tLvRbLqXmMg": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "tN8a6KfGFlk": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "tjnYV-MdhO0": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "udT0DS0S5hM": "UCx-KWLTKlB83hDI6UKECtJQ",
     "vqjy9Eob4So": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "xTQoeV_XHqs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "ytsH7Bkg17M": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -3517,17 +3687,6 @@
       "descriptionLead": "Our karate kids compete in the world tournament in Cobra Kai season 6, the final season! Find out what happens with this recap, review, and ending explained, including parts 1 2 and 3 of the extended season 6.  \n\nSupport the channel as a member, and become a Recap Champion!\n[link]",
       "flagExcerpt": ""
     },
-    "DsYU2AmhxWc": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "YOU Full Series Recap | Season 1-5 Ending Explained",
-      "reason": "season_numbering_unverified",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "08607326481f7c77eabcc84be6104b5a561960fefe6894aeb6dcaa0632588771",
-      "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Relive the entire You series now! Seasons 1-5!\n\nLetterboxd: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\nWebsite: [link]\n\nWhat would you do for love? For Joe, an intense young man who frequently becomes smitten with beautiful, smart women, this question is put to the test. A charming yet awkward crush becomes something more sinister when love turns into obsession for Joe. Using social media and the internet, he uses every tool at his disposal to become close to the women of his dre",
-      "flagExcerpt": ""
-    },
     "DtSv9DiZOUA": {
       "channelID": "UC1Myj674wRVXB9I4c6Hm5zA",
       "title": "Severance — Season 1 Recap, Courtesy of Lumon | Apple TV",
@@ -3627,28 +3786,6 @@
       "descriptionLead": "#ahsoka #starwars #recap",
       "flagExcerpt": ""
     },
-    "FFln2FPxvjg": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "GLEE Full Series Recap | Season 1-6 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "114f1a551f05af10ed04e1c3ec818dc356b82f456b8a8df64c3ed5262bb666ef",
-      "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Stop leaving yourself vulnerable to data breaches. Go to my sponsor [link] to get a 14-day free trial and see if any of your data has been exposed.\n\nRelive the entire Glee series now! Glee seasons 1-6 recap!\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nThis is a Glee full series recap, featuring a recap of Glee seasons 1-6, including Glee season 1 recap, Glee season 2 recap, Glee season 3 recap, Glee season 4 recap, Glee season 5 recap, Glee season 6 r",
-      "flagExcerpt": ""
-    },
-    "FH-Awk9di-M": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "LUCIFER Full Series Recap | Season 1-6 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "5da0afa21dff8ef7dd7b32706331cc067e9dab7e8dbc08ff71bf651427115c1e",
-      "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Thank you to Bombas for sponsoring this video! One Purchased = One Donated, so head to [link] and use code recap20 at checkout for 20% off your first purchase.\n\nRelive the entire Lucifer series now! Seasons 1-6!\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nLucifer Morningstar has decided he's had enough of being the dutiful servant in Hell and decides to spend some time on Earth to better understand humanity. He settles in Los Angeles - the City of Ang",
-      "flagExcerpt": ""
-    },
     "FUhHzLQUkUk": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "Big Little Lies Season 1 Recap Explained In 3 Minutes or Less",
@@ -3735,17 +3872,6 @@
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
       "audioLanguage": "en",
       "descriptionLead": "Meet Barry, the hit man who wants to be an actor. This is the full series recap of seasons 1 - 4. Catch up with Barry, Sally, Mr. Cousineau, Fuches \"The Raven\", and of course Noho Hank.\n\n00:00 Season 1\n04:08 Season 2\n07:44 Season 3\n12:58 Season 4\n\nSupport the channel as a member, and become a Recap Champion!\n[link]",
-      "flagExcerpt": ""
-    },
-    "GhrNnJVQEWw": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "THE ORIGINALS Full Series Recap | Season 1-5 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "0054ed6f3eb6296673b61c74e7fc8b681e8acb1a6950bbc685c995e479a76d9f",
-      "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Thanks to Keeps for sponsoring this video & for the free product! Head to [link] to get a special offer. Individual results may vary.\n\nRelive the entire The Originals series now! Seasons 1-5!\n\nLetterboxd: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\n\"The Originals\" follows the Mikaelson siblings, the original vampires as they struggle to find a home in the city they helped build. After being forced from New Orleans by their tyrannical father Mikael, Elijah, Klaus and Rebekah retur",
       "flagExcerpt": ""
     },
     "H1cUk44xP58": {
@@ -3933,17 +4059,6 @@
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
       "audioLanguage": "en",
       "descriptionLead": "Must watch before The Mandalorian Season 3! The latest new Star Wars series features Boba Fett,  where he and his new partner Fennec Shand try to be crime bosses on Tatooine. Plus Mando and Baby Yoda Grogu show up for The Mandalorian 2.5. \n\nThe Mandalorian RECAPS:\n[link]\n\nStar Wars RECAPS:\n[link]\n\nThis is the Star Wars Recap, Review, Timeline, Explained, References and Easter Eggs for The Book of Boba Fett season 1. Will there be a Book of Boba Fett season 2?  Featuring Characters like Mando, Ba",
-      "flagExcerpt": ""
-    },
-    "JTgsywVgQoA": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "13 REASONS WHY Full Series Recap | Season 1-4 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "5c4d92aad1e96ab362d19f5b39664a2785f8148dc01d7aac6f16407fa4f0ad4d",
-      "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Thanks to HelloFresh for sponsoring today's video. Go to [link] use my code CHILLDEC10, and receive 10 free meals + free breakfast for life! One breakfast item per box while subscription is active if you’re in the US. The link and code are valid in all countries and the respective local discount will apply.\n\nRelive the entire 13 Reasons Why series now! Seasons 1-4!\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\n13 Reasons Why stars Dylan Minnette as Clay",
       "flagExcerpt": ""
     },
     "JXO_Gd1jFIU": {
@@ -4210,17 +4325,6 @@
       "descriptionLead": "It's the complete Recap of Transformers, every movie before the new one, Rise of the Beasts. Re-live all the incomprehensible robot action, from Shia LeBeouf to Mark Wahlberg, from Megan Fox to Hailee Steinfeld, from Optimus Prime to Megatron. \n\n00:00 Transformers\n02:12 Revenge of the Fallen\n03:57 Dark of the Moon\n05:46 Age of Extinction\n07:47 The Last Knight\n10:12 Bumblebee\n\nSupport the channel as a member, and become a Recap Champion!\n[link]",
       "flagExcerpt": ""
     },
-    "NMeViaAgct8": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "PEAKY BLINDERS Full Series Recap | Season 1-6 Ending Explained",
-      "reason": "season_numbering_unverified",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "49facb04f359c254ddc46c144c2b3c357a0ca35c20df6d182ce8a475b9cdc999",
-      "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Start speaking a new language in 3 weeks with Babbel 🎉. Get up to 60% OFF your subscription ➡Here: [link]\n\nRelive the entire Peaky Blinders series now! Seasons 1-6!\n\nLetterboxd: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nIn the series Peaky Blinders, Thomas Shelby and his brothers return to Birmingham after serving in the British Army during WWI. Shelby and his gang, the Peaky Blinders, control the city of Birmingham. However, Shelby's ambitions extend beyond Birmingham, as he p",
-      "flagExcerpt": ""
-    },
     "NjUi9a2aeMk": {
       "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
       "title": "His Dark Materials RECAP: Full Series",
@@ -4318,17 +4422,6 @@
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
       "audioLanguage": "en",
       "descriptionLead": "The election between Frank Underwood and Will Conway is underway, and Frank is pulling out every dirty trick he knows. But with opposition coming from all directions, can Underwood keep the Presidency!?!?\n\nRecap the entire series -\n[link]\n\nSupport the channel as a member, and become a Recap Champion!\n[link]\n\n[link]\n[link]\n[link]",
-      "flagExcerpt": ""
-    },
-    "PRM_LDiAUF4": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "THE WIRE Full Series Recap | Season 1-5 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "d23c50c195af3e423a83b8f69a0b0a9dfb40400c9c0ce2b5cec28b1c0ff26ec0",
-      "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
-      "audioLanguage": "en-US",
-      "descriptionLead": "👟 Check out Vessi styles at [link] Use code RECAPCHILL for 15% off your order. Free shipping for CA, US, AU, JP, TW, KR, SGP.\n\nRelive the entire The Wire series now! Seasons 1-5!\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nThe Wire looks at the narcotics scene in Baltimore through the eyes of law enforcers as well as the drug dealers and users. Other facets of the city that are explored in the series are the government and bureaucracy, schools and the",
       "flagExcerpt": ""
     },
     "P_KJmyaanas": {
@@ -4881,17 +4974,6 @@
       "descriptionLead": "It's the final season of House of Cards! Kevin Spacey's out, so it's Claire Underwood running the show! How does it all end? Find out here!!!\n\nRecap the entire series -\n[link]\n\nSupport the channel as a member, and become a Recap Champion!\n[link]\n\n[link]\n[link]\n[link]\n\n#HouseOfCards #RobinWright #KevinSpacey",
       "flagExcerpt": ""
     },
-    "XLOCmRxt-tI": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "DAREDEVIL Full Series Recap | Season 1-3 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "2846582bb92da58dff98d0e782795fb8868b3c6354c9e00694ff8f62a1912b22",
-      "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Thanks to HelloFresh for sponsoring today's video. Go to [link] use my code CHILLFEB10, and receive 10 free meals + free breakfast for life! One breakfast item per box while subscription is active if you’re in the US. The link and code are valid in all countries and the respective local discount will apply.\n\nRelive the entire Daredevil series now! Seasons 1-3!\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nThe Netflix series Marvel's Daredevil follows Ma",
-      "flagExcerpt": ""
-    },
     "XmUAwc01Ktc": {
       "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
       "title": "Wonder Woman: RECAP",
@@ -4924,17 +5006,6 @@
       "audioLanguage": "en",
       "descriptionLead": "With Spider-Man No Way Home potentially bringing back old characters, there's no better time to do an All Spider-Man Recap! Refresh your memory of the original Tobey Maguire trilogy, the Amazing Spider-Man with Andrew Garfield, and the current MCU Spider-Man Tom Holland. This is the Recap, review, Spider-Man No Way Home Trailer Reaction, breakdown, timeline explained, easter eggs and references, what you missed and what you need to know, for Spider-Man No Way Home! The movie may feature any numb",
       "flagExcerpt": "er-Man Tom Holland. This is the Recap, review, Spider-Man No Way Home Trailer Reaction, breakdown, timeline explained, easter eggs and references, "
-    },
-    "XxbNPw1As6Y": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "NARCOS: MEXICO Full Series Recap | Season 1-3 Ending Explained",
-      "reason": "season_numbering_unverified",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "71a0a2cab65c7e7dcaf14d1102e43d5946777d334a7f9613d643e4299490eb67",
-      "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Thanks for Kitsch for sponsoring this video! Follow my link [link] or use my code RECAPANDCHILL to get 25% off your order which will auto-apply at checkout!\n\nRelive the entire Narcos: Mexico series now! Seasons 1-3!\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nNarcos: Mexico is a continuation of \"Narcos\" that explores the origins of the modern drug war by going back to its roots, starting at a time when the Mexican trafficking world was a loose, disorg",
-      "flagExcerpt": ""
     },
     "YA_i3mR3XgA": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -4989,17 +5060,6 @@
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
       "audioLanguage": "en",
       "descriptionLead": "This Recap brought to you by Manscaped!\nGet 20% OFF + Free Shipping + 2 FREE GIFTS @Manscaped with code “RECAP20” at\nManscaped.com! - [link]\n\nIt's a race for Fire Tokens on the Edge of Extinction. Alliances shift as we get close to the merge, who went home this week?! Find out here, on the Survivor Recap and episode breakdown. \n\nAll Survivor season 40: Winners at War Recaps -\n[link]\n\nSupport the channel as a member, and become a Recap Champion!\n[link]\n\n[link]\n[link]\n[link]",
-      "flagExcerpt": ""
-    },
-    "YUlSYK-IIjE": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "LEGACIES Full Series Recap | Season 1-4 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "800301ac88b09b61c2c2dea350a9d906f312c7b333fcc6263bbc228d64db594c",
-      "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Relive the entire Legacies series now! Seasons 1-4!\n\nThe Vampire Diaries full series recap: [link]\nThe Originals full series recap: [link]\n\nLetterboxd: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nLegacies follows Hope Mikaelson, the daughter of Klaus Mikaelson and Hayley Marshall, who is descended from some of the most powerful vampire, werewolf, and witch bloodlines. Two years after the events of The Originals, 17-year-old Hope attends the Salvatore School for the Young and Gift",
       "flagExcerpt": ""
     },
     "YVh24zvBRmI": {
@@ -5181,7 +5241,7 @@
     "aefaV5Df1L0": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "COBRA KAI Full Series Recap | Season 1-6 Ending Explained",
-      "reason": "season_numbering_unverified",
+      "reason": "mixed_format_or_description_flag",
       "checkedAt": "2026-09-07",
       "fingerprint": "aabc9e702a086966edb8d986600e68f9bd30793529f5a3c42dbb21fbbb175882",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
@@ -5198,17 +5258,6 @@
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
       "audioLanguage": "en-US",
       "descriptionLead": "Install Hero Wars for FREE here ✅ : [link] and get a super chest with a secret hero! 🔥 Available for the next 30 days only!\n\nGet ready for Big Sky season 3!\n\nBig Sky follows private detectives Cassie Dewell and Cody Hoyt, who join forces with Cody's estranged wife and ex-cop, Jenny Hoyt, to search for two sisters who have been kidnapped by a truck driver on a remote highway in Montana. When they discover that these are not the only girls who have disappeared in the area, they must race against t",
-      "flagExcerpt": ""
-    },
-    "ax0MYRxFpT0": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "STRANGER THINGS Full Series Recap | Season 1-5 Ending Explained",
-      "reason": "season_numbering_unverified",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "692dbefa3d1dbda646d51e2e304b192c6a6467c87a074de642d0fb79031b3426",
-      "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Relive the entire Stranger Things series now in our Stranger Things seasons 1-5 recap!\n\nLetterboxd: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nThis is a Stranger Things full series recap, including Stranger Things season 1-5 recap, Stranger Things season 1 recap, Stranger Things season 2 recap, Stranger Things season 3 recap, Stranger Things season 4 recap, and Stranger Things season 5 recap.\n\nIn 1980s Indiana, a group of young friends witness supernatural forces and secret gove",
       "flagExcerpt": ""
     },
     "bHZlsKyWRhc": {
@@ -5368,7 +5417,7 @@
     "dX-L5IStODY": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "THE LAST KINGDOM Full Series Recap | Season 1-5 Ending Explained",
-      "reason": "season_numbering_unverified",
+      "reason": "mixed_format_or_description_flag",
       "checkedAt": "2026-09-07",
       "fingerprint": "60d29b3d30bee854997e147bcdb22be9f82a238771744e9777d57c871a805466",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
@@ -6534,7 +6583,7 @@
     "udT0DS0S5hM": {
       "channelID": "UCx-KWLTKlB83hDI6UKECtJQ",
       "title": "Tokyo Vice | Official Season 1 Recap | Max",
-      "reason": "series_identity_unresolved",
+      "reason": "coverage_title_not_explicit",
       "checkedAt": "2026-09-07",
       "fingerprint": "701151acf87a423faec67cb106a75055e407e28ebee46adf604f45c12a3f600a",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
