@@ -5,7 +5,7 @@
       "completedAt": "2026-09-07"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNPSWlJaEJGTWtVelJqRkNSVU0zTmpnd1JrWTI"
+      "nextPageToken": "EAAaH1BUOkNNb3FJaEEyTVVFNVJUUkdSVVpCUVVJd05rWTI"
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
       "nextPageToken": null,
@@ -1348,6 +1348,16 @@
       "policyVersion": 1,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en-US"
+    },
+    "ud8QKPBHw2w": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "vZZ6Z49JRaI": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -1462,7 +1472,15 @@
     "the sandman": "2026-09-07",
     "the boys season 1 3 gen v": "2026-09-07",
     "the recruit": "2026-09-07",
-    "raised by wolves": "2026-09-07"
+    "raised by wolves": "2026-09-07",
+    "the sex lives of college girls": "2026-09-07",
+    "season 1": "2026-09-07",
+    "loot actually helpful": "2026-09-07",
+    "see": "2026-09-07",
+    "russian doll": "2026-09-07",
+    "tokyo vice official": "2026-09-07",
+    "the dragon prince": "2026-09-07",
+    "industry": "2026-09-07"
   },
   "series": [
     {
@@ -1975,15 +1993,37 @@
       "aliases": [
         "THE SANDMAN"
       ]
+    },
+    {
+      "imdbID": "tt11212276",
+      "tmdbID": 134373,
+      "aliases": [
+        "The Sex Lives of College Girls"
+      ]
+    },
+    {
+      "imdbID": "tt7949218",
+      "tmdbID": 80752,
+      "aliases": [
+        "SEE"
+      ]
+    },
+    {
+      "imdbID": "tt7520794",
+      "tmdbID": 84977,
+      "aliases": [
+        "RUSSIAN DOLL"
+      ]
+    },
+    {
+      "imdbID": "tt8688814",
+      "tmdbID": 350123,
+      "aliases": [
+        "The Dragon Prince"
+      ]
     }
   ],
   "pending": {
-    "tN8a6KfGFlk": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "uRg-UxrbQ2U": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "ud8QKPBHw2w": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "udT0DS0S5hM": "UCx-KWLTKlB83hDI6UKECtJQ",
-    "vZZ6Z49JRaI": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "wJPHrG21nFs": "UCx-KWLTKlB83hDI6UKECtJQ",
     "xTQoeV_XHqs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "xyom4WLco_I": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "z6Jp3ovjUcY": "UCnFL_hmp-nc-l2QlLzxZdhg",
