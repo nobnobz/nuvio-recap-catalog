@@ -1,10 +1,11 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNQb2FJaEF5UlRaQk1UVkJOakpDUWtaR1F6TTA"
+      "nextPageToken": null,
+      "completedAt": "2026-09-07"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNQb2FJaEJCT1RsQ04wTkZRakJHTURZM1JrWTA"
+      "nextPageToken": "EAAaH1BUOkNPSWlJaEJGTWtVelJqRkNSVU0zTmpnd1JrWTI"
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
       "nextPageToken": null,
@@ -645,6 +646,14 @@
       "checkedAt": "2026-09-07"
     },
     "hLnj0ZGe6O8": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "818lvXmJGWg": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "Ewm3_nlQkvY": {
       "misses": 0,
       "checkedAt": "2026-09-07"
     }
@@ -1329,6 +1338,16 @@
       "policyVersion": 1,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en"
+    },
+    "mU4RkxQl9lA": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "o4gwnuRbBMU": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -1435,7 +1454,15 @@
     "his dark materials": "2026-09-07",
     "after life everything you need to know before": "2026-09-07",
     "dark": "2026-09-07",
-    "daredevil born again": "2026-09-07"
+    "daredevil born again": "2026-09-07",
+    "arcane full series recap": "2026-09-07",
+    "raising dion": "2026-09-07",
+    "hotd": "2026-09-07",
+    "never have i ever": "2026-09-07",
+    "the sandman": "2026-09-07",
+    "the boys season 1 3 gen v": "2026-09-07",
+    "the recruit": "2026-09-07",
+    "raised by wolves": "2026-09-07"
   },
   "series": [
     {
@@ -1934,17 +1961,23 @@
       "aliases": [
         "Daredevil Born Again"
       ]
+    },
+    {
+      "imdbID": "tt7826108",
+      "tmdbID": 93392,
+      "aliases": [
+        "RAISING DION"
+      ]
+    },
+    {
+      "imdbID": "tt1751634",
+      "tmdbID": 90802,
+      "aliases": [
+        "THE SANDMAN"
+      ]
     }
   ],
   "pending": {
-    "l2E7yxarfQM": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "mU4RkxQl9lA": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "mVTUYGZM4UY": "UCx-KWLTKlB83hDI6UKECtJQ",
-    "nGhxB4Jfhr0": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "o4gwnuRbBMU": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "qX2avMTn6yA": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "qqEcpjrPA0A": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "rht9P0bYSFI": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "tN8a6KfGFlk": "UC1Myj674wRVXB9I4c6Hm5zA",
     "uRg-UxrbQ2U": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "ud8QKPBHw2w": "UCnFL_hmp-nc-l2QlLzxZdhg",
