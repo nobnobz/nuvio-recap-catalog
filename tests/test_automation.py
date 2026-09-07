@@ -59,6 +59,21 @@ class RuleTests(unittest.TestCase):
             with self.subTest(title=title):
                 self.assertIsNone(a.coverage(title, [SHOW]))
 
+    def test_full_series_requires_explicit_verified_seasons_and_consistent_description(self):
+        show = {**SHOW, 'seasonNumbers': [1, 2, 3]}
+        title = 'Ted Lasso Full Series Recap | Season 1-3 Ending Explained'
+        self.assertEqual(a.coverage(title, [show], 'Relive seasons 1-3!')[1:], (1, 3))
+        self.assertIsNone(a.coverage(title, [SHOW]))
+        self.assertIsNone(a.coverage(title, [{**show, 'seasonNumbers': [1, 2]}]))
+        for description in ['Seasons 1-3 and the film!', 'Parts 1-3, seasons 1-2 recap',
+                            'Prepare you for Ted Lasso season 3.', 'Watch before season 3.',
+                            'Recap includes seasons 1-2.']:
+            self.assertIsNone(a.coverage(title, [show], description))
+        for title in ['Ted Lasso Full Series Recap',
+                      'Ted Lasso Full Series Recap | Season 1-3 & Movie Ending Explained',
+                      'Ted Lasso Full Series Recap | Season 1 & 3 Ending Explained']:
+            self.assertIsNone(a.coverage(title, [show]))
+
     def test_safe_publisher_suffixes_and_promotional_context(self):
         for suffix in ['Netflix Series Explained | Must Watch Before Season 2',
                        'Must Watch Before Season 2 | TV Series Explained',
@@ -104,6 +119,18 @@ class RuleTests(unittest.TestCase):
 
 
 class AutomationTests(unittest.TestCase):
+    def test_full_series_uses_and_persists_verified_episode_numbering(self):
+        class Resolver:
+            def season_numbers(self, show): return [1, 2, 3]
+        video = item(title='Ted Lasso Full Series Recap | Season 1-3 Ending Explained')
+        result, state, report = a.run(catalog(), {}, [SHOW], {}, FakeAPI([video]), '2026-09-07', Resolver())
+        self.assertEqual(report['added'], [video['id']])
+        self.assertEqual(state['series'][0]['seasonNumbers'], [1, 2, 3])
+        self.assertNotIn('seasonNumbers', SHOW)
+        second = item('mnopqrstuvw', 'Ted Lasso Full Series Recap | Season 1-2 Ending Explained')
+        result, _, report = a.run(result, state, [SHOW], {}, FakeAPI([video, second]), '2026-09-08', object())
+        self.assertEqual(report['added'], [second['id']])
+
     def test_addition_is_idempotent_and_does_not_mutate_inputs(self):
         original, state = catalog(), {}
         updated, state2, report = a.run(original, state, [SHOW], {}, FakeAPI(), '2026-09-07')

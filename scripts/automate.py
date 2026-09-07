@@ -22,7 +22,7 @@ import urllib.error
 ROOT = Path(__file__).resolve().parents[1]
 MAX_CALLS = 180
 ARCHIVE_PAGES = min(20, max(1, int(os.environ.get('RECAP_ARCHIVE_PAGES', '4'))))
-POLICY_VERSION = 3
+POLICY_VERSION = 4
 DISCOVERY_VERSION = 1
 REJECTION_RECHECK_DAYS = 30
 MAX_RECHECKS = 500
@@ -46,6 +46,16 @@ def digest(value):
 
 def rejection_due(record, today, signature):
     return record.get('rulesSignature') != signature or record.get('checkedAt', '') <= (dt.date.fromisoformat(today) - dt.timedelta(days=REJECTION_RECHECK_DAYS)).isoformat()
+
+
+FULL_TITLE_PATTERN = r'(.+?) Full Series Recap\s*\|\s*Seasons? (\d{1,2}(?:\s*[-–&]\s*\d{1,2})?) (?:Ending )?Explained'
+
+
+def parse_title(title):
+    full = re.fullmatch(FULL_TITLE_PATTERN, title.strip(), re.I)
+    if full:
+        title = f'{full[1]} Season {full[2]} Recap'
+    return re.fullmatch(TITLE_PATTERN, title.strip(), re.I)
 
 
 def content_description(description):
@@ -90,7 +100,7 @@ def rejection_reason(item, channel, series):
     if not 60 <= duration(content.get('duration', '')) <= 7200:
         return 'duration_outside_limits'
     title, description = snippet.get('title', ''), content_description(snippet.get('description', ''))
-    match = re.fullmatch(TITLE_PATTERN, title.strip(), re.I)
+    match = parse_title(title)
     if not match or not re.search(r'\brecap\b', title, re.I):
         return 'coverage_title_not_explicit'
     name, start, separator, end, suffix = match.groups()
@@ -123,7 +133,7 @@ def validate_series(series, catalog):
 def coverage(title, series, description=''):
     # Full title grammar, not fuzzy search. "Before season 3" alone does not
     # say whether this covers season 2 or seasons 1-2 and is never admitted.
-    match = re.fullmatch(TITLE_PATTERN, title.strip(), re.I)
+    match = parse_title(title)
     if not match or not re.search(r'\brecap\b', title, re.I):
         return None
     name, start, separator, end, suffix = match.groups()
@@ -140,6 +150,18 @@ def coverage(title, series, description=''):
     if len(matches) != 1:
         return None
     show = matches[0]
+    if re.fullmatch(FULL_TITLE_PATTERN, title.strip(), re.I):
+        # Cross-check uploader numbering against the app's episode metadata.
+        if start != 1 or not all(n in show.get('seasonNumbers', []) for n in range(start, end + 1)):
+            return None
+        if re.search(r'\b(?:film|movie|parts?|volumes?|miniseries|spin.?off)\b', description, re.I):
+            return None
+        for span in re.finditer(r'\bseasons?\s+(\d+)\s*[-–&]\s*(\d+)', description, re.I):
+            if (int(span[1]), int(span[2])) != (start, end):
+                return None
+        for before in re.finditer(r'\b(?:before|prepare[^.\n]{0,60}for)\s+(?:\w+\s+){0,6}?season\s+(\d+)', description, re.I):
+            if int(before[1]) <= end:
+                return None
     context = normalize(title + ' ' + description)
     if show.get('requiredContext') and not any(normalize(c) in context for c in show['requiredContext']):
         return None
@@ -200,6 +222,12 @@ class Cinemeta:
             return json.loads(raw)
         except Exception:
             raise RuntimeError('Series metadata temporarily unavailable') from None
+
+    def season_numbers(self, show):
+        meta = self.get('meta/series/' + show['imdbID'] + '.json')['meta']
+        if meta.get('imdb_id') != show['imdbID'] or meta.get('moviedb_id') != show['tmdbID'] or meta.get('type') != 'series':
+            return []
+        return sorted({v['season'] for v in meta.get('videos', []) if type(v.get('season')) is int and v['season'] > 0})
 
     def resolve(self, name):
         results = self.get('catalog/series/top/search=' + urllib.parse.quote(name, safe='') + '.json')['metas']
@@ -269,8 +297,11 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
     state.setdefault('approved', {})
     series = copy.deepcopy(series)
     for show in state.get('series', []):
-        if not any(v['imdbID'] == show['imdbID'] for v in series):
+        established = next((v for v in series if v['imdbID'] == show['imdbID']), None)
+        if established is None:
             series.append(show)
+        elif 'seasonNumbers' in show:
+            established['seasonNumbers'] = show['seasonNumbers']
     validate_series(series, catalog)
     state.setdefault('identityChecks', {})
     state.setdefault('rejected', {})
@@ -348,7 +379,7 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
             continue
         if item and resolver:
             snippet = item.get('snippet', {})
-            title = re.fullmatch(TITLE_PATTERN, snippet.get('title', '').strip(), re.I)
+            title = parse_title(snippet.get('title', ''))
             name = title[1].strip(' —–:-') if title else ''
             registered = any(normalize(name) in [normalize(a) for a in show['aliases']] for show in series)
             if name and not registered and snippet.get('defaultAudioLanguage', '').lower().split('-')[0] == 'en':
@@ -372,6 +403,24 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
                         identity_errors += 1
                         pending[key] = channel
                 elif due:
+                    pending[key] = channel
+        if item and resolver and re.fullmatch(FULL_TITLE_PATTERN, item['snippet'].get('title', '').strip(), re.I):
+            parsed = parse_title(item['snippet']['title'])
+            matches = [show for show in series if normalize(parsed[1]) in [normalize(v) for v in show['aliases']]]
+            if len(matches) == 1 and 'seasonNumbers' not in matches[0]:
+                if resolutions < 8:
+                    resolutions += 1
+                    try:
+                        matches[0]['seasonNumbers'] = resolver.season_numbers(matches[0])
+                        stored = next((v for v in state.get('series', []) if v['imdbID'] == matches[0]['imdbID']), None)
+                        if stored is None:
+                            state.setdefault('series', []).append(copy.deepcopy(matches[0]))
+                        else:
+                            stored['seasonNumbers'] = matches[0]['seasonNumbers']
+                    except (RuntimeError, KeyError, ValueError):
+                        identity_errors += 1
+                        pending[key] = channel
+                else:
                     pending[key] = channel
         video = admissible(item, channel, series, today) if item else None
         if video:
