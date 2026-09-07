@@ -873,6 +873,30 @@
     "nkxrUJP8KxA": {
       "misses": 0,
       "checkedAt": "2026-09-07"
+    },
+    "JTgsywVgQoA": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "NMeViaAgct8": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "PRM_LDiAUF4": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "XLOCmRxt-tI": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "XxbNPw1As6Y": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "YUlSYK-IIjE": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
     }
   },
   "approved": {
@@ -1875,6 +1899,46 @@
       "policyVersion": 5,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en-US"
+    },
+    "hxnoASYmLrk": {
+      "policyVersion": 5,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "iOz3a1QxMCk": {
+      "policyVersion": 5,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "kYoUQNa2ApY": {
+      "policyVersion": 5,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "qR7wnJIwb0Q": {
+      "policyVersion": 5,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "snw96IMp-mI": {
+      "policyVersion": 5,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "tIBpWeqhPVk": {
+      "policyVersion": 5,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "ytsH7Bkg17M": {
+      "policyVersion": 5,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "z5wxkvwi1_Q": {
+      "policyVersion": 5,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -2027,7 +2091,15 @@
     "fear the walking dead": "2026-09-07",
     "sons of anarchy": "2026-09-07",
     "sherlock": "2026-09-07",
-    "suits": "2026-09-07"
+    "suits": "2026-09-07",
+    "the sopranos": "2026-09-07",
+    "breaking bad": "2026-09-07",
+    "justified": "2026-09-07",
+    "pretty little liars": "2026-09-07",
+    "once upon a time": "2026-09-07",
+    "friday night lights": "2026-09-07",
+    "mad men": "2026-09-07",
+    "game of thrones": "2026-09-07"
   },
   "series": [
     {
@@ -2422,7 +2494,14 @@
       "tmdbID": 73107,
       "aliases": [
         "BARRY"
-      ]
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "seasonNumbersCheckedAt": "2026-09-07"
     },
     {
       "imdbID": "tt8068860",
@@ -2485,7 +2564,16 @@
       "tmdbID": 69478,
       "aliases": [
         "THE HANDMAID'S TALE"
-      ]
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "seasonNumbersCheckedAt": "2026-09-07"
     },
     {
       "imdbID": "tt8466564",
@@ -2839,31 +2927,108 @@
         4
       ],
       "seasonNumbersCheckedAt": "2026-09-07"
+    },
+    {
+      "imdbID": "tt0141842",
+      "tmdbID": 1398,
+      "aliases": [
+        "THE SOPRANOS"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "seasonNumbersCheckedAt": "2026-09-07"
+    },
+    {
+      "imdbID": "tt0903747",
+      "tmdbID": 1396,
+      "aliases": [
+        "BREAKING BAD"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "seasonNumbersCheckedAt": "2026-09-07"
+    },
+    {
+      "imdbID": "tt1489428",
+      "tmdbID": 1436,
+      "aliases": [
+        "JUSTIFIED"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "seasonNumbersCheckedAt": "2026-09-07"
+    },
+    {
+      "imdbID": "tt1843230",
+      "tmdbID": 39272,
+      "aliases": [
+        "ONCE UPON A TIME"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "seasonNumbersCheckedAt": "2026-09-07"
+    },
+    {
+      "imdbID": "tt0804503",
+      "tmdbID": 1104,
+      "aliases": [
+        "MAD MEN"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "seasonNumbersCheckedAt": "2026-09-07"
+    },
+    {
+      "imdbID": "tt0944947",
+      "tmdbID": 1399,
+      "aliases": [
+        "GAME OF THRONES"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "seasonNumbersCheckedAt": "2026-09-07"
     }
   ],
-  "pending": {
-    "hj5iLn-kTA8": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "hv8ROUg68l8": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "hw5grC9JhQg": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "hxnoASYmLrk": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "iOz3a1QxMCk": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "kYoUQNa2ApY": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "nGhxB4Jfhr0": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "prBLNYcIP6g": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "qR7wnJIwb0Q": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "qqEcpjrPA0A": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "rht9P0bYSFI": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "snw96IMp-mI": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "tIBpWeqhPVk": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "tLvRbLqXmMg": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "tN8a6KfGFlk": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "vqjy9Eob4So": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "xTQoeV_XHqs": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "ytsH7Bkg17M": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "z5wxkvwi1_Q": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "z8UaIzJbFLc": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "zwZrfHp0_Ik": "UCNCTxLZ3EKKry-oWgLlsYsw"
-  },
+  "pending": {},
   "checkedAt": "2026-09-07",
   "rejected": {
     "-07drzOov-M": {
@@ -5825,17 +5990,6 @@
       "descriptionLead": "Get up to 40% off Ekster wallets this Christmas when you use my link or discount code [link] RECAP\n\nGet ready for season 3 of His Dark Materials!\n\nFollow Josh Floyd on Twitter @JoshDFloyd\n\nBuy merch:\n[link]\n\nIn His Dark Materials, during her search for a kidnapped friend, a seemingly ordinary but brave young woman from another world uncovers a sinister plot involving stolen children and a mysterious phenomenon called Dust.\n\nHis Dark Materials stars Dafne Keen as Lyra Belacqua, Ruth Wilson as Mar",
       "flagExcerpt": ""
     },
-    "hxnoASYmLrk": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "THE SOPRANOS Full Series Recap | Season 1-6 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "f99d1458231fdecc8c117bafd779d9c9a717e780fec55b116a3b3d80df1962a9",
-      "rulesSignature": "cd1af8bb695ccb6afc3bdbdc29d124366bc6cd91887b37c251c114a20dfef44b",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Relive the entire series of The Sopranos now! Seasons 1-6!\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nPrimarily set in New Jersey and New York City, the series follows Tony Soprano, a North Jersey-based Italian-American mobster, who tries to balance his family life with his role as boss of the Soprano family. Suffering from panic attacks, Tony engages in therapy sessions with psychiatrist Jennifer Melfi off and on throughout the series. At various po",
-      "flagExcerpt": ""
-    },
     "i6ci5TGK2YM": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "Recap Before 28 YEARS LATER | 28 DAYS LATER & 28 WEEKS LATER Explained",
@@ -5890,17 +6044,6 @@
       "audioLanguage": "en",
       "descriptionLead": "Sign up for AMC+ right here! [link]\n\nThe final season of The Walking Dead is upon us! Here's the Recap to catch you up on all 10 seasons of Zombie Apocalypse adventure. Then watch the first eight episodes of season 11 starting August 22nd, and a week early, August 15th, on AMC+.\n\nAll The Walking Dead RECAPS\n[link]\n\n00:00 Intro\n00:24 Season 1\n02:29 Season 2\n04:49 Season 3\n07:11 Season 4\n09:45 Season 5\n12:44 Season 6\n14:59 Season 7\n17:48 Season 8\n19:09 Season 9\n23:32 Season 10\n\nThis is The Walking",
       "flagExcerpt": "seasons Recap, Timeline, Summary, Explained, Easter Eggs, References, Theories. It will get you ready for The Walking Dead Season 11, the final seas"
-    },
-    "iOz3a1QxMCk": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "BREAKING BAD Full Series Recap | Season 1-5 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "44686a23e8e6b8e38d6f8940094a2f2fb6d5be37734f9ae712059df1d43a06e7",
-      "rulesSignature": "cd1af8bb695ccb6afc3bdbdc29d124366bc6cd91887b37c251c114a20dfef44b",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Go to [link] and use promo code \"RecapChills\" to get 25% off your GentleBands order today!\n\nRelive the entire Breaking Bad series now! Seasons 1-5!\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nBreaking Bad follows a chemistry teacher diagnosed with inoperable lung cancer who turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.\n\nBreaking Bad stars Bryan Cranston as Walter White, Anna Gunn as Sk",
-      "flagExcerpt": ""
     },
     "iWAdD5QGltg": {
       "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
@@ -6021,17 +6164,6 @@
       "rulesSignature": "cd1af8bb695ccb6afc3bdbdc29d124366bc6cd91887b37c251c114a20dfef44b",
       "audioLanguage": "en",
       "descriptionLead": "As The CW's DC Arrowverse is coming to an end, Barry Allen is back for one last run! This is the Recap and Ending Explained of The Flash season 9, where Team Flash faces off against their final threats, Red Death and Cobalt Blue.\n\nThe Flash Full Series Recap\n[link]\n\nArrow Full Series Recap\n[link]\n\nSupport the channel as a member, and become a Recap Champion!\n[link]",
-      "flagExcerpt": ""
-    },
-    "kYoUQNa2ApY": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "JUSTIFIED Full Series Recap | Season 1-6 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "efbaf9c098ebb3159a2fb7f14db5a83d9f6ac6d9e7367b8f191271294125bddd",
-      "rulesSignature": "cd1af8bb695ccb6afc3bdbdc29d124366bc6cd91887b37c251c114a20dfef44b",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Go to my sponsor [link] to get a 14 day free trial and see if your personal information has been leaked online.\n\nJustified: City Primeval is finally here! So make sure to watch our recap of Justified season 1-6 to prepare you for the new revival series!\n\nLetterboxd: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\nWebsite: [link]\n\nJustified stars Timothy Olyphant as Raylan Givens, Walton Goggins as Boyd Crowder, Joelle Carter as Ava Crowder, Nick Searcy as Art Mullen, Jacob Pitts as Ti",
       "flagExcerpt": ""
     },
     "kdFdEs6JzMI": {
@@ -6430,17 +6562,6 @@
       "descriptionLead": "Meet Kamala Khan, the latest super hero to join the Marvel Cinematic Universe as Ms. Marvel! Recap the full Disney+ series right here, it's the must watch before The Marvels movie featuring Captain Marvel herself, coming next year!\n\nMarvel Cinematic Universe Recaps:\n[link]\n\nSupport the channel as a member, and become a Recap Champion!\n[link]",
       "flagExcerpt": ""
     },
-    "qR7wnJIwb0Q": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "THE HANDMAID'S TALE Full Series Recap | Season 1-6 Ending Explained",
-      "reason": "season_numbering_unverified",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "c20e1304bd906170af3e364679f277c54233313d9230f8b064b07625c6ab75bc",
-      "rulesSignature": "cd1af8bb695ccb6afc3bdbdc29d124366bc6cd91887b37c251c114a20dfef44b",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Relive the entire The Handmaid's Tale series now! Seasons 1-6!\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nThis is a recap of The Handmaid's Tale season 1, The Handmaid's Tale season 2, The Handmaid's Tale season 3, The Handmaid's Tale season 4, and The Handmaid's Tale season 5 to fully prepare you for The Handmaid's Tale season 6.\n\nThe Handmaid's Tale is set in a dystopian future following a Second American Civil War wherein a totalitarian society su",
-      "flagExcerpt": ""
-    },
     "qT3bwtBuq9Y": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "BARRY Full Series Recap | #Shorts",
@@ -6573,17 +6694,6 @@
       "descriptionLead": "Relive the entire series of The Sopranos now: [link]\n\nFollow Josh Floyd on Twitter @JoshDFloyd\n\nBuy merch:\n[link]\n\nPrimarily set in New Jersey and New York City, the series follows Tony Soprano, a North Jersey-based Italian-American mobster, who tries to balance his family life with his role as boss of the Soprano family. Suffering from panic attacks, Tony engages in therapy sessions with psychiatrist Jennifer Melfi off and on throughout the series. At various points in the series, Tony finds hi",
       "flagExcerpt": ""
     },
-    "snw96IMp-mI": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "ONCE UPON A TIME Full Series Recap | Season 1-7 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "cf9cdba2b07a9ae5581ac4eb7c579bcd0e774ac996744dc456810878ba85a8b3",
-      "rulesSignature": "cd1af8bb695ccb6afc3bdbdc29d124366bc6cd91887b37c251c114a20dfef44b",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Customize your hair growth treatment with MDhair! Visit [link] and use my promo code 'RECAP70' to get your first month of customized products at 70% OFF\n\nRelive the entire Once Upon a Time series now! Seasons 1-7!\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nOnce Upon a Time tells the story of a new world, one in which fairy-tale legends and modern life collide. Emma Swan is comfortable in her life as a bail bonds collector when Henry -- the child she ",
-      "flagExcerpt": ""
-    },
     "sv8TCaI6HDA": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "THE OLD GUARD Movie Recap | Must Watch Before OLD GUARD 2 | Film Explained",
@@ -6605,17 +6715,6 @@
       "audioLanguage": "en-US",
       "descriptionLead": "Joker: Folie a Deux is finally here!\n\nSo be sure to check out our Joker (2019) movie recap before watching Joker 2: Folie a Deux.\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nForever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him. Iso",
       "flagExcerpt": "So be sure to check out our Joker (2019) movie recap before watching Joker 2: Folie a Deux."
-    },
-    "tIBpWeqhPVk": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "BARRY Full Series Recap | Season 1-4 Ending Explained",
-      "reason": "season_numbering_unverified",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "324b3eabeb1af683998afd9466b7b24942b4c5dbc8bf32a031e8c8c544eaa29c",
-      "rulesSignature": "cd1af8bb695ccb6afc3bdbdc29d124366bc6cd91887b37c251c114a20dfef44b",
-      "audioLanguage": "en-US",
-      "descriptionLead": "The HBO original series Barry just aired its series finale after four incredible seasons. Relive your favorite moments now with our recap!\n\nLetterboxd: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\nWebsite: [link]\n\nBarry follows Barry Berkman, a U.S. Marine and Afghanistan veteran from Cleveland, who works as a hitman. Lonely and dissatisfied with life, he travels to Los Angeles to kill a target and finds a new sense of purpose when he joins a class full of aspiring actors. Despite ",
-      "flagExcerpt": ""
     },
     "tLvRbLqXmMg": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -6947,17 +7046,6 @@
       "descriptionLead": "Frank's made it to the Vice Presidency, but how high can he climb?!?!\n\nRecap the entire series -\n[link]\n\nSupport the channel as a member, and become a Recap Champion!\n[link]\n\n[link]\n[link]\n[link]",
       "flagExcerpt": ""
     },
-    "ytsH7Bkg17M": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "MAD MEN Full Series Recap | Season 1-7 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "730d8b9f5a9aebb37e666b22755a73e4ad8152c5a51ad5d8b2bfe1cdc0fc6e27",
-      "rulesSignature": "cd1af8bb695ccb6afc3bdbdc29d124366bc6cd91887b37c251c114a20dfef44b",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Thanks to Warby Parker for sponsoring this video! Visit [link] for Warby Parker’s glasses and sunglasses and get 15% off when you order 2 or more prescription pairs both online and in stores.\n\nRelive the entire Mad Men series now! Seasons 1-7!\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nMad Men is a drama about one of New York's most prestigious ad agencies at the beginning of the 1960s, focusing on one of the firm's most mysterious but extremely tale",
-      "flagExcerpt": ""
-    },
     "yyfkSxLycwk": {
       "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
       "title": "Bridgerton RECAP before Season 4 #bridgerton #recap",
@@ -6967,17 +7055,6 @@
       "rulesSignature": "cd1af8bb695ccb6afc3bdbdc29d124366bc6cd91887b37c251c114a20dfef44b",
       "audioLanguage": "en",
       "descriptionLead": "",
-      "flagExcerpt": ""
-    },
-    "z5wxkvwi1_Q": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "GAME OF THRONES Full Series Recap | Season 1-8 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "33cc190d90cc286d7d00a7db14288e8cff6e4bbdd9ebfd1b650fcaa1c1957f03",
-      "rulesSignature": "cd1af8bb695ccb6afc3bdbdc29d124366bc6cd91887b37c251c114a20dfef44b",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Trust me! You need a cool standing desk like mine! Use my code “24BDYTB50” for an extra $50 off on the desk E7 Plus! Check FlexiSpot to get more exclusive discounts!\n\nFlexiSpot E7 Plus Standing Desk: [link] (US) \nFlexiSpot E7 Plus Standing Desk: [link] (CAN)\n\nRelive the entire Game of Thrones series now! Seasons 1-8!\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nGame of Thrones is set in the mythical continent of Westeros, where several powerful familie",
       "flagExcerpt": ""
     },
     "z6Jp3ovjUcY": {

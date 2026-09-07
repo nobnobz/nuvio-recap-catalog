@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 25,
+  "revision": 26,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -3002,6 +3002,110 @@
       "language": "en",
       "durationSeconds": 1876,
       "title": "BETTER CALL SAUL Full Series Recap | Season 1-6 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "hxnoASYmLrk",
+      "imdbID": "tt0141842",
+      "tmdbID": 1398,
+      "firstSeason": 1,
+      "lastSeason": 6,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 1426,
+      "title": "THE SOPRANOS Full Series Recap | Season 1-6 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "iOz3a1QxMCk",
+      "imdbID": "tt0903747",
+      "tmdbID": 1396,
+      "firstSeason": 1,
+      "lastSeason": 5,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 2116,
+      "title": "BREAKING BAD Full Series Recap | Season 1-5 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "kYoUQNa2ApY",
+      "imdbID": "tt1489428",
+      "tmdbID": 1436,
+      "firstSeason": 1,
+      "lastSeason": 6,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 1797,
+      "title": "JUSTIFIED Full Series Recap | Season 1-6 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "qR7wnJIwb0Q",
+      "imdbID": "tt5834204",
+      "tmdbID": 69478,
+      "firstSeason": 1,
+      "lastSeason": 6,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 1622,
+      "title": "THE HANDMAID'S TALE Full Series Recap | Season 1-6 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "snw96IMp-mI",
+      "imdbID": "tt1843230",
+      "tmdbID": 39272,
+      "firstSeason": 1,
+      "lastSeason": 7,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 2591,
+      "title": "ONCE UPON A TIME Full Series Recap | Season 1-7 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "tIBpWeqhPVk",
+      "imdbID": "tt5348176",
+      "tmdbID": 73107,
+      "firstSeason": 1,
+      "lastSeason": 4,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 1126,
+      "title": "BARRY Full Series Recap | Season 1-4 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "ytsH7Bkg17M",
+      "imdbID": "tt0804503",
+      "tmdbID": 1104,
+      "firstSeason": 1,
+      "lastSeason": 7,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 2638,
+      "title": "MAD MEN Full Series Recap | Season 1-7 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "z5wxkvwi1_Q",
+      "imdbID": "tt0944947",
+      "tmdbID": 1399,
+      "firstSeason": 1,
+      "lastSeason": 8,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 5219,
+      "title": "GAME OF THRONES Full Series Recap | Season 1-8 Ending Explained",
       "reviewedAt": "2026-09-07",
       "enabled": true
     }
