@@ -1,10 +1,10 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNMb09JaEJFTkRZNU9FRTJSRVExTWtJd1FrTTI"
+      "nextPageToken": "EAAaH1BUOkNJSVFJaEJGTVVSR01qY3dRVGRHTTBKRE1UQkM"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNMb09JaEExTlRsRU5rWkZPVFl5UXpRMFJUSkI"
+      "nextPageToken": "EAAaH1BUOkNJSVFJaEF5TkRZeE1FRkVNRVZEUkRFeE1VUkY"
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
       "nextPageToken": null,
@@ -553,6 +553,18 @@
       "checkedAt": "2026-09-07"
     },
     "y3lLl5W1uEw": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "MlNxiZRLwYk": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "OZOfhx0AJ1E": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "P4AJS0-Lhf4": {
       "misses": 0,
       "checkedAt": "2026-09-07"
     }
@@ -1147,6 +1159,26 @@
       "policyVersion": 1,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en"
+    },
+    "WFeu3A2o4VE": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "X3-KCQCT3WQ": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "XBwJ2834HlY": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "Xgq0TI4NW2A": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -1221,7 +1253,15 @@
     "only murders in the building": "2026-09-07",
     "the 100": "2026-09-07",
     "loki": "2026-09-07",
-    "sex education": "2026-09-07"
+    "sex education": "2026-09-07",
+    "shrinking actually helpful recap with lukita maxwell": "2026-09-07",
+    "barry": "2026-09-07",
+    "killing eve everything you need to know before": "2026-09-07",
+    "alice in borderland recap before": "2026-09-07",
+    "servant": "2026-09-07",
+    "atlanta": "2026-09-07",
+    "ozark": "2026-09-07",
+    "the lincoln lawyer": "2026-09-07"
   },
   "series": [
     {
@@ -1587,21 +1627,48 @@
       "aliases": [
         "Sex Education"
       ]
+    },
+    {
+      "imdbID": "tt5348176",
+      "tmdbID": 73107,
+      "aliases": [
+        "BARRY"
+      ]
+    },
+    {
+      "imdbID": "tt8068860",
+      "tmdbID": 88055,
+      "aliases": [
+        "SERVANT"
+      ]
+    },
+    {
+      "imdbID": "tt4288182",
+      "tmdbID": 65495,
+      "aliases": [
+        "ATLANTA"
+      ]
+    },
+    {
+      "imdbID": "tt5071412",
+      "tmdbID": 69740,
+      "aliases": [
+        "OZARK"
+      ]
+    },
+    {
+      "imdbID": "tt13833978",
+      "tmdbID": 116799,
+      "aliases": [
+        "THE LINCOLN LAWYER"
+      ]
     }
   ],
   "pending": {
-    "Vn2LD_0uoMA": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Vyjq-gsWfuU": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "W6U-iB3HY1w": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "WFeu3A2o4VE": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "X3-KCQCT3WQ": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "XBwJ2834HlY": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Xgq0TI4NW2A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Y5833KeDmp4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "YVXIFLkQqg8": "UC1Myj674wRVXB9I4c6Hm5zA",
     "YZB9hBKINoY": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Z_5VmxUyOHo": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "ZyvMhWD_co0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "anu-A-p4Fbw": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "bTEa8dCyV38": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "bYuUiWLJtvw": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1617,7 +1684,6 @@
     "hw5grC9JhQg": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "iXqFeFvR6Io": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "irOGuFFHzWA": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "kWe9LAJNGF0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "l21mwWGzBK4": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "l2E7yxarfQM": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "mU4RkxQl9lA": "UCnFL_hmp-nc-l2QlLzxZdhg",
