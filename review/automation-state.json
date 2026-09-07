@@ -765,6 +765,46 @@
     "Y5833KeDmp4": {
       "misses": 0,
       "checkedAt": "2026-09-07"
+    },
+    "zYDE9lABgeE": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "-LIeN443vAU": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "-bTumupgSAA": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "1f8hbwO4lRw": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "2An5ljBmJyg": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "2VeCbOIW1kQ": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "39rDUfUMTUU": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "6IAvHpaRrkA": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "6RpiG6vOmuU": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "6qpoGNWOf8I": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
     }
   },
   "approved": {
@@ -1687,6 +1727,11 @@
       "policyVersion": 4,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en-US"
+    },
+    "5w65aDx9oSI": {
+      "policyVersion": 4,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -1822,7 +1867,10 @@
     "spartacus": "2026-09-07",
     "narcos": "2026-09-07",
     "the vampire diaries": "2026-09-07",
-    "the punisher": "2026-09-07"
+    "the punisher": "2026-09-07",
+    "riverdale": "2026-09-07",
+    "supernatural": "2026-09-07",
+    "gossip girl": "2026-09-07"
   },
   "series": [
     {
@@ -2319,6 +2367,11 @@
       "tmdbID": 70523,
       "aliases": [
         "Dark"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3
       ]
     },
     {
@@ -2429,18 +2482,7 @@
     }
   ],
   "pending": {
-    "3Xkidm728ss": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "3mWZ2RkNfFQ": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "5w65aDx9oSI": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "5x9iBf7SCkA": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "6PmouMtyxU4": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "6Q1RuiX5edE": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "75SWEgmEp0Y": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "7ZoaZU853Jw": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "7uKFuzr1zDc": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "7x1oOPVHTt8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "BCxgafjR6UE": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "BrLQ1Qv9xuM": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "C48Iw20U68I": "UC1Myj674wRVXB9I4c6Hm5zA",
     "CIzDTu3HKLs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "CjeUx_HHtF0": "UCNCTxLZ3EKKry-oWgLlsYsw",
@@ -2449,45 +2491,28 @@
     "FFln2FPxvjg": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "FH-Awk9di-M": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "GhrNnJVQEWw": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Hnes3wennm8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "I7Naa-YND0s": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "IzBgWDTMr5c": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "JEIOdLcaa1Q": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "JShvGpX4tGA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "JTgsywVgQoA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "JXO_Gd1jFIU": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "KvCitIkjkZs": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "M4Cp59lqEYY": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "MDuf7wyWapU": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "MSPm24vcAWs": "UC1Myj674wRVXB9I4c6Hm5zA",
     "MbuXGXmrHFM": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "N-fldUq_IdQ": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "NMeViaAgct8": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Nwz68R4X0-o": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "ONIdaQ4Hcxs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "OR90Q0aoMlo": "UC1Myj674wRVXB9I4c6Hm5zA",
     "P7cxgunKTnw": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "PRM_LDiAUF4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "PobPi9i0RL8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "QO_9pNsqA34": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "RelQ2qGZrng": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "V6P2LkT0UuU": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Vyjq-gsWfuU": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "W6U-iB3HY1w": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "WWxAl6uyNVs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "XKvOcQV6E5c": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "XLOCmRxt-tI": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "XxbNPw1As6Y": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "YLwbPbzGCTk": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "YUlSYK-IIjE": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Yd2A-Od994E": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "ZbXNtd8VPEs": "UCx-KWLTKlB83hDI6UKECtJQ",
-    "_cgfYuz63UI": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "aefaV5Df1L0": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "anu-A-p4Fbw": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "ax0MYRxFpT0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "bQ6O7QPMPQA": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "bTEa8dCyV38": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "c3EyZqEDKxA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "cVjdoKYcILU": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "dX-L5IStODY": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -2496,28 +2521,17 @@
     "fF8OaCs1IaY": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "gvXXaZKclBc": "UC1Myj674wRVXB9I4c6Hm5zA",
     "gyBGKmiAu94": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "hbFoToRr2hs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hj5iLn-kTA8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hv8ROUg68l8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hw5grC9JhQg": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hxnoASYmLrk": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "iOz3a1QxMCk": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "iXqFeFvR6Io": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "iaSHPkw741A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "kYoUQNa2ApY": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "kg7M7G-rQ9s": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "l2E7yxarfQM": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "lJ5zVK7axrA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "lUnN-zVKPAw": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "lq3vdXupXO8": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "mU3O-FlxLLw": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "mVTUYGZM4UY": "UCx-KWLTKlB83hDI6UKECtJQ",
     "nGhxB4Jfhr0": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "p1eUFO0GDXg": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "pQJayF2tNDg": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "prBLNYcIP6g": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qR7wnJIwb0Q": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "qX2avMTn6yA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qqEcpjrPA0A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "rht9P0bYSFI": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "snw96IMp-mI": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -2527,13 +2541,9 @@
     "tjnYV-MdhO0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "udT0DS0S5hM": "UCx-KWLTKlB83hDI6UKECtJQ",
     "vqjy9Eob4So": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "wJPHrG21nFs": "UCx-KWLTKlB83hDI6UKECtJQ",
-    "xLPoqbcnbP4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "xTQoeV_XHqs": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "xyom4WLco_I": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "ytsH7Bkg17M": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "z5wxkvwi1_Q": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "z6Jp3ovjUcY": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "z8UaIzJbFLc": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "zwZrfHp0_Ik": "UCNCTxLZ3EKKry-oWgLlsYsw"
   },
@@ -2978,17 +2988,6 @@
       "audioLanguage": "en",
       "descriptionLead": "The Ozark Season 4 Part 2 Official Trailer is out now! Here's my Trailer Reaction: it's awesome! This is the Recap of everything that happens in Season 4 Part 1, to refresh your memory for the final episodes. Release date April 29th, only on Netflix!\n\nOzark Recaps\n[link]\n\nThis is the Ozark Season 4 Part 1 Recap, Synopsis, Summary, Breakdown, Timeline, Trailer Reaction Ending Explained to get you ready for Ozark Season 4 Part 2. There is apparently not an Ozark Season 5. Featuring characters like",
       "flagExcerpt": "The Ozark Season 4 Part 2 Official Trailer is out now! Here's my Trailer Reaction: it's awesome! This is the Recap of everything that happens "
-    },
-    "5w65aDx9oSI": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "DARK Full Series Recap | Season 1-3 Ending Explained",
-      "reason": "coverage_context_or_suffix_conflict",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "5f4ecca81cc8d46dda6f31c608b1c6cc16ddc8b2ac2d020f1884872021f7faf9",
-      "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
-      "audioLanguage": "en-US",
-      "descriptionLead": "You can go to my sponsor [link] for free security scan, plus get 30% off your any plan.\n\nRelive the entire Dark series now! Dark seasons 1-3 recap!\n\nLetterboxd: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nIn Netflix's Dark, when two children go missing in a small German town, its sinful past is exposed along with the double lives and fractured relationships that exist among four families as they search for the kids.\n\nThis is a Dark full series recap, featuring a Dark season 1-3 r",
-      "flagExcerpt": ""
     },
     "5x9iBf7SCkA": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -3521,7 +3520,7 @@
     "DsYU2AmhxWc": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "YOU Full Series Recap | Season 1-5 Ending Explained",
-      "reason": "coverage_context_or_suffix_conflict",
+      "reason": "season_numbering_unverified",
       "checkedAt": "2026-09-07",
       "fingerprint": "08607326481f7c77eabcc84be6104b5a561960fefe6894aeb6dcaa0632588771",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
@@ -3829,7 +3828,7 @@
     "I7Naa-YND0s": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "WESTWORLD Full Series Recap | Season 1-4 Ending Explained",
-      "reason": "coverage_context_or_suffix_conflict",
+      "reason": "season_numbering_unverified",
       "checkedAt": "2026-09-07",
       "fingerprint": "9532e8e163fc3ef8e5c441a3e8624d340259913391696e41abd2e2f4db0dd591",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
@@ -4214,7 +4213,7 @@
     "NMeViaAgct8": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "PEAKY BLINDERS Full Series Recap | Season 1-6 Ending Explained",
-      "reason": "coverage_context_or_suffix_conflict",
+      "reason": "season_numbering_unverified",
       "checkedAt": "2026-09-07",
       "fingerprint": "49facb04f359c254ddc46c144c2b3c357a0ca35c20df6d182ce8a475b9cdc999",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
@@ -4929,7 +4928,7 @@
     "XxbNPw1As6Y": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "NARCOS: MEXICO Full Series Recap | Season 1-3 Ending Explained",
-      "reason": "coverage_context_or_suffix_conflict",
+      "reason": "season_numbering_unverified",
       "checkedAt": "2026-09-07",
       "fingerprint": "71a0a2cab65c7e7dcaf14d1102e43d5946777d334a7f9613d643e4299490eb67",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
@@ -5182,7 +5181,7 @@
     "aefaV5Df1L0": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "COBRA KAI Full Series Recap | Season 1-6 Ending Explained",
-      "reason": "coverage_context_or_suffix_conflict",
+      "reason": "season_numbering_unverified",
       "checkedAt": "2026-09-07",
       "fingerprint": "aabc9e702a086966edb8d986600e68f9bd30793529f5a3c42dbb21fbbb175882",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
@@ -5204,7 +5203,7 @@
     "ax0MYRxFpT0": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "STRANGER THINGS Full Series Recap | Season 1-5 Ending Explained",
-      "reason": "coverage_context_or_suffix_conflict",
+      "reason": "season_numbering_unverified",
       "checkedAt": "2026-09-07",
       "fingerprint": "692dbefa3d1dbda646d51e2e304b192c6a6467c87a074de642d0fb79031b3426",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
@@ -5369,7 +5368,7 @@
     "dX-L5IStODY": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "THE LAST KINGDOM Full Series Recap | Season 1-5 Ending Explained",
-      "reason": "mixed_format_or_description_flag",
+      "reason": "season_numbering_unverified",
       "checkedAt": "2026-09-07",
       "fingerprint": "60d29b3d30bee854997e147bcdb22be9f82a238771744e9777d57c871a805466",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
@@ -5446,7 +5445,7 @@
     "f4lTX7qmNH4": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "BETTER CALL SAUL Full Series Recap | Season 1-6 Ending Explained",
-      "reason": "coverage_context_or_suffix_conflict",
+      "reason": "season_numbering_unverified",
       "checkedAt": "2026-09-07",
       "fingerprint": "9533e4348016726004465b4a3d804abddb591e169a19bd2102432bbd9bfc0e86",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
@@ -6282,7 +6281,7 @@
     "qR7wnJIwb0Q": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "THE HANDMAID'S TALE Full Series Recap | Season 1-6 Ending Explained",
-      "reason": "coverage_context_or_suffix_conflict",
+      "reason": "season_numbering_unverified",
       "checkedAt": "2026-09-07",
       "fingerprint": "c20e1304bd906170af3e364679f277c54233313d9230f8b064b07625c6ab75bc",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",
@@ -6458,7 +6457,7 @@
     "tIBpWeqhPVk": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "BARRY Full Series Recap | Season 1-4 Ending Explained",
-      "reason": "coverage_context_or_suffix_conflict",
+      "reason": "season_numbering_unverified",
       "checkedAt": "2026-09-07",
       "fingerprint": "324b3eabeb1af683998afd9466b7b24942b4c5dbc8bf32a031e8c8c544eaa29c",
       "rulesSignature": "ef39ef6e753415dad01d589a3968fc2c7482581b55425fdc663db6adc1894e70",

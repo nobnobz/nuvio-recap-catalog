@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 22,
+  "revision": 23,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -2794,6 +2794,19 @@
       "language": "en",
       "durationSeconds": 3051,
       "title": "THE VAMPIRE DIARIES Full Series Recap | Season 1-8 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "5w65aDx9oSI",
+      "imdbID": "tt5753856",
+      "tmdbID": 70523,
+      "firstSeason": 1,
+      "lastSeason": 3,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 2966,
+      "title": "DARK Full Series Recap | Season 1-3 Ending Explained",
       "reviewedAt": "2026-09-07",
       "enabled": true
     }
