@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 15,
+  "revision": 16,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -2040,6 +2040,84 @@
       "language": "en",
       "durationSeconds": 1190,
       "title": "THE HANDMAID'S TALE Season 1-5 Recap | Must Watch Before Season 6 | Series Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "eJgO8Rj9vQY",
+      "imdbID": "tt8179402",
+      "tmdbID": 97175,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 278,
+      "title": "FATE: THE WINX SAGA Season 1 Recap | Must Watch Before Season 2 | Netflix Series Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "fqsRBeFCiZ4",
+      "imdbID": "tt12809988",
+      "tmdbID": 103768,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 181,
+      "title": "SWEET TOOTH Season 1 Recap | Everything You Need to Know Before Season 2 | Netflix Series Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "fuAX_gNa3ls",
+      "imdbID": "tt27497448",
+      "tmdbID": 224372,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 480,
+      "title": "A Knight of the Seven Kingdoms RECAP: Season 1",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "hLnj0ZGe6O8",
+      "imdbID": "tt2442560",
+      "tmdbID": 60574,
+      "firstSeason": 5,
+      "lastSeason": 5,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 149,
+      "title": "PEAKY BLINDERS Season 5 Recap | Must Watch Before Season 6 | Series Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "r682TrOVvj0",
+      "imdbID": "tt2442560",
+      "tmdbID": 60574,
+      "firstSeason": 1,
+      "lastSeason": 5,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 615,
+      "title": "PEAKY BLINDERS Season 1-5 Recap | Everything You Need To Know Before Season 6 | Series Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "stauPK3FIaQ",
+      "imdbID": "tt11041332",
+      "tmdbID": 117488,
+      "firstSeason": 1,
+      "lastSeason": 2,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 894,
+      "title": "YELLOWJACKETS Season 1 & 2 Recap | Must Watch Before Season 3 | Series Explained",
       "reviewedAt": "2026-09-07",
       "enabled": true
     }

@@ -1,10 +1,10 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNNb1JJaEExUkRCRFFUTkdORGhCTmpNNU1EVkQ"
+      "nextPageToken": "EAAaH1BUOkNKSVRJaEJETVRRNE56UTFNa013TUVKR01UVTU"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNNb1JJaEF6T1RFeVJUVTFNakE0UmpVeU1qSkU"
+      "nextPageToken": "EAAaH1BUOkNKSVRJaEJGUVVNek5qUXlSVUV3UTBFME1UbEQ"
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
       "nextPageToken": null,
@@ -609,6 +609,18 @@
       "checkedAt": "2026-09-07"
     },
     "luSguXy_XKE": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "p7YxwveUrjI": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "wHtZqojunC8": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "zQh28sxpvvg": {
       "misses": 0,
       "checkedAt": "2026-09-07"
     }
@@ -1243,6 +1255,36 @@
       "policyVersion": 1,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en-US"
+    },
+    "eJgO8Rj9vQY": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "fqsRBeFCiZ4": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "fuAX_gNa3ls": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "hLnj0ZGe6O8": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "r682TrOVvj0": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "stauPK3FIaQ": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -1333,7 +1375,15 @@
     "obi wan kenobi": "2026-09-07",
     "big sky": "2026-09-07",
     "cobra kai everything you need to know before": "2026-09-07",
-    "the righteous gemstones": "2026-09-07"
+    "the righteous gemstones": "2026-09-07",
+    "trying": "2026-09-07",
+    "fate the winx saga": "2026-09-07",
+    "yellowjackets": "2026-09-07",
+    "sweet tooth": "2026-09-07",
+    "a knight of the seven kingdoms": "2026-09-07",
+    "foundation actually helpful recap fast forward to": "2026-09-07",
+    "peaky blinders": "2026-09-07",
+    "must watch before the mandalorian": "2026-09-07"
   },
   "series": [
     {
@@ -1776,16 +1826,44 @@
       "aliases": [
         "THE RIGHTEOUS GEMSTONES"
       ]
+    },
+    {
+      "imdbID": "tt8179402",
+      "tmdbID": 97175,
+      "aliases": [
+        "FATE: THE WINX SAGA"
+      ]
+    },
+    {
+      "imdbID": "tt11041332",
+      "tmdbID": 117488,
+      "aliases": [
+        "YELLOWJACKETS"
+      ]
+    },
+    {
+      "imdbID": "tt12809988",
+      "tmdbID": 103768,
+      "aliases": [
+        "SWEET TOOTH"
+      ]
+    },
+    {
+      "imdbID": "tt27497448",
+      "tmdbID": 224372,
+      "aliases": [
+        "A Knight of the Seven Kingdoms"
+      ]
+    },
+    {
+      "imdbID": "tt2442560",
+      "tmdbID": 60574,
+      "aliases": [
+        "PEAKY BLINDERS"
+      ]
     }
   ],
   "pending": {
-    "eJgO8Rj9vQY": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "fgEGOetkDY4": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "fqsRBeFCiZ4": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "fuAX_gNa3ls": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "gvXXaZKclBc": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "hLnj0ZGe6O8": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "hbFoToRr2hs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hj5iLn-kTA8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hv8ROUg68l8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hw5grC9JhQg": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1799,9 +1877,7 @@
     "o4gwnuRbBMU": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qX2avMTn6yA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qqEcpjrPA0A": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "r682TrOVvj0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "rht9P0bYSFI": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "stauPK3FIaQ": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "uRg-UxrbQ2U": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "ud8QKPBHw2w": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "ugUyeaDF1y4": "UCNCTxLZ3EKKry-oWgLlsYsw",
