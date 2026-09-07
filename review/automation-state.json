@@ -1,10 +1,10 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNPSUpJaEF6UmtNd05qUXdSREkxUlRFek0wUTI"
+      "nextPageToken": "EAAaH1BUOkNLb0xJaEJETWtFeFJUZzRSa0UxTmtRd1JqVTQ"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNPSUpJaEEyTWtOR1FUZEZRMEZGUkRSRU0wTkY"
+      "nextPageToken": "EAAaH1BUOkNLb0xJaEF4TlRNelEwUXhSRFExUlRNeFJqVTI"
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
       "nextPageToken": null,
@@ -477,6 +477,22 @@
       "checkedAt": "2026-09-07"
     },
     "TG_l58pIm1w": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "EwqL4rRDt5c": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "GvIjUtMSMC4": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "HfOzOtTApxU": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "Tp8gEHlldgw": {
       "misses": 0,
       "checkedAt": "2026-09-07"
     }
@@ -1001,6 +1017,16 @@
       "policyVersion": 1,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en"
+    },
+    "KYq0tNNZXVM": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "YTGLaWnddy4": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -1051,7 +1077,15 @@
     "ginny georgia": "2026-09-07",
     "narcos mexico": "2026-09-07",
     "slow horses": "2026-09-07",
-    "narcos mexico everything you need to know before": "2026-09-07"
+    "narcos mexico everything you need to know before": "2026-09-07",
+    "arrested development": "2026-09-07",
+    "true detective": "2026-09-07",
+    "ozark everything you need to know before": "2026-09-07",
+    "recap house of cards": "2026-09-07",
+    "and just like that": "2026-09-07",
+    "warrior nun": "2026-09-07",
+    "the flash": "2026-09-07",
+    "lost in space everything you need to know before": "2026-09-07"
   },
   "series": [
     {
@@ -1319,17 +1353,37 @@
       "aliases": [
         "SLOW HORSES"
       ]
+    },
+    {
+      "imdbID": "tt0367279",
+      "tmdbID": 4589,
+      "aliases": [
+        "Arrested Development"
+      ]
+    },
+    {
+      "imdbID": "tt2356777",
+      "tmdbID": 46648,
+      "aliases": [
+        "TRUE DETECTIVE"
+      ]
+    },
+    {
+      "imdbID": "tt13819960",
+      "tmdbID": 116450,
+      "aliases": [
+        "And Just Like That..."
+      ]
+    },
+    {
+      "imdbID": "tt9059350",
+      "tmdbID": 87689,
+      "aliases": [
+        "WARRIOR NUN"
+      ]
     }
   ],
   "pending": {
-    "II1Bg-WnFqo": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "IN0osLg-Mn8": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "JEIOdLcaa1Q": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "JXO_Gd1jFIU": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "Jj1afD3qut4": "UCx-KWLTKlB83hDI6UKECtJQ",
-    "KYq0tNNZXVM": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "KvCitIkjkZs": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "M4Cp59lqEYY": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "MbuXGXmrHFM": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "MlNxiZRLwYk": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "N-fldUq_IdQ": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1337,10 +1391,8 @@
     "ORoDJlCGBEI": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "OZOfhx0AJ1E": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "P4AJS0-Lhf4": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "P7cxgunKTnw": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "PobPi9i0RL8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "RelQ2qGZrng": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "SD9rVTAqx60": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "TFLw7tOUVIM": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Tmv4LQOMh-s": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "TqTQ4sKA3UI": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1357,10 +1409,8 @@
     "WWxAl6uyNVs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "X3-KCQCT3WQ": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "XBwJ2834HlY": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "XKvOcQV6E5c": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "Xgq0TI4NW2A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Y5833KeDmp4": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "YTGLaWnddy4": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "YVXIFLkQqg8": "UC1Myj674wRVXB9I4c6Hm5zA",
     "YZB9hBKINoY": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Yd2A-Od994E": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1391,7 +1441,6 @@
     "mU4RkxQl9lA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "mVTUYGZM4UY": "UCx-KWLTKlB83hDI6UKECtJQ",
     "nGhxB4Jfhr0": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "nkxrUJP8KxA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "o4gwnuRbBMU": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "p7YxwveUrjI": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qX2avMTn6yA": "UCnFL_hmp-nc-l2QlLzxZdhg",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 10,
+  "revision": 11,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -1754,6 +1754,32 @@
       "language": "en",
       "durationSeconds": 148,
       "title": "Slow Horses — Seasons 1-4 Recap | Apple TV",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "KYq0tNNZXVM",
+      "imdbID": "tt9059350",
+      "tmdbID": 87689,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 329,
+      "title": "WARRIOR NUN Season 1 Recap | Must Watch Before Season 2 | Netflix Series Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "YTGLaWnddy4",
+      "imdbID": "tt0367279",
+      "tmdbID": 4589,
+      "firstSeason": 1,
+      "lastSeason": 3,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 1819,
+      "title": "Arrested Development RECAP: Seasons 1 - 3",
       "reviewedAt": "2026-09-07",
       "enabled": true
     }
