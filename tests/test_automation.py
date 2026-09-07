@@ -119,6 +119,26 @@ class RuleTests(unittest.TestCase):
 
 
 class AutomationTests(unittest.TestCase):
+    def test_monthly_retry_can_resolve_identity_without_video_metadata_change(self):
+        class Resolver:
+            def __init__(self): self.found = False; self.calls = 0
+            def resolve(self, name):
+                self.calls += 1
+                return SHOW if self.found else None
+        resolver = Resolver()
+        result, state, _ = a.run(catalog(), {}, [], {}, FakeAPI(), '2026-09-07', resolver)
+        resolver.found = True
+        result, state, report = a.run(result, state, [], {}, FakeAPI(), '2026-10-07', resolver)
+        self.assertEqual(report['added'], ['abcdefghijk'])
+        self.assertEqual(resolver.calls, 2)
+
+    def test_unsupported_format_does_not_consume_identity_budget(self):
+        class Resolver:
+            def resolve(self, name): raise AssertionError('Must reject format first')
+        _, _, report = a.run(catalog(), {}, [], {}, FakeAPI([item(title='Unknown Season 1 Recap | Trailer')]), '2026-09-07', Resolver())
+        self.assertEqual(report['seriesResolutions'], 0)
+        self.assertFalse(report['added'])
+
     def test_full_series_uses_and_persists_verified_episode_numbering(self):
         class Resolver:
             def season_numbers(self, show): return [1, 2, 3]

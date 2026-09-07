@@ -109,6 +109,10 @@ def rejection_reason(item, channel, series):
         return 'unsupported_or_discontinuous_coverage'
     if not any(normalize(name) in [normalize(alias) for alias in show['aliases']] for show in series):
         return 'series_identity_unresolved'
+    if re.fullmatch(FULL_TITLE_PATTERN, title.strip(), re.I):
+        show = next(show for show in series if normalize(name) in [normalize(alias) for alias in show['aliases']])
+        if not all(n in show.get('seasonNumbers', []) for n in range(start, end + 1)):
+            return 'season_numbering_unverified'
     if re.search(r'\b(trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|movie recap)\b', title + ' ' + description, re.I):
         return 'mixed_format_or_description_flag'
     return 'coverage_context_or_suffix_conflict'
@@ -373,7 +377,7 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
             continue
         fingerprint = digest({k: item.get(k) for k in ('snippet', 'contentDetails', 'status')} if item else None)
         prior = state['rejected'].get(key, {})
-        if prior.get('fingerprint') == fingerprint and prior.get('rulesSignature') == signature and key not in state.get('pending', {}):
+        if prior.get('fingerprint') == fingerprint and prior.get('rulesSignature') == signature and key not in state.get('pending', {}) and prior.get('reason') not in ('series_identity_unresolved', 'season_numbering_unverified'):
             prior['checkedAt'] = today
             unchanged_rechecks += 1
             continue
@@ -382,7 +386,8 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
             title = parse_title(snippet.get('title', ''))
             name = title[1].strip(' —–:-') if title else ''
             registered = any(normalize(name) in [normalize(a) for a in show['aliases']] for show in series)
-            if name and not registered and snippet.get('defaultAudioLanguage', '').lower().split('-')[0] == 'en':
+            format_supported = name and coverage(snippet.get('title', ''), [{'aliases': [name], 'seasonNumbers': list(range(1, 101))}], snippet.get('description', '')) is not None
+            if format_supported and not registered and snippet.get('defaultAudioLanguage', '').lower().split('-')[0] == 'en':
                 checked = state['identityChecks'].get(normalize(name), '')
                 due = (key in state.get('pending', {}) or prior.get('rulesSignature') != signature or checked <= (dt.date.fromisoformat(today) - dt.timedelta(days=REJECTION_RECHECK_DAYS)).isoformat()) and normalize(name) not in attempted_names
                 if due and resolutions < 8:
