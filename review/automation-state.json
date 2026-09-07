@@ -925,6 +925,14 @@
     "z5wxkvwi1_Q": {
       "misses": 0,
       "checkedAt": "2026-09-07"
+    },
+    "-Ho92HBllDA": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "0Us_RLfsb7k": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
     }
   },
   "approved": {
@@ -1987,6 +1995,11 @@
       "policyVersion": 6,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en"
+    },
+    "pQJayF2tNDg": {
+      "policyVersion": 6,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -2151,7 +2164,12 @@
     "paradise recap before": "2026-09-07",
     "the night agent recap before": "2026-09-07",
     "daredevil born again recap before": "2026-09-07",
-    "the pitt recap before": "2026-09-07"
+    "the pitt recap before": "2026-09-07",
+    "the walking dead": "2026-09-07",
+    "one piece recap before": "2026-09-07",
+    "the witcher recap before": "2026-09-07",
+    "fallout recap before": "2026-09-07",
+    "bridgerton recap before": "2026-09-07"
   },
   "series": [
     {
@@ -3078,26 +3096,30 @@
         8
       ],
       "seasonNumbersCheckedAt": "2026-09-07"
+    },
+    {
+      "imdbID": "tt1520211",
+      "tmdbID": 1402,
+      "aliases": [
+        "THE WALKING DEAD"
+      ],
+      "seasonNumbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "seasonNumbersCheckedAt": "2026-09-07"
     }
   ],
-  "pending": {
-    "hw5grC9JhQg": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "nGhxB4Jfhr0": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "nHtxccAIk7A": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "pQJayF2tNDg": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "prBLNYcIP6g": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "qqEcpjrPA0A": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "rht9P0bYSFI": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "tLvRbLqXmMg": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "tN8a6KfGFlk": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "uq0tHzMMme8": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "vyu-tThNr7Q": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "xSxdB1m9MJM": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "xTQoeV_XHqs": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "yyfkSxLycwk": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "z8UaIzJbFLc": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "zwZrfHp0_Ik": "UCNCTxLZ3EKKry-oWgLlsYsw"
-  },
+  "pending": {},
   "checkedAt": "2026-09-07",
   "rejected": {
     "-07drzOov-M": {
@@ -6542,17 +6564,6 @@
       "audioLanguage": "en",
       "descriptionLead": "Ethan fights to survive the Edge of Extinction. Someone gets blind-sided real hard. \n\nAll Survivor season 40: Winners at War Recaps -\n[link]\n\nSupport the channel as a member, and become a Recap Champion!\n[link]\n\n[link]\n[link]\n[link]",
       "flagExcerpt": ""
-    },
-    "pQJayF2tNDg": {
-      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
-      "title": "THE WALKING DEAD Full Series Recap | Season 1-11 Ending Explained",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-07",
-      "fingerprint": "9df16266f1dc61e8bc9962643911bd8876001d464886777dc035b1b4c9433d37",
-      "rulesSignature": "92ff0213d6371927f3d7dc0e90a8b2470cade54d4062f9db3731e6c055ddc2c6",
-      "audioLanguage": "en-US",
-      "descriptionLead": "AdamandEve.com. Code: RECAP. 50% Off 1 Item + Free Shipping in the\nUS & Canada *some exclusions apply\n\nRelive the entire Walking Dead series now! Season 1-11! What did you think of The Walking Dead series finale ending?\n\nLetterboxd: [link]\nDiscord: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nThe Walking Dead stars Andrew Lincoln as Rick Grimes, Jon Bernthal as Shane Walsh, Sarah Wayne Callies as Lori Grimes, Laurie Holden as Andrea, Jeffrey DeMunn as Dale Horvath, Steven Yeun as ",
-      "flagExcerpt": "as Lance Hornsby, Margot Bingham as Maxxine \"Stephanie\" Mercer, Angel Theory as Kelly, Laila Robins as Pamela Milton."
     },
     "prBLNYcIP6g": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",

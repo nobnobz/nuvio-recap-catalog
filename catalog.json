@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 27,
+  "revision": 28,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -3158,6 +3158,19 @@
       "language": "en",
       "durationSeconds": 159,
       "title": "Squid Game RECAP: Season 2  #squidgame #longstoryshort",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "pQJayF2tNDg",
+      "imdbID": "tt1520211",
+      "tmdbID": 1402,
+      "firstSeason": 1,
+      "lastSeason": 11,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 2466,
+      "title": "THE WALKING DEAD Full Series Recap | Season 1-11 Ending Explained",
       "reviewedAt": "2026-09-07",
       "enabled": true
     }
