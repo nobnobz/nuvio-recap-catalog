@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 8,
+  "revision": 9,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -1585,6 +1585,110 @@
       "language": "en",
       "durationSeconds": 380,
       "title": "Mr. Robot RECAP: Season 3",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "Ce4xLq6RTQc",
+      "imdbID": "tt7772588",
+      "tmdbID": 87917,
+      "firstSeason": 4,
+      "lastSeason": 4,
+      "channelID": "UC1Myj674wRVXB9I4c6Hm5zA",
+      "language": "en",
+      "durationSeconds": 169,
+      "title": "For All Mankind — Season 4 Recap | Apple TV",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "D75SElfy7SM",
+      "imdbID": "tt11126994",
+      "tmdbID": 94605,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 604,
+      "title": "Arcane RECAP: Season 1",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "DcawZCKqgX8",
+      "imdbID": "tt11311302",
+      "tmdbID": 116135,
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 341,
+      "title": "VIKINGS: VALHALLA Season 1 Recap | Must Watch Before Season 2 | Netflix Series Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "Et8MtQ2gfz0",
+      "imdbID": "tt11126994",
+      "tmdbID": 94605,
+      "firstSeason": 2,
+      "lastSeason": 2,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 764,
+      "title": "Arcane RECAP: Season 2",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "P_EeEHXgcu0",
+      "imdbID": "tt7772588",
+      "tmdbID": 87917,
+      "firstSeason": 1,
+      "lastSeason": 4,
+      "channelID": "UC1Myj674wRVXB9I4c6Hm5zA",
+      "language": "en",
+      "durationSeconds": 89,
+      "title": "For All Mankind — Seasons 1-4 Recap | Apple TV",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "dgD-2ZZGiS0",
+      "imdbID": "tt3007572",
+      "tmdbID": 86423,
+      "firstSeason": 1,
+      "lastSeason": 2,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 733,
+      "title": "LOCKE & KEY Season 1 & 2 Recap | Must Watch Before Season 3 | Netflix Series Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "k7x0vuwH23M",
+      "imdbID": "tt13406094",
+      "tmdbID": 111803,
+      "firstSeason": 1,
+      "lastSeason": 2,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 825,
+      "title": "THE WHITE LOTUS Season 1 & 2 Recap | Must Watch Before Season 3 | Series Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "wPNJ3jjCM9Q",
+      "imdbID": "tt11311302",
+      "tmdbID": 116135,
+      "firstSeason": 1,
+      "lastSeason": 2,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 481,
+      "title": "VIKINGS: VALHALLA Season 1 & 2 Recap | Must Watch Before Season 3 | Series Explained",
       "reviewedAt": "2026-09-07",
       "enabled": true
     }

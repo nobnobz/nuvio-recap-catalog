@@ -1,10 +1,10 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNOSUdJaEEzTURBM1JUTXdNRFUyTlRJM1FqWTQ"
+      "nextPageToken": "EAAaH1BUOkNKb0lJaEJCUVROR01rRkVPVEF3TVRoRVJqZEY"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNOSUdJaEEzT0RFd05FRXpNVFZDTkRnNVFUbEQ"
+      "nextPageToken": "EAAaH1BUOkNKb0lJaEJHTXpCQ01qVkZSakpCUlRnNE9FWTE"
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
       "nextPageToken": null,
@@ -413,6 +413,46 @@
       "checkedAt": "2026-09-07"
     },
     "aChwotQx61w": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "7fNmASHCtgw": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "8EDVYkSCJTo": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "8_KoPT8uBho": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "9aNrAGbiJ_w": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "A-syB6qrkTs": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "AH4xVT-5TdE": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "B7YH9WCJgPk": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "CBZ5h7Y8ncg": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "J7krVFykgtg": {
+      "misses": 0,
+      "checkedAt": "2026-09-07"
+    },
+    "Oh59GOPm0PY": {
       "misses": 0,
       "checkedAt": "2026-09-07"
     }
@@ -872,6 +912,46 @@
       "policyVersion": 1,
       "checkedAt": "2026-09-07",
       "audioLanguage": "en"
+    },
+    "Ce4xLq6RTQc": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "D75SElfy7SM": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "DcawZCKqgX8": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "Et8MtQ2gfz0": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "P_EeEHXgcu0": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en"
+    },
+    "dgD-2ZZGiS0": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "k7x0vuwH23M": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
+    },
+    "wPNJ3jjCM9Q": {
+      "policyVersion": 1,
+      "checkedAt": "2026-09-07",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -906,7 +986,15 @@
     "percy jackson and the olympians": "2026-09-07",
     "mr robot": "2026-09-07",
     "andor": "2026-09-07",
-    "lupin": "2026-09-07"
+    "lupin": "2026-09-07",
+    "the gilded age": "2026-09-07",
+    "locke key": "2026-09-07",
+    "the diplomat": "2026-09-07",
+    "for all mankind": "2026-09-07",
+    "rings of power": "2026-09-07",
+    "arcane": "2026-09-07",
+    "vikings valhalla": "2026-09-07",
+    "the white lotus": "2026-09-07"
   },
   "series": [
     {
@@ -1104,19 +1192,52 @@
       "aliases": [
         "Andor"
       ]
+    },
+    {
+      "imdbID": "tt4406178",
+      "tmdbID": 81723,
+      "aliases": [
+        "The Gilded Age"
+      ]
+    },
+    {
+      "imdbID": "tt3007572",
+      "tmdbID": 86423,
+      "aliases": [
+        "LOCKE & KEY"
+      ]
+    },
+    {
+      "imdbID": "tt7772588",
+      "tmdbID": 87917,
+      "aliases": [
+        "For All Mankind"
+      ]
+    },
+    {
+      "imdbID": "tt11126994",
+      "tmdbID": 94605,
+      "aliases": [
+        "Arcane"
+      ]
+    },
+    {
+      "imdbID": "tt11311302",
+      "tmdbID": 116135,
+      "aliases": [
+        "VIKINGS: VALHALLA"
+      ]
+    },
+    {
+      "imdbID": "tt13406094",
+      "tmdbID": 111803,
+      "aliases": [
+        "THE WHITE LOTUS"
+      ]
     }
   ],
   "pending": {
-    "BtIJ3zE0lrU": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "CIzDTu3HKLs": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Ce4xLq6RTQc": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "CjeUx_HHtF0": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "D75SElfy7SM": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "DcawZCKqgX8": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "DiOyps4eAh4": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "ECSWRh9Y5jk": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "EixoKpyGOms": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "Et8MtQ2gfz0": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "EwqL4rRDt5c": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "GvIjUtMSMC4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "HRdjdVUYAcU": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1126,6 +1247,7 @@
     "IN0osLg-Mn8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "JEIOdLcaa1Q": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "JXO_Gd1jFIU": "UCNCTxLZ3EKKry-oWgLlsYsw",
+    "Jj1afD3qut4": "UCx-KWLTKlB83hDI6UKECtJQ",
     "KYq0tNNZXVM": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "KvCitIkjkZs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "M4Cp59lqEYY": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1137,7 +1259,6 @@
     "OZOfhx0AJ1E": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "P4AJS0-Lhf4": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "P7cxgunKTnw": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "P_EeEHXgcu0": "UC1Myj674wRVXB9I4c6Hm5zA",
     "PobPi9i0RL8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "RelQ2qGZrng": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "SD9rVTAqx60": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1161,7 +1282,6 @@
     "XKvOcQV6E5c": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "Xgq0TI4NW2A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "Y5833KeDmp4": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "YLwbPbzGCTk": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "YTGLaWnddy4": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "YVXIFLkQqg8": "UC1Myj674wRVXB9I4c6Hm5zA",
     "YZB9hBKINoY": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1173,12 +1293,10 @@
     "bQLhiIL2kLU": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "bTEa8dCyV38": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "bYuUiWLJtvw": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "dgD-2ZZGiS0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "eJgO8Rj9vQY": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "fgEGOetkDY4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "fqsRBeFCiZ4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "fuAX_gNa3ls": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "gyBGKmiAu94": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hLnj0ZGe6O8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hbFoToRr2hs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hj5iLn-kTA8": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1188,18 +1306,17 @@
     "iXqFeFvR6Io": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "iaSHPkw741A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "irOGuFFHzWA": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "k7x0vuwH23M": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "kWe9LAJNGF0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "kg7M7G-rQ9s": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "l21mwWGzBK4": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "l2E7yxarfQM": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "lHOSNjbg6K8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "luSguXy_XKE": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "mU4RkxQl9lA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "mVTUYGZM4UY": "UCx-KWLTKlB83hDI6UKECtJQ",
     "nGhxB4Jfhr0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "nkxrUJP8KxA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "o4gwnuRbBMU": "UCnFL_hmp-nc-l2QlLzxZdhg",
+    "osgVw3T82Gc": "UC1Myj674wRVXB9I4c6Hm5zA",
     "p7YxwveUrjI": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qX2avMTn6yA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "qqEcpjrPA0A": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -1214,7 +1331,6 @@
     "vqjy9Eob4So": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "wHtZqojunC8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "wJPHrG21nFs": "UCx-KWLTKlB83hDI6UKECtJQ",
-    "wPNJ3jjCM9Q": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "xLPoqbcnbP4": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "xTQoeV_XHqs": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "xyom4WLco_I": "UCnFL_hmp-nc-l2QlLzxZdhg",
