@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 24,
+  "revision": 25,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -2950,6 +2950,58 @@
       "language": "en",
       "durationSeconds": 2385,
       "title": "STRANGER THINGS Full Series Recap | Season 1-5 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "c3EyZqEDKxA",
+      "imdbID": "tt3743822",
+      "tmdbID": 62286,
+      "firstSeason": 1,
+      "lastSeason": 8,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 2269,
+      "title": "FEAR THE WALKING DEAD Full Series Recap | Season 1-8 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "cVjdoKYcILU",
+      "imdbID": "tt1124373",
+      "tmdbID": 1409,
+      "firstSeason": 1,
+      "lastSeason": 7,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 2301,
+      "title": "SONS OF ANARCHY Full Series Recap | Season 1-7 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "ezr0ItjDAyE",
+      "imdbID": "tt1475582",
+      "tmdbID": 19885,
+      "firstSeason": 1,
+      "lastSeason": 4,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 966,
+      "title": "SHERLOCK Full Series Recap | Season 1-4 Ending Explained",
+      "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "f4lTX7qmNH4",
+      "imdbID": "tt3032476",
+      "tmdbID": 60059,
+      "firstSeason": 1,
+      "lastSeason": 6,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 1876,
+      "title": "BETTER CALL SAUL Full Series Recap | Season 1-6 Ending Explained",
       "reviewedAt": "2026-09-07",
       "enabled": true
     }
