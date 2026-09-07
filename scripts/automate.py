@@ -367,6 +367,7 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
                 'reason': rejection_reason(item, channel, series), 'checkedAt': today,
                 'fingerprint': fingerprint, 'rulesSignature': signature,
                 'audioLanguage': snippet.get('defaultAudioLanguage', ''),
+                'descriptionLead': re.sub(r'https?://\S+', '[link]', description)[:500],
                 'flagExcerpt': flag[0] if flag else ''}
     # Rotating health coverage; two transient misses never withdraw a video.
     # A repeated run on the same day cannot count as another confirmation.
