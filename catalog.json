@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 28,
+  "revision": 29,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -3172,6 +3172,19 @@
       "durationSeconds": 2466,
       "title": "THE WALKING DEAD Full Series Recap | Season 1-11 Ending Explained",
       "reviewedAt": "2026-09-07",
+      "enabled": true
+    },
+    {
+      "videoID": "PwNfdT3ceYw",
+      "imdbID": "tt6439752",
+      "tmdbID": 71694,
+      "firstSeason": 1,
+      "lastSeason": 6,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 3382,
+      "title": "SNOWFALL Full Series Recap | Season 1-6 Ending Explained",
+      "reviewedAt": "2026-09-08",
       "enabled": true
     }
   ],
