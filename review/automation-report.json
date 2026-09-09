@@ -1,23 +1,23 @@
 {
-  "checkedAt": "2026-09-08",
+  "checkedAt": "2026-09-09",
   "policyVersion": 6,
   "catalogRevision": 29,
   "candidatesChecked": 1,
-  "added": [
-    "PwNfdT3ceYw"
-  ],
+  "added": [],
   "withdrawn": [],
   "restored": [],
-  "skipped": [],
+  "skipped": [
+    "QYULd9Uq2-U"
+  ],
   "healthChecked": 60,
   "apiCalls": 11,
-  "seriesResolutions": 2,
+  "seriesResolutions": 0,
   "identityErrors": 0,
   "pendingIdentities": 0,
   "unchangedRechecks": 0,
   "rejectionsByReason": {
     "coverage_title_not_explicit": 239,
-    "live_region_or_age_restriction": 12,
+    "live_region_or_age_restriction": 13,
     "mixed_format_or_description_flag": 16,
     "audio_language_missing": 10,
     "series_identity_unresolved": 60,
@@ -25,6 +25,6 @@
     "coverage_context_or_suffix_conflict": 17,
     "season_numbering_unverified": 1
   },
-  "rejectionsTracked": 365,
+  "rejectionsTracked": 366,
   "archivesComplete": true
 }
