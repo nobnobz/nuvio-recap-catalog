@@ -1,16 +1,14 @@
 {
-  "checkedAt": "2026-09-09",
+  "checkedAt": "2026-09-10",
   "policyVersion": 6,
   "catalogRevision": 29,
-  "candidatesChecked": 1,
+  "candidatesChecked": 0,
   "added": [],
   "withdrawn": [],
   "restored": [],
-  "skipped": [
-    "QYULd9Uq2-U"
-  ],
+  "skipped": [],
   "healthChecked": 60,
-  "apiCalls": 11,
+  "apiCalls": 10,
   "seriesResolutions": 0,
   "identityErrors": 0,
   "pendingIdentities": 0,
