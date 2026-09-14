@@ -1,11 +1,11 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNKUUtJaEF3UWtGQlJEQXhOekl4T1RKRU5FSkQ",
+      "nextPageToken": "EAAaH1BUOkNJNE1JaEJETmprM1EwRTBNMFl6TnprM05VWkI",
       "discoveryVersion": 2
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNKUUtJaEF4UTBVNU16WTROamRFUWpZMk4wVTM",
+      "nextPageToken": "EAAaH1BUOkNJNE1JaEEwTUVZMVFUUTJORVUzUlRneVFUbEY",
       "discoveryVersion": 2
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
@@ -20,11 +20,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKUUtJaEF5TWpOR1FVWkJOelkwUmtGRk16RTM"
+      "nextPageToken": "EAAaH1BUOkNJNE1JaEEzTVRJeU1FWXhOekZDTkVVeFF6Z3o"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKUUtJaEJDUTBNMU5qZENNRGRHT0RnMFJEZzE"
+      "nextPageToken": "EAAaH1BUOkNJNE1JaEEwTTBFME9EaENRakEwUlRjMlJERTA"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -33,11 +33,12 @@
     },
     "UCIrgJInjLS2BhlHOMDW7v0g": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKUUtJaEF3T0RreE1EUkJNamN4T1RJMk9UUTE"
+      "nextPageToken": null,
+      "completedAt": "2026-09-14"
     },
     "UCgMJGv4cQl8-q71AyFeFmtg": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKUUtJaEEyUmtFMk9EVkJSVEk0UlRaQ1JqUTE"
+      "nextPageToken": "EAAaH1BUOkNJNE1JaEJCTjBSQlJFSkNSRVJGTXpnelFUZ3o"
     },
     "UCCNA8qUu57LQXm5L8EL5B-g": {
       "discoveryVersion": 2,
@@ -590,7 +591,7 @@
     },
     "wPNJ3jjCM9Q": {
       "misses": 0,
-      "checkedAt": "2026-09-10"
+      "checkedAt": "2026-09-14"
     },
     "y3lLl5W1uEw": {
       "misses": 0,
@@ -658,7 +659,7 @@
     },
     "wHtZqojunC8": {
       "misses": 0,
-      "checkedAt": "2026-09-10"
+      "checkedAt": "2026-09-14"
     },
     "zQh28sxpvvg": {
       "misses": 0,
@@ -726,7 +727,7 @@
     },
     "vZZ6Z49JRaI": {
       "misses": 0,
-      "checkedAt": "2026-09-10"
+      "checkedAt": "2026-09-14"
     },
     "zNCr801BJ60": {
       "misses": 0,
@@ -1073,6 +1074,30 @@
       "checkedAt": "2026-09-14"
     },
     "TYA8xtRP7Hk": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "lSeGMJvN4m4": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "mifli51yFfs": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "ohkj_yhiFqA": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "pAsouBXd2m4": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "vwOzGbMlvDk": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "xAhQJaZFg0E": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -2357,6 +2382,76 @@
       "policyVersion": 8,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en-US"
+    },
+    "bKOEmjkDsPA": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-GB"
+    },
+    "d56OsPFKAQ4": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "dlPj0Vn6aec": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "e0DbL23QKq0": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "eT_jQpvqL14": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "f04ybnNPDO0": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "fIhI7oEycdo": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "g6XUze_txv4": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "gKVwykKC6tw": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "gpq6ivLjstI": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "gvvaITyIc4Q": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "hGKRPm37Fhk": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "hU9Gv9IKprE": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "hd93UMcbebA": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -2619,7 +2714,38 @@
     "series:foundation recap everything you need to know before": "2026-09-14",
     "movie:iron man 2": "2026-09-14",
     "movie:avatar": "2026-09-14",
-    "movie:star wars the rise of skywalker": "2026-09-14"
+    "movie:star wars the rise of skywalker": "2026-09-14",
+    "movie:walking dead": "2026-09-14",
+    "movie:wandavision": "2026-09-14",
+    "movie:ahsoka and star wars rebels": "2026-09-14",
+    "movie:john wick": "2026-09-14",
+    "series:prison break": "2026-09-14",
+    "movie:spider man and hulk": "2026-09-14",
+    "movie:planet of the apes": "2026-09-14",
+    "movie:everything you need to know before ballerina john wick": "2026-09-14",
+    "movie:the lion king": "2026-09-14",
+    "movie:it chapter 1": "2026-09-14",
+    "movie:darth maul": "2026-09-14",
+    "movie:harry potter and the prisoner of azkaban": "2026-09-14",
+    "movie:how to train your dragon": "2026-09-14",
+    "movie:spider man 2": "2026-09-14",
+    "movie:harry potter and the goblet of fire": "2026-09-14",
+    "series:the pitt recap before": "2026-09-14",
+    "series:suits": "2026-09-14",
+    "movie:doctor strange": "2026-09-14",
+    "movie:the accountant": "2026-09-14",
+    "movie:beetlejuice": "2026-09-14",
+    "series:one piece": "2026-09-14",
+    "movie:willy wonka the chocolate factory": "2026-09-14",
+    "movie:skyfall": "2026-09-14",
+    "series:foundation actually helpful recap fast forward to": "2026-09-14",
+    "movie:x men apocalypse": "2026-09-14",
+    "series:andor recap everything you need to know before": "2026-09-14",
+    "movie:maze runner the death cure": "2026-09-14",
+    "movie:godzilla": "2026-09-14",
+    "movie:ant man": "2026-09-14",
+    "movie:x men 2": "2026-09-14",
+    "movie:oppenheimer": "2026-09-14"
   },
   "series": [
     {
@@ -3623,36 +3749,6 @@
     }
   ],
   "pending": {
-    "bKOEmjkDsPA": "UCCNA8qUu57LQXm5L8EL5B-g",
-    "bQ6O7QPMPQA": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "ch6UnwUa2wU": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "cn_cdtTJxP0": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "ctCsajNw52w": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "d56OsPFKAQ4": "UCwOhOMxCC4Bi54W255Sczmg",
-    "d7M2Ak1VUCw": "UCwOhOMxCC4Bi54W255Sczmg",
-    "dNddn2xeRtk": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "drDJKGfvu6Y": "UCwOhOMxCC4Bi54W255Sczmg",
-    "dxiuyOepeNY": "UCwOhOMxCC4Bi54W255Sczmg",
-    "e0DbL23QKq0": "UCwOhOMxCC4Bi54W255Sczmg",
-    "eT_jQpvqL14": "UCwOhOMxCC4Bi54W255Sczmg",
-    "ew1GGVQAxOw": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "f04ybnNPDO0": "UCwOhOMxCC4Bi54W255Sczmg",
-    "fF8OaCs1IaY": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "fZeW-KUXHKY": "UCwOhOMxCC4Bi54W255Sczmg",
-    "fhlLQqTH3FM": "UCwOhOMxCC4Bi54W255Sczmg",
-    "g6XUze_txv4": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "gE-_MhZjS84": "UCWOA1ZGywLbqmigxE4Qlvuw",
-    "gKVwykKC6tw": "UCwOhOMxCC4Bi54W255Sczmg",
-    "gpq6ivLjstI": "UCwOhOMxCC4Bi54W255Sczmg",
-    "gvXXaZKclBc": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "gvvaITyIc4Q": "UCwOhOMxCC4Bi54W255Sczmg",
-    "hBxx9C3Rj7E": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "hGKRPm37Fhk": "UCwOhOMxCC4Bi54W255Sczmg",
-    "hKf1Ta0xbEo": "UCwOhOMxCC4Bi54W255Sczmg",
-    "hU9Gv9IKprE": "UCwOhOMxCC4Bi54W255Sczmg",
-    "hZB0n9y8Lm8": "UCwOhOMxCC4Bi54W255Sczmg",
-    "hd93UMcbebA": "UCwOhOMxCC4Bi54W255Sczmg",
-    "hj5iLn-kTA8": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "hkUT2Y-d7XY": "UCwOhOMxCC4Bi54W255Sczmg",
     "hoTXvsg7tp0": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "hv8ROUg68l8": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -3702,6 +3798,7 @@
     "pB6ULQIgmfg": "UCwOhOMxCC4Bi54W255Sczmg",
     "pC42xTkZl0s": "UCwOhOMxCC4Bi54W255Sczmg",
     "pLe_u4HJPeE": "UCgMJGv4cQl8-q71AyFeFmtg",
+    "pPhA5m127zo": "UCgMJGv4cQl8-q71AyFeFmtg",
     "p_BSGyzxG40": "UCwOhOMxCC4Bi54W255Sczmg",
     "pcQ1dBcSl6s": "UCwOhOMxCC4Bi54W255Sczmg",
     "peglqUx0z_E": "UCwOhOMxCC4Bi54W255Sczmg",
@@ -3742,7 +3839,6 @@
     "vOuv1QH3JW4": "UCwOhOMxCC4Bi54W255Sczmg",
     "vP33_FDWdBY": "UCwOhOMxCC4Bi54W255Sczmg",
     "vq5MRtj70N0": "UCwOhOMxCC4Bi54W255Sczmg",
-    "vqjy9Eob4So": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "vyu-tThNr7Q": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "w0hXkuaeUUo": "UCCNA8qUu57LQXm5L8EL5B-g",
     "w5UYofm5a-M": "UCwOhOMxCC4Bi54W255Sczmg",
@@ -3760,6 +3856,7 @@
     "xkbsS8WMBOM": "UCgMJGv4cQl8-q71AyFeFmtg",
     "xspl5wzl9VA": "UCgMJGv4cQl8-q71AyFeFmtg",
     "y20M9pCZO18": "UCgMJGv4cQl8-q71AyFeFmtg",
+    "y2LABQGr_zk": "UCgMJGv4cQl8-q71AyFeFmtg",
     "yYKTYscZoIo": "UCwOhOMxCC4Bi54W255Sczmg",
     "ygS7k0rNlvk": "UCwOhOMxCC4Bi54W255Sczmg",
     "yhzAytdeXgQ": "UCwOhOMxCC4Bi54W255Sczmg",
@@ -6479,17 +6576,6 @@
       "audioLanguage": "en-US",
       "descriptionLead": "Get ready for Stranger Things season 5 volume 2 on Netflix!\n\nLetterboxd: [link]\nTwitter: [link]\nInstagram: [link]\nBuy merch: [link]\n\nGet ready for Stranger Things season 5 volume 2 with everything you need to know from our Stranger Things season 5 volume 1 recap.\n\nIn 1980s Indiana, a group of young friends witness supernatural forces and secret government exploits. As they search for answers, the children unravel a series of extraordinary mysteries.\n\nStranger Things stars Winona Ryder as Joyce B",
       "flagExcerpt": "stranger things full series recap"
-    },
-    "g6XUze_txv4": {
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "title": "Beetlejuice RECAP",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "6c04d4c22fac107526f57dcafee997d5686f35cfd076b4914cd86729aa6dc572",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Get ready for Beetlejuice Beetlejuice with this recap of the original 1988 movie! An absolute classic for people who were alive at that time, but you probably have never seen it. And now you don't have to because I watched it for you!\n\nSupport the channel as a member, and become a Recap Champion!\n[link]",
-      "flagExcerpt": ""
     },
     "gDAenrA_w4E": {
       "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
@@ -9989,17 +10075,6 @@
       "descriptionLead": "Want to be prepared for The Matrix Resurrections (2021)? Or forget all of the major plot events in the original THE MATRIX RELOADED (2003)? Just watch this recap and you will be caught up and ready in no time!\n\nFreedom fighters Neo, Trinity and Morpheus continue to lead the revolt against the Machine Army, unleashing their arsenal of extraordinary skills and weaponry against the systematic forces of repression and exploitation. In their quest to save the human race from extinction, they gain gre",
       "flagExcerpt": ""
     },
-    "bKOEmjkDsPA": {
-      "channelID": "UCCNA8qUu57LQXm5L8EL5B-g",
-      "title": "John Wick ULTIMATE RECAP!",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "5f5d2b469a2d6d8308687b0f1813bab1b3eb44b80095e206079cf0222479169d",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en-GB",
-      "descriptionLead": "John Wick Recap video for John Wick Chapter 1 CRAMMED! A Full On detailed Ultimate Keanu Reeves John Wick Recap video catch up refresher before the action packed gunfighting stunt film John Wick Chapter 4 comes out with another instalment of Keanu Reeves as John Wick Recap 2014 Baba Yaga getting revenge for killing his dog. Also Starring with Alfie Allen, Michael Nyqvist and Willem Dafoe.\n#Johnwick #recap #johnwick4\n\n[link]\n[link]",
-      "flagExcerpt": ""
-    },
     "bLC037pbYuw": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "A Quiet Place Part II in Minutes | Recap",
@@ -10143,17 +10218,6 @@
       "descriptionLead": "Want to be prepared for MADAME WEB (2024)? Or forget all of the major plot events in MORBIUS (2022)? Just watch this recap and you will be caught up and ready in no time!\n\nSony's Marvel Universe Recaps: [link]\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe t",
       "flagExcerpt": ""
     },
-    "d56OsPFKAQ4": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "The Lion King (2019) in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "e30fe5bb9f2e6201980e3a49d8030e89c0e4907e8e18626880a58e0c536d5f7c",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Mufasa (2024)? Or forget all of the major plot events in the original The Lion King (2019)? Just watch this recap and you will be caught up and ready in no time!\n\nSimba idolizes his father, King Mufasa, and takes to heart his own royal destiny on the plains of Africa. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother -- and former heir to the throne -- has plans of his own. The battle for Pride Rock is soon ravaged with betrayal, tra",
-      "flagExcerpt": ""
-    },
     "d7M2Ak1VUCw": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "It Chapter One in Minutes | Recap",
@@ -10209,17 +10273,6 @@
       "descriptionLead": "Want to be prepared for How to Train Your Dragon: The Hidden World (2019)? Or forget all of the major plot events in the original HOW TO TRAIN YOUR DRAGON (2010)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming s",
       "flagExcerpt": ""
     },
-    "e0DbL23QKq0": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Spider-Man 2 in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "5e8efe872450acf90aefc0b5544d34fe758a8e594323b89cb35f7df751b6809c",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for SPIDER-MAN: NO WAY HOME (2021)? Or forget all of the major plot events in the original SPIDER-MAN 2 (2004)? Just watch this recap and you will be caught up and ready in no time!\n\nEvery Spider-Man Movie Playlist:\n[link]\n\nWhen a failed nuclear fusion experiment results in an explosion that kills his wife, Dr. Otto Octavius (Alfred Molina) is transformed into Dr. Octopus, a cyborg with deadly metal tentacles. Doc Ock blames Spider-Man (Tobey Maguire) for the accident and see",
-      "flagExcerpt": ""
-    },
     "eB8fjH3HL-Y": {
       "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
       "title": "Mandalorian RECAP (2026) - Everything you need to Know Before Star Wars: The Mandalorian and Grogu",
@@ -10229,28 +10282,6 @@
       "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
       "audioLanguage": "en-US",
       "descriptionLead": "Grüns gives me my daily nutrients in one delicious pack. You can get up to 52% off with our link here -- [link]\nThis video is sponsored by Grüns\n\nVisit the ScreenCrush Merch Store to find fan merch that we designed just for you. From T-shirts to unique accessories, find your favorites. For 15% off your first order subscribe here! [link] \n\nConnect with ScreenCrush\n[link]\n[link]\n[link]\n[link]\n[link]\n[link]\n\nWritten by Liz Declan [link]\nHosted by Ryan Arey [link]\nEdited by \nRandolf Nombrado\nLee Maz",
-      "flagExcerpt": ""
-    },
-    "eT_jQpvqL14": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Harry Potter and the Goblet of Fire in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "6da2f35ee176379817adb70c71b5e7b39ef5d85607d22dc82869fe21b540036b",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in Harry Potter and the Goblet of Fire (2005)? Well just sit back, relax, and enjoy the video, and you will be caught up in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSumm",
-      "flagExcerpt": ""
-    },
-    "f04ybnNPDO0": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "John Wick in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "d5fb3febd9274be021b4b5c2b8baf8cf7e849c113a7f6c45f2661742f489298e",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for JOHN WICK: CHAPTER 4 (2023)? Or forget all of the major plot events in the original JOHN WICK (2014)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up",
       "flagExcerpt": ""
     },
     "fhlLQqTH3FM": {
@@ -10275,17 +10306,6 @@
       "descriptionLead": "Forget all of the major plot events in No Time to Die (2021)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikipedia.",
       "flagExcerpt": ""
     },
-    "gKVwykKC6tw": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Willy Wonka & the Chocolate Factory in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "81ba1aecbe73f15e1592978587263aea20c7af13682fe77a707d15602a740470",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Wonka (2023) starring Timothee Chalamet? Or forget all of the major plot events in the original Willy Wonka & the Chocolate Factory (1971)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out more Movies in Minutes:\n\nMarvel Phase Four Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase One Recap Playlist: [link]\n\nStar Wars Recap Playlist:\n[link]\n\nDC Extended Universe Recap Pl",
-      "flagExcerpt": ""
-    },
     "ghfNxr6_Usk": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "Wonder Man in Minutes | Marvel TV Recap",
@@ -10295,28 +10315,6 @@
       "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
       "audioLanguage": "en",
       "descriptionLead": "Forget all of the major plot events in the Disney+ original TV series Wonder Man (2026)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided",
-      "flagExcerpt": ""
-    },
-    "gpq6ivLjstI": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Skyfall in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "a466c450b681f84f2a524e07e74239b6d8d7f0bfb1f47d40ec8d2fa10f96e766",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for NO TIME TO DIE (2021)? Or forget all of the major plot events in SKYFALL (2012)? Just watch this recap and you will be caught up and ready in no time!\n\nAll Daniel Craig James Bond Recaps: [link]\n\nWhen James Bond's latest assignment goes terribly wrong, it leads to a calamitous turn of events: Undercover agents around the world are exposed, and MI6 is attacked, forcing M to relocate the agency. With MI6 now compromised inside and out, M turns to the one man she can trust: ",
-      "flagExcerpt": ""
-    },
-    "hGKRPm37Fhk": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Maze Runner: The Death Cure in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "b2ffc45f89c2ccd2bdb19e992f9adb48c0a4e1596d950ffcea5d7269211a49a8",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in Maze Runner: The Death Cure (2018)? Well just sit back, relax, and enjoy the video, and you will be caught up in no time!\n\nCheck out my other recaps...\n\nThe Maze Runner: [link]\n\nMaze Runner: The Scorch Trials: [link]\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click s",
       "flagExcerpt": ""
     },
     "hKf1Ta0xbEo": {
@@ -10361,17 +10359,6 @@
       "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
       "audioLanguage": "en",
       "descriptionLead": "Forget all of the major plot events in X2: X-Men United (2003)? Just watch this recap and you will be caught up and ready in no time!\n\nWhen anti-mutant Colonel William Stryker kidnaps Professor X and attacks his school, the X-Men must ally with their archenemy Magneto to stop him.\n\nCheck out more Movies in Minutes:\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nMarvel Phase Four Recap",
-      "flagExcerpt": ""
-    },
-    "hd93UMcbebA": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Oppenheimer in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "1e79cb1f6400b7a79458d574f7375a6608875cd0be579d4dc7bae653ea71f246",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major plot events in Oppenheimer (2023)? Just watch this recap and you will be caught up and ready in no time!\n\nDuring World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J. Robert Oppenheimer to work on the top-secret Manhattan Project. Oppenheimer and a team of scientists spend years developing and designing the atomic bomb. Their work comes to fruition on July 16, 1945, as they witness the world's first nuclear explosion, forever changing the course of history.\n\nMarv",
       "flagExcerpt": ""
     },
     "hkUT2Y-d7XY": {
@@ -12002,17 +11989,6 @@
       "descriptionLead": "Preparing to watch Doctor Strange in the Multiverse of Madness (2022)? Forget all of the major events in Doctor Strange (2016)? Well just sit back, relax, and enjoy the video, and you'll be caught back up in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subsc",
       "flagExcerpt": ""
     },
-    "gvvaITyIc4Q": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "X-Men: Apocalypse in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "ee7449873a65188d0e7722235b52486d80c3060186c62141f66cc7f152cddacf",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in X-Men: Apocalypse (2016)? Well just sit back, relax, and enjoy the video, and you'll be caught back up in no time!\n\nCheck out my other recaps...\n\n- Marvel Phase One Recap Playlist: [link]\n- Marvel Phase Two Recap Playlist: [link]\n- Marvel Phase Three Recap Playlist: [link]\n\n\n- DC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikipedia.",
-      "flagExcerpt": ""
-    },
     "gyx3AvS9LKo": {
       "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
       "title": "Game of Thrones | Official Season 4 Recap Trailer (HBO)",
@@ -12022,17 +11998,6 @@
       "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
       "audioLanguage": "en",
       "descriptionLead": "Valar Morghulis.\nHow far does one go for their quest for power? #GameofThrones is now streaming on HBO Max.",
-      "flagExcerpt": ""
-    },
-    "hU9Gv9IKprE": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Ant-Man in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "c23e6d216d89bfbffbed7c8d415092c75684450d002994cf5889cd26b771c161",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in Ant-Man (2015)? Well just sit back, relax, and enjoy the video, and you'll be caught back up in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikipedia",
       "flagExcerpt": ""
     },
     "hxyevtxHli0": {
@@ -13508,6 +13473,171 @@
       "audioLanguage": "en-US",
       "descriptionLead": "Our High Republic Recap is here! Go to [link] or scan the QR code and use code SCREENCRUSH to get your free FÜM Base when you order your Journey Pack today!\n\nHey everyone, support our channel by shopping our MERCH STORE Here → \n[link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten and Edited by Pavel Terehovsky ([link] pavel8866@gmail.com\nHosted by Ryan Arey ([link]\n\n#HighRepublic #Recap #Acolyte",
       "flagExcerpt": ""
+    },
+    "7iG7MGHhBfI": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "NINJA TURTLES Recap! - Complete History of Every TMNT Film",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "f6a0f412ce8894055c94ee8bbd4455438786b119003ea4f07c2ae606f1ba6182",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Our Ninja Turtles Recap is here! The Teenage Mutant Ninja Turtles have been fighting the Foot Clan for more than 40 years, and in this video we breakdown their history, and their films--form the classic 1990 Turtles movie, to the Michael Bay franchise that wasn't. \n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Jack Piccone @JackieNoBrakes\nHosted by Ryan Arey ([link]\nEdited by Harriet Lengel-Enright, Randolf Nombrado, Lee Mazzio, Sof",
+      "flagExcerpt": ""
+    },
+    "9Ifu1fJ-tbc": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "WHAT IF...? Season 1 RECAP - Everything You Need to Know Before the New MCU Show",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "9e933b2833ccfad620aada7ed19be8d1c9013d6e6505f6d02cdeb30561b5fe2e",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "What If...? Season 1 Recap Use code SCREENCRUSH50 to get 50% off your first Factor box at [link] \n\nHey everyone, get your Doug the Manager Plush here: [link]\n\nAnd please support our channel by shopping our MERCH STORE Here → [link]\n\nWhat if...? Season 1 showed a different side to the Marvel Cinematic Universe, taking us on character-driven stories about Dr Strange, seeing the Avengers assemble across the multiverse--and of course, murdering Tony Stark several times. In this video, we recap every",
+      "flagExcerpt": ""
+    },
+    "EkIzrZaGgFg": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Gen V Season 1 Recap Character Arcs | Prime Video",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "5a7e84f1e5a39b4a8ec624915bd4c8522fb0559c924f2cf63531876ab499d8e1",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "Everything you need to know about the conspiracies, the supes, and secrets of Godolkin University. The Gen V S2 finale is streaming now.\n\nAbout Gen V:\nFrom the world of The Boys comes Gen V, a thrilling new series set at America’s only college for superheroes. These gifted students put their moral boundaries to the test, competing for the university’s top ranking, and a chance to join The Seven, Vought International’s elite superhero team. When the school’s dark secrets come to light, they must ",
+      "flagExcerpt": ""
+    },
+    "JHb2nojzc9U": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "WALKING DEAD RECAP: Everything You Need to Know Before THE ONES WHO LIVE!",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "3ea9b8f7ee84a45722a904b5b14669ab5ceb9ba00a8b00bc5086c808f766e545",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "The Walking Dead: The Ones Who Live! Thanks to AMC for sponsoring this video! Be sure to sign up for AMC+ here: [link] #ad\n\nHey everyone, support our channel by shopping our MERCH STORE Here → \n[link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Colton Ogburn ()\nHosted by Ryan Arey ([link]\nEdited by Harriet Lengel-Enright, Randolf Nombrado, and Brianna McLarty",
+      "flagExcerpt": ""
+    },
+    "Oxf7XYDPuRQ": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "SPIDER-MAN Insomniac RECAP: The Full Story Before Marvel's SPIDER-MAN 2",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "1a4714738c36bd6fe885f82b8e539361509ac639fc8bef35a15f96e331711dc8",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Spider-Man Insomniac Recap! Hey everyone, support our channel by shopping our MERCH STORE Here → [link]\n\nInsomniac's Spdier-Man and Spider-Man: Miles Morales are two of the greatest Spider-Man stories ever told. We break down the first two games heartbreaking stories here, with everything you need to know before playing Marevel's Spider-Man 2. The origin of Miles Morales, Doctor Octopus, the tease for Venom and Kraven the Hunter--the entire story is right here!\n\nGo here → [link]\nTikTok → [link]\n",
+      "flagExcerpt": ""
+    },
+    "URHFzoy1iOc": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "JUJUTSU KAISEN Recap Before Season 2! - Full JJK Timeline Explained",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "7b649ff3637647c15aea2b71fd6a385c0c22a38ad7cd165d710812fe3a8e6f1b",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "JUJUTSU KAISEN is a supernatural, dark fantasy, show-nen anime that has quickly become one of the most popular on-going animes in the world.  With Season 2 coming out in July, here’s a recap of JUJUTSU KAISEN season 1.\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Remy Owen [link]\nEdited by Sean Martin, Sofien Dami, and Ethan Lavinsky\nProduced by Srinidhi Rao ([link]\nHosted by Ryan Arey ([link]\n\n#JUJUTSUKAISEN #JJKrecap",
+      "flagExcerpt": ""
+    },
+    "VswlpEs0pO4": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "WandaVision RECAP - Everything You Need to Know Before THE MARVELS !",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "60a19c60e6516ffdd83de16b1e6f332ddc000fb6afb212e4da88ba2a1de80bb5",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "WandaVision Recap! Go to [link] to get started on your first purchase and receive a FREE 1-year supply of Vitamin D3+K2 and 5 travel packs. Thanks to AG1 for sponsoring today's video!\n\nAG1 is a comprehensive, nutrition drink engineered to fill the nutritional gaps in your diet and support your body’s nutritional needs across four pillars of health: Gut health, Immune support, Energy and Recovery! It’s packed with 75 vitamins, minerals, whole-food sourced ingredients and combines the perfect amou",
+      "flagExcerpt": ""
+    },
+    "WtCv3C_bGhU": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "INVINCIBLE Season 1 RECAP - Everything You need to Know Before Invincible SEASON 2!",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "3b86b4b574da3b7579f266b0b3257c7e88197838a0e96750d761ec82f86e3018",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Invincible Season 1 Recap! Please support our channel by shopping our MERCH STORE Here → [link]\n\nInvincible Season 1 featured the origin story of Mark Grayson, and built the world of the Guardians of the Globe, Teen Team, Robot, the Mualers, and Atom Eve. And we also saw Invincible face off against his father, the  evil Viltrimite Omniman. Before season 2 begins, check out this recap of everything that happened in season 1. \n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nG",
+      "flagExcerpt": ""
+    },
+    "Ykwn11gtlR4": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "AHSOKA and Star Wars REBELS RECAP - Everything You Need to Know Before AHSOKA",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "dc99846f68bdeea91b556963d94df00f293433d4c4c1a37be8d25ccf18a6f513",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Our Star Wars Rebels Recap is here! Use code SCREENCRUSH50 to get 50% off your first Factor box at [link]\n\nThe Ahsoka series is drawing from more than 40 years of Sar Wars history, drawing from the original trilogy, prequels, Clone Wars, Thrawn novels, and Star Wars Rebels. We're summing up hundred sof hours of programming for you in this video! \n\nPlease support our channel by shopping our MERCH STORE Here →  [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our ne",
+      "flagExcerpt": ""
+    },
+    "_rNTwwZ46mE": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "KINGPIN & DAREDEVIL Recap! - Everything You Need to Know Before ECHO!",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "b361e3c9ab7d2c2f0743ed474b63316b382cc6940a822b2324a2b75ff3199457",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "KINGPIN & DAREDEVIL Recap! Go to [link] to get started on your first purchase and receive a FREE 1-year supply of Vitamin D3+K2 and 5 travel packs. Thanks to AG1 for sponsoring today's video!\n\nHey everyone, support our channel and get tickets to the first ScreenCrush Live Show by shopping our MERCH STORE Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Colton Ogburn ()\n\nHosted by Ryan Arey ([link]\nEdited by Harriet Lengel",
+      "flagExcerpt": ""
+    },
+    "fgPB37nJ-GY": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "MS. MARVEL Recap!  - Everything You Need to Know Before Seeing THE MARVELS",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "ddab88f5d6497d8ac8f143a09803229d7e12e095b39c56ba2377a1fc3ea96b77",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Ms. Marvel Recap! Go to [link] or scan the QR code and get 15% off your first order of ZBiotics Pre-Alcohol Probiotic by using my code SCREENCRUSH at checkout. Thanks to ZBiotics for sponsoring today’s video! \n\nHey everyone, support our channel by shopping our MERCH STORE Here → [link]\n\nMs. Marvel follows the origin story of Captain Marvel superfan Kamala Khan. It's a touching portrait of a teenage superhero about generational trauma, and coming of age--and it's a lot of fun. We breakdown the be",
+      "flagExcerpt": ""
+    },
+    "jcwdLwna2cY": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "USS Callister Recap | Black Mirror | Netflix",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "330eb3f92892c2048de10833e932a32bd00ee26d9ed0416b6b7a5854f368a87f",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Ahead of your next trip on the USS Callister, remind yourselves where we left off... \n\nBLACK MIRROR Season 7 lands on Netflix April 10.\n\nWatch on Netflix: [link]\n\nAbout Netflix:\nNetflix is one of the world's leading entertainment services, with over 300 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and can change their plans at a",
+      "flagExcerpt": ""
+    },
+    "pPhA5m127zo": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "IMPACT WINTER Season 1 Recap: Everything You Need to Know Before Season 2",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "5d3b29cc4ba0e2ec55248fe258aa98902f459158ffbc234caecffa10f748f037",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Thanks to the Audible Original Impact Winter for sponsoring this video. Our Season 1 Recap of the Audible Original Impact Winter is here! Before you listen to Season 2 when it premieres on July 13th, we've got everything you need to know. Listen to Impact Winter here [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by  Bevin [link]\nEdited by Brianna McLarty\nHosted by Ryan Arey ([link]\n\n#ImpactWinter #AudibleOriginal #Season1Recap",
+      "flagExcerpt": ""
+    },
+    "vgjfF--1-iw": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Hazbin Hotel - Alastor Season 1 Recap Song | Prime Video",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "860b255186ca8fe8707fb6a1780eda280f7286c5045337e927104c263bf85cf5",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "Let’s begin…AGAIN with a Season 1 recap sung by Alastor himself!\n\n» Watch Hazbin Hotel on Prime Video: [link]\n» SUBSCRIBE: [link]\n \nAbout Hazbin Hotel:\nCharlie Morningstar, the Princess of Hell, struggles to convince demons and angels alike that any soul can be redeemed. Sing and curse along in this adult animated musical comedy about second chances.\n \nAbout Prime Video:\nWant to watch it now? We’ve got it. This week’s newest movies, last night’s TV shows, classic favorites, and more are availabl",
+      "flagExcerpt": ""
+    },
+    "y2LABQGr_zk": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "WALKING DEAD: Daryl Dixon RECAP - Everything You Need to Know Before the Spin-off!",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "af6b18f9fab83cea54ca0ec492638c6e677945b193f5cb0b1fe1e288e5270823",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Watch The Walking Dead: Daryl Dixon and Subscribe to AMC+ HERE!  [link] Watch the new series every Sunday, beginning September 10th on AMC and AMC+!\n\nSupport our channel by shopping our MERCH STORE Here →  [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Colton Ogburn ()\nHosted by Ryan Arey ([link]\nEdited by Randolf Nombrado, Ethan Lavinsky, and Colton Ogburn\n\n#DarylDixon #WalkingDead #Recap",
+      "flagExcerpt": ""
     }
   },
   "movies": [
@@ -13600,6 +13730,105 @@
         "Iron Man 2"
       ],
       "releaseYear": 2010
+    },
+    {
+      "imdbID": "tt2911666",
+      "tmdbID": 245891,
+      "aliases": [
+        "John Wick",
+        "John Wick"
+      ],
+      "releaseYear": 2014
+    },
+    {
+      "imdbID": "tt6105098",
+      "tmdbID": 420818,
+      "aliases": [
+        "The Lion King (2019)",
+        "The Lion King"
+      ],
+      "releaseYear": 2019
+    },
+    {
+      "imdbID": "tt0316654",
+      "tmdbID": 558,
+      "aliases": [
+        "Spider-Man 2",
+        "Spider-Man 2"
+      ],
+      "releaseYear": 2004
+    },
+    {
+      "imdbID": "tt0330373",
+      "tmdbID": 674,
+      "aliases": [
+        "Harry Potter and the Goblet of Fire",
+        "Harry Potter and the Goblet of Fire"
+      ],
+      "releaseYear": 2005
+    },
+    {
+      "imdbID": "tt0094721",
+      "tmdbID": 4011,
+      "aliases": [
+        "Beetlejuice",
+        "Beetlejuice"
+      ],
+      "releaseYear": 1988
+    },
+    {
+      "imdbID": "tt0067992",
+      "tmdbID": 252,
+      "aliases": [
+        "Willy Wonka & the Chocolate Factory",
+        "Willy Wonka & the Chocolate Factory"
+      ],
+      "releaseYear": 1971
+    },
+    {
+      "imdbID": "tt1074638",
+      "tmdbID": 37724,
+      "aliases": [
+        "Skyfall",
+        "Skyfall"
+      ],
+      "releaseYear": 2012
+    },
+    {
+      "imdbID": "tt3385516",
+      "tmdbID": 246655,
+      "aliases": [
+        "X-Men: Apocalypse",
+        "X-Men: Apocalypse"
+      ],
+      "releaseYear": 2016
+    },
+    {
+      "imdbID": "tt4500922",
+      "tmdbID": 336843,
+      "aliases": [
+        "Maze Runner: The Death Cure",
+        "Maze Runner: The Death Cure"
+      ],
+      "releaseYear": 2018
+    },
+    {
+      "imdbID": "tt0478970",
+      "tmdbID": 102899,
+      "aliases": [
+        "Ant-Man",
+        "Ant-Man"
+      ],
+      "releaseYear": 2015
+    },
+    {
+      "imdbID": "tt15398776",
+      "tmdbID": 872585,
+      "aliases": [
+        "Oppenheimer",
+        "Oppenheimer"
+      ],
+      "releaseYear": 2023
     }
   ]
 }
