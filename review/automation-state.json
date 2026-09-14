@@ -6,7 +6,7 @@
       "completedAt": "2026-09-14"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNLSXZJaEEyTTBJeE1EY3pOVGM0UVVNMlF6RXk",
+      "nextPageToken": "EAAaH1BUOkNKd3hJaEE0UXpORFEwSkVPRUk1UlVKQlEwUTA",
       "discoveryVersion": 2
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
@@ -21,11 +21,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNLSXZJaEJHTVVZd01qVkRNa0UyTjBRMFJqSkc"
+      "nextPageToken": "EAAaH1BUOkNKd3hJaEEzTVRSQlJUazBNamxHTmtFeVFUZ3g"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNLSXZJaEF6TUVGRVJEaEVRalkwTlVGRlFrTkM"
+      "nextPageToken": "EAAaH1BUOkNKd3hJaEF4T1RaQ05UZEJRVE5DUVRVM1FqaEQ"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -1984,6 +1984,30 @@
       "checkedAt": "2026-09-14"
     },
     "PqAZzD-9XoQ": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "ifgyMC21oJM": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "iigxE_okDfQ": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "jPYsiG2Y-Wk": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "kUtQeXOS0i0": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "keoAXOIYULU": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "lAMLlY-hWcQ": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -4808,6 +4832,16 @@
       "policyVersion": 9,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en"
+    },
+    "a-yNOvaEvgA": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "bJqdZ20dcTM": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -5441,7 +5475,8 @@
     "movie:scream 6": "2026-09-14",
     "movie:harry potter and the sorcerer s stone": "2026-09-14",
     "series:with love": "2026-09-14",
-    "movie:28 weeks later": "2026-09-14"
+    "movie:28 weeks later": "2026-09-14",
+    "series:the marvelous mrs maisel": "2026-09-14"
   },
   "series": [
     {
@@ -6483,6 +6518,13 @@
       "tmdbID": 126914,
       "aliases": [
         "With Love"
+      ]
+    },
+    {
+      "imdbID": "tt5788792",
+      "tmdbID": 70796,
+      "aliases": [
+        "The Marvelous Mrs. Maisel"
       ]
     }
   ],
@@ -14176,6 +14218,72 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
       "descriptionLead": "It's time to get ready for the final season of Jack Ryan by brushing up on all of the action from Season 3. Join your host Sharronda Williams as she takes you through the Jack Ryan: Season 3 recap. \n \n» Watch Jack Ryan on Prime Video: [link]\n» SUBSCRIBE: [link]\n \nAbout Jack Ryan Season 3: In Season 3 of Tom Clancy’s Jack Ryan, Jack races against time and across Europe to stop a rogue faction within the Russian government from restoring the Soviet Empire and starting World War III.\n \nAbout Prime ",
+      "flagExcerpt": ""
+    },
+    "4Hw0JZrLOLQ": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Ozark | Season 2 Official Recap | Netflix",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "51887cb60c60afbc5da2e46cba09820dd5b9b36aebb5c8835a96d76253bf92ae",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Official Recap for Ozark Season 2. The Byrde family drama ramps up as their money laundering operation in the Ozarks region grows more powerful and complex, drawing them further into the criminal world. Jason Bateman, Laura Linney, and Julia Garner return to their roles for Ozark Season 3, arriving on Netflix March 27, 2020.\n\nWatch Ozark, Only on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with over 167 million paid membership",
+      "flagExcerpt": ""
+    },
+    "NSn1QnS__Yg": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Get Ready for On My Block Season 3! Official Cast Recap - Season 1 & 2 | Netflix",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "51088f5d0b67095160653ebb688705fcf7b4ceb9b31c5d66e4ce6aaef0a94ce0",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "New year. New mission. Same block. On My Block Season 3 premieres March 11 on Netflix.\nGet ready with a cast recap of Season 1 & 2!\n\nWatch On My Block, only on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with over 167 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any ",
+      "flagExcerpt": ""
+    },
+    "VTwdeWME1Eg": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Official Cast Recap of Chilling Adventures of Sabrina | Parts 1 & 2 | Netflix",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "ac4ecc904fb1e15d3f2534b337b8eb71fab98f461e35aa6cb6f51a2711c2c352",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "It's almost time. Chilling Adventures of Sabrina Part 3 premieres January 24, and to get you ready, CAOS cast Kiernan Shipka, Ross Lynch, Gavin Leatherwood, Chance Perdomo andTati Gabrielle tell you everything that happened on the show so far, in an epic recap of parts 1 and 2.\n\nWatch Chilling Adventures of Sabrina, Only on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with over 158 million paid memberships in over 190 countries",
+      "flagExcerpt": ""
+    },
+    "mknz1JY9dWM": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Altered Carbon | Season 1 Official Recap | Netflix",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "3a7e430118487ec55c7dcf4ea361a9006c18cbd76b63ea8ecae4c24fb6950dd0",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "The past is haunting you. Anthony Mackie is Takeshi Kovacs in Season 2 of Altered Carbon, streaming February 27. Get ready to watch with this recap of season 1! \n\nWatch Altered Carbon, only on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with over 167 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they",
+      "flagExcerpt": ""
+    },
+    "pFHCUst6iaA": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Get Ready for A Christmas Prince: The Royal Baby | Recap of the first 2 movies | Netflix",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "a286729eb1ed049db697866b105e65116dd8b15c97926605fa74950f0887f448",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "A Christmas Prince: The Royal Baby premieres December 5. Get caught up with everything that happened in the first two movies with detailed recap of A Christmas Prince and A Christmas Prince: The Royal Wedding.\n\nWatch A Christmas Prince: The Royal Baby, Only on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with over 158 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wid",
+      "flagExcerpt": ""
+    },
+    "zjiyMVpALr4": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Official Cast Recap - To All the Boys I've Loved Before | Netflix",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "ead0e4ebda4f69d488a9ff89ceaa911c40b4bce84218f31aadc1516dcf7dde6b",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Get ready for the To All The Boys sequel by watching this recap of the first movie, To All The Boys I've Loved Before with Lana Condor, Noah Centineo and Anna Cathcart. Watch To All the Boys P.S. I Still Love You on Netflix February 12. \n\nWatch To All the Boys I've Loved Before, only on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with over 167 million paid memberships in over 190 countries enjoying TV series, documentaries and",
       "flagExcerpt": ""
     }
   },

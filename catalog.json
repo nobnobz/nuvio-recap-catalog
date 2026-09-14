@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 55,
+  "revision": 56,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7532,6 +7532,34 @@
       "language": "en",
       "durationSeconds": 230,
       "title": "Sicario in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "a-yNOvaEvgA",
+      "imdbID": "tt5788792",
+      "tmdbID": 70796,
+      "mediaType": "series",
+      "firstSeason": 4,
+      "lastSeason": 4,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 857,
+      "title": "The Marvelous Mrs. Maisel Season 4 Recap | Prime Video",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "bJqdZ20dcTM",
+      "imdbID": "tt7335184",
+      "tmdbID": 78191,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "language": "en",
+      "durationSeconds": 165,
+      "title": "YOU Season 1 Recap | Netflix",
       "reviewedAt": "2026-09-14",
       "enabled": true
     }
