@@ -22,11 +22,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNJUTVJaEJGTnpZNVFrWTVNME5CUlVGQlF6TTA"
+      "nextPageToken": "EAAaH1BUOkNQNDZJaEJFTmpsQlEwSXpRVEF4TlRrek5EbEM"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNJUTVJaEEyUlRBMU1VTXdRVUUwTlRJMFJqazE"
+      "nextPageToken": "EAAaH1BUOkNQNDZJaEJDUlRNME5EVkVNekUwTkRoRE5rTTU"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -4956,6 +4956,11 @@
       "policyVersion": 9,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en"
+    },
+    "T0i22ZqppAI": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -5595,7 +5600,9 @@
     "series:harlem": "2026-09-14",
     "series:glow": "2026-09-14",
     "movie:dear white people volume 2": "2026-09-14",
-    "series:lucifer recap get ready for": "2026-09-14"
+    "series:lucifer recap get ready for": "2026-09-14",
+    "series:the wilds": "2026-09-14",
+    "series:john krasinski cast recap of jack ryan": "2026-09-14"
   },
   "series": [
     {
@@ -6659,11 +6666,16 @@
       "aliases": [
         "Harlem"
       ]
+    },
+    {
+      "imdbID": "tt8633062",
+      "tmdbID": 113367,
+      "aliases": [
+        "The Wilds"
+      ]
     }
   ],
-  "pending": {
-    "vN-xDJXJkCQ": "UCQJWtTnAHhEG5w4uN0udnUQ"
-  },
+  "pending": {},
   "checkedAt": "2026-09-14",
   "rejected": {
     "-07drzOov-M": {
@@ -14573,6 +14585,39 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
       "descriptionLead": "Watch The Wheel of Time, now on Prime Video.\n\n» Watch The Wheel of Time on Prime Video: [link]\n\n» SUBSCRIBE: [link]\n \nAbout The Wheel of Time: The lives of five young villagers change forever when a strange and powerful woman arrives, claiming one of them is the child of an ancient prophecy with the power to tip the balance between Light and Dark forever. They must choose whether to trust this stranger – and each other – with the fate of the world before the Dark One breaks out of His prison, an",
+      "flagExcerpt": ""
+    },
+    "KCPEHsAViiQ": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Riverdale | Official Season 2 Recap [HD] | Netflix",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "9ce239a07c3fd2711a14ec6f0469a3f8e959bb616a7d585c45d4f5722fc844bf",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "",
+      "descriptionLead": "Catch up on where Archie, Veronica, Jughead & Betty left off before Season 3 brings a whole new mystery to the world of Riverdale. \n\nWhile navigating the troubled waters of sex, romance, school and family, teen Archie and his gang become entangled in a dark Riverdale mystery.\n\nWatch Riverdale on Netflix:\n[link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix: \nNetflix is the world’s leading internet entertainment service with 130 million memberships in over 190 countries enjoying TV series, documentaries and ",
+      "flagExcerpt": ""
+    },
+    "gVpnxrcxff8": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Ozark | Official Season 1 Recap | Netflix",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "2ce6126135ef4e30cabaa615ad5684563271a979679f2306459e27135b8a7762",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "What happens next? Ozark Season 2, only on Netflix August 31. [link]\n\nWatch Ozark on Netflix: \n[link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with 130 million memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members can play, pause and resume watching, all without c",
+      "flagExcerpt": ""
+    },
+    "sdpG8arhVpQ": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "The Boys Season 1 and 2 Recap | Prime Video",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "db026bdd03d31c7da3fc790cc5aa9e2308d7c43f6af8bc30fceacbbad334d2aa",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Before The Boys Season 3 drops on Friday, we're lookin' back on Seasons 1 and 2.\n\n» Watch The Boys on Prime Video: [link]\n» SUBSCRIBE: [link]\n \nAbout The Boys: \nAll Episodes Available. In a more intense Season 2 of THE BOYS, Butcher, Hughie and the team reel from their losses in Season 1. On the run from the law, they struggle to fight back against the Superheroes. Meanwhile Vought, the hero management company, cashes in on the panic over Supervillains, and a new hero, Stormfront, shakes up the ",
       "flagExcerpt": ""
     }
   },

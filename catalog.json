@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 58,
+  "revision": 59,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7630,6 +7630,20 @@
       "language": "en",
       "durationSeconds": 193,
       "title": "13 Reasons Why: Season 2 Recap | Netflix",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "T0i22ZqppAI",
+      "imdbID": "tt8633062",
+      "tmdbID": 113367,
+      "mediaType": "series",
+      "firstSeason": 2,
+      "lastSeason": 2,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 372,
+      "title": "The Wilds Season 2 Recap | Prime Video",
       "reviewedAt": "2026-09-14",
       "enabled": true
     }
