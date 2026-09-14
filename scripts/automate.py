@@ -467,6 +467,10 @@ class InvalidPageToken(RuntimeError):
     pass
 
 
+class PlaylistNotFound(RuntimeError):
+    pass
+
+
 class Cinemeta:
     """Resolve only unique exact series/movie titles, confirmed by details."""
     def __init__(self):
@@ -575,6 +579,8 @@ class YouTube:
                 reasons = []
             if resource == 'playlistItems' and error.code == 400 and 'invalidPageToken' in reasons:
                 raise InvalidPageToken('Archive cursor expired') from None
+            if resource == 'playlistItems' and error.code == 404:
+                raise PlaylistNotFound('Uploads playlist unavailable') from None
             raise RuntimeError(f'YouTube {resource} failed (HTTP {error.code}); no changes saved') from None
         except Exception as error:
             # Never include URLs, response bodies, headers, or credentials.
@@ -628,6 +634,7 @@ def run(catalog, state, series, decisions, api, today, resolver=None, movies=Non
                  key=lambda pair: (pair[1].get('checkedAt', ''), pair[0]))[:MAX_RECHECKS]
     candidates.update({key: row.get('channelID') for key, row in due})
     archive_pages = min(ARCHIVE_PAGES, max(0, (MAX_CALLS - 2 - len(catalog['channels']) * 3) // max(1, 2 * len(catalog['channels']))))
+    channel_errors = []
     for channel in catalog['channels']:
         channel_id = channel['id']
         checkpoint = state['channels'].setdefault(channel_id, {})
@@ -642,6 +649,13 @@ def run(catalog, state, series, decisions, api, today, resolver=None, movies=Non
         # so a large archive cannot starve recent releases or other creators.
         try:
             head = api.get('playlistItems', part='snippet,contentDetails', playlistId=playlist, maxResults=50)
+        except PlaylistNotFound:
+            checkpoint.pop('nextPageToken', None)
+            checkpoint['completedAt'] = today
+            checkpoint['uploadsUnavailableAt'] = today
+            channel_errors.append({'channelID': channel_id, 'channelName': channel['name'],
+                                   'reason': 'uploads_playlist_not_found'})
+            continue
         except RuntimeError as error:
             raise RuntimeError(f'Approved channel {channel["name"]} ({channel_id}) uploads failed: {error}') from None
         pages = [head]
@@ -841,9 +855,11 @@ def run(catalog, state, series, decisions, api, today, resolver=None, movies=Non
               'skipped': sorted(set(candidates) - set(added)), 'healthChecked': len(batch),
               'apiCalls': api.calls, 'seriesResolutions': series_resolutions, 'movieResolutions': movie_resolutions,
               'identityResolutions': resolutions, 'identityErrors': identity_errors,
+              'channelErrors': channel_errors,
               'pendingIdentities': len(state['pending']), 'unchangedRechecks': unchanged_rechecks,
               'rejectionsByReason': dict(collections.Counter(v['reason'] for v in state['rejected'].values())),
-              'rejectionsTracked': len(state['rejected']), 'archivesComplete': all(c.get('completedAt') and not c.get('nextPageToken') for c in state['channels'].values())}
+              'rejectionsTracked': len(state['rejected']),
+              'archivesComplete': not channel_errors and all(c.get('completedAt') and not c.get('nextPageToken') for c in state['channels'].values())}
     return catalog, state, report
 
 

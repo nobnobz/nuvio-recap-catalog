@@ -289,6 +289,18 @@ class AutomationTests(unittest.TestCase):
         with self.assertRaises(RuntimeError): a.run(data, state, [SHOW], {}, BrokenAPI(), '2026-09-07')
         self.assertEqual(data, catalog()); self.assertEqual(state, {})
 
+    def test_missing_upload_playlist_is_reported_without_aborting_run(self):
+        class MissingUploads(FakeAPI):
+            def get(self, resource, **params):
+                if resource == 'playlistItems': raise a.PlaylistNotFound()
+                return super().get(resource, **params)
+        data, state, report = a.run(catalog(), {}, [SHOW], {}, MissingUploads(), '2026-09-07')
+        self.assertEqual(data, catalog())
+        self.assertEqual(report['channelErrors'], [{'channelID': CHANNEL, 'channelName': 'Recaps',
+                                                     'reason': 'uploads_playlist_not_found'}])
+        self.assertFalse(report['archivesComplete'])
+        self.assertEqual(state['channels'][CHANNEL]['uploadsUnavailableAt'], '2026-09-07')
+
     def test_unclassifiable_candidates_do_not_increase_revision(self):
         data, _, report = a.run(catalog(), {}, [SHOW], {}, FakeAPI([item(title='Ted Lasso RECAP before Season 4')]), '2026-09-07')
         self.assertEqual(data, catalog()); self.assertEqual(report['skipped'], ['abcdefghijk'])
