@@ -22,11 +22,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNQSS1JaEF6TXpRelF6UTRNREkxTlVJMVJUUXg"
+      "nextPageToken": "EAAaH1BUOkNPeEFJaEJGUkVFeU5qZERNRFl3UkVGRlFUYzI"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNQSS1JaEEyTmpJNVJVSTVNekkzUmpaRU1ETTE"
+      "nextPageToken": "EAAaH1BUOkNPeEFJaEF5UmpKQlF6TkdNRFpGTUVORE5rRTU"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -2161,6 +2161,18 @@
       "checkedAt": "2026-09-14"
     },
     "ESYiPMKQn9I": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "oqjbNmUQkV4": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "pG0EC4-a-bs": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "p_BSGyzxG40": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -5045,6 +5057,11 @@
       "policyVersion": 9,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en"
+    },
+    "15rReWWPiDQ": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -5689,7 +5706,9 @@
     "series:john krasinski cast recap of jack ryan": "2026-09-14",
     "series:undone": "2026-09-14",
     "series:the expanse": "2026-09-14",
-    "series:upload": "2026-09-14"
+    "series:upload": "2026-09-14",
+    "movie:coming to america": "2026-09-14",
+    "series:last chance u": "2026-09-14"
   },
   "series": [
     {
@@ -14782,6 +14801,17 @@
       "audioLanguage": "en",
       "descriptionLead": "Your plug for all things Anime on Prime Video, Cheyenne, is back for a recap filled episode to prepare you for latest Evangelion movie. Icon. If you like this video be sure to watch the rest of Anime Club here on YouTube and stream the Evangelion movies now, on Prime Video.\n\n» SUBSCRIBE: [link]\n\nEVANGELION:1.11 YOU ARE (NOT) ALONE [link]\nEVANGELION:2.22 YOU CAN (NOT) ADVANCE [link]\nEVANGELION:3.33 YOU CAN (NOT) REDO [link]\nEVANGELION:3.0+1.01 THRICE UPON A TIME [link]\n\nAbout Prime Video:\nWant to",
       "flagExcerpt": ""
+    },
+    "PblalSQSksU": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Last Chance U - Season 1 | Recap | Netflix",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "a58a1cdf9937d0b0a78555aa96d892cd66e449ead46202d335e6a00f6f395887",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Go inside East Mississippi Community College as these elite athletes struggle to find their redemption and achieve the glory only these Lions can. Last Chance U Season is now streaming on Netflix.  \n\nWatch Last Chance U: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with 130 million memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much",
+      "flagExcerpt": ""
     }
   },
   "movies": [
@@ -17274,6 +17304,14 @@
         "Sicario (2015)"
       ],
       "releaseYear": 2015
+    },
+    {
+      "imdbID": "tt0094898",
+      "tmdbID": 9602,
+      "aliases": [
+        "Coming to America"
+      ],
+      "releaseYear": 1988
     }
   ]
 }

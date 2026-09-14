@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 61,
+  "revision": 62,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7700,6 +7700,18 @@
       "language": "en",
       "durationSeconds": 116,
       "title": "Upload Season 1 Recap | Prime Video",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "15rReWWPiDQ",
+      "imdbID": "tt0094898",
+      "tmdbID": 9602,
+      "mediaType": "movie",
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 476,
+      "title": "Coming to America Recap | Prime Video",
       "reviewedAt": "2026-09-14",
       "enabled": true
     }
