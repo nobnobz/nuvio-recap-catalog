@@ -22,11 +22,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNPWkNJaEF6UWtJNE5VSkROa00wUWtWRk5UWTU"
+      "nextPageToken": "EAAaH1BUOkNPQkVJaEJGTXpNMk5EbERNa1ZFTURFM1FqTkM"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNPWkNJaEJFTnpZNU1qQTVOVEV3TVVNMlJETTI"
+      "nextPageToken": "EAAaH1BUOkNPQkVJaEJCTjBVd016aERSVGt5TTBReU9FSTU"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -5098,6 +5098,41 @@
       "policyVersion": 9,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en"
+    },
+    "6Yl8eRcgzBM": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "760QR6Ktjeo": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "TY7HyL_Sd9s": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "XGYq7UU_wfE": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "cBq_XKWGCu0": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "hhVSkRW3h10": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "r4kiR2vsfAQ": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -5744,7 +5779,8 @@
     "series:the expanse": "2026-09-14",
     "series:upload": "2026-09-14",
     "movie:coming to america": "2026-09-14",
-    "series:last chance u": "2026-09-14"
+    "series:last chance u": "2026-09-14",
+    "series:gilmore girls": "2026-09-14"
   },
   "series": [
     {
@@ -6835,6 +6871,13 @@
       "tmdbID": 86248,
       "aliases": [
         "Upload"
+      ]
+    },
+    {
+      "imdbID": "tt0238784",
+      "tmdbID": 4586,
+      "aliases": [
+        "Gilmore Girls"
       ]
     }
   ],
@@ -14869,6 +14912,17 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
       "descriptionLead": "Revisit the past with the Rayburns one last time before the Final Season. \n\nAll episodes are now streaming only on Netflix. \n\nWatch Bloodline: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with 130 million memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members ca",
+      "flagExcerpt": ""
+    },
+    "-ga1vh4LnVI": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Season 1 Recap with Patton Oswalt | The Boys | Prime Video",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "04f0131b8b6d144787d99c7889cd55895d56e07fa76a8b3d4258a49269a748fd",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "",
+      "descriptionLead": "The Boys unpack all of the gory madness from season 1 and give some juicy secrets from season 2. The Boys is streaming now on Prime Video.\n\n» Watch The Boys now exclusively with your Prime membership: [link]\n» SUBSCRIBE: [link]\n\nAbout The Boys:\nThe Boys is an irreverent take on what happens when superheroes, who are as popular as celebrities, as influential as politicians and as revered as Gods, abuse their superpowers rather than use them for good. It's the powerless against the super powerful ",
       "flagExcerpt": ""
     }
   },
