@@ -6,7 +6,7 @@
       "completedAt": "2026-09-14"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNMUXBJaEJDT0VaQ1JUQTFPVGswTXpFeE5USkY",
+      "nextPageToken": "EAAaH1BUOkNLNHJJaEJDTWpZM01VWXhOVUV5UVVORlFUWXo",
       "discoveryVersion": 2
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
@@ -21,11 +21,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNMUXBJaEEwT1VFMU5rUTJSakV3TlRaQ05UVTE"
+      "nextPageToken": "EAAaH1BUOkNLNHJJaEJFTURjMU5VVTFPRVl5TVVFeE9FWXc"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNMUXBJaEJHTmpoRE5rSXhNVU5HUlVaQk5Ua3c"
+      "nextPageToken": "EAAaH1BUOkNLNHJJaEJCUVRZNE5UZzJPVEZGUkVZeE5ETkc"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -1840,6 +1840,10 @@
       "checkedAt": "2026-09-14"
     },
     "jD7ncytqOeY": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "MKcBRfMl8nU": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -4474,6 +4478,101 @@
       "policyVersion": 9,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en"
+    },
+    "cxaGznzq47s": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "kUtQeXOS0i0": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "keoAXOIYULU": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "lAMLlY-hWcQ": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "moiGzdsWTDc": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "n6sDm4snenU": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "nMS-SY0sKss": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "nfYDe8hsT2Q": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "nj0PzOyQUu8": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "nq2jQyID-Gg": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "o3ehGLPe0-E": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "pG0EC4-a-bs": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "p_BSGyzxG40": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "pnghPfxz6_U": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "q8x4ujLIvEw": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "qxAF2ENMj7o": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "rTaUmaHXCaA": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "s9fXMgwUOIw": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "sJEiwQIgkgk": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -5088,7 +5187,16 @@
     "movie:morbius": "2026-09-14",
     "movie:no time to die": "2026-09-14",
     "movie:the fantastic 4 first steps": "2026-09-14",
-    "movie:alien romulus": "2026-09-14"
+    "movie:alien romulus": "2026-09-14",
+    "movie:captain america the first avenger": "2026-09-14",
+    "movie:superman 2": "2026-09-14",
+    "movie:freaky friday": "2026-09-14",
+    "movie:greenland": "2026-09-14",
+    "movie:practical magic": "2026-09-14",
+    "movie:john wick 4": "2026-09-14",
+    "movie:the black phone": "2026-09-14",
+    "movie:now you see me": "2026-09-14",
+    "movie:28 days later": "2026-09-14"
   },
   "series": [
     {
@@ -6099,38 +6207,8 @@
     }
   ],
   "pending": {
-    "cxaGznzq47s": "UCwOhOMxCC4Bi54W255Sczmg",
-    "kUtQeXOS0i0": "UCwOhOMxCC4Bi54W255Sczmg",
-    "keoAXOIYULU": "UCwOhOMxCC4Bi54W255Sczmg",
-    "lAMLlY-hWcQ": "UCwOhOMxCC4Bi54W255Sczmg",
     "mC1JF5HBk4Q": "UCWOA1ZGywLbqmigxE4Qlvuw",
-    "moiGzdsWTDc": "UCwOhOMxCC4Bi54W255Sczmg",
-    "n6sDm4snenU": "UCwOhOMxCC4Bi54W255Sczmg",
-    "n7zdVXldB4s": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "nGhxB4Jfhr0": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "nMS-SY0sKss": "UCwOhOMxCC4Bi54W255Sczmg",
-    "nTON90duAho": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "nfYDe8hsT2Q": "UCwOhOMxCC4Bi54W255Sczmg",
-    "nj0PzOyQUu8": "UCwOhOMxCC4Bi54W255Sczmg",
-    "njJi4ngEf6E": "UCWOA1ZGywLbqmigxE4Qlvuw",
-    "nq2jQyID-Gg": "UCwOhOMxCC4Bi54W255Sczmg",
     "nsQg04PVIH0": "UCwOhOMxCC4Bi54W255Sczmg",
-    "o3ehGLPe0-E": "UCwOhOMxCC4Bi54W255Sczmg",
-    "pG0EC4-a-bs": "UCwOhOMxCC4Bi54W255Sczmg",
-    "pLe_u4HJPeE": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "pPhA5m127zo": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "p_BSGyzxG40": "UCwOhOMxCC4Bi54W255Sczmg",
-    "pnghPfxz6_U": "UCwOhOMxCC4Bi54W255Sczmg",
-    "prBLNYcIP6g": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "q8x4ujLIvEw": "UCwOhOMxCC4Bi54W255Sczmg",
-    "qqEcpjrPA0A": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "qxAF2ENMj7o": "UCwOhOMxCC4Bi54W255Sczmg",
-    "rTaUmaHXCaA": "UCwOhOMxCC4Bi54W255Sczmg",
-    "rht9P0bYSFI": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "s9fXMgwUOIw": "UCwOhOMxCC4Bi54W255Sczmg",
-    "sGMlYP_B0A4": "UCwOhOMxCC4Bi54W255Sczmg",
-    "sJEiwQIgkgk": "UCwOhOMxCC4Bi54W255Sczmg",
-    "tLvRbLqXmMg": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "tN56GhXwtKg": "UCwOhOMxCC4Bi54W255Sczmg",
     "tN8a6KfGFlk": "UC1Myj674wRVXB9I4c6Hm5zA",
     "tiaoTgv2A-w": "UCwOhOMxCC4Bi54W255Sczmg",
@@ -6158,7 +6236,6 @@
     "y20M9pCZO18": "UCgMJGv4cQl8-q71AyFeFmtg",
     "y2LABQGr_zk": "UCgMJGv4cQl8-q71AyFeFmtg",
     "y6KNmQAPrnQ": "UCwOhOMxCC4Bi54W255Sczmg",
-    "ygS7k0rNlvk": "UCwOhOMxCC4Bi54W255Sczmg",
     "yhzAytdeXgQ": "UCwOhOMxCC4Bi54W255Sczmg",
     "yyfkSxLycwk": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "z8UaIzJbFLc": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -11030,61 +11107,6 @@
       "descriptionLead": "Want to be prepared for Alien: Romulus (2024)? Or forget all of the major plot events in the original Alien (1979)? Just watch this recap and you will be caught up and ready in no time!\n\nAliens Recap: [link]\nPrometheus Recap: [link]\nAlien: Covenant Recap: [link]\n\nIn deep space, the crew of the commercial starship Nostromo is awakened from their cryo-sleep capsules halfway through their journey home to investigate a distress call from an alien vessel. The terror begins when the crew encounters a ",
       "flagExcerpt": ""
     },
-    "kUtQeXOS0i0": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Superman II in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "f61f9488f610ecf7e8991901a69b3f3aebbd379d9029e07dfeb8116296ee083d",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major plot events in the SUPERMAN II (1980)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikipedia.",
-      "flagExcerpt": ""
-    },
-    "keoAXOIYULU": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Inside Out in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "f2e6d46346a2ed91d725f9b72bb62ebe48beef75f116df6dd73695ed29d333db",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Inside Out 2 (2024)? Or forget all of the major plot events in the original Inside Out (2015)? Just watch this recap and you will be caught up and ready in no time!\n\nAfter young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school.\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Re",
-      "flagExcerpt": ""
-    },
-    "lAMLlY-hWcQ": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Freaky Friday in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "7684b2aa4991965bb2bc8f7bb44bcfb9957461e7798d7a68c2f4c4ce06142164",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for FREAKIER FRIDAY (2025)? Or forget all of the major plot events in the original Freaky Friday (2003)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL ",
-      "flagExcerpt": ""
-    },
-    "moiGzdsWTDc": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Mission: Impossible 7 – Dead Reckoning in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "3808f2dd3b668e7b505feb5205ddf74bd9f5fec0e4ab34cfc9926b26813af270",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Mission: Impossible – The Final Reckoning (2025)? Or forget all of the major plot events in Mission: Impossible – Dead Reckoning (2023)? Just watch this recap and you will be caught up and ready in no time!\n\nEvery Mission: Impossible Recap: [link]\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marv",
-      "flagExcerpt": ""
-    },
-    "n6sDm4snenU": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Frozen 2 in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "7095762eddc66a70e199d428d6b78ee11bf6da240eeb50a0408b9a706a6c069e",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major plot events in FROZEN 2 (2019)? Just watch this recap and you will be refreshed in no time!\n\n\nFROZEN (2013): [link]\n\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikiped",
-      "flagExcerpt": ""
-    },
     "n7zdVXldB4s": {
       "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
       "title": "JoJo’s Bizarre Adventure (1-6) RECAP - Everything You Need to Know Before Part 7",
@@ -11107,28 +11129,6 @@
       "descriptionLead": "Want to be prepared for The Mandalorian Season 3? Or forget all of the major plot events in The Book of Boba Fett? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out more Movies in Minutes:\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nMarvel Phase Four Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming so",
       "flagExcerpt": ""
     },
-    "nfYDe8hsT2Q": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Greenland in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "f10cd8793ff7fabdd4c8ac2f56ad683b5d45432957bd10d7f8a77e077b7e1643",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Greenland 2: Migration (2026)? Or forget all of the major plot events in the original Greenland (2020)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on A",
-      "flagExcerpt": ""
-    },
-    "nj0PzOyQUu8": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Practical Magic in Minutes | Movie Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "e0ce461561f083f48759644f11795596cd2d1eae91bc47686d6906d1efd4b0bf",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Practical Magic 2 (2026)? Or forget all of the major plot events in the original Practical Magic (1998)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ",
-      "flagExcerpt": ""
-    },
     "nsQg04PVIH0": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "X-Men 3: The Last Stand in Minutes | Recap",
@@ -11140,39 +11140,6 @@
       "descriptionLead": "Forget all of the major plot events in the original X-Men: The Last Stand (2006)? Just watch this recap and you will be caught up and ready in no time!\n\nThe discovery of a cure for mutations leads to a turning point for Mutants. They may now choose to give up their powers and become fully human or retain their uniqueness and remain isolated. War looms between the followers of Charles Xavier, who preaches tolerance, and those of Magneto, who advocates survival of the fittest.\n\nCheck out more Movi",
       "flagExcerpt": ""
     },
-    "o3ehGLPe0-E": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Wicked in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "dccaab7fa23006d3b52b1ba7a4677d56ce65cff0e869044fc2674237b50eb713",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Wicked: For Good (2025)? Or forget all of the major plot events in the original Wicked: Part One (2024)? Just watch this recap and you will be caught up and ready in no time!\n\nMisunderstood because of her green skin, a young woman named Elphaba forges an unlikely but profound friendship with Glinda, a student with an unflinching desire for popularity. Following an encounter with the Wizard of Oz, their relationship soon reaches a crossroad as their lives begin to take ver",
-      "flagExcerpt": ""
-    },
-    "pG0EC4-a-bs": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "John Wick: Chapter 4 in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "40d8f457b828a7150c36fe3619f90aed382842b8a4d88771fef5ae504e98aaaa",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major plot events in the original John Wick: Chapter 4 (2023)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out more Movies in Minutes:\n\nMarvel Phase Four Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase One Recap Playlist: [link]\n\nStar Wars Recap Playlist:\n[link]\n\nDC Extended Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to ge",
-      "flagExcerpt": ""
-    },
-    "p_BSGyzxG40": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Joker in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "4696d878bc355cd2f25b6d0bfb4371f335172ae50315987bc0b2acd1733bda5d",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major plot events in the JOKER (2019)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikipedia.",
-      "flagExcerpt": ""
-    },
     "peOOnpFinn4": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "Superman in Minutes | Recap",
@@ -11182,17 +11149,6 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
       "descriptionLead": "Forget all of the major plot events in the original SUPERMAN (1978)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikipedia.",
-      "flagExcerpt": ""
-    },
-    "pnghPfxz6_U": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "The Black Phone in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "1c031f7f992b0645c62649f43cdd7c82b36707c95383850d9e8028b70a80fa50",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for The Black Phone 2 (2025)? Or forget all of the major plot events in the original The Black Phone? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the",
       "flagExcerpt": ""
     },
     "pvpgyLHL3l8": {
@@ -11217,17 +11173,6 @@
       "descriptionLead": "Loki Season 1 Ultimate Recap | Loki - CRAMMED! Episodes 1 - 6 CRAMMED! | A detailed summary of the Disney+ Loki TV show and The Ultimate Recap Catch-Up Refresher before Ant-Man and The Wasp: Quantumania encounter Kang The Conqueror! Now is the time to get Marvel Studios Loki season 1 Crammed down in a fully detailed summary. This is a full on recap of every episode instead of just a simple quickie so that even newcomers can get a feel for what LOKI is all about and why it was instrumental in Mar",
       "flagExcerpt": "on & Owen Wilson star in the Loki former Asgardian TVA MCU adventure! Theories, What you Missed, Easter Eggs, References, Timeline, and then the End"
     },
-    "qxAF2ENMj7o": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "The Karate Kid (2010) in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "3c05e3585e4aa9698807e8e930c5da8c1dd299b284f2858796b572d149c6a239",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Karate Kid: Legends (2025)? Or forget all of the major plot events in the original The Karate Kid (2010) with Jaden Smith and Jackie Chan? Just watch this recap and you will be caught up and ready in no time!\n\nEvery Karate Kid Recap: [link]\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC ",
-      "flagExcerpt": ""
-    },
     "rRozCeic1ws": {
       "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
       "title": "One Hundred Years of Solitude | Part One Recap | Netflix",
@@ -11237,17 +11182,6 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
       "descriptionLead": "Macondo was born from the dream of José Arcadio Buendía and Úrsula Iguarán. It grew amid promises, love and hope, until war and a curse transformed the progress and prosperity into fear, forever changing the fate of the Buendía family. But even with the passage of time, some stories are doomed to repeat themselves. ‘One Hundred Years of Solitude: Part Two’, now playing on Netflix. Grand Finale, August 26.\n\nWatch on Netflix: [link]\n\nAbout Netflix:\nNetflix is one of the world’s leading entertainme",
-      "flagExcerpt": ""
-    },
-    "rTaUmaHXCaA": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Now You See Me in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "7995a2d1cba5b501a0a969809b23f930740ea6e6407ba32f10e7d15d9012555c",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Now You See Me: Now You Don't (2025)? Or forget all of the major plot events in the original Now You See Me (2013)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get ca",
       "flagExcerpt": ""
     },
     "rZ76XkuZKfQ": {
@@ -11272,21 +11206,10 @@
       "descriptionLead": "Want to be prepared for Mortal Kombat II (2026)? Or forget all of the major plot events in the original Mortal Kombat (2021)? Just watch this recap and you will be caught up and ready in no time!\n\nHunted by the fearsome warrior Sub-Zero, MMA fighter Cole Young finds sanctuary at the temple of Lord Raiden. Training with experienced fighters Liu Kang, Kung Lao and the rogue mercenary Kano, Cole prepares to stand with Earth's greatest champions to take on the enemies from Outworld in a high-stakes ",
       "flagExcerpt": ""
     },
-    "s9fXMgwUOIw": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "The Lord of the Rings: Return of the King in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "1ccae9410fb388eab23e0f370fb0278168cd431fd1a28cf72cd6274d56194814",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major plot events in The Lord of the Rings: THE RETURN OF THE KING? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out our other recaps...\n\n#1 FELLOWSHIP OF THE RING: [link]\n\n#2 THE TWO TOWERS: [link]\n\n#3 RETURN OF THE KING: [link] \n\nStar Wars Recap Playlist: [link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and oth",
-      "flagExcerpt": ""
-    },
     "sGMlYP_B0A4": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "28 Days Later in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
+      "reason": "movie_context_or_suffix_conflict",
       "checkedAt": "2026-09-14",
       "fingerprint": "261654940d70326f199521d0ab28d8f8b59e90eded899d60499a5e8741ba4cc5",
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
@@ -11495,7 +11418,7 @@
     "ygS7k0rNlvk": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "The Karate Kid in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
+      "reason": "movie_context_or_suffix_conflict",
       "checkedAt": "2026-09-14",
       "fingerprint": "b03904c608e64975ffbb5ff68bad23194815bf9cacd4703fa02339f7a2b612b4",
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
@@ -11778,17 +11701,6 @@
       "descriptionLead": "Predator Recap! Go to [link] or scan the QR code and use code SCREENCRUSH to get your free FÜM Topper when you order your Journey Pack today.\n\nExplore our merch store for movie & TV fan gear! From T-shirts to unique accessories, find your favorites. For 15% off your first order subscribe here! [link] \n\nWe are recapping the entire film franchise of Predator, from Dutch to Dak. ScreenCrush covers Predator, Predator 2, Alien Vs. Predator, AVP: Requiem, Predators, The Predator, Prey, and Predator: K",
       "flagExcerpt": ""
     },
-    "cxaGznzq47s": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Captain America: The First Avenger in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "064684ff80e93d3b2ede9b19fb2a83a1f129606eaad5c0a0203a619f1b02ab65",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in 2011's Captain America: The First Avenger starring Chris Evans? Well just sit back, relax, and enjoy the video, and you'll be caught back up in no time!\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary pro",
-      "flagExcerpt": ""
-    },
     "gyx3AvS9LKo": {
       "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
       "title": "Game of Thrones | Official Season 4 Recap Trailer (HBO)",
@@ -11833,28 +11745,6 @@
       "descriptionLead": "Forget all of the major events in Pacific Rim (2013)? Well just sit back, relax, and enjoy the video, and you will be caught up in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikipedi",
       "flagExcerpt": ""
     },
-    "nMS-SY0sKss": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Logan in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "0fc4902b8ca9657e7b2bc4d98c3207090ddf7bd6c47206a7844367a4e792a5bf",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in Logan (2017)? Well just sit back, relax, and enjoy the video, and you'll be caught back up in no time!\n\nCheck out my other recaps...\n\n- Marvel Phase One Recap Playlist: [link]\n- Marvel Phase Two Recap Playlist: [link]\n- Marvel Phase Three Recap Playlist: [link]\n\n\n- DC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikipedia.\n\nEnemy Ships by Audionautix",
-      "flagExcerpt": ""
-    },
-    "nq2jQyID-Gg": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Mission Impossible 2 in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "e0cf2fc490ec1782b015908e0a4188ab343778ce8e49b5e3d37a5cafb88c7a02",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Mission: Impossible – The Final Reckoning (2025)? Forget all of the major events in Mission: Impossible II (2000)? Well just sit back, relax, and enjoy the video, and you will be caught up in no time!\n\nEvery Mission: Impossible Recap: [link]\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps comin",
-      "flagExcerpt": ""
-    },
     "pLe_u4HJPeE": {
       "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
       "title": "Stranger Things Recap! Everything You Need to know before watching Season 5",
@@ -11864,28 +11754,6 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
       "descriptionLead": "Stranger Things Recap! Thanks to ZBiotics for sponsoring this video. Go to [link] and use SCREENCRUSH at checkout for 15% off any first-time orders of ZBiotics probiotics\n\nExplore our merch store for movie & TV fan gear! From T-shirts to unique accessories, find your favorites. For 15% off your first order subscribe here! [link] \n\nThis is everything you need to know before watching Stranger Things Season 5!\n\nConnect with ScreenCrush\n[link]\n[link]\n[link]\n[link]\n[link]\n[link]\n\nWritten by Dodson Se",
-      "flagExcerpt": ""
-    },
-    "q8x4ujLIvEw": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Black Panther in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "9b6791111078c42231a2b01715845e8a28e4c4dab1adc2fed59f3288a4998fb2",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Black Panther: Wakanda Forever (2022)? Forget all of the major story points in Black Panther (2018)? Well just sit back, relax, and enjoy the video, and you will be caught up in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe t",
-      "flagExcerpt": ""
-    },
-    "sJEiwQIgkgk": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Star Wars: Revenge of the Sith in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "c844310d6ef5d96eb82ecc033fec5d44d5ef8e74656cf783e0dfc580b3126b39",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in Star Wars: Episode III – Revenge of the Sith (2005)? Well just sit back, relax, and enjoy the video, and you will be caught up in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movi",
       "flagExcerpt": ""
     },
     "upP4BS3BfE4": {
@@ -16396,6 +16264,182 @@
         "A Quiet Place (2018)"
       ],
       "releaseYear": 2018
+    },
+    {
+      "imdbID": "tt0458339",
+      "tmdbID": 1771,
+      "aliases": [
+        "Captain America: The First Avenger"
+      ],
+      "releaseYear": 2011
+    },
+    {
+      "imdbID": "tt0081573",
+      "tmdbID": 8536,
+      "aliases": [
+        "Superman II"
+      ],
+      "releaseYear": 1980
+    },
+    {
+      "imdbID": "tt2096673",
+      "tmdbID": 150540,
+      "aliases": [
+        "Inside Out",
+        "Inside Out (2015)"
+      ],
+      "releaseYear": 2015
+    },
+    {
+      "imdbID": "tt0322330",
+      "tmdbID": 10330,
+      "aliases": [
+        "Freaky Friday",
+        "Freaky Friday (2003)"
+      ],
+      "releaseYear": 2003
+    },
+    {
+      "imdbID": "tt9603212",
+      "tmdbID": 575264,
+      "aliases": [
+        "Mission: Impossible 7 – Dead Reckoning",
+        "Mission: Impossible - Dead Reckoning Part One (2023)",
+        "Mission: Impossible - Dead Reckoning Part One"
+      ],
+      "releaseYear": 2023
+    },
+    {
+      "imdbID": "tt4520988",
+      "tmdbID": 330457,
+      "aliases": [
+        "Frozen 2",
+        "Frozen II"
+      ],
+      "releaseYear": 2019
+    },
+    {
+      "imdbID": "tt3315342",
+      "tmdbID": 263115,
+      "aliases": [
+        "Logan",
+        "Logan (2017)"
+      ],
+      "releaseYear": 2017
+    },
+    {
+      "imdbID": "tt7737786",
+      "tmdbID": 524047,
+      "aliases": [
+        "Greenland",
+        "Greenland (2020)"
+      ],
+      "releaseYear": 2020
+    },
+    {
+      "imdbID": "tt0120791",
+      "tmdbID": 6435,
+      "aliases": [
+        "Practical Magic"
+      ],
+      "releaseYear": 1998
+    },
+    {
+      "imdbID": "tt0120755",
+      "tmdbID": 955,
+      "aliases": [
+        "Mission Impossible 2",
+        "Mission: Impossible II"
+      ],
+      "releaseYear": 2000
+    },
+    {
+      "imdbID": "tt1262426",
+      "tmdbID": 402431,
+      "aliases": [
+        "Wicked",
+        "Wicked (2024)"
+      ],
+      "releaseYear": 2024
+    },
+    {
+      "imdbID": "tt10366206",
+      "tmdbID": 603692,
+      "aliases": [
+        "John Wick: Chapter 4"
+      ],
+      "releaseYear": 2023
+    },
+    {
+      "imdbID": "tt7286456",
+      "tmdbID": 475557,
+      "aliases": [
+        "Joker",
+        "Joker (2019)"
+      ],
+      "releaseYear": 2019
+    },
+    {
+      "imdbID": "tt7144666",
+      "tmdbID": 756999,
+      "aliases": [
+        "The Black Phone"
+      ],
+      "releaseYear": 2022
+    },
+    {
+      "imdbID": "tt1825683",
+      "tmdbID": 284054,
+      "aliases": [
+        "Black Panther",
+        "Black Panther (2018)"
+      ],
+      "releaseYear": 2018
+    },
+    {
+      "imdbID": "tt1155076",
+      "tmdbID": 38575,
+      "aliases": [
+        "The Karate Kid (2010)",
+        "The Karate Kid"
+      ],
+      "releaseYear": 2010
+    },
+    {
+      "imdbID": "tt1670345",
+      "tmdbID": 75656,
+      "aliases": [
+        "Now You See Me",
+        "Now You See Me (2013)"
+      ],
+      "releaseYear": 2013
+    },
+    {
+      "imdbID": "tt0167260",
+      "tmdbID": 122,
+      "aliases": [
+        "The Lord of the Rings: Return of the King",
+        "The Lord of the Rings: The Return of the King"
+      ],
+      "releaseYear": 2003
+    },
+    {
+      "imdbID": "tt0289043",
+      "tmdbID": 170,
+      "aliases": [
+        "28 Days Later"
+      ],
+      "releaseYear": 2002
+    },
+    {
+      "imdbID": "tt0121766",
+      "tmdbID": 1895,
+      "aliases": [
+        "Star Wars: Revenge of the Sith",
+        "Star Wars: Episode III – Revenge of the Sith (2005)",
+        "Star Wars: Episode III - Revenge of the Sith"
+      ],
+      "releaseYear": 2005
     }
   ]
 }
