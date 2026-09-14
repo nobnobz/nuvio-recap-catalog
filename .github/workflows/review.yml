@@ -14,11 +14,6 @@ on:
         type: choice
         options: ['8', '32']
         default: '8'
-      runner:
-        description: Manual runner (recap-vps requires a temporary VPS runner)
-        type: choice
-        options: ['ubuntu-latest', 'recap-vps']
-        default: 'ubuntu-latest'
 permissions:
   contents: write
 concurrency:
@@ -27,7 +22,7 @@ concurrency:
 jobs:
   update:
     if: github.event.repository.private == false
-    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
+    runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
