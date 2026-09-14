@@ -22,11 +22,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKQTFJaEExTlRFd05rWkVOREpGTmtSQk1rSTA"
+      "nextPageToken": "EAAaH1BUOkNJbzNJaEF5UTBVek1EaEJRME5GUkRjd1JEY3c"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKQTFJaEF6TURWRFFUZEdNa0pGTjBWQ09EVkc"
+      "nextPageToken": "EAAaH1BUOkNJbzNJaEJHUVRFME56UkVORVZEUmpOQlJUSTM"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -2089,6 +2089,14 @@
       "checkedAt": "2026-09-14"
     },
     "wnPH3jFnYNA": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "HC765gMqmew": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "Hl3i6PntgTU": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -5586,7 +5594,8 @@
     "series:carnival row": "2026-09-14",
     "series:harlem": "2026-09-14",
     "series:glow": "2026-09-14",
-    "movie:dear white people volume 2": "2026-09-14"
+    "movie:dear white people volume 2": "2026-09-14",
+    "series:lucifer recap get ready for": "2026-09-14"
   },
   "series": [
     {
@@ -6652,7 +6661,9 @@
       ]
     }
   ],
-  "pending": {},
+  "pending": {
+    "vN-xDJXJkCQ": "UCQJWtTnAHhEG5w4uN0udnUQ"
+  },
   "checkedAt": "2026-09-14",
   "rejected": {
     "-07drzOov-M": {
@@ -14485,6 +14496,50 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
       "descriptionLead": "Don’t remember what happened in the previous six seasons of OITNB? We’ve got you covered. The final episodes, July 26.\n\nWatch Orange Is The New Black, Only On Netflix:  [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with over 148 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any i",
+      "flagExcerpt": ""
+    },
+    "J_a4UDOw9Rc": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Lucifer Recap - Get Ready for Season 4 | Netflix",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "ae5deffff58457b9647ed366bbfa0901e48c1350c96ce1082483465ab5f8e773",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Reeling from the aftermath of Chloe seeing his devil face, Lucifer faces a new challenge: Eve, the original sinner herself, is back. Does she want revenge for when he tempted her out of Eden oh so many years ago… or something else entirely? Lucifer Season 4 premieres May 8 only on Netflix.\n\nWatch Lucifer only on Netflix:\n[link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with 130 million memberships in over 190 countries enjoying TV series, do",
+      "flagExcerpt": ""
+    },
+    "dNRaFuN2aKg": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Designated Survivor | Kiefer Sutherland’s Recap | Netflix [HD]",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "97d27aff25250cc3450c1dc664c0394289a7ab9f76cc49813b6f528342ac1c33",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "We have an important message from the President. \n\nSeason 3 of Designated Survivor hits Netflix on June 7. Get caught up on seasons 1 & 2 with Kiefer Sutherland now.\n\nWatch Designated Survivor on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with 130 million memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, a",
+      "flagExcerpt": ""
+    },
+    "vN-xDJXJkCQ": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "John Krasinski & Cast Recap of Jack Ryan Seasons 1 & 2 | Prime Video",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "99a7b947a76e12ffd7c7e8b6162058f3fcb7528d9afd29a7d8f07e6694f666ad",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Stars John Krasinski, Wendell Pierce and Michael Kelly jog your memory on what happened in season 2 before we 🎶 deck the halls with new Jack Ryan 🎶 on December 21st\n\n» Watch Jack Ryan on Prime Video: [link]\n» SUBSCRIBE: [link]\n \nAbout Jack Ryan: When CIA analyst Jack Ryan stumbles upon a suspicious series of bank transfers his search for answers pulls him from the safety of his desk job and catapults him into a deadly game of cat and mouse throughout Europe and the Middle East, with a rising ter",
+      "flagExcerpt": ""
+    },
+    "xKrg6mtKi74": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Jack Ryan Recap - Seasons 1 & 2 | Prime Video",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "791064a3ac3651f364c437f8ec55b7dff56b82855ab8814e0da565866ea08a5b",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Sharronda Williams is here to give you a refresher on seasons 1 and 2 of Jack Ryan before season 3 hits Prime Video December 21st.\n \n» Watch Jack Ryan on Prime Video: [link]\n» SUBSCRIBE: [link]\n \nAbout Jack Ryan: When CIA analyst Jack Ryan stumbles upon a suspicious series of bank transfers his search for answers pulls him from the safety of his desk job and catapults him into a deadly game of cat and mouse throughout Europe and the Middle East, with a rising terrorist figurehead preparing for a",
       "flagExcerpt": ""
     }
   },
