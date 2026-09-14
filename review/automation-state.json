@@ -6,7 +6,7 @@
       "completedAt": "2026-09-14"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNLZ3RJaEEyUWpjek1UVkZRa1kzTXpBNFFrWXk",
+      "nextPageToken": "EAAaH1BUOkNLSXZJaEEyTTBJeE1EY3pOVGM0UVVNMlF6RXk",
       "discoveryVersion": 2
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
@@ -21,11 +21,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNLZ3RJaEJFTURVeFJEUTNNRUpFTUVaRlFqTXg"
+      "nextPageToken": "EAAaH1BUOkNLSXZJaEJHTVVZd01qVkRNa0UyTjBRMFJqSkc"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNLZ3RJaEF4UkROQ1FrSXhNek14TXpKRVJUZEY"
+      "nextPageToken": "EAAaH1BUOkNLSXZJaEF6TUVGRVJEaEVRalkwTlVGRlFrTkM"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -1904,6 +1904,86 @@
       "checkedAt": "2026-09-14"
     },
     "hxyevtxHli0": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "Mo5pMPGQaG4": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "N3IBrTeoeRc": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "N9R1XeDFG0Y": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "NHHHK2vPxJg": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "NKTMmOeZY9E": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "NLMQY6IbIJo": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "NNDqbpRwnsc": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "NaJVPWm-yIo": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "NjT52fV1p8Q": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "NjjpowQi2Mg": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "NyP44IQa4lc": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "ONqeMWwKfv0": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "OPYHwMZBYwQ": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "OZGB_ZKZdOI": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "ObQMWQXHge8": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "P9e2tsj0xsM": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "PIr-ah10S68": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "PUuLf7PLQeo": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "Pfb3gr6jQc4": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "PqAZzD-9XoQ": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -4713,6 +4793,21 @@
       "policyVersion": 9,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en"
+    },
+    "SCYMxfYKJtE": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "y0gF5euuO2U": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "zRubfZ1Jb9Q": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -5344,7 +5439,9 @@
     "movie:avatar the way of water": "2026-09-14",
     "movie:m3gan": "2026-09-14",
     "movie:scream 6": "2026-09-14",
-    "movie:harry potter and the sorcerer s stone": "2026-09-14"
+    "movie:harry potter and the sorcerer s stone": "2026-09-14",
+    "series:with love": "2026-09-14",
+    "movie:28 weeks later": "2026-09-14"
   },
   "series": [
     {
@@ -6380,15 +6477,16 @@
       "aliases": [
         "The Lord of The Rings: The Rings of Power"
       ]
+    },
+    {
+      "imdbID": "tt14734228",
+      "tmdbID": 126914,
+      "aliases": [
+        "With Love"
+      ]
     }
   ],
-  "pending": {
-    "y0gF5euuO2U": "UCwOhOMxCC4Bi54W255Sczmg",
-    "z8UaIzJbFLc": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "zRubfZ1Jb9Q": "UCwOhOMxCC4Bi54W255Sczmg",
-    "znLtIuNO4d0": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "zo_MUl05pUQ": "UCwOhOMxCC4Bi54W255Sczmg"
-  },
+  "pending": {},
   "checkedAt": "2026-09-14",
   "rejected": {
     "-07drzOov-M": {
@@ -11451,17 +11549,6 @@
       "descriptionLead": "Want to be prepared for The Batman Part II (2027)? Or forget all of the major plot events in the HBO show The Penguin (2024)? Just watch this recap and you will be caught up and ready in no time!\n\nFollowing the events of The Batman (2022), Oz Cobb, a.k.a. the Penguin, makes a play to seize the reins of the crime world in Gotham.\n\nThe Batman Recap: [link]\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Rec",
       "flagExcerpt": ""
     },
-    "y0gF5euuO2U": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "28 Weeks Later in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "b6e17bbbb5c0f668b37d0ba48f30a82bf63a8cce840780de0a758cd8d8ae0a90",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for 28 Years Later (2025)? Or forget all of the major plot events in 28 Weeks Later (2007)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel mo",
-      "flagExcerpt": ""
-    },
     "yP8JV3-IAgk": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "Moon Knight in Minutes | Recap",
@@ -11845,17 +11932,6 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
       "descriptionLead": "JJK Recap! Explore our merch store for movie & TV fan gear! From T-shirts to unique accessories, find your favorites. For 15% off your first order subscribe here! [link] \n\nConnect with ScreenCrush\n[link]\n[link]\n[link]\n[link]\n[link]\n[link]\n\nWritten by Ethan Eng [link]\nHosted by Ryan Arey [link]\nEdited by \nRandolf Nombrado\nLee Mazzio\nJustin Wilkins\nElias Kenouryiakis\nSophia Di Giovanni\nEthan Lavinsky\nEthan Eng\n\n#ScreenCrush",
-      "flagExcerpt": ""
-    },
-    "zRubfZ1Jb9Q": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Sicario in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "272f53d6574e90e0772ddbaa5e49f4222d82ae36ddf6fb5c38e15dede4a27897",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in Sicario (2015)? Well just sit back, relax, and enjoy the video, and you will be caught up in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikipedia.",
       "flagExcerpt": ""
     },
     "4FfVwEGrhyY": {
@@ -14089,6 +14165,17 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
       "descriptionLead": "Once upon a time there were a bunch of superpowered babies born on the same day. We'll let them tell you the rest of the story. \n\nGet caught up on The Umbrella Academy before Season 2 drops on July 31.\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with 193 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anyti",
+      "flagExcerpt": ""
+    },
+    "Vt6oT9u6_mE": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Your Complete Season 3 Recap | Jack Ryan | Prime Video",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "4a1788b9e161815944173d4c615c35f530afc7d93e09b1b8a39326ca694381bc",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "It's time to get ready for the final season of Jack Ryan by brushing up on all of the action from Season 3. Join your host Sharronda Williams as she takes you through the Jack Ryan: Season 3 recap. \n \n» Watch Jack Ryan on Prime Video: [link]\n» SUBSCRIBE: [link]\n \nAbout Jack Ryan Season 3: In Season 3 of Tom Clancy’s Jack Ryan, Jack races against time and across Europe to stop a rogue faction within the Russian government from restoring the Soviet Empire and starting World War III.\n \nAbout Prime ",
       "flagExcerpt": ""
     }
   },
@@ -16565,6 +16652,23 @@
         "Harry Potter and the Sorcerer's Stone"
       ],
       "releaseYear": 2001
+    },
+    {
+      "imdbID": "tt0463854",
+      "tmdbID": 1562,
+      "aliases": [
+        "28 Weeks Later"
+      ],
+      "releaseYear": 2007
+    },
+    {
+      "imdbID": "tt3397884",
+      "tmdbID": 273481,
+      "aliases": [
+        "Sicario",
+        "Sicario (2015)"
+      ],
+      "releaseYear": 2015
     }
   ]
 }
