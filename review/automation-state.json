@@ -6,7 +6,7 @@
       "completedAt": "2026-09-14"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNKd3hJaEE0UXpORFEwSkVPRUk1UlVKQlEwUTA",
+      "nextPageToken": "EAAaH1BUOkNKWXpJaEExUmtJeVF6RkZOME0yUXpKRU4wUTI",
       "discoveryVersion": 2
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
@@ -21,11 +21,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKd3hJaEEzTVRSQlJUazBNamxHTmtFeVFUZ3g"
+      "nextPageToken": "EAAaH1BUOkNKWXpJaEE0UkRVNU5UQkZRVFpHUXpoRU4wRkc"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKd3hJaEF4T1RaQ05UZEJRVE5DUVRVM1FqaEQ"
+      "nextPageToken": "EAAaH1BUOkNKWXpJaEEwTkRjMVFUTXdSamhGTmpRMk9UZEc"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -4842,6 +4842,11 @@
       "policyVersion": 9,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en-US"
+    },
+    "_4Z1INuxxfg": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -5476,7 +5481,8 @@
     "movie:harry potter and the sorcerer s stone": "2026-09-14",
     "series:with love": "2026-09-14",
     "movie:28 weeks later": "2026-09-14",
-    "series:the marvelous mrs maisel": "2026-09-14"
+    "series:the marvelous mrs maisel": "2026-09-14",
+    "series:carnival row": "2026-09-14"
   },
   "series": [
     {
@@ -6525,6 +6531,13 @@
       "tmdbID": 70796,
       "aliases": [
         "The Marvelous Mrs. Maisel"
+      ]
+    },
+    {
+      "imdbID": "tt0489974",
+      "tmdbID": 90027,
+      "aliases": [
+        "Carnival Row"
       ]
     }
   ],
@@ -14284,6 +14297,39 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
       "descriptionLead": "Get ready for the To All The Boys sequel by watching this recap of the first movie, To All The Boys I've Loved Before with Lana Condor, Noah Centineo and Anna Cathcart. Watch To All the Boys P.S. I Still Love You on Netflix February 12. \n\nWatch To All the Boys I've Loved Before, only on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with over 167 million paid memberships in over 190 countries enjoying TV series, documentaries and",
+      "flagExcerpt": ""
+    },
+    "BjsIYiI0VG8": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Abbi Jacobson and Nat Faxon Recap Disenchantment Part 1 | Netflix",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "0179737269b37416fc6a835f3da733d7e35ee0cc326e0d727d3c95cb5016b014",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "It's time for your history lesson. Abbi Jacobson (the voice of Bean) and Nat Faxon (the voice of Elfo) recap all of the epic moments of Disenchantment Part 1 to prepare you for Part 2 before it drops on September 20. \n\nWatch Disenchantment, Only On Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with over 151 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of ",
+      "flagExcerpt": ""
+    },
+    "OulXMB4W5B0": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Get Ready for Peaky Blinders Season 5: Recap of Seasons 1-4 | Netflix",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "0f974a4df886b079be16721961d74a1285323ff83a942465b9d8d82570ce9b16",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Peaky Blinders season 4 premieres October 4. Get caught up with everything that happened on the show so far in a detailed recap of seasons 1 through 4.\n\nWatch Peaky Blinders, only on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with over 151 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anyt",
+      "flagExcerpt": ""
+    },
+    "X49Wf5R0wI0": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Big Mouth: Season 3 | Season 2 Recap | Netflix",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "6b8f0428386c2c80091cfced6c89ac67f3b2acd2c328b1a81c0ce6170be0f1a9",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Get ready for all-new Big Mouth coming October 4. But first, here's your essential Season 2 refresher...\n\nWatch Big Mouth on Netflix: \n[link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with over 151 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members ",
       "flagExcerpt": ""
     }
   },

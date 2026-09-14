@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 56,
+  "revision": 57,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7560,6 +7560,20 @@
       "language": "en",
       "durationSeconds": 165,
       "title": "YOU Season 1 Recap | Netflix",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "_4Z1INuxxfg",
+      "imdbID": "tt0489974",
+      "tmdbID": 90027,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 1161,
+      "title": "Carnival Row Season 1 Recap | Prime Video",
       "reviewedAt": "2026-09-14",
       "enabled": true
     }
