@@ -1,11 +1,11 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNQWVRJaEEwTmtZek5qbEZNVE0wTURVd056TTI",
+      "nextPageToken": "EAAaH1BUOkNQQVZJaEE0UWtWRk1rSTVOa1k0TWtFMFJFSkc",
       "discoveryVersion": 2
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNQWVRJaEF3T0VRelJqVkJPVFkwTURkQ09UbEQ",
+      "nextPageToken": "EAAaH1BUOkNQQVZJaEJGUXpVMVJUbENRalUzUXpnME1FTTU",
       "discoveryVersion": 2
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
@@ -20,11 +20,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNQWVRJaEJHTkRnM1FqUkZNVEpDTUVVMVF6STQ"
+      "nextPageToken": "EAAaH1BUOkNQQVZJaEE1TmtVeVJUVkJNekk0T1RsQlFqVkI"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNQWVRJaEF4TmpCRk56STNNMEk1T0RVMlJUaEY"
+      "nextPageToken": "EAAaH1BUOkNQQVZJaEF3UWpVNU9UaEZOakZEUWprNU1qY3c"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -38,7 +38,7 @@
     },
     "UCgMJGv4cQl8-q71AyFeFmtg": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNQWVRJaEJDTTBKR01qUTNOVVkzTmtaRk5rWkI"
+      "nextPageToken": "EAAaH1BUOkNQQVZJaEE0T1VKRU1qWTFNa1ZFUVVOQ1F6TTM"
     },
     "UCCNA8qUu57LQXm5L8EL5B-g": {
       "discoveryVersion": 2,
@@ -143,19 +143,19 @@
     },
     "ycnZy5I32Io": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "-pNtq9OvxNw": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "-u7mXJ7CFZo": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "0-1r9Oo7sEQ": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "2Y9gCjgMcRE": {
       "misses": 0,
@@ -243,39 +243,39 @@
     },
     "yPKehZQ47jE": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "-7Ee9hoRhvM": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "0O9kN_JoHUA": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "0PJ3van5yds": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "0Ss198dMaFE": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "0dB9I6lvEno": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "0q-_D6W7e8M": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "1JNMvzTsn20": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "1qtdqoo5vhs": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "3FUZkslwFK4": {
       "misses": 0,
@@ -319,15 +319,15 @@
     },
     "z98Pz41nb9k": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "zZj951W7nPA": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "20ujdVwS7IU": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "3HyQ1eYQj40": {
       "misses": 0,
@@ -595,7 +595,7 @@
     },
     "y3lLl5W1uEw": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "MlNxiZRLwYk": {
       "misses": 0,
@@ -663,7 +663,7 @@
     },
     "zQh28sxpvvg": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "YVXIFLkQqg8": {
       "misses": 0,
@@ -731,11 +731,11 @@
     },
     "zNCr801BJ60": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "zmTwTI9P9kY": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "DiOyps4eAh4": {
       "misses": 0,
@@ -803,23 +803,23 @@
     },
     "zYDE9lABgeE": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "-LIeN443vAU": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "-bTumupgSAA": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "1f8hbwO4lRw": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "2An5ljBmJyg": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "2VeCbOIW1kQ": {
       "misses": 0,
@@ -951,23 +951,23 @@
     },
     "xBdn6oAB52I": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "ytsH7Bkg17M": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "z5wxkvwi1_Q": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "-Ho92HBllDA": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "0Us_RLfsb7k": {
       "misses": 0,
-      "checkedAt": "2026-09-11"
+      "checkedAt": "2026-09-14"
     },
     "pQJayF2tNDg": {
       "misses": 0,
@@ -1342,6 +1342,78 @@
       "checkedAt": "2026-09-14"
     },
     "s-8shbJCqmE": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "tY1dXkl-Tvg": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "tfAo6RfkmmY": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "tl3-UfXZDTs": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "uKL9onN8fGY": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "ueH4XY30Tok": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "vHMVFqYAKIw": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "vOuv1QH3JW4": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "w0hXkuaeUUo": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "wUAFCn90Y8Q": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "wyXKl5qx9wM": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "xA4XrOCfDVA": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "xMN0FBqMoW4": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "xTrbzRHY1eI": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "xZkZhu6dmME": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "xkVHBBs8nsw": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "yFZRDt5y-zQ": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "yYKTYscZoIo": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "zGWFe6BRXTg": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -3011,6 +3083,16 @@
       "policyVersion": 8,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en"
+    },
+    "Gl4AOUjfE7Q": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "hb1E3zAfzf0": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -3424,7 +3506,11 @@
     "series:bridgerton recap before": "2026-09-14",
     "series:lost in space": "2026-09-14",
     "movie:indiana jones and the temple of doom": "2026-09-14",
-    "movie:sicario": "2026-09-14"
+    "movie:sicario": "2026-09-14",
+    "movie:complete arrowverse": "2026-09-14",
+    "movie:the fall of the house of usher": "2026-09-14",
+    "movie:trying jason character": "2026-09-14",
+    "movie:knuckles": "2026-09-14"
   },
   "series": [
     {
@@ -4427,12 +4513,7 @@
       ]
     }
   ],
-  "pending": {
-    "znLtIuNO4d0": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "zo_MUl05pUQ": "UCwOhOMxCC4Bi54W255Sczmg",
-    "ztce3GTRp2M": "UCwOhOMxCC4Bi54W255Sczmg",
-    "zwZrfHp0_Ik": "UCNCTxLZ3EKKry-oWgLlsYsw"
-  },
+  "pending": {},
   "checkedAt": "2026-09-14",
   "rejected": {
     "-07drzOov-M": {
@@ -14014,6 +14095,94 @@
       "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
       "audioLanguage": "en",
       "descriptionLead": "WandaVision is the first Marvel Cinematic Universe story in nearly 600 days! So, your memory might be fuzzy on past events. So we've prepared an in-depth recap about the history of the MCU, Wanda, Ultron, Vision, Infinity Stones--Everything you need to know before the new series starts on Disney Plus.\n\nIf you're new, Subscribe! → [link]\n\nGo here → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten, Hosted, and Edited by Ryan Arey ([link]\n\n#WandaVision #Recap #Marvel",
+      "flagExcerpt": ""
+    },
+    "97OJjlpbuBc": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Complete MCU Recap: Everything You Need to Know",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "3ad3888a1486dfbe3d57a881cb0cfc942cdf07dbbf3f0454bafe9b06ff396f7a",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "If you're new, Subscribe! → [link]\n\nNeed to get caught up on anything in the MCU before the new Avengers? This video boils all 18 Marvel Studios movies down to 15 minutes.\n\nGo here → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten, narrated, and edited by Ryan Arey. ([link]",
+      "flagExcerpt": ""
+    },
+    "JIUm67YTuDU": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Complete X-Men Movie Recap: What You Need to Know Before Dark Phoenix",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "44c9b1f6b495a136e2bf3d230bd2b896c7aca7a41024f17a618e1e863f091950",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "If you're new, Subscribe! → [link]\n\nNeed to get caught up on anything in the #XMenMovies Universe before #DarkPhoenix? This video boils all 10 X-Movies down to 17 minutes.\n\nGo here → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten, narrated, and edited by Ryan Arey. ([link]",
+      "flagExcerpt": ""
+    },
+    "V4PYCC_Npus": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Complete Breaking Bad Recap: What You Need to Know Before El Camino",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "3adfe1012326776335c268c388d317b88cafa92b10ecd0ee35bd1c2f703d45d0",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "If you're new, Subscribe! → [link]\n\nNeed a refresher on #BreakingBad before #ElCamino hits Netflix? We’ve got a complete #BreakingBadRecap of the ENTIRE series!\n\nGo here → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten and hosted by Ryan Arey. ([link]\nEdited by Samir Nikocevic and Ryan Arey",
+      "flagExcerpt": ""
+    },
+    "VRZZNuEniyo": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "COMPLETE Star Wars Recap: The Entire Skywalker Saga",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "3b2f1b453f8a53efce80bd6d2b5f4ac48e3028495e91c953ba82ff25585bef17",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "If you're new, Subscribe! → [link]\n\nBefore you see #TheRiseOfSkywalker, here’s a complete #StarWars #Recap that tells you everything you need to know about 40 years worth of movies and shows in under 30 minutes. \n\nThis is a recap of the entire #SkywalkerSaga including the #Prequels, #CloneWars, #Rebels, #Resistance, as well as the novels, comics and video games.\n\nGo here → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten and Hosted by Ryan Arey ([link]\nEdited by Da",
+      "flagExcerpt": ""
+    },
+    "dfMfALLByb8": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Reacher Season 2 Recap | PV Recaps | Prime Video",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "e723488959d1bf565cfd1f3335e1c511682953a01fb7c0d5acf77dd501e2fc87",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "Alan Ritchson is back and ready for some action. Reacher Season 3 premieres on Prime Video February 20.\n \n» Watch Reacher on Prime Video: [link]\n» SUBSCRIBE: [link]\n\n0:00 Intro\n1:26 S2 E1\n4:11 S2 E2\n6:54 S2 E3\n9:03 S2 E4\n10:39 S2 E5\n11:45 S2 E6\n12:40 S2 E7\n13:23 S2 E8\n\nAbout Reacher: \nWhen retired Military Police Officer Jack Reacher is arrested for a murder he did not commit, he finds himself in the middle of a deadly conspiracy full of dirty cops, shady businessmen and scheming politicians. Wi",
+      "flagExcerpt": ""
+    },
+    "fPZu3wmC6FE": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Complete Arrowverse Recap",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "e5954099b1fa2722dcfdd697e4bfd90e4fb65d6f99e96b33e1967154a612572a",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "If you're new, Subscribe! → [link]\n\nWant to know what you need to know to follow the latest season of The Flash, and the rest of the Arrowverse? This video will run it all down in under 13 minutes.\n\nGo here → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten, edited, and hosted by Ryan Arey. ([link]\n\nInvaluable passion and research provided by Evelande Dufrene.",
+      "flagExcerpt": ""
+    },
+    "flPlgja2MzY": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "The Fall of the House of Usher | Recap | Netflix",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "b87f13d4fc18513f58d79b583b51c353e9248a25925eb3155d910a36bdc74ec7",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Get ready for what's next on The Fall of the House of Usher...\r\n\r\nFrom Mike Flanagan, the creator of The Haunting of Hill House and Midnight Mass, a wicked horror series based on the works of Edgar Allan Poe. Ruthless siblings Roderick and Madeline Usher have built Fortunato Pharmaceuticals into an empire of wealth, privilege and power. But past secrets come to light when the heirs to the Usher dynasty start dying at the hands of a mysterious woman from their youth.\r\n\r\nSUBSCRIBE: [link]\r\n\r\nAbout",
+      "flagExcerpt": ""
+    },
+    "q3iOh1Z0LCo": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Complete Game of Thrones Recap: Every Episode in 12 Minutes",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "6e8cee8b227f03856cbbfee8e46318e22cb517229ae5091baa6ecb1354276899",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "If you're new, Subscribe! → [link]\n\nNeed a #GoT refresher? Here’s everything you need to know about #gameofthrones so far before #gameofthronesseason8 premieres.\n\nGo here → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nHosted and written by Ryan Arey. ([link]\nEdited by Daisy Cohen-Perez",
       "flagExcerpt": ""
     }
   },
