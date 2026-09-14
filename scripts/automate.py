@@ -22,7 +22,7 @@ import urllib.error
 ROOT = Path(__file__).resolve().parents[1]
 MAX_CALLS = 180
 ARCHIVE_PAGES = min(20, max(1, int(os.environ.get('RECAP_ARCHIVE_PAGES', '4'))))
-POLICY_VERSION = 8
+POLICY_VERSION = 9
 DISCOVERY_VERSION = 2
 REJECTION_RECHECK_DAYS = 30
 MAX_RECHECKS = 500
@@ -37,6 +37,8 @@ MOVIE_RECAP_MARKER = re.compile(
     r'\b(?:(?:ultimate|full)\s+)?(?:(?:story|movie|film)\s+)?recap\b', re.I)
 MOVIE_YEAR_PATTERN = re.compile(r'(?:\(((?:19|20)\d{2})\)|\s+((?:19|20)\d{2}))$')
 MOVIE_NUMBER_WORDS = re.compile(r'\b(one|two|three|four|five|six|seven|eight|nine|ten)\b', re.I)
+ROMAN_MOVIE_NUMBERS = {'ii': '2', 'iii': '3', 'iv': '4', 'v': '5', 'vi': '6',
+                       'vii': '7', 'viii': '8', 'ix': '9'}
 
 
 def normalize(text):
@@ -67,6 +69,11 @@ def movie_base_title(value):
 def movie_title_key(value):
     value = re.sub(r'\bchapter\s+(?=\d{1,2}\b)', '', movie_base_title(value), flags=re.I)
     value = MOVIE_NUMBER_WORDS.sub(lambda m: str(SEASON_WORDS[m[1].casefold()]), value)
+    value = re.sub(r'\bx([2-9])\b', r'x \1', value, flags=re.I)
+    value = re.sub(r'\b(ii|iii|iv|v|vi|vii|viii|ix)\b',
+                   lambda m: ROMAN_MOVIE_NUMBERS[m[1].casefold()], value, flags=re.I)
+    if re.match(r'\bharry\s+potter\b', value, re.I):
+        value = re.sub(r"\bphilosopher(?:['’]s)?\b", "sorcerer's", value, flags=re.I)
     return normalize(value)
 
 
@@ -78,6 +85,100 @@ def movie_identity_matches(name, movie):
     if source_year is not None and identity_year is None:
         return False
     return any(movie_title_key(name) == movie_title_key(alias) for alias in movie.get('aliases', []))
+
+
+def movie_description_hints(name, description):
+    """Return source-film title/year mentions that are related to the heading."""
+    patterns = [
+        r'\boriginal\s+(?P<title>[^.!?\n(]{2,100}?)\s*\((?P<year>(?:19|20)\d{2})\)',
+        r'\b(?:events?|moments?|points?)\s+(?:in|of)\s+(?:(?:the|an?)\s+)?'
+        r'(?:original\s+)?(?P<title>[^.!?\n(]{2,100}?)\s*\((?P<year>(?:19|20)\d{2})\)',
+        r'\b(?:happens|story)\s+(?:in|of)\s+(?P<title>[^.!?\n(]{2,100}?)\s*'
+        r'\((?P<year>(?:19|20)\d{2})\)',
+    ]
+    name_key = movie_title_key(name)
+    name_tokens = set(name_key.split())
+    hints = []
+    for pattern in patterns:
+        for match in re.finditer(pattern, description, re.I):
+            hinted = re.sub(r"^(?:Stephen\s+King['’]s)\s+", '', match['title'].strip(), flags=re.I)
+            hinted = trim_delimiters(hinted)
+            hinted_key = movie_title_key(hinted)
+            hinted_tokens = set(hinted_key.split())
+            if not hinted_tokens or not name_tokens:
+                continue
+            related = (hinted_key == name_key or hinted_tokens <= name_tokens or name_tokens <= hinted_tokens)
+            if related and (hinted, int(match['year'])) not in hints:
+                hints.append((hinted, int(match['year'])))
+    return hints
+
+
+def movie_description_year(name, description):
+    years = {year for _, year in movie_description_hints(name, description)}
+    return next(iter(years)) if len(years) == 1 else None
+
+
+def movie_identity_name(name, description=''):
+    if movie_year(name) is not None:
+        return name
+    year = movie_description_year(name, description)
+    return f'{name} ({year})' if year is not None else name
+
+
+def append_movie_year(name, year):
+    return name if movie_year(name) is not None else f'{name} ({year})'
+
+
+def movie_title_variants(name):
+    """Safe, known naming variants for catalog titles, not fuzzy search."""
+    key = movie_title_key(name)
+    variants = []
+    known = {
+        movie_title_key('X-Men 2'): 'X2: X-Men United',
+        movie_title_key('X-Men 3: The Last Stand'): 'X-Men: The Last Stand',
+        movie_title_key('Mission Impossible 6 – Fallout'): 'Mission: Impossible - Fallout',
+        movie_title_key('Mission Impossible 7 – Dead Reckoning'): 'Mission: Impossible - Dead Reckoning Part One',
+        movie_title_key('Star Wars: The Phantom Menace'): 'Star Wars: Episode I - The Phantom Menace',
+        movie_title_key('Star Wars: Revenge of the Sith'): 'Star Wars: Episode III - Revenge of the Sith',
+        movie_title_key('Star Wars: The Last Jedi'): 'Star Wars: Episode VIII - The Last Jedi',
+        movie_title_key('Star Wars: The Rise of Skywalker'): 'Star Wars: Episode IX - The Rise of Skywalker',
+    }
+    if key in known:
+        variants.append(known[key])
+    if re.match(r'harry\s+potter\b', name, re.I) and re.search(r'philosopher', name, re.I):
+        variants.append(re.sub(r'philosopher(?:[\'’]s)?', "Sorcerer's", name, flags=re.I))
+    if re.search(r'lord\s+of\s+the\s+rings', name, re.I) and re.search(r':\s*(?!the\b)return of the king', name, re.I):
+        variants.append(re.sub(r':\s*', ': The ', name, count=1))
+    return variants
+
+
+def movie_lookup_names(name, description=''):
+    lookups = [name]
+    hints = movie_description_hints(name, description)
+    years = {year for _, year in hints}
+    hint_year = next(iter(years)) if len(years) == 1 else None
+    if hint_year is not None:
+        lookups.append(append_movie_year(name, hint_year))
+    for hinted, year in hints:
+        lookups.append(append_movie_year(hinted, year))
+    for variant in movie_title_variants(name):
+        lookups.append(append_movie_year(variant, hint_year) if hint_year is not None else variant)
+    result = []
+    for lookup in lookups:
+        if lookup not in result:
+            result.append(lookup)
+    return result
+
+
+def resolve_movie_with_context(resolver, name, description=''):
+    for lookup in movie_lookup_names(name, description):
+        movie = resolver.resolve_movie(lookup)
+        if movie:
+            movie = copy.deepcopy(movie)
+            aliases = [name, lookup, *movie.get('aliases', [])]
+            movie['aliases'] = list(dict.fromkeys(aliases))
+            return movie
+    return None
 
 
 def six_months_after(value):
@@ -332,7 +433,8 @@ def movie_coverage(title, movies, description=''):
     description = content_description(description)
     if mixed_movie_format(title, description):
         return None
-    matches = [movie for movie in movies if movie_identity_matches(name, movie)]
+    identity_name = movie_identity_name(name, description)
+    matches = [movie for movie in movies if movie_identity_matches(identity_name, movie)]
     if len(matches) != 1:
         return None
     movie = matches[0]
@@ -802,7 +904,7 @@ def run(catalog, state, series, decisions, api, today, resolver=None, movies=Non
                     resolutions += 1; movie_resolutions += 1
                     attempted_names.add(identity_key)
                     try:
-                        movie = copy.deepcopy(resolver.resolve_movie(movie_name))
+                        movie = resolve_movie_with_context(resolver, movie_name, snippet.get('description', ''))
                         if movie:
                             validate_movies(movies + [movie], catalog)
                             movies.append(movie)

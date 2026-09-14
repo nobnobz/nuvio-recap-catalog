@@ -191,6 +191,12 @@ class RuleTests(unittest.TestCase):
             with self.subTest(description=description):
                 self.assertTrue(a.mixed_movie_format('Fall (2022) in Minutes | Movie Recap', description))
 
+    def test_movie_description_year_disambiguates_same_title(self):
+        older = {**MOVIE, 'imdbID': 'tt1111111', 'tmdbID': 1111, 'aliases': ['A Quiet Place'], 'releaseYear': 2016}
+        newer = {**MOVIE, 'imdbID': 'tt2222222', 'tmdbID': 2222, 'aliases': ['A Quiet Place'], 'releaseYear': 2018}
+        description = 'Forget all of the major plot events in the original A Quiet Place (2018).'
+        self.assertEqual(a.movie_coverage('A Quiet Place in Minutes | Recap', [older, newer], description), newer)
+
     def test_registry_has_unique_exact_identities(self):
         data = json.loads((ROOT / 'catalog.json').read_text())
         series = json.loads((ROOT / 'series.json').read_text())
@@ -375,6 +381,22 @@ class IdentityResolutionTests(unittest.TestCase):
         self.assertIn('Dune: Part Two', result['aliases'])
         resolver.results = Resolver.results + [{'id': 'tt888888', 'name': 'Dune: Part Two', 'type': 'movie', 'releaseInfo': '1984'}]
         self.assertIsNone(resolver.resolve_movie('Dune: Part 2'))
+
+    def test_context_movie_resolution_uses_related_description_year_and_alias(self):
+        class Resolver(a.Cinemeta):
+            results = [
+                {'id': 'tt0892769', 'name': 'How to Train Your Dragon', 'type': 'movie', 'releaseInfo': '2010'},
+                {'id': 'tt26743210', 'name': 'How to Train Your Dragon', 'type': 'movie', 'releaseInfo': '2025'},
+            ]
+            meta = {'imdb_id': 'tt0892769', 'name': 'How to Train Your Dragon', 'type': 'movie',
+                    'moviedb_id': 10191, 'releaseInfo': '2010'}
+            def get(self, path): return {'metas': self.results} if path.startswith('catalog/') else {'meta': self.meta}
+        resolver = Resolver()
+        result = a.resolve_movie_with_context(
+            resolver, 'How to Train Your Dragon',
+            'Forget all of the major plot events in the original HOW TO TRAIN YOUR DRAGON (2010).')
+        self.assertEqual(result['imdbID'], 'tt0892769')
+        self.assertIn('How to Train Your Dragon', result['aliases'])
 
     def test_new_movie_is_resolved_once_and_persisted(self):
         class Resolver:
