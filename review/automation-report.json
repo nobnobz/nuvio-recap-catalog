@@ -2,18 +2,16 @@
   "checkedAt": "2026-09-14",
   "policyVersion": 9,
   "catalogRevision": 65,
-  "candidatesChecked": 1,
+  "candidatesChecked": 0,
   "added": [],
   "withdrawn": [],
   "restored": [],
-  "skipped": [
-    "_XUXJo1q3Ew"
-  ],
+  "skipped": [],
   "healthChecked": 60,
-  "apiCalls": 28,
-  "seriesResolutions": 1,
+  "apiCalls": 26,
+  "seriesResolutions": 0,
   "movieResolutions": 0,
-  "identityResolutions": 1,
+  "identityResolutions": 0,
   "identityErrors": 0,
   "channelErrors": [
     {
