@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 40,
+  "revision": 41,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -4606,6 +4606,126 @@
       "language": "en",
       "durationSeconds": 255,
       "title": "Transformers in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "vHMVFqYAKIw",
+      "imdbID": "tt2015381",
+      "tmdbID": 118340,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 234,
+      "title": "Guardians of the Galaxy in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "vOuv1QH3JW4",
+      "imdbID": "tt0093773",
+      "tmdbID": 106,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 183,
+      "title": "Predator in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "w0hXkuaeUUo",
+      "imdbID": "tt6146586",
+      "tmdbID": 458156,
+      "mediaType": "movie",
+      "channelID": "UCCNA8qUu57LQXm5L8EL5B-g",
+      "language": "en",
+      "durationSeconds": 765,
+      "title": "John Wick 3 - Parabellum ULTIMATE RECAP!",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "wUAFCn90Y8Q",
+      "imdbID": "tt2709768",
+      "tmdbID": 328111,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 241,
+      "title": "The Secret Life of Pets in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "wyXKl5qx9wM",
+      "imdbID": "tt2316204",
+      "tmdbID": 126889,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 272,
+      "title": "Alien: Covenant in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "xA4XrOCfDVA",
+      "imdbID": "tt9376612",
+      "tmdbID": 566525,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 276,
+      "title": "Shang-Chi and the Legend of the Ten Rings in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "xMN0FBqMoW4",
+      "imdbID": "tt1386697",
+      "tmdbID": 297761,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 270,
+      "title": "Suicide Squad (2016) in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "xkVHBBs8nsw",
+      "imdbID": "tt10665338",
+      "tmdbID": 610253,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 246,
+      "title": "Halloween Kills in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "yYKTYscZoIo",
+      "imdbID": "tt3717490",
+      "tmdbID": 305470,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 261,
+      "title": "Power Rangers in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "zGWFe6BRXTg",
+      "imdbID": "tt0087469",
+      "tmdbID": 87,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 172,
+      "title": "Indiana Jones and the Temple of Doom in Minutes | Recap",
       "reviewedAt": "2026-09-14",
       "enabled": true
     }
