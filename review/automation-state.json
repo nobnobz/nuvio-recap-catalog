@@ -22,11 +22,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNPeEFJaEJGUkVFeU5qZERNRFl3UkVGRlFUYzI"
+      "nextPageToken": "EAAaH1BUOkNPWkNJaEF6UWtJNE5VSkROa00wUWtWRk5UWTU"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNPeEFJaEF5UmpKQlF6TkdNRFpGTUVORE5rRTU"
+      "nextPageToken": "EAAaH1BUOkNPWkNJaEJFTnpZNU1qQTVOVEV3TVVNMlJETTI"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -2173,6 +2173,42 @@
       "checkedAt": "2026-09-14"
     },
     "p_BSGyzxG40": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "mC1JF5HBk4Q": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "moiGzdsWTDc": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "n6sDm4snenU": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "nMS-SY0sKss": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "nfYDe8hsT2Q": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "nj0PzOyQUu8": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "nq2jQyID-Gg": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "nsQg04PVIH0": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "o3ehGLPe0-E": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -14811,6 +14847,28 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
       "descriptionLead": "Go inside East Mississippi Community College as these elite athletes struggle to find their redemption and achieve the glory only these Lions can. Last Chance U Season is now streaming on Netflix.  \n\nWatch Last Chance U: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with 130 million memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much",
+      "flagExcerpt": ""
+    },
+    "CNx2_GDFOfo": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Orange is the New Black | The Unraveled Recap | Netflix",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "7d8eeefd7a775687abc42075b8b8b36ee612668cd4a594131a704d325252395a",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Unraveling each season of OITNB. Season 5 is now streaming, only on Netflix. \n\nSUBSCRIBE: [link]\n\nWatch Orange is the New Black: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with 130 million memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members can play, pause and resume watching",
+      "flagExcerpt": ""
+    },
+    "eCDYrTi9BEs": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Bloodline | Series Recap | Netflix",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "812aa1ba0865c68428465ca3de1aed67a2df5fd027761357282dae76123bc64d",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Revisit the past with the Rayburns one last time before the Final Season. \n\nAll episodes are now streaming only on Netflix. \n\nWatch Bloodline: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with 130 million memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members ca",
       "flagExcerpt": ""
     }
   },
