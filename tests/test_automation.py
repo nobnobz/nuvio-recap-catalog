@@ -171,6 +171,17 @@ class RuleTests(unittest.TestCase):
         self.assertNotIn('firstSeason', result)
         self.assertNotIn('lastSeason', result)
 
+    def test_linked_playlist_promotions_do_not_turn_one_movie_into_a_collection(self):
+        description = ('A recap of Fall (2022).\n\n'
+                       'Every Fall Movie Recap: https://example.com/fall-playlist\n\n'
+                       'Marvel Phase 5 Recap Playlist: [link]\n\n'
+                       'Check out more Movies in Minutes:\nhttps://example.com/more')
+        self.assertFalse(a.mixed_movie_format('Fall (2022) in Minutes | Movie Recap', description))
+        self.assertEqual(a.movie_coverage('Fall (2022) in Minutes | Movie Recap', [MOVIE], description), MOVIE)
+        self.assertTrue(a.mixed_movie_format(
+            'Fall (2022) in Minutes | Movie Recap',
+            'This video covers every movie in the franchise.'))
+
     def test_registry_has_unique_exact_identities(self):
         data = json.loads((ROOT / 'catalog.json').read_text())
         series = json.loads((ROOT / 'series.json').read_text())

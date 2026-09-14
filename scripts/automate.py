@@ -22,7 +22,7 @@ import urllib.error
 ROOT = Path(__file__).resolve().parents[1]
 MAX_CALLS = 180
 ARCHIVE_PAGES = min(20, max(1, int(os.environ.get('RECAP_ARCHIVE_PAGES', '4'))))
-POLICY_VERSION = 7
+POLICY_VERSION = 8
 DISCOVERY_VERSION = 2
 REJECTION_RECHECK_DAYS = 30
 MAX_RECHECKS = 500
@@ -233,7 +233,28 @@ def mixed_full_series(description):
 
 
 def mixed_movie_format(title, description):
-    text = title + ' ' + description
+    # Channel descriptions often contain links to related recap playlists.
+    # Those links are promotion, not evidence that the current upload covers
+    # every film named by the linked playlist. Remove only clearly delimited
+    # linked headings; unlinked scope claims remain fail-closed.
+    lines = description.splitlines()
+    kept = []
+    link_only = re.compile(r'\s*(?:https?://\S+|\[link\])\s*$', re.I)
+    heading = re.compile(
+        r'(?:\bplaylist\b|\bcheck\s+out\s+more\s+movies\s+in\s+minutes\b|'
+        r'\b(?:every|all)\b.+\b(?:films?|movies?)\s+recap\s*:?)', re.I)
+    index = 0
+    while index < len(lines):
+        line = lines[index]
+        stripped = line.strip()
+        without_link = re.sub(r'\s*(?:https?://\S+|\[link\])\s*$', '', stripped).strip()
+        if heading.search(without_link):
+            if without_link != stripped or (index + 1 < len(lines) and link_only.fullmatch(lines[index + 1])):
+                index += 2 if index + 1 < len(lines) and link_only.fullmatch(lines[index + 1]) else 1
+                continue
+        kept.append(line)
+        index += 1
+    text = title + ' ' + '\n'.join(kept)
     if re.search(r'\b(?:trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|series recap)\b|#(?:shorts|highlights)\b', text, re.I):
         return True
     # A recap of a named film is admissible; a franchise/collection recap is
