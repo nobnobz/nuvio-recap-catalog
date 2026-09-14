@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 32,
+  "revision": 33,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -3498,6 +3498,72 @@
       "language": "en",
       "durationSeconds": 1471,
       "title": "Game Of Thrones – Season 5 ULTIMATE RECAP!",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "Egy5A070cbA",
+      "imdbID": "tt0944947",
+      "tmdbID": 1399,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 6,
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "language": "en",
+      "durationSeconds": 325,
+      "title": "Game of Thrones: Season 1-6 Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "Jl8A8tmfZ8I",
+      "imdbID": "tt0800080",
+      "tmdbID": 1724,
+      "mediaType": "movie",
+      "channelID": "UCCNA8qUu57LQXm5L8EL5B-g",
+      "language": "en",
+      "durationSeconds": 602,
+      "title": "The Incredible Hulk - ULTIMATE RECAP!",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "ONIdaQ4Hcxs",
+      "imdbID": "tt0411008",
+      "tmdbID": 4607,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 6,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 3060,
+      "title": "LOST Full Series Recap | Season 1-6 Ending Explained",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "S2iGK0iIH4s",
+      "imdbID": "tt5886046",
+      "tmdbID": 522681,
+      "mediaType": "movie",
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 222,
+      "title": "Escape Room (2019) Recap | Everything You Need To Know Before 'Tournament of Champions' Explained",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "TYA8xtRP7Hk",
+      "imdbID": "tt28088031",
+      "tmdbID": 240993,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "language": "en",
+      "durationSeconds": 138,
+      "title": "Ransom Canyon | Season 1 Recap | Netflix",
       "reviewedAt": "2026-09-14",
       "enabled": true
     }
