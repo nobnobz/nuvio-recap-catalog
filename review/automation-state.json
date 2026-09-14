@@ -6,8 +6,9 @@
       "completedAt": "2026-09-14"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNKWXpJaEExUmtJeVF6RkZOME0yUXpKRU4wUTI",
-      "discoveryVersion": 2
+      "nextPageToken": null,
+      "discoveryVersion": 2,
+      "completedAt": "2026-09-14"
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
       "nextPageToken": null,
@@ -21,11 +22,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKWXpJaEE0UkRVNU5UQkZRVFpHUXpoRU4wRkc"
+      "nextPageToken": "EAAaH1BUOkNKQTFJaEExTlRFd05rWkVOREpGTmtSQk1rSTA"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKWXpJaEEwTkRjMVFUTXdSamhGTmpRMk9UZEc"
+      "nextPageToken": "EAAaH1BUOkNKQTFJaEF6TURWRFFUZEdNa0pGTjBWQ09EVkc"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -2008,6 +2009,86 @@
       "checkedAt": "2026-09-14"
     },
     "lAMLlY-hWcQ": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "pnghPfxz6_U": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "q67Lf3JX7Qw": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "q8x4ujLIvEw": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "qxAF2ENMj7o": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "rTaUmaHXCaA": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "s1BZM7cw4vU": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "s9fXMgwUOIw": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "sJEiwQIgkgk": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "sZAcjpBhnMU": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "sc-vH2N5Qdk": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "tN56GhXwtKg": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "tRlNI_U59eo": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "tsqCnpMIspg": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "uCDEdqo1G2c": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "vP33_FDWdBY": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "vWmMf3raIUc": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "vzXdcU_IM8E": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "wAGq1ribRaA": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "wX1CNyKr2aw": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "wnPH3jFnYNA": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -4847,6 +4928,26 @@
       "policyVersion": 9,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en"
+    },
+    "A9GtKDOTFYo": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "HC765gMqmew": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "Hl3i6PntgTU": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "SoNgMHeTsYk": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -5482,7 +5583,10 @@
     "series:with love": "2026-09-14",
     "movie:28 weeks later": "2026-09-14",
     "series:the marvelous mrs maisel": "2026-09-14",
-    "series:carnival row": "2026-09-14"
+    "series:carnival row": "2026-09-14",
+    "series:harlem": "2026-09-14",
+    "series:glow": "2026-09-14",
+    "movie:dear white people volume 2": "2026-09-14"
   },
   "series": [
     {
@@ -6538,6 +6642,13 @@
       "tmdbID": 90027,
       "aliases": [
         "Carnival Row"
+      ]
+    },
+    {
+      "imdbID": "tt10608454",
+      "tmdbID": 138089,
+      "aliases": [
+        "Harlem"
       ]
     }
   ],
@@ -14330,6 +14441,50 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
       "descriptionLead": "Get ready for all-new Big Mouth coming October 4. But first, here's your essential Season 2 refresher...\n\nWatch Big Mouth on Netflix: \n[link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with over 151 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members ",
+      "flagExcerpt": ""
+    },
+    "JOcmMn87Njs": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "GLOW | Season 2 Recap | Netflix",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "82d87e2886011e8a4284f407d4568a7c4f925b2764a3641b3c8ce04f006a17cb",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Get the lowdown on the ring. Here's what you missed on the last season\nof GLOW. All episodes streaming August 9. [link]\n\nAbout Netflix:\nNetflix is the world’s leading Internet television network with over\n100 million members in over 190 countries enjoying more than 125\nmillion hours of TV shows and movies per day, including original\nseries, documentaries and feature films. Members can watch as much as\nthey want, anytime, anywhere, on nearly any Internet-connected screen.\nMembers can play, pause ",
+      "flagExcerpt": ""
+    },
+    "Lrp7BRCYLx0": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Dear White People Volume 2 Ultimate Recap | Netflix",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "23b660a4c115c12cdaca5ed9206c6f5287517b74bb817b4e7800c3434cfe6acc",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Need a Volume 2 refresh? This recap will tell you everything you need to know. Volume 3 drops August 2nd!\n\nWatch Dear White People, Only on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with over 148 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected sc",
+      "flagExcerpt": ""
+    },
+    "lbMi3PBYglw": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Hunters Season 1 Recap | Prime Video",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "5f11865eeee663c78c57f86b770b072eaba963e694f53a73ec4bd91c01f596d1",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "You aren't prepared for this one.🩸 Hunters Season 2 premieres tomorrow, January 13th. Sit back, relax and enjoy this Sharronda Williams Prime Video recap of everything you need to remember from Season 1.\n \n» Watch Hunters on Prime Video: [link]\n» SUBSCRIBE: [link]\n \nAbout Hunters Season 2: After an accident derails their exploits in Europe, The Hunters must band back together to hunt down history's most infamous Nazi—Adolf Hitler—who's hiding in South America. Meanwhile, a look to the past revea",
+      "flagExcerpt": ""
+    },
+    "n24sB8Xfu54": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Orange Is the New Black | Official Seasons 1-6 Recap | Netflix",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "c93197367841917a20fe6f7d7b61e3a2b6390b6a5e7224c648c6b156faab8226",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Don’t remember what happened in the previous six seasons of OITNB? We’ve got you covered. The final episodes, July 26.\n\nWatch Orange Is The New Black, Only On Netflix:  [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with over 148 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any i",
       "flagExcerpt": ""
     }
   },

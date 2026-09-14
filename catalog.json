@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 57,
+  "revision": 58,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7574,6 +7574,62 @@
       "language": "en",
       "durationSeconds": 1161,
       "title": "Carnival Row Season 1 Recap | Prime Video",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "A9GtKDOTFYo",
+      "imdbID": "tt10608454",
+      "tmdbID": 138089,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 722,
+      "title": "Harlem Season 1 Recap | Prime Video",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "HC765gMqmew",
+      "imdbID": "tt1837492",
+      "tmdbID": 86372,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "language": "en",
+      "durationSeconds": 156,
+      "title": "13 Reasons Why | Season 1 Recap | Netflix",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "Hl3i6PntgTU",
+      "imdbID": "tt11247158",
+      "tmdbID": 135934,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 1053,
+      "title": "The Legend of Vox Machina Season 1 Recap | Prime Video",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "SoNgMHeTsYk",
+      "imdbID": "tt1837492",
+      "tmdbID": 86372,
+      "mediaType": "series",
+      "firstSeason": 2,
+      "lastSeason": 2,
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "language": "en",
+      "durationSeconds": 193,
+      "title": "13 Reasons Why: Season 2 Recap | Netflix",
       "reviewedAt": "2026-09-14",
       "enabled": true
     }

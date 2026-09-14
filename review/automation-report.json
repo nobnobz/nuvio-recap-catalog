@@ -1,23 +1,27 @@
 {
   "checkedAt": "2026-09-14",
   "policyVersion": 9,
-  "catalogRevision": 57,
-  "candidatesChecked": 4,
+  "catalogRevision": 58,
+  "candidatesChecked": 8,
   "added": [
-    "_4Z1INuxxfg"
+    "A9GtKDOTFYo",
+    "HC765gMqmew",
+    "Hl3i6PntgTU",
+    "SoNgMHeTsYk"
   ],
   "withdrawn": [],
   "restored": [],
   "skipped": [
-    "BjsIYiI0VG8",
-    "OulXMB4W5B0",
-    "X49Wf5R0wI0"
+    "JOcmMn87Njs",
+    "Lrp7BRCYLx0",
+    "lbMi3PBYglw",
+    "n24sB8Xfu54"
   ],
   "healthChecked": 60,
-  "apiCalls": 42,
-  "seriesResolutions": 1,
-  "movieResolutions": 0,
-  "identityResolutions": 1,
+  "apiCalls": 40,
+  "seriesResolutions": 3,
+  "movieResolutions": 1,
+  "identityResolutions": 4,
   "identityErrors": 0,
   "channelErrors": [
     {
@@ -31,15 +35,15 @@
   "rejectionsByReason": {
     "mixed_format_or_description_flag": 186,
     "live_region_or_age_restriction": 16,
-    "coverage_title_not_explicit": 137,
+    "coverage_title_not_explicit": 138,
     "audio_language_missing": 57,
-    "series_identity_unresolved": 98,
+    "series_identity_unresolved": 100,
     "coverage_context_or_suffix_conflict": 89,
     "duration_outside_limits": 12,
-    "movie_identity_unresolved": 105,
+    "movie_identity_unresolved": 106,
     "season_numbering_unverified": 1,
     "movie_context_or_suffix_conflict": 7
   },
-  "rejectionsTracked": 708,
+  "rejectionsTracked": 712,
   "archivesComplete": false
 }
