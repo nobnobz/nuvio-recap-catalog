@@ -1,11 +1,11 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNJNE1JaEJETmprM1EwRTBNMFl6TnprM05VWkI",
+      "nextPageToken": "EAAaH1BUOkNJZ09JaEExTWpaRVF6VkdNVFE0UVRnNVJFRTU",
       "discoveryVersion": 2
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNJNE1JaEEwTUVZMVFUUTJORVUzUlRneVFUbEY",
+      "nextPageToken": "EAAaH1BUOkNJZ09JaEJETXpnelJUSTNSRUV6TjBFNE5VUkc",
       "discoveryVersion": 2
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
@@ -20,11 +20,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNJNE1JaEEzTVRJeU1FWXhOekZDTkVVeFF6Z3o"
+      "nextPageToken": "EAAaH1BUOkNJZ09JaEF6TVRVNE5rUkJORVZDTkVFMlEwVkc"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNJNE1JaEEwTTBFME9EaENRakEwUlRjMlJERTA"
+      "nextPageToken": "EAAaH1BUOkNJZ09JaEJGTVRVelFVVXlORU5DTkRjM05qSXg"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -38,7 +38,7 @@
     },
     "UCgMJGv4cQl8-q71AyFeFmtg": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNJNE1JaEJCTjBSQlJFSkNSRVJGTXpnelFUZ3o"
+      "nextPageToken": "EAAaH1BUOkNJZ09JaEF5UVRZeVFqZEVRamt6UlRCRU0wVTE"
     },
     "UCCNA8qUu57LQXm5L8EL5B-g": {
       "discoveryVersion": 2,
@@ -82,27 +82,27 @@
     },
     "YY5lrIhcVzE": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "_MRarQMYlSI": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "_vFbzpEUM_k": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "_y8XSEf7Uo8": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "arIiRPOky80": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "ceYm0eDw7tg": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "gTp7hqLOw7U": {
       "misses": 0,
@@ -195,23 +195,23 @@
     },
     "bxnnKF5CvZQ": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "chH5BNrjmRs": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "d7tOsVBjhng": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "dbWNXCxPUCQ": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "eDZEdsI684E": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "hPvgO2JeU-Y": {
       "misses": 0,
@@ -439,23 +439,23 @@
     },
     "YCz6KCFgsiI": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "YR6wZZy-a9Q": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "ZOeI4LsmDgg": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "_ocX7Lqp7ls": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "aChwotQx61w": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "7fNmASHCtgw": {
       "misses": 0,
@@ -543,15 +543,15 @@
     },
     "YTGLaWnddy4": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "beMzAjCd5Nw": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "dgD-2ZZGiS0": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "gO5nqEv7kZk": {
       "misses": 0,
@@ -647,7 +647,7 @@
     },
     "Yx-TqHUIhmU": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "luSguXy_XKE": {
       "misses": 0,
@@ -667,15 +667,15 @@
     },
     "YVXIFLkQqg8": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "Z_5VmxUyOHo": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "eJgO8Rj9vQY": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "fqsRBeFCiZ4": {
       "misses": 0,
@@ -795,11 +795,11 @@
     },
     "Xrl0aVjTp9Y": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "Y5833KeDmp4": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "zYDE9lABgeE": {
       "misses": 0,
@@ -855,31 +855,31 @@
     },
     "YZB9hBKINoY": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "ZyvMhWD_co0": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "asGfM9BleRI": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "ax0MYRxFpT0": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "bQLhiIL2kLU": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "bYuUiWLJtvw": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "d39E2NM4238": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "fgEGOetkDY4": {
       "misses": 0,
@@ -927,11 +927,11 @@
     },
     "XxbNPw1As6Y": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "YUlSYK-IIjE": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "qR7wnJIwb0Q": {
       "misses": 0,
@@ -995,11 +995,11 @@
     },
     "c3EyZqEDKxA": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "cVjdoKYcILU": {
       "misses": 0,
-      "checkedAt": "2026-09-13"
+      "checkedAt": "2026-09-14"
     },
     "ezr0ItjDAyE": {
       "misses": 0,
@@ -1098,6 +1098,70 @@
       "checkedAt": "2026-09-14"
     },
     "xAhQJaZFg0E": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "XmAzl4UdBTY": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "YZHVFufK3BM": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "YvGIrx0qBwE": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "ZHv9XkrEpzs": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "_VYT2Cv_-Lk": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "amnE7gFA_08": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "bKOEmjkDsPA": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "bnWlyMWLVOg": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "c3iZ0w5YdhU": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "d56OsPFKAQ4": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "ddt2wQ7pW1E": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "dlPj0Vn6aec": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "e0DbL23QKq0": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "eT_jQpvqL14": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "f04ybnNPDO0": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "fE3WTehNryw": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -2452,6 +2516,101 @@
       "policyVersion": 8,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en"
+    },
+    "2KzvA4cChEs": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "AI57OviIZeU": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "iJs-6zFzea4": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "iKPlRtGONlk": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "ijzGumxjuyU": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "imUMiT418JI": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "jHxhnqy2dZk": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "jTvzrl2fycs": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "jXdR9FOi9qQ": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "kAXcx7N4KMI": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "lGkwoM2njTA": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "lz-SziZee9g": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "mERzroJEzqg": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "mEfp8FgCEb4": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "mWCMPhlF2co": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "mYq_DO9kSZI": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "mdi8jpeHAd4": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "mhXXGMiVEbI": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "rMB5ggyypE0": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -2745,7 +2904,34 @@
     "movie:godzilla": "2026-09-14",
     "movie:ant man": "2026-09-14",
     "movie:x men 2": "2026-09-14",
-    "movie:oppenheimer": "2026-09-14"
+    "movie:oppenheimer": "2026-09-14",
+    "series:star wars bad batch recap everything you need to know before": "2026-09-14",
+    "movie:xo kitty": "2026-09-14",
+    "movie:2 fast 2 furious": "2026-09-14",
+    "movie:a knight of the 7 kingdoms": "2026-09-14",
+    "series:cross": "2026-09-14",
+    "series:his dark materials": "2026-09-14",
+    "movie:star wars the last jedi": "2026-09-14",
+    "movie:the equalizer": "2026-09-14",
+    "movie:toy story 2": "2026-09-14",
+    "movie:a quiet place": "2026-09-14",
+    "movie:captain america civil war": "2026-09-14",
+    "movie:kingsman the secret service": "2026-09-14",
+    "movie:ant man and the wasp": "2026-09-14",
+    "movie:the fate of the furious": "2026-09-14",
+    "movie:guardians of the galaxy vol 3": "2026-09-14",
+    "movie:mary poppins": "2026-09-14",
+    "movie:inside out": "2026-09-14",
+    "movie:deadpool": "2026-09-14",
+    "movie:hawkeye": "2026-09-14",
+    "movie:quantum of solace": "2026-09-14",
+    "movie:evil dead": "2026-09-14",
+    "movie:pacific rim": "2026-09-14",
+    "movie:minions the rise of gru": "2026-09-14",
+    "movie:avengers endgame": "2026-09-14",
+    "movie:blue beetle": "2026-09-14",
+    "movie:madame web": "2026-09-14",
+    "movie:mission impossible 7 dead reckoning": "2026-09-14"
   },
   "series": [
     {
@@ -3749,35 +3935,10 @@
     }
   ],
   "pending": {
-    "hkUT2Y-d7XY": "UCwOhOMxCC4Bi54W255Sczmg",
-    "hoTXvsg7tp0": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "hv8ROUg68l8": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "hw5grC9JhQg": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "hxyevtxHli0": "UCwOhOMxCC4Bi54W255Sczmg",
-    "iJs-6zFzea4": "UCwOhOMxCC4Bi54W255Sczmg",
-    "iKPlRtGONlk": "UCwOhOMxCC4Bi54W255Sczmg",
+    "dWkJtqDAiB8": "UCgMJGv4cQl8-q71AyFeFmtg",
     "ifgyMC21oJM": "UCwOhOMxCC4Bi54W255Sczmg",
-    "iigxE_okDfQ": "UCwOhOMxCC4Bi54W255Sczmg",
-    "ijzGumxjuyU": "UCwOhOMxCC4Bi54W255Sczmg",
-    "imUMiT418JI": "UCwOhOMxCC4Bi54W255Sczmg",
     "iz4UOoiaKHs": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "jD7ncytqOeY": "UCwOhOMxCC4Bi54W255Sczmg",
-    "jHxhnqy2dZk": "UCwOhOMxCC4Bi54W255Sczmg",
-    "jTvzrl2fycs": "UCwOhOMxCC4Bi54W255Sczmg",
-    "jXdR9FOi9qQ": "UCwOhOMxCC4Bi54W255Sczmg",
-    "kAXcx7N4KMI": "UCwOhOMxCC4Bi54W255Sczmg",
-    "keoAXOIYULU": "UCwOhOMxCC4Bi54W255Sczmg",
-    "lGkwoM2njTA": "UCwOhOMxCC4Bi54W255Sczmg",
-    "lq3vdXupXO8": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "lz-SziZee9g": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "mERzroJEzqg": "UCwOhOMxCC4Bi54W255Sczmg",
-    "mEfp8FgCEb4": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "mSGtlN1nZno": "UCwOhOMxCC4Bi54W255Sczmg",
-    "mWCMPhlF2co": "UCwOhOMxCC4Bi54W255Sczmg",
-    "mYq_DO9kSZI": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "mdi8jpeHAd4": "UCwOhOMxCC4Bi54W255Sczmg",
-    "mhXXGMiVEbI": "UCwOhOMxCC4Bi54W255Sczmg",
-    "moiGzdsWTDc": "UCwOhOMxCC4Bi54W255Sczmg",
     "n6sDm4snenU": "UCwOhOMxCC4Bi54W255Sczmg",
     "n7zdVXldB4s": "UCgMJGv4cQl8-q71AyFeFmtg",
     "nFLz--neClk": "UCCNA8qUu57LQXm5L8EL5B-g",
@@ -3809,7 +3970,6 @@
     "q8x4ujLIvEw": "UCwOhOMxCC4Bi54W255Sczmg",
     "qqEcpjrPA0A": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "r2WbLxzJ6Ps": "UCwOhOMxCC4Bi54W255Sczmg",
-    "rMB5ggyypE0": "UCwOhOMxCC4Bi54W255Sczmg",
     "rYRllvl9d_0": "UCwOhOMxCC4Bi54W255Sczmg",
     "rgGzLSdrGrA": "UCwOhOMxCC4Bi54W255Sczmg",
     "rht9P0bYSFI": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -6984,17 +7144,6 @@
       "descriptionLead": "The bellhop isn’t the only one carrying baggage. Catch up on everything you missed at Las Colinas. Watch Acapulco Season 3 now on Apple TV [link] \n\nIn season four, present-day Máximo (Eugenio Derbez) works tirelessly to restore Las Colinas to its former glory before the grand reopening. In 1986, when a competitor claims the number one spot in the annual ranking of Acapulco’s “Best Hotels,” young Máximo (Enrique Arrizon) will do whatever it takes to get back on top and secure Las Colinas’s future",
       "flagExcerpt": ""
     },
-    "lz-SziZee9g": {
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "title": "Hawkeye RECAP",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "dfcbffc39ec66488603916930e0c47121947239be74ac4bd7dff27f6896a87b3",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "This is the must watch recap before Echo, including everything you need to know about Maya Lopez and Kingpin before the new series, Echo, on Disney+ January 9th! Ace archer Kate Bishop teams up with Clint Barton, Hawkeye, to fight crime and save Christmas.\n\nMarvel Cinematic Universe Recaps:\n[link]\n\nMarvel Netflix Defenders Recaps, featuring Kingpin:\n[link]\n\nThis is the Recap, Review, Breakdown, Explained, Ending, Timeline, Easter Eggs, References, for Hawkeye. Will there be a Hawkeye Season 2? F",
-      "flagExcerpt": ""
-    },
     "mU3O-FlxLLw": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "RAY DONOVAN Full Series Recap | Season 1-7 Explained",
@@ -7016,17 +7165,6 @@
       "audioLanguage": "en",
       "descriptionLead": "Catch up on Seasons 1 and 2 of #HouseOfTheDragon ahead of Season 3 premiering this June.\n\nAbout HBO Max:\nHBO Max is the premier global streaming platform from Warner Bros. Discovery that delivers the most unique and captivating stories, ranging from the highest quality in scripted programming, movies, documentaries, true crime, adult animation, and live sports and news (where available). HBO Max is the destination for prestigious entertainment brands such as HBO, Warner Bros., Max Originals, DC,",
       "flagExcerpt": "arry Potter, as well as iconic shows like “Friends” and “The Big Bang Theory,” all in one place."
-    },
-    "mYq_DO9kSZI": {
-      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
-      "title": "Avengers Endgame RECAP",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "6b4c724e50607d543d2832c52d331ca433b2ff02adaea4f698d344478abc87b5",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "It's finally here, the epic finale of 23 Marvel movies!!! The Avengers must undo the snap and face off against Thanos, whatever it takes. \n\nRecap everything before Endgame right here!\n[link]\n\nAll MCU Recaps:\n[link]\n\nSupport the channel as a member, and become a Recap Champion!\n[link]\n\n[link]\n[link]\n[link]",
-      "flagExcerpt": ""
     },
     "mxXp0LmnZio": {
       "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
@@ -10372,28 +10510,6 @@
       "descriptionLead": "Want to be prepared for FAST & FURIOUS 9 (2021)? Or forget all of the major plot events in the original 2 FAST 2 FURIOUS (2003)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out my other recaps...\n\nFast and Furious 1-8 Recaps: [link]\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps comin",
       "flagExcerpt": ""
     },
-    "iJs-6zFzea4": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "The Equalizer in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "606377018af8b64585c22cc3ca91cd02bb51a47459245a25b46eae8cc31f3450",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in The Equalizer (2014)? Well just sit back, relax, and enjoy the video, and you will be caught up in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikipe",
-      "flagExcerpt": ""
-    },
-    "iKPlRtGONlk": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Toy Story 2 in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "659636d6be4d87730402126e4e5f760861f8aea53407dc470c600814b0ba5e9f",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for TOY STORY 4 (2019)? Or forget all of the major plot events in the original TOY STORY 2 (1999)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out my other recaps...\n\nToy Story: [link]\nToy Story 3: [link]\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! ",
-      "flagExcerpt": ""
-    },
     "idH4-5FUDoY": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "Every JURASSIC Movie in Minutes | Recap",
@@ -10460,50 +10576,6 @@
       "descriptionLead": "Forget all of the major plot events in SPIDER-MAN: FAR FROM HOME (2019)? Or needing to catch up on it before Spider-Man: Brand New Day (2026)? Just watch this recap and you will be caught up and ready in no time!\n\nEvery Spider-Man Movie Playlist:\n[link]\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and ",
       "flagExcerpt": ""
     },
-    "jHxhnqy2dZk": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Ant-Man and the Wasp in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "26a3c6380e6fe9839b5c9928345d66ed7340c2bdf4597e2f2a20873abe80b195",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Ant-Man and the Wasp: Quantumania? Forget all of the major plot events in Ant-Man and the Wasp (2018)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught u",
-      "flagExcerpt": ""
-    },
-    "jTvzrl2fycs": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "The Fate of the Furious in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "45c8dccd7b784f977f3b1dbbafbf1dd58d7a59f0e323f205b557ecea983f4bc4",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for FAST & FURIOUS 9 (2021)? Or forget all of the major plot events in the original THE FATE OF THE FURIOUS (2017)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out my other recaps...\n\nFast and Furious 1-8 Recaps: [link]\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recap",
-      "flagExcerpt": ""
-    },
-    "jXdR9FOi9qQ": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Guardians of the Galaxy Vol. 3 in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "1b9f08e05615c11be8989f348988b8aaf42c9efdb9b942b4be23c77d6b626257",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major plot events in GUARDIANS OF THE GALAXY VOL. 3 (2023)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out more Movies in Minutes:\n\nMarvel Phase 5 Recap Playlist: [link]\n\nMarvel Phase 4 Recap Playlist: [link]\n\nMarvel Phase 3 Recap Playlist: [link]\n\nMarvel Phase 2 Recap Playlist: [link]\n\nMarvel Phase 1 Recap Playlist: [link]\n\nStar Wars Recap Playlist:\n[link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click",
-      "flagExcerpt": ""
-    },
-    "kAXcx7N4KMI": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Mary Poppins in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "d9e06335d2a046ea9668c93b94d8f6bde34539617eda86fd914814f86b912ffd",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for MARY POPPINS RETURNS (2018)? Or forget all of the major plot events in the original MARY POPPINS (1964)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught",
-      "flagExcerpt": ""
-    },
     "kB_zt9eRbiQ": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "Alien in Minutes | Recap",
@@ -10546,61 +10618,6 @@
       "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
       "audioLanguage": "en",
       "descriptionLead": "Want to be prepared for FREAKIER FRIDAY (2025)? Or forget all of the major plot events in the original Freaky Friday (2003)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL ",
-      "flagExcerpt": ""
-    },
-    "mERzroJEzqg": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Quantum of Solace in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "6ea1191a0b053836ecf1b788c2d98dd2f835500c8f19005f129a7d29061c4a5d",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for NO TIME TO DIE (2021)? Or forget all of the major plot events in QUANTUM OF SOLACE (2008)? Just watch this recap and you will be caught up and ready in no time!\n\nAll Daniel Craig James Bond Recaps: [link]\n\nFollowing the death of Vesper Lynd, James Bond makes his next mission personal. The hunt for those who blackmailed his lover leads him to ruthless businessman Dominic Greene, a key player in the organization which coerced Vesper. Bond learns that Greene is plotting to g",
-      "flagExcerpt": ""
-    },
-    "mEfp8FgCEb4": {
-      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
-      "title": "EVIL DEAD RECAP - Everything You Need to Know Before Evil Dead: Burn",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "f21e3c83e445eac27b580ba3caf0bf60df425e2a469069f8826a5b3551ddd5ce",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Visit the ScreenCrush Merch Store to find fan merch that we designed just for you. From T-shirts to unique accessories, find your favorites. For 15% off your first order subscribe here! [link] \n\nConnect with ScreenCrush\n[link]\n[link]\n[link]\n[link]\n[link]\n[link]\n\nWritten by Brianna McLarty @briannatmclarty on Instagram and Tiktok!\nHosted by Ryan Arey [link]\nEdited by \nRandolf Nombrado\nLee Mazzio\nEthan Lavinsky\nMorgan Kalmbach\n\nDerry Sewer Map: [link]\nLosers Club: [link]\nOverlook Maze: [link]\nThe ",
-      "flagExcerpt": ""
-    },
-    "mWCMPhlF2co": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Minions: The Rise of Gru in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "47b8939fe83775e5d1c9cef9145919478879a5349a2430f67b2616dabd34caf0",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Minions & Monsters (2026)? Or forget all of the major plot events in Minions: The Rise of Gru (2022)? Just watch this recap and you will be caught up and ready in no time!\n\nEvery Despicable Me Recap: [link]\n\nIn the 1970s, young Gru tries to join a group of supervillains called the Vicious 6 after they oust their leader -- the legendary fighter Wild Knuckles. When the interview turns disastrous, Gru and his Minions go on the run with the Vicious 6 hot on their tails. Lucki",
-      "flagExcerpt": ""
-    },
-    "mdi8jpeHAd4": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Blue Beetle in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "879137f94e811d3b2cb30fd25964dde22e1961d3e7e94bbdfded09c9af15b54a",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for the final DCEU movie Aquaman and the Lost Kingdom (2023)? Or forget all of the major plot events in Blue Beetle (2023)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out more Movies in Minutes:\n\nDC Extended Universe Recap Playlist: [link]\n\nMarvel Phase Four Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase One Recap Playlist: [link]\n\nStar Wars Recap Playlist:\n[link]\n\nMore",
-      "flagExcerpt": ""
-    },
-    "mhXXGMiVEbI": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Madame Web in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "8a602cc19a282e757448e4a8f3b919b8a86357dc57b87e5cf840e2675950d683",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major plot events in MADAME WEB (2024)? Just watch this recap and you will be caught up and ready in no time!\n\nCassandra Webb is a New York metropolis paramedic who begins to demonstrate signs of clairvoyance. Forced to challenge revelations about her past, she needs to safeguard three young women from a deadly adversary who wants them destroyed. Also: Sydney Sweeney.\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Re",
       "flagExcerpt": ""
     },
     "moiGzdsWTDc": {
@@ -10876,17 +10893,6 @@
       "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
       "audioLanguage": "en",
       "descriptionLead": "Want to be prepared for Karate Kid: Legends (2025)? Or forget all of the major plot events in the original The Karate Kid (2010) with Jaden Smith and Jackie Chan? Just watch this recap and you will be caught up and ready in no time!\n\nEvery Karate Kid Recap: [link]\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC ",
-      "flagExcerpt": ""
-    },
-    "rMB5ggyypE0": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Avengers: Endgame in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "e4657412595edb218af7b0f95d6fd105003dc0c59819b37832d67ff9433ba45c",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major plot events in AVENGERS: ENDGAME (2019)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikipedia.",
       "flagExcerpt": ""
     },
     "rRozCeic1ws": {
@@ -12022,28 +12028,6 @@
       "descriptionLead": "The war has just begun. \nWe all know what happens to those who refuse to bend. #GameofThrones is now streaming on HBO Max.",
       "flagExcerpt": ""
     },
-    "ijzGumxjuyU": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Captain America: Civil War in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "e342441ce749d6f84a8906d1ddd06d3c08a18382b9912890b8f1e8d0181ce679",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in Captain America: Civil War (2016)? Well just sit back, relax, and enjoy the video, and you'll be caught back up in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary pr",
-      "flagExcerpt": ""
-    },
-    "imUMiT418JI": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Kingsman: The Secret Service in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "927e39e15e8241f9cdd5e0c8bd9dc25960f424e0ec4879ff43adcaa3961be772",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in Kingsman: The Secret Service (2014)? Well just sit back, relax, and enjoy the video, and you'll be caught back up in no time!\n\nCheck out my other recaps...\n\n- Marvel Phase One Recap Playlist: [link]\n- Marvel Phase Two Recap Playlist: [link]\n- Marvel Phase Three Recap Playlist: [link]\n\n\n- DC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSummary provided by Wikipedia.\n\nEne",
-      "flagExcerpt": ""
-    },
     "kRv00Fe9VMk": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "Rise of the Planet of the Apes in Minutes | Recap",
@@ -12053,17 +12037,6 @@
       "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
       "audioLanguage": "en",
       "descriptionLead": "Want to be prepared for Kingdom of the Planet of the Apes (2024)? Or forget all of the major events in Rise of the Planet of the Apes (2011)? Well just sit back, relax, and enjoy the video, and you'll be caught back up in no time!\n\nWill Rodman (James Franco), a scientist in San Francisco, is experimenting with a drug that he hopes will cure his father's Alzheimer's disease. After his work is deemed a failure, Will becomes the guardian of Caesar, an infant chimp who was exposed in-utero to Will's",
-      "flagExcerpt": ""
-    },
-    "lGkwoM2njTA": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Deadpool in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "d48c5f7b7e6c8f5922861f8d35a97e0866d8f60e3af24154d0832268ac4832a7",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Deadpool & Wolverine (2024)? Or forget all of the major events in Deadpool (2016)? Well just sit back, relax, and enjoy the video, and you'll be caught back up in no time!\n\nDeadpool 2 Recap: [link]\n\nMarvel Phase 5 Recap Playlist: [link]\n\nMarvel Phase 4 Recap Playlist: [link]\n\nMarvel Phase 3 Recap Playlist: [link]\n\nMarvel Phase 2 Recap Playlist: [link]\n\nMarvel Phase 1 Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ",
       "flagExcerpt": ""
     },
     "mSGtlN1nZno": {
@@ -13638,6 +13611,237 @@
       "audioLanguage": "en-US",
       "descriptionLead": "Watch The Walking Dead: Daryl Dixon and Subscribe to AMC+ HERE!  [link] Watch the new series every Sunday, beginning September 10th on AMC and AMC+!\n\nSupport our channel by shopping our MERCH STORE Here →  [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Colton Ogburn ()\nHosted by Ryan Arey ([link]\nEdited by Randolf Nombrado, Ethan Lavinsky, and Colton Ogburn\n\n#DarylDixon #WalkingDead #Recap",
       "flagExcerpt": ""
+    },
+    "1TfF1UX8fCI": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Virgin River: Season 5 | Official Recap | Netflix",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "380ce3cb0f8134ee544fab86c1dbb7f5195abc4473f1fdd1aca7df86f0ce521a",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Get ready to head back to Virgin River! Catch up on what happened last season on Virgin River before the new season premieres this Thursday, December 19th.\r\n\r\nWatch on Netflix: [link]\r\n\r\nAbout Netflix:\r\nNetflix is one of the world's leading entertainment services, with 283 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and can cha",
+      "flagExcerpt": ""
+    },
+    "5d_8O3NKUtg": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "DCEU Recap - The Full History, Man of Steel thru Flash",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "40e925c57f710924e74e1d7ccbabea2b7459ae21adb4e534e56f4e519eddba3d",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Install Raid for Free ✅ IOS/ANDROID/PC: [link]  and get a special starter pack with an Epic champion ⚡️ Drake ⚡️ Available only for new players\n\nOur Flash Recap is here! Before you see the Flash film, relive the entire history of the DCEU and the Michael Keaton Batman films! \n\nThanks for supporting our channel! Check out our MERCH Store Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Colton Ogburn ()\nEdited by Pavel Tere",
+      "flagExcerpt": ""
+    },
+    "G0aoawj3JL8": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "TRANSFORMERS RECAP - Everything You Need to Know Before RISE OF THE BEASTS",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "182d7db4da444e84df54645fd9bbee400eafd160c58fc7311acd916c92c42832",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Our Transformers Recap is here! To get 20% off in-stock Transformers tabletop games from Renegade Game Studios,  Go HERE → [link] \n\nThe Transformers is a massive franchise that spans thousands of years across seven movies. A lot of the backstory might be lost on you, so we are here with an easy explainer to breakkown the Transformers, Autobots, decepticons, Dinobots, Unicron and more before you see Rise of the Beasts. \n\nThanks for supporting our channel! Check out our MERCH Store Here → [link]\n\n",
+      "flagExcerpt": " Doug, Unobtanium is a real engineering term. It’s something that, in theory, could solve any problem you’re having."
+    },
+    "KcQF3-cnzD0": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "STAR WARS: BAD BATCH Recap - Everything You Need to Know Before Season 2",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "99c9fe6048ce4d42bc7234416fcc8bc6db6df469c15db44fadd7ab5f2cb09542",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Star Wars: The Bad Batch is about to resume with season 2. But just in case you forgot what happens in season 1, we're here with a full recap. The show brilliantly bridges the Clone Wars with the rise of the rebellion that we see in Star Wars: Rebels, and is probably setting up the sequel trilogy, Rise of Skywalker, and explaining how exactly Palpatine did return.\n\nThanks for supporting our channel! Check out our MERCH Store Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow",
+      "flagExcerpt": ""
+    },
+    "P9vrLz07hws": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Outer Banks | Poguelandia 2024 Recap | Netflix",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "be5a748321487431be97568f70c3f3d3d68949ecd6287a52dcabf44c2d422775",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "The cast of Outer Banks has the best time at Poguelandia 2024 in Santa Monica, California.\r\n\r\nWatch on Netflix: [link]\r\n\r\nAbout Netflix:\r\nNetflix is one of the world's leading entertainment services, with 283 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and can change their plans at any time.\r\n\r\nOuter Banks | Poguelandia 2024 Re",
+      "flagExcerpt": ""
+    },
+    "QJNZVNToGMs": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Mo: Season 1 | Official Recap | Netflix",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "0fb9f9a95c9fe24de49fa0368431b5c85c0a960f3f5a6563b937b7fed7416391",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Mo Najjar straddles the line between two cultures, three languages and a ton of bullshit as a Palestinian refugee constantly living one step away from asylum on the path to U.S. citizenship. \n\nCatch up on where we left him in Mo Season 1 before the new season premieres next Thursday, January 30th.\n\nWatch on Netflix: [link]\n\nAbout Netflix:\nNetflix is one of the world's leading entertainment services, with 300 million paid memberships in over 190 countries enjoying TV series, films and games acros",
+      "flagExcerpt": ""
+    },
+    "QkT2qUeArqg": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Secret Invasion RECAP - MCU Phases 1-5 - Everything You Need to Know!",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "290f7daa1b6c29fd491b14ec7e103f80824dd56c2ae67b1784842dcce84459b0",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Secret Invasion Recap is here! Go to [link] to get started on your order. AG1 is going to give my community a FREE 1-year supply of AG Vitamin D3+K2 AND 5 AG1 travel packs with your first purchase. Thanks to AG1 for sponsoring today’s video!\n\nAG1 is a comprehensive, all-in-one nutrition drink engineered to fill the nutritional gaps in your diet and support your body’s nutritional needs across four pillars of health: Gut health, Immune support, Energy and Recovery! It’s packed with 75 vitamins mi",
+      "flagExcerpt": ""
+    },
+    "Ydd3z3IrDCc": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "GUARDIANS OF THE GALAXY Recap: Everything You Need to Know Before Volume 3",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "5c70b2c6c152be211514e1d430aa2b732cdb23a87d0fd19fff59227687724477",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Guardians of the Galaxy Recap is here! Before you watch Guardians of the Galaxy Volume 3, get caught up with the story of the GOTG so far. We speedrun through Guardians 1, Volume 2, Avengers: Infinity War, Avengers: Endgame, Captain America: Civil War--with a little bit of Kang thrown in for fun. Marvel recap!\n\nThanks for supporting our channel! Check out our MERCH Store Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten and E",
+      "flagExcerpt": ""
+    },
+    "_KC5PV6anXU": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "SCREAM Recap - Complete Timeline 1996-2023",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "e031e09c77881c01d255edea08d729525490815404cdb13e640b464fd8b89149",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Before your watch Scream 6, watch or Scream Recap of the fst 5 Scream movies. Starting with Drew Barrymore's ill-fated phone call, and ending with a deeper analysis of this film series. \n\nThanks for supporting our channel! Check out our MERCH Store Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Adam Lloyd ([link]\nHosted by Ryan Arey ([link]\nEdited by Brianna McLarty and Colton Ogburn \n\n#Scream #Recap Scream6\n\nThe origin",
+      "flagExcerpt": "DOUG: Wait. Aren’t you going to break down the new trailer and give us the Easter eggs and stuff?"
+    },
+    "_NGcx7hwbT0": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "MANDALORIAN Recap - Everything You Need To Know Before Season 3: Star Wars Clone Wars, Rebels +More!",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "4c896ce27c190826b8de281ef3c69e4e093b892fdd278f1127b46f0591dd1815",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "The Mandalorian season 3 is here and we are here to recap everything you need to know for the new season. This show is now drawing on lore from the Star wars comic, Clone wars, rebels, Attack of the Clones, Phantom menace, Revenge of the Sith, Return of the Jedi - and more. \n\nThanks for supporting our channel! Check out our MERCH Store Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten and Hosted by Ryan Arey ([link]\nEdited by",
+      "flagExcerpt": ""
+    },
+    "dWkJtqDAiB8": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "FAST and FURIOUS Recap - Everything You Need to Know Before 10",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "81c9dc8f03c6be86e5978ed78709922a771866ef1e1b7a7451ead9f6eb8329d5",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Our Fast and Furious recap is here! Spanning more than 22 years with a cast of hundreds, this saga is hard to keep track of, so we're here to recap everything you need to know before Fast X.\n\nThanks for supporting our channel! Check out our MERCH Store Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Ryan Arey and Colton Ogburn ()\nHosted by Ryan Arey ([link]\nEdited by Randolf Nombrado and Brianna McLarty\n\n#FastFurious #Re",
+      "flagExcerpt": ""
+    },
+    "hQ7BRvQ1_p4": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Star Wars: JEDI FALLEN Order Story Recap - Everything You Need to Know Before Jedi Survivor",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "e0208de48363382ad267ac25cabef6657c053ff1cef531b6f5ec79f5aed6877d",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Star Wars: Jedi Survivor is out soon, and so we thought you could use a Jedi Fallen Order Story Recap. Whether you've played the game or not, this recap is essential for understanding the Journey of Kal Kestis, and how it bridges the clone wars to the original Star Wars trilogy. \n\nThanks for supporting our channel! Check out our MERCH Store Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Dodson Seitz [link]\nHosted by Rya",
+      "flagExcerpt": " might recognize as Yoda’s main man in the battle of Kashyyyk, during Episode 3. [clip]"
+    },
+    "hXQjsPq9doo": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "XO, Kitty | Recap | Netflix",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "0f6e68c5c0a57af06f71bf6d23aae06aa360fdd1d05ac920a00a4b7d06375815",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Need a first semester refresh? Relive the fun and get ready for more with this Season 1 recap.\r\n\r\nWatch on Netflix: [link]\r\n\r\nAbout Netflix:\r\nNetflix is one of the world's leading entertainment services, with 283 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and can change their plans at any time.\r\n\r\nXO, Kitty | Recap | Netflix\r\n",
+      "flagExcerpt": ""
+    },
+    "jFtKLsHaO_c": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "WALKING DEAD Seasons 1-11 RECAP -  Everything You Missed Before \"Dead City\"",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "2056befd1585e911bc3f15347f70871138dd5b2c13ac208bf3b53755122befca",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Our Walking Dead Recap is here! The Walking Dead spanned 11 seasons, featuring hundreds of characters. Just in case you don't remember every death, we are here to recap the show for you, before the premiere of Walking Dead: Dead City. \n\nThanks for supporting our channel! Check out our MERCH Store Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Colton Ogburn ()\nHosted by Ryan Arey ([link]\nEdited by Randolf Nombrado and Br",
+      "flagExcerpt": ""
+    },
+    "l1p9D9Lrtr8": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Spider-Man: Into the Spider-Verse RECAP - Spider-Man 2099 EXPLAINED",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "f1bf5aaa38ce3b0f57075168dfe9a867e7b3316df1104fce53e25d9051461c8b",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Spider-Man: INto the Spiderverse was released 5 years ago, so before you see Across the Spider-verse, watch our Spider-verse recap that tells you everything you need to know about Spider-Ma 2099!\n\nThanks for supporting our channel! Check out our MERCH Store Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Colton Ogburn ()\nHosted by Ryan Arey ([link]\nEdited by Randolf Nombrado, Lee Mazzio, and Brianna McLarty\n\n#SpiderVerse",
+      "flagExcerpt": ""
+    },
+    "lLDIcPIark8": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Gen V Season 1 Storyline Recap | Prime Video",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "ae533f2b1148620ca3daa0dd6f3d017cfbd3d2281785c814ae0dc3afa89803ec",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "Unraveling a dark, campus-wide conspiracy made for a memorable first year at God U! Jaz Sinclair, Patrick Schwarzenegger, Asa Germann, and more star in Gen V, now streaming on Prime Video.\n\n00:00 INTRO\n00:39 MARIE’S TRAGIC ORIGIN\n03:05 GOLDEN BOY’S SPIRAL AND THE WOODS\n05:18 DEAN SHETTY’S BETRAYAL\n06:44 SAM’S ESCAPE AND THE FRACTURE\n07:55 THE CAMPUS MASSACRE AND HOMELANDER’S TWIST\n09:09 CONCLUSION/OUTRO\n \n» Watch Gen V on Prime Video: [link]\n» SUBSCRIBE: [link]\n \nAbout Gen V: From the world of T",
+      "flagExcerpt": ""
+    },
+    "pFiE0_Iw908": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Arcane Season 2 | Act 1 Recap | Netflix",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "c54bf5f34a52b4ef351272cf107a96fa764ae00a429e35097a42bf2ad8a2f59e",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "It's all been leading to this.\r\nThe second act of Arcane season 2 is now playing, only on Netflix.\r\n\r\nWatch on Netflix: [link]\r\n\r\nAbout Netflix:\r\nNetflix is one of the world's leading entertainment services, with 283 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and can change their plans at any time.\r\n\r\nArcane Season 2 | Act 1 R",
+      "flagExcerpt": ""
+    },
+    "sLIqBWDM48E": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Grog's Vox Recap - The Legend of Vox Machina | Prime Video",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "d1175ebcb412b99845bbc3e0105cdd5599c32b789621ec5eb2e025a278554f3d",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "Will Grog get an EGOT before Scanlan? Enjoy this lovely recap of #TheLegendofVoxMachina from our favorite buddies!\n\n» Watch The Legend of Vox Machina on Prime Video: [link] \n» SUBSCRIBE: [link]\n\nAbout Prime Video\nWant to watch it now? We’ve got it. This week’s newest movies, last night’s TV shows, classic favorites, and more are available to stream instantly, plus all your videos are stored in Your Video Library. Prime Video offers a variety of unique and captivating entertainment, including ori",
+      "flagExcerpt": ""
+    },
+    "uKIr0n4Kjuc": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Star Wars: JEDI SURVIVOR Full Story RECAP: All Cutscenes and Ending Explained",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "868e0cf510945a0028971613922f92cc37fad42023a5b6b1e5aacfd35f95a0be",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Our Jedi Survivor Full Story Recap is here! In case you're not a gamer, or you just want to relive the glory of this amazing game we're here to recap Star Wars: Jedi Survivor for you. From Boba Fett, to the Path, to Vader--this game is crucial canon to the Star wars Galaxy. \n\nThanks for supporting our channel! Check out our MERCH Store Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Dodson Seitz [link]\nHosted by Ryan Are",
+      "flagExcerpt": ""
+    },
+    "zCcaZ6Y6x8c": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Arcane Season 2 | Act 2 Recap | Netflix",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "7902505321d8589b972656b34399bc66cdffe668adeda00fe3472c1f12889bd9",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "The stage is set for the final chapter of Arcane season 2.\r\nAct III arrives on November 23rd, only on Netflix!\r\n\r\nWatch on Netflix: [link]\r\n\r\nAbout Netflix:\r\nNetflix is one of the world's leading entertainment services, with 283 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and can change their plans at any time.\r\n\r\nArcane Season",
+      "flagExcerpt": ""
+    },
+    "ztweZo6yoLQ": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "John Wick 1-3 RECAP Everything You Need to Know Before 4",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "98597ce4126dd1a172df5fe5528f2a4a3905c8cc541bccc3617ef0e91bc0c3d3",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Our John Wick Recap is here! #JohnWick4 is now playing in theaters, get your tickets today!  [link] The John Wick saga continues, but you may not remember every detail of the first three movies. So we're here to recap everything you need to know about John, the Continental, the High Table, and John Wick's poor dog, Daisy. \n#LionsgatePartner\n\nThanks for supporting our channel! Check out our MERCH Store Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our new",
+      "flagExcerpt": ""
     }
   },
   "movies": [
@@ -13829,6 +14033,159 @@
         "Oppenheimer"
       ],
       "releaseYear": 2023
+    },
+    {
+      "imdbID": "tt0455944",
+      "tmdbID": 156022,
+      "aliases": [
+        "The Equalizer",
+        "The Equalizer"
+      ],
+      "releaseYear": 2014
+    },
+    {
+      "imdbID": "tt0120363",
+      "tmdbID": 863,
+      "aliases": [
+        "Toy Story 2",
+        "Toy Story 2"
+      ],
+      "releaseYear": 1999
+    },
+    {
+      "imdbID": "tt3498820",
+      "tmdbID": 271110,
+      "aliases": [
+        "Captain America: Civil War",
+        "Captain America: Civil War"
+      ],
+      "releaseYear": 2016
+    },
+    {
+      "imdbID": "tt2802144",
+      "tmdbID": 207703,
+      "aliases": [
+        "Kingsman: The Secret Service",
+        "Kingsman: The Secret Service"
+      ],
+      "releaseYear": 2015
+    },
+    {
+      "imdbID": "tt5095030",
+      "tmdbID": 363088,
+      "aliases": [
+        "Ant-Man and the Wasp",
+        "Ant-Man and the Wasp"
+      ],
+      "releaseYear": 2018
+    },
+    {
+      "imdbID": "tt4630562",
+      "tmdbID": 337339,
+      "aliases": [
+        "The Fate of the Furious",
+        "The Fate of the Furious"
+      ],
+      "releaseYear": 2017
+    },
+    {
+      "imdbID": "tt6791350",
+      "tmdbID": 447365,
+      "aliases": [
+        "Guardians of the Galaxy Vol. 3",
+        "Guardians of the Galaxy Vol. 3"
+      ],
+      "releaseYear": 2023
+    },
+    {
+      "imdbID": "tt0058331",
+      "tmdbID": 433,
+      "aliases": [
+        "Mary Poppins",
+        "Mary Poppins"
+      ],
+      "releaseYear": 1964
+    },
+    {
+      "imdbID": "tt1431045",
+      "tmdbID": 293660,
+      "aliases": [
+        "Deadpool",
+        "Deadpool"
+      ],
+      "releaseYear": 2016
+    },
+    {
+      "imdbID": "tt0187131",
+      "tmdbID": 132769,
+      "aliases": [
+        "Hawkeye",
+        "Hawkeye"
+      ],
+      "releaseYear": 1988
+    },
+    {
+      "imdbID": "tt0830515",
+      "tmdbID": 10764,
+      "aliases": [
+        "Quantum of Solace",
+        "Quantum of Solace"
+      ],
+      "releaseYear": 2008
+    },
+    {
+      "imdbID": "tt1288558",
+      "tmdbID": 109428,
+      "aliases": [
+        "EVIL DEAD",
+        "Evil Dead"
+      ],
+      "releaseYear": 2013
+    },
+    {
+      "imdbID": "tt1663662",
+      "tmdbID": 68726,
+      "aliases": [
+        "Pacific Rim",
+        "Pacific Rim"
+      ],
+      "releaseYear": 2013
+    },
+    {
+      "imdbID": "tt5113044",
+      "tmdbID": 438148,
+      "aliases": [
+        "Minions: The Rise of Gru",
+        "Minions: The Rise of Gru"
+      ],
+      "releaseYear": 2022
+    },
+    {
+      "imdbID": "tt4154796",
+      "tmdbID": 299534,
+      "aliases": [
+        "Avengers Endgame",
+        "Avengers: Endgame"
+      ],
+      "releaseYear": 2019
+    },
+    {
+      "imdbID": "tt9362930",
+      "tmdbID": 565770,
+      "aliases": [
+        "Blue Beetle",
+        "Blue Beetle"
+      ],
+      "releaseYear": 2023
+    },
+    {
+      "imdbID": "tt11057302",
+      "tmdbID": 634492,
+      "aliases": [
+        "Madame Web",
+        "Madame Web"
+      ],
+      "releaseYear": 2024
     }
   ]
 }
