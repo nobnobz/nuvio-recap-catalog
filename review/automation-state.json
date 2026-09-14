@@ -22,11 +22,12 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNOcEdJaEExUkRKRk5ETTFSRE13TlRReU5UUkc"
+      "nextPageToken": "EAAaH1BUOkNOUklJaEF6TVRoQk9FUkJNVFUxUVRreU5qQXc"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNOcEdJaEJHT0RRM1F6YzVSVGd3TmtRNFJqRkc"
+      "nextPageToken": null,
+      "completedAt": "2026-09-14"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -2213,6 +2214,102 @@
       "checkedAt": "2026-09-14"
     },
     "FAVaRPQ_NKg": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "Z13ooJmt9Dc": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "Z3T5UuYwT50": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "Z4iPmG2koZ0": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "ZUfwKDpzvS8": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "ZVMr_BbPv2s": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "Zd0M4x-srFU": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "_4Z1INuxxfg": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "_DA6qzsbd0I": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "_DH9veUFqU4": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "_fYsz_YSwiE": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "_pPACO5yzCU": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "a-yNOvaEvgA": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "aLF8ZQQh3Uk": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "adG3j9n5fl8": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "au2JRM1COQU": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "bBgcpcqVTH8": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "bHo489TfVdU": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "bIgX0pcOoxo": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "bJqdZ20dcTM": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "bLC037pbYuw": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "bjgMvjyhu80": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "c-DzHo9th6U": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "c9LNzOsCoCs": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "cBq_XKWGCu0": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -5152,6 +5249,11 @@
       "policyVersion": 9,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en"
+    },
+    "D3QFDWToeSA": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -15080,6 +15182,28 @@
       "audioLanguage": "en",
       "descriptionLead": "The Marvelous Mrs. Maisel is now streaming on Prime Video.\n\n» Watch The Marvelous Mrs.Maisel now exclusively with your Prime Membership: [link]\n» SUBSCRIBE: [link]\n\nAbout Long Story Short: \nDo you love Amazon Original series but you're kind of in a hurry? Don't worry, Long Story Short has got you covered.\n\nAbout The Marvelous Mrs.Maisel:\nIn 1958 New York, Midge Maisel's life is on track- husband, kids, and elegant Yom Kippur dinners in their Upper West Side apartment. But when her life takes a s",
       "flagExcerpt": "The Marvelous Mrs. Maisel Episode 1 Recap | Prime Video"
+    },
+    "GHxlMSwLfXA": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Hemlock Grove - Season 1 Recap | Narrated by Eli Roth [HD] | Netflix",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "1de6bf66372efa502f320bb9171c47f19d9356ac23dc59895ce8a75b06b68169",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Get everything you need to know about Hemlock Grove from executive producer Eli Roth. Season 2 Now Streaming on Netflix.\n\n[link]\n\nThe Netflix original series that garnered an Emmy nomination for special effects features returning stars Famke Janssen, Bill SkarsgÎrd, Landon Liboiron, Dougray Scott, Joel de la Fuente and Tiio Horn. The series welcomes newcomers Madeline Brewer (\"Orange is the New Black\") and Madeleine Martin (\"Californication\"), along with new showrunner/executive producer Charles",
+      "flagExcerpt": ""
+    },
+    "tY1YnDGSPOI": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Thursday Night Football Recap Patriots vs Buccaneers | Prime Video",
+      "reason": "duration_outside_limits",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "68e67844724fef9d57da03b5b18714ef3a38d23f85b93feac878781c52821379",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "These Thursday Night football highlights show an epic battle, Patriots vs Buccaneers at Raymond James Stadium in Tampa Bay. Watch this Thursday night football recap streaming now on Prime Video.\n\n» SUBSCRIBE: [link]\n» Watch Thursday Night Football LIVE on Prime Video: [link]\n\nAbout Thursday Night Football:\nWatch every Thursday Night Football Game LIVE on Prime Video!\n\nGet More Prime Video: \nWatch Now: [link]\nFacebook: [link]\nTwitter: [link]\nInstagram: [link]\n\nAbout Prime Video:\nWant to watch it ",
+      "flagExcerpt": ""
     }
   },
   "movies": [

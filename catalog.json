@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 64,
+  "revision": 65,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7852,6 +7852,20 @@
       "language": "en",
       "durationSeconds": 214,
       "title": "The Man in the High Castle Season 3 Recap | Prime Video",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "D3QFDWToeSA",
+      "imdbID": "tt1740299",
+      "tmdbID": 62017,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 233,
+      "title": "The Man in the High Castle Season 1 Recap | Prime Video",
       "reviewedAt": "2026-09-14",
       "enabled": true
     }
