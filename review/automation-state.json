@@ -1,11 +1,11 @@
 {
   "channels": {
     "UC1Myj674wRVXB9I4c6Hm5zA": {
-      "nextPageToken": "EAAaH1BUOkNKb0lJaEExUVRRM01UZERSalJDT1RCQk4wTXg",
+      "nextPageToken": "EAAaH1BUOkNKUUtJaEF3UWtGQlJEQXhOekl4T1RKRU5FSkQ",
       "discoveryVersion": 2
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNKb0lJaEF4TUROQ09ETkRPRU0wTWpJek1VWTE",
+      "nextPageToken": "EAAaH1BUOkNKUUtJaEF4UTBVNU16WTROamRFUWpZMk4wVTM",
       "discoveryVersion": 2
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
@@ -20,23 +20,24 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKb0lJaEEzT1RZM1JqWTFOa1V5UWpkR1JETTU"
+      "nextPageToken": "EAAaH1BUOkNKUUtJaEF5TWpOR1FVWkJOelkwUmtGRk16RTM"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKb0lJaEEyUXpNMlEwTTBNakV5TUVOQk5EYzA"
+      "nextPageToken": "EAAaH1BUOkNKUUtJaEJDUTBNMU5qZENNRGRHT0RnMFJEZzE"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKb0lJaEEyUVRsQ01UWTROemN5UkVJMlJUQTQ"
+      "nextPageToken": null,
+      "completedAt": "2026-09-14"
     },
     "UCIrgJInjLS2BhlHOMDW7v0g": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKb0lJaEE1UVRsR01FWTNNemRET1VWR1F6VXk"
+      "nextPageToken": "EAAaH1BUOkNKUUtJaEF3T0RreE1EUkJNamN4T1RJMk9UUTE"
     },
     "UCgMJGv4cQl8-q71AyFeFmtg": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNKb0lJaEJGT1RFMU5qVTJRekkwT0RnMVJrUTE"
+      "nextPageToken": "EAAaH1BUOkNKUUtJaEEyUmtFMk9EVkJSVEk0UlRaQ1JqUTE"
     },
     "UCCNA8qUu57LQXm5L8EL5B-g": {
       "discoveryVersion": 2,
@@ -1060,6 +1061,18 @@
       "checkedAt": "2026-09-14"
     },
     "Pi3dUWAxr0g": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "QOG7RqRrAog": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "S2iGK0iIH4s": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "TYA8xtRP7Hk": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -2304,6 +2317,46 @@
       "policyVersion": 8,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en-US"
+    },
+    "5znJsyI7SJo": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "GCW1cWMlrDA": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "XmAzl4UdBTY": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "YZHVFufK3BM": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "YvGIrx0qBwE": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "_VYT2Cv_-Lk": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-GB"
+    },
+    "c3iZ0w5YdhU": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "mifli51yFfs": {
+      "policyVersion": 8,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -2539,7 +2592,34 @@
     "movie:black widow mcu": "2026-09-14",
     "movie:jurassic park franchise": "2026-09-14",
     "movie:captain america brave new world": "2026-09-14",
-    "series:gen v and the boys recap everything you need to know before": "2026-09-14"
+    "series:gen v and the boys recap everything you need to know before": "2026-09-14",
+    "movie:alien": "2026-09-14",
+    "movie:deadpool and wolverine": "2026-09-14",
+    "series:antonia gentry and brianne howey recap ginny georgia": "2026-09-14",
+    "movie:cross s1": "2026-09-14",
+    "series:last of us": "2026-09-14",
+    "series:peacemaker and superman dcu recap everything you need to know before": "2026-09-14",
+    "series:recap house of cards": "2026-09-14",
+    "movie:she hulk attorney at law": "2026-09-14",
+    "series:the boys and gen v recap everything you need to know before the boys": "2026-09-14",
+    "movie:venom": "2026-09-14",
+    "movie:moon knight": "2026-09-14",
+    "series:alice in borderland recap before": "2026-09-14",
+    "series:the boys": "2026-09-14",
+    "series:the boys and gen v recap watch before": "2026-09-14",
+    "movie:wonder woman": "2026-09-14",
+    "movie:the bachelorette weeks 1 2": "2026-09-14",
+    "series:hazbin hotel": "2026-09-14",
+    "movie:sonic the hedgehog movies": "2026-09-14",
+    "movie:echo": "2026-09-14",
+    "movie:sonic the hedgehog movie and knuckles": "2026-09-14",
+    "series:daredevil born again recap before": "2026-09-14",
+    "movie:the most chaotic xo kitty": "2026-09-14",
+    "series:squid game recap everything you need to know before": "2026-09-14",
+    "series:foundation recap everything you need to know before": "2026-09-14",
+    "movie:iron man 2": "2026-09-14",
+    "movie:avatar": "2026-09-14",
+    "movie:star wars the rise of skywalker": "2026-09-14"
   },
   "series": [
     {
@@ -3533,39 +3613,20 @@
       "aliases": [
         "Ransom Canyon"
       ]
+    },
+    {
+      "imdbID": "tt7216636",
+      "tmdbID": 94954,
+      "aliases": [
+        "Hazbin Hotel"
+      ]
     }
   ],
   "pending": {
-    "EixoKpyGOms": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "IjqdHq9lMls": "UCWOA1ZGywLbqmigxE4Qlvuw",
-    "L93SCh8GTWo": "UCQJWtTnAHhEG5w4uN0udnUQ",
-    "LU0C12TCeHM": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "Opr0pleefos": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "P7cxgunKTnw": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "Pi8U3N9DmRw": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "SkDlfDyBcww": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "U6zSIbcibzU": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "UUWapNAoE3o": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "W5inyZ7I-1Y": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "W6U-iB3HY1w": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "WWxAl6uyNVs": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "XX-rhBh1uQU": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "XmUAwc01Ktc": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "YVh24zvBRmI": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "Yd2A-Od994E": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "YkIqAYRg5IE": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "YrL0uwotu-E": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "YsYYSq8tuB0": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "Yv1_nWIjMJU": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "ZHTcpx_XOPo": "UCWOA1ZGywLbqmigxE4Qlvuw",
-    "Zhwo17UGDhc": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "_5km00T0Pp0": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "_VYT2Cv_-Lk": "UCCNA8qUu57LQXm5L8EL5B-g",
-    "_m-LC6EGHfI": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "bHo489TfVdU": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "bKOEmjkDsPA": "UCCNA8qUu57LQXm5L8EL5B-g",
     "bQ6O7QPMPQA": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "ch6UnwUa2wU": "UCgMJGv4cQl8-q71AyFeFmtg",
+    "cn_cdtTJxP0": "UCgMJGv4cQl8-q71AyFeFmtg",
     "ctCsajNw52w": "UCgMJGv4cQl8-q71AyFeFmtg",
     "d56OsPFKAQ4": "UCwOhOMxCC4Bi54W255Sczmg",
     "d7M2Ak1VUCw": "UCwOhOMxCC4Bi54W255Sczmg",
@@ -3609,7 +3670,6 @@
     "jTvzrl2fycs": "UCwOhOMxCC4Bi54W255Sczmg",
     "jXdR9FOi9qQ": "UCwOhOMxCC4Bi54W255Sczmg",
     "kAXcx7N4KMI": "UCwOhOMxCC4Bi54W255Sczmg",
-    "kB_zt9eRbiQ": "UCwOhOMxCC4Bi54W255Sczmg",
     "keoAXOIYULU": "UCwOhOMxCC4Bi54W255Sczmg",
     "lGkwoM2njTA": "UCwOhOMxCC4Bi54W255Sczmg",
     "lq3vdXupXO8": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -3628,6 +3688,7 @@
     "nGhxB4Jfhr0": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "nH_7G7M28wU": "UCwOhOMxCC4Bi54W255Sczmg",
     "nMS-SY0sKss": "UCwOhOMxCC4Bi54W255Sczmg",
+    "nTON90duAho": "UCgMJGv4cQl8-q71AyFeFmtg",
     "nWIbtr0OVSk": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "nckS52bztng": "UCwOhOMxCC4Bi54W255Sczmg",
     "nq2jQyID-Gg": "UCwOhOMxCC4Bi54W255Sczmg",
@@ -3697,6 +3758,7 @@
     "xfiWZcz0ZVw": "UCwOhOMxCC4Bi54W255Sczmg",
     "xkVHBBs8nsw": "UCwOhOMxCC4Bi54W255Sczmg",
     "xkbsS8WMBOM": "UCgMJGv4cQl8-q71AyFeFmtg",
+    "xspl5wzl9VA": "UCgMJGv4cQl8-q71AyFeFmtg",
     "y20M9pCZO18": "UCgMJGv4cQl8-q71AyFeFmtg",
     "yYKTYscZoIo": "UCwOhOMxCC4Bi54W255Sczmg",
     "ygS7k0rNlvk": "UCwOhOMxCC4Bi54W255Sczmg",
@@ -9817,17 +9879,6 @@
       "descriptionLead": "Time to catch up and relive all the drama and unforgettable moments from Tyler Perry’s Beauty in Black Season 2 now before Season 3 premieres August 27 only on Netflix.\n\nWatch on Netflix: [link]\n\nAbout Netflix:\nNetflix is one of the world’s leading entertainment services offering TV series, films, games and live programming across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and can change their plans at any time.\n\nT",
       "flagExcerpt": ""
     },
-    "_VYT2Cv_-Lk": {
-      "channelID": "UCCNA8qUu57LQXm5L8EL5B-g",
-      "title": "Iron Man 2 - ULTIMATE RECAP!",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "18993b1678cc6cef62842526e0a190a7472f16d72964fd5a1c8c597c64143bb2",
-      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
-      "audioLanguage": "en-GB",
-      "descriptionLead": "Iron Man 2 CRAMMED! Ultimate recap of the MCU or Marvel Cinematic Universe 2010 Iron Man 2 starring Robert Downey Jr, and this recap video is to give a full on summary synopsys for those interested in the 1st Marvel Cinematic Universe Sequel (and the 3rd film in the series), that has led us on the path to Avengers Endgame!\n\nTWITTER: [link]\nFACEBOOK: [link]\nINSTAGRAM: [link]\n\n---\n\nRoyalty Free Intro Music:\n\nInspiration: \nDescription: [link]\nComposed By Ender Güney",
-      "flagExcerpt": ""
-    },
     "_Ws7AHye5Yw": {
       "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
       "title": "You Must Watch This Recap Before Toy Story 5",
@@ -12995,6 +13046,468 @@
       "audioLanguage": "",
       "descriptionLead": "Subscribe to the Game of Thrones YouTube: [link]\n\nNew episodes of Game of Thrones Season 4 every Sunday at 9PM, only on HBO.\n\nConnect with Game of Thrones Online:\nFind Game of Thrones on Facebook: [link] \nFind Game of Thrones on Twitter: [link]\nFind Game of Thrones  Official Site: [link]\nFind Game of Thrones on HBO GO® [link]\nFind Game of Thrones Connect: [link]\n\nIt's HBO.\n\nConnect with HBO Online\nFind HBO on Facebook: [link]\nFollow @HBO on Twitter: [link]\nFind HBO on Youtube: [link]\nFind HBO Of",
       "flagExcerpt": ""
+    },
+    "-ovNbujFByQ": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "RINGS OF POWER Season 1 RECAP - Everything You Need to Know Before Season 2!",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "0401a005d0eb57f3a66b560633c9c3338b8f82e9e30bdb3c1739e9fc5e60d8a2",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Rings of Powers Season 1 Recap! Rings of Power Season 2 is here, so it's time for a refresher on the journey so far. \n\nHey everyone, support our channel by shopping our MERCH STORE Here → \nRing Album [link]\nMerry Road [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten and Hosted by Ryan Arey ([link]\nEdited by Harriet Lengel-Enright\n\n#ringsofpower #lordoftherings",
+      "flagExcerpt": ""
+    },
+    "1RGNDnoGX4U": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones Season 2: Recap #14",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "4c2f7cf8ff4b48c1d63e1b00751e54931ae1777cbb89e99c10dd399bb9ecd513",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Take a look at a recap of episode #14.  Catch all new episodes on Sunday night's at 9PM. For more on Game of Thrones, go to [link]\n\nWatch Game of Thrones online at HBO GO® [link]\n\nWith HBO GO, you can watch every episode of Game of Thrones on your iPad® ([link] iPhone® ([link] or Android™ ([link] smartphone. Free with your HBO subscription through participating TV providers.\n\nConnect with Game of Thrones on Facebook & Twitter: \n[link] \n[link] - #gameofthrones",
+      "flagExcerpt": ""
+    },
+    "1xblb9P8fNQ": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones Season 2: Recap #16",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "77cf026d8b6f50e8bf2e24c0b5a55141685f9fdbc79eea1bfa0e973832d42445",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Take a look at a recap of episode #16.  Catch all new episodes on Sunday night's at 9PM. For more on Game of Thrones, go to [link]\n\nWatch Game of Thrones online at HBO GO® [link]\n\nWith HBO GO, you can watch every episode of Game of Thrones on your iPad® ([link] iPhone® ([link] or Android™ ([link] smartphone. Free with your HBO subscription through participating TV providers.\n\nConnect with Game of Thrones:\n[link] \n[link] - #gameofthrones\n[link]",
+      "flagExcerpt": ""
+    },
+    "3mGLulXt3Z0": {
+      "channelID": "UCIrgJInjLS2BhlHOMDW7v0g",
+      "title": "Hawkeye Recap with This Week in Marvel's Ryan Penagos | What's Up, Disney+",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "1836f7a5b6162d798fe6043dec8b9017e7c1c9afe3a62978e0d081d9749a7524",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "Hosts Jenny Lorenzo and Andre Meadows and This Week in Marvel's Ryan Penagos catch you up on everything you need to know before Marvel Studios' #Hawkeye with a fun-filled recap. All of these and more are now streaming on #DisneyPlus.\n\nFor more updates, subscribe to Disney, Pixar, Marvel, Star Wars, and National Geographic.\n \nDisney+ is the ultimate streaming destination for entertainment from Disney, Pixar, Marvel, Star Wars, and National Geographic.\n \nFollow Disney+ for the latest:\nDisney+: [li",
+      "flagExcerpt": ""
+    },
+    "4Yf5M_Rj1nE": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones Season 2: Recap #12",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "7ef2071fee0012d1625b10a8e879973677ce4cf9864279b9063976c900e9b66c",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "See what happened on Season 2 Episode 12 of \"Game of Thrones.\"  And remember to catch a new episode every Sunday night at 9pm only on HBO. For more on Game of Thrones, go to [link]\n\nWatch Game of Thrones online at HBO GO® [link]\n\nWith HBO GO, you can watch every episode of Game of Thrones on your iPad® ([link] iPhone® ([link] or Android™ ([link] smartphone. Free with your HBO subscription through participating TV providers.\n\nConnect with Game of Thrones on Facebook & Twitter: \n[link] \n[link] - #",
+      "flagExcerpt": ""
+    },
+    "5dQvPjOmOKU": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game Of Thrones: Season 3 - Episode 2 Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "c2b8d66d3fd68ef4ce91bea62f1a0841d99495ba675cbc91068adcef6781e9de",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nA recap of episode 3 of Game of Thrones. \n\nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen north and the ancient Wall that protects the realm from t",
+      "flagExcerpt": "A recap of episode 3 of Game of Thrones. "
+    },
+    "5h8sS8bfzZE": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Charlize Theron, Kiki Layne, and Uma Thurman Recap The Old Guard | The Old Guard 2 | Netflix",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "311c2e9d24c00e72ad60d467800e68f42d4e1d25d92c0ad3167d147796f591c1",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "The Old Guard 2 stars Charlize Theron (Andy), KiKi Layne (Nile), and Uma Thurman (Discord) explain their characters' lore and recap The Old Guard.\r\n\r\nWatch on Netflix: [link]\r\n\r\nAbout Netflix:\r\nNetflix is one of the world's leading entertainment services, with over 300 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and can change ",
+      "flagExcerpt": ""
+    },
+    "5vpoprUkmnU": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones: Season 3 - Episode 6 Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "ca05114ee52a49f045afb6983529ecdbc979b36373445f89c67b714bda006adb",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nA recap of episode 6 of Game of Thrones. Catch new episodes of season 3 on Sunday nights at 9PM. \n\nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen n",
+      "flagExcerpt": "A recap of episode 6 of Game of Thrones. Catch new episodes of season 3 on Sunday nights a"
+    },
+    "6ed3WYZaXg0": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones Season 3: Recap #9",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "c7931ba730cb58c244cd56ff7c6f0d8217ff5ebb2b068180e55bd382f854194e",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Catch new episodes of season 3 on Sunday night's at 9PM. Catch new episodes of season 3 on Sunday night's at 9PM. For more on Game of Thrones, go to [link]\n\nWatch Game of Thrones online at HBO GO® [link]\n\nWatch Game of Thrones on one screen and connect on another: [link]",
+      "flagExcerpt": ""
+    },
+    "7EwPErB2u00": {
+      "channelID": "UCIrgJInjLS2BhlHOMDW7v0g",
+      "title": "National Streaming Day Recap with Disney+, Hulu, and ESPN+ | What’s Up, Disney+ | Episode 27",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "cc6550cbc3f297eb05224a79a056e770c0554fc27b5323e5663eaa4d963fdf97",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "In celebration of National #StreamingDay, hosts Jenny Lorenzo and Andre Meadows recap all of the excitement across The #DisneyBundle, including announcements from #DisneyPlus, #Hulu, and #ESPNPlus\n\nFor more updates, subscribe to Disney, Pixar, Marvel, Star Wars, and National Geographic.\n \nDisney+ is the ultimate streaming destination for entertainment from Disney, Pixar, Marvel, Star Wars, and National Geographic.\n \nFollow Disney+ for the latest:\nDisney+: [link]\nInstagram: [link]\nTwitter: [link]",
+      "flagExcerpt": ""
+    },
+    "8WfDFtKr8r0": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "ALIEN RECAP! Everything You Need to Know Before ALIEN ROMULUS!",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "a87b9ed878ac7ec01ef9e37298b467dd885edf16652e5e13851a397712d64329",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Alien Recap Before You See Romulus! Go to [link] or scan the QR code and use code SCREENCRUSH to get your free FÜM Topper when you order your Journey Pack today.\n\nHey everyone, support our channel by shopping our MERCH STORE Here → \n[link]\nRIPLEY ROAD! - [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten and Hosted by Colton Ogburn ()\nEdited by Harriet Lengel-Enright and Lee Mazzio\n\n#AlienRecap #AlienRomulus",
+      "flagExcerpt": ""
+    },
+    "BqQ8IHR3iPw": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Deadpool and Wolverine RECAP! Everything You Need to Know Before Deadpool 3!",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "5746635b88551106e3eb8a4a4989a5b7a98cc262f0aa8059a0b928e81017968b",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "DEADPOOL and WOLVERINE Recap! Thank you for supporting our channel by shopping our MERCH STORE Here →\n\nWanda RPG → [link]\nWade’s World → [link]\nLFG → [link]\nWilson and Howlett → [link]\nKirby and Lee’s Painting → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Colton Ogburn ()\nEdited by Pavel Terehovsky ([link] pavel8866@gmail.com\nHosted by Ryan Arey ([link]\n\n#Deadpool #Wolverine #Recap",
+      "flagExcerpt": ""
+    },
+    "Ej0Cy2_yOfY": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones: Season 3 - Episode 8 Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "078ebe8d337cbf5d95c0dc3e38997c4e0d88539eff4d27909cc6c6a92fce7d15",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nA recap of Episode 8 of Game of Thrones. Catch new episodes Sunday nights at 9PM.\n\nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen north and the anc",
+      "flagExcerpt": "A recap of Episode 8 of Game of Thrones. Catch new episodes Sunday nights at 9PM."
+    },
+    "GefZ45gXVq0": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Antonia Gentry and Brianne Howey Recap Ginny & Georgia Seasons 1-2 | Netflix",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "5490f4a290cb4a647e26d5513451b6d72b884eb5f9e34c4e70bf68896632d61a",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Refresh your memory on Ginny & Georgia seasons 1 and 2 with a recap by Antonia Gentry (Ginny) and Brianne Howey (Georgia) covering major plot points with Ginny and Marcus, Georgia and Joe, Georgia's crimes, the members of MANG, and more.\n\nWatch on Netflix: [link]\n\nAbout Netflix:\nNetflix is one of the world's leading entertainment services, with over 300 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can pl",
+      "flagExcerpt": ""
+    },
+    "I6Kuz5Mjq5w": {
+      "channelID": "UCIrgJInjLS2BhlHOMDW7v0g",
+      "title": "A Musical Recap of Two Years | What's Up, Disney+ | Disney+ Day | Disney+",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "564d3c5f64f530c3beaa38a0d65c00615ea795ceb766ad44b2874f9281ce58d1",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "Hosts Jenny Lorenzo and Andre Meadows celebrate #DisneyPlusDay with a musical tribute! All of these and more are now streaming on #DisneyPlus.\n\nFor more updates, subscribe to Disney, Pixar, Marvel, Star Wars, and National Geographic.\n \nDisney+ is the ultimate streaming destination for entertainment from Disney, Pixar, Marvel, Star Wars, and National Geographic.\n \nFollow Disney+ for the latest:\nDisney+: [link]\nInstagram: [link]\nTwitter: [link]\nFacebook: [link]",
+      "flagExcerpt": ""
+    },
+    "Iik_3Kcjd5o": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones: Season 3 - Episode 4 Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "b4b19f61039733eb0ae646b0fc47c5322fb3a3792997bba6aee4b797b92d8aa7",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nA recap of episode 4 of Game of Thrones.\n\nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen north and the ancient Wall that protects the realm from th",
+      "flagExcerpt": "A recap of episode 4 of Game of Thrones."
+    },
+    "KpZnb0q24mk": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones: Season 2 - Recap Show (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "34a00129ba90c2568fa719e00dca4241f2b83b0eda93b258ab85ae2ebe50d432",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nWatch every episode of Game of Thrones only on HBO GO: [link] \n \nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen north and the ancient Wall that pro",
+      "flagExcerpt": ""
+    },
+    "MjvlyxHyT1A": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "GHOSTBUSTERS Recap and Full History! - Everything You Need to Know Before FROZEN EMPIRE!",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "bb2a2d4e75c634165688186fe898b2ba5a97a5579b4e052a485f708fe8b4d7fe",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Our Ghostbusters Recap is here! Before you watch Ghostbusters: Frozen Empire, get caught up on Ghostbusters, Ghostbusters 2, The Real Ghostbusters, the Video Game Ghostbusters, the (other) Ghostbusters, and Ghostbusters: Afterlife! \n\nGhostbusters!\n\nHey everyone, support our channel by shopping our MERCH STORE Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Adam Loyd [link]\nHosted by Ryan Arey ([link]\nEdited by Harriet Le",
+      "flagExcerpt": ""
+    },
+    "PfRKy64BA-M": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game Of Thrones: Season 3 - Recap Show Preview (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "1dd73f5a27a7dbcd7c37be002987ecec68beffb7308763999271f0ae8e6b4e01",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nWatch every episode of Game of Thrones only on HBO GO: [link] \n \nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen north and the ancient Wall that pro",
+      "flagExcerpt": ""
+    },
+    "QiIYSipWf4s": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "X-MEN: The Animated Series RECAP: Everything You Need to Know Before X-Men '97!",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "0c7134f05552745ab7b12c98e6a89fadf6992f4bc86ad339e9b31850a667ca4a",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Our X-Men Recap is here! Thanks to Keeps for sponsoring this video! Head to [link] to get a special offer. \n\nGet your X-men parody merch at our MERCH STORE Here → [link]\n\nX-Men: The Animated Series is a ground breaking masterpiece, and we are so excited to see the story continue with X-Men '97! This show essentially laid the groundwork for the MCU, and we're going to explain every episode so you won;t miss out on the MCU's newest show, X-Men '97!\n\nGo here → [link]\nTikTok → [link]\nLike us → [link",
+      "flagExcerpt": ""
+    },
+    "T2z8yayfH9Q": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "The Boys and Gen V RECAP - Everything You Need to Know Before THE BOYS Season 4!",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "f654eaa021d8c7f58dd03dc9defc5a5232bf2490de96a8b28cb6d8b52d07e957",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "The Boys Recap! Go to [link] to spot media bias and make sure you’re getting the full story. Subscribe through my link for less than $1/month or get 40% off unlimited access this month only.\n\nGet your BOYS Parody merch HERE → \nThe Punisher Butcher → [link]\nSoldier Boy is Disappointed → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Colton Ogburn ()\nEdited by Harriet Lengel-Enright, Randolf Nombrado, and Brianna McLarty\nHosted ",
+      "flagExcerpt": ""
+    },
+    "U4kJkoFwfd4": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones: Season 3 - Episode 3 Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "7bae4dc1acb53351c64a1dfd2b440e29a23e749e4681a523e826b83e8cdcc6c6",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nA recap of episode 3 of Game of Thrones. Catch new episodes of season 3 on Sunday nights at 9PM. \n\nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen n",
+      "flagExcerpt": "A recap of episode 3 of Game of Thrones. Catch new episodes of season 3 on Sunday nights a"
+    },
+    "UVQXXpqFKy4": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones: Season 3 - Episode 7 Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "b356d0b0fb6d95cd3338e238abf21b8da852fea5e64bf7c8976f6fb3d05a3cf8",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nA recap of Episode 7 of Game of Thrones. Catch new episodes of season 3 on Sunday nights at 9PM. \n\nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen n",
+      "flagExcerpt": "A recap of Episode 7 of Game of Thrones. Catch new episodes of season 3 on Sunday nights a"
+    },
+    "Wx5Z1vDRb9g": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "The Night Manager Season 1 Recap | Prime Video",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "3b44614ee9b08468e824c4ce1fb54d25f9999bd88e21f795d4b49b3aa4b8fb73",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en",
+      "descriptionLead": "Stephanie Williams breaks down Season 1 of The Night Manager, starring Tom Hiddleston, Olivia Colman, Elizabeth Debicki, and Hugh Laurie. The Night Manager Season 2 premieres January 11 on Prime Video.\n\n0:00 Intro\n0:31 Episode 1\n2:38 Episode 2\n4:22 Episode 3\n5:26 Episode 4\n6:36 Episode 5\n7:37 Episode 6\n\n» Watch The Night Manager on Prime Video: [link]\n» SUBSCRIBE: [link]\n\nAbout The Night Manager:\nBased on John le Carre's best-selling novel, ex-British soldier Jonathan Pine (Tom Hiddleston) is re",
+      "flagExcerpt": "0:31 Episode 1"
+    },
+    "YieTh_wwIcE": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game Of Thrones Season 2: Recap #18",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "fada1c8aca8fd3041f5e6a599bf50416f44b984aaf6287d2bf45e18851f1d218",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Tune in to the new season of \"Game Of Thrones\" every Sunday night at 9PM. For more on Game of Thrones, go to [link]\n\nWatch Game of Thrones online at HBO GO® [link]\n\nWith HBO GO, you can watch every episode of Game of Thrones on your iPad® ([link] iPhone® ([link] or Android™ ([link] smartphone. Free with your HBO subscription through participating TV providers.\n\nConnect with Game of Thrones:\n[link] \n[link] - #gameofthrones\n[link]",
+      "flagExcerpt": ""
+    },
+    "_75vxS1Y2hI": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "House of the Dragon Season 1 RECAP - Everything You Need to Know Before Season 2! - Game of Thrones!",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "8f2fbe745e07b2c9659f79fdb4d4dd34b1f2389ad599b9fa11793da2bc5c0272",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Hey everyone, support our channel by shopping our MERCH STORE Here:\n[link]\nHouse of the Dragon Recap! Sign up for a 14-day free trial and enjoy the amazing features MyHeritage has to offer [link]\n\nThanks for shopping our MERCH STORE → \nTeam Black Baseball Tee → [link]\nTeam Green Baseball tee → [link]\n\nTeam Black Tee Shirt→ [link]\nTeam Green Tee Shirt → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten and Edited by Pavel Terehovsky ",
+      "flagExcerpt": ""
+    },
+    "a8yjZFl50SQ": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones: Season 2 - Episode 10 Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "d30fa5bbe6669ab74b6c61ed218efa54b3e9bf26c491ba8dfa69961ad4043305",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nWatch every episode of Game of Thrones only on HBO GO: [link] \n \nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen north and the ancient Wall that pro",
+      "flagExcerpt": ""
+    },
+    "cn_cdtTJxP0": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Planet of the Apes RECAP - Everything You need to Know Before Seeing KINGDOM of the POTA!",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "ab3d62ac015273d764de8c8bbb5ee046785f300398dcc9f3cef61b0791e8c288",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Planet of the Apes Recap! Get your \"Earth All Along\" shirt Here → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Colton Ogburn ()\nEdited by Pavel Terehovsky ([link] pavel8866@gmail.com\nHosted by Ryan Arey ([link]\n\n#PlanetOfTheApes #Recap",
+      "flagExcerpt": ""
+    },
+    "eKmFKmITRkk": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones: Season 2 - Comic Con Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "fb6f3f67cc0da9bf39f379fc88143fb4f1d9c410dff1131fe1cfe84b6de098aa",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nWatch every episode of Game of Thrones only on HBO GO: [link] \n \nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen north and the ancient Wall that pro",
+      "flagExcerpt": ""
+    },
+    "egAZtDpDNw0": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "MAD MAX Recap! - Everything You Need to Know Before FURIOSA!",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "2db706595b552b6799a5834574a0644b7c98f23743694d2ec6d615fa3d54f9d3",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Our Mad Max Recap is here! Hey everyone, support our channel by shopping our MAX Parody Merch Here → \n\nRosie The Riveter \"Remember Me\" → [link]\n'Thoriosa\" → [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Colton Ogburn ()\nHosted by Ryan Arey ([link]\nEdited by Randolf Nombrado and Lee Mazzio\n\n#MadMax #Furiosa #FuryRoad",
+      "flagExcerpt": ""
+    },
+    "ezdr8aQcwu8": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game Of Thrones: Season 3 - Episode 1 Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "ac8a72a8587d8aa6906ab03f8b42891210104d3a6f7552ec626f3e4925620642",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nA recap of episode 1 of Game of Thrones.\n\nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen north and the ancient Wall that protects the realm from th",
+      "flagExcerpt": "A recap of episode 1 of Game of Thrones."
+    },
+    "gBzAMXNdq00": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones Season 2: Recap #15",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "5d569ef830bbfd969ae9ca8d346fb8943c568739cac60b803e73635ba60c9caa",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Take a look at a recap of episode #15.  Catch all new episodes on Sunday night's at 9PM. For more on Game of Thrones, go to [link]\n\nWatch Game of Thrones online at HBO GO® [link]\n\nWith HBO GO, you can watch every episode of Game of Thrones on your iPad® ([link] iPhone® ([link] or Android™ ([link] smartphone. Free with your HBO subscription through participating TV providers.\n\nConnect with Game of Thrones:\n[link] \n[link] - #gameofthrones\n[link]",
+      "flagExcerpt": ""
+    },
+    "gEAusrD6MNI": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game Of Thrones Season 2: Recap #13",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "ee0a49674ba55ee2aec31c73f7d230b24afb71780aad130b56f9934cac7bc02d",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Take a look at a recap of episode #13.  Catch all new episodes on Sunday night's at 9PM. For more on Game of Thrones, go to [link]\n\nWatch Game of Thrones online at HBO GO® [link]\n\nWith HBO GO, you can watch every episode of Game of Thrones on your iPad® ([link] iPhone® ([link] or Android™ ([link] smartphone. Free with your HBO subscription through participating TV providers.\n\nConnect with Game of Thrones on Facebook & Twitter: \n[link] \n[link] - #gameofthrones\n\nCheck-in to Game of Thrones on GetG",
+      "flagExcerpt": ""
+    },
+    "jn3FQMUgbxw": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game Of Thrones: Season 2 - Episode 1 Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "54ae17e8c5d4a1e7d6496a0692c11da34e806e8301d034ff7a2f699b3f2d60c5",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nA recap of episode 1 of Game of Thrones Season 2\n\n \nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen north and the ancient Wall that protects the rea",
+      "flagExcerpt": "A recap of episode 1 of Game of Thrones Season 2"
+    },
+    "jnjxaT_oRxI": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones: Roast Joffrey Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "62053f8e5eca311d5fbc37dd32aa912c9e6daf9359e984e0034e2e8c909b7a16",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to the Game of Thrones YouTube: [link]\n\nAll roast the King. Relive the best \"Roast Joffrey\" jokes from Game of Thrones fans.\n\nConnect with Game of Thrones Online:\nFind Game of Thrones on Facebook: [link] \nFind Game of Thrones on Twitter: [link]\nFind Game of Thrones  Official Site: [link]\nFind Game of Thrones on HBO GO® [link]\nFind Game of Thrones Connect: [link]\n\nIt's HBO.\n\nConnect with HBO Online\nFind HBO on Facebook: [link]\nFollow @HBO on Twitter: [link]\nFind HBO on Youtube: [link]\nF",
+      "flagExcerpt": ""
+    },
+    "nTON90duAho": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Rings of Power S1 Recap! #ringsofpower #lotr #lordoftherings",
+      "reason": "duration_outside_limits",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "ee835642e0f747fdcab42952e48b02ca47145a97d76416d9278c26bf07071a24",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Hey everyone, support our channel by shopping our MERCH STORE Here:\n[link]",
+      "flagExcerpt": ""
+    },
+    "ooKxTde6ioM": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Before GODZILLA x KONG: Monsterverse RECAP! (Including Monarch!)",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "e79fdedaee9348125e3d141281c7bf8c62c590e025b4cd265b201a4d98e09f60",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Before you watch Godzilla x Kong, watch this Monsterverse Recap! \n\nHey everyone, support our channel by shopping our MERCH STORE Here →  [link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten by Brianna McLarty @briannatmclarty on Instagram and Tiktok!\nCo-Written and Edited by Pavel Terehovsky ([link] pavel8866@gmail.com\nHosted by Ryan Arey ([link]\n\n#GodzillaxKong #Monsterverse #Recap",
+      "flagExcerpt": ""
+    },
+    "p-W8l3E4NVw": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones: Season 2 - Episode 9 Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "a4d7b43b8204f6e7677b4cec460a1b12c2cd3c24945bfb6acc2da94c1c196c03",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nA recap of episode 9 of Game of Thrones Season 2\n\n \nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen north and the ancient Wall that protects the rea",
+      "flagExcerpt": "A recap of episode 9 of Game of Thrones Season 2"
+    },
+    "qdLbaKToJuI": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones Season 2: Recap #17",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "6fa10b4da922d7c91df189f1274af72186521a38438bd1a63b9b59bf7cdc5750",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Take a look at a recap of episode #17.  Catch all new episodes on Sunday night's at 9PM. For more on Game of Thrones, go to [link]\n\nWatch Game of Thrones online at HBO GO® [link]\n\nWith HBO GO, you can watch every episode of Game of Thrones on your iPad® ([link] iPhone® ([link] or Android™ ([link] smartphone. Free with your HBO subscription through participating TV providers.\n\nConnect with Game of Thrones:\n[link] \n[link] - #gameofthrones\n[link]",
+      "flagExcerpt": ""
+    },
+    "rLchNMPmHvQ": {
+      "channelID": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "title": "Game of Thrones: Season 3 - Episode 5 Recap (HBO)",
+      "reason": "audio_language_missing",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "6cef942fd8fa4582c2065374e55247c380e1eb9760352f2751847fc3588fdec7",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "",
+      "descriptionLead": "Subscribe to Game of Thrones : [link]\nA recap of episode 5 of Game of Thrones. \n\nGame of Thrones is an original HBO series based on George R.R. Martin's best-selling novels. In a world where summers span decades and winters can last a lifetime, the crown of Westeros comes with a price. Betrayal, lust, intrigue and supernatural forces shake the four corners of the Kingdom, from the scheming south and the savage eastern lands, to the frozen north and the ancient Wall that protects the realm from t",
+      "flagExcerpt": "A recap of episode 5 of Game of Thrones. "
+    },
+    "sxiWtB-0Vsg": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Sakamoto Days | Part 1 Recap | Netflix",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "0e42de05398fe58ceee217e501fda88586f65b7a838900acec400e052be13af8",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Catch up on Part 1 of Sakamoto Days before the Death Row Prisoners Arc begins!\nPart 2 of the hit anime Sakamoto Days premieres on July 14th, with new episodes weekly only on Netflix!\n\nWatch on Netflix: [link]\n\nAbout Netflix:\nNetflix is one of the world's leading entertainment services, with over 300 million paid memberships in over 190 countries enjoying TV series, films and games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, any",
+      "flagExcerpt": ""
+    },
+    "xspl5wzl9VA": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Star Wars HIGH REPUBLIC RECAP - Everything You Need to Know Before THE ACOLYTE",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "de40d5592603007b5cee77fbf9a7aa6797fa996fa3955e692dda580be74c88ce",
+      "rulesSignature": "647fa2946800e2114d54340507534e4e01d6d0e25b56f3c07a7477f2c3c5d899",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Our High Republic Recap is here! Go to [link] or scan the QR code and use code SCREENCRUSH to get your free FÜM Base when you order your Journey Pack today!\n\nHey everyone, support our channel by shopping our MERCH STORE Here → \n[link]\n\nGo here → [link]\nTikTok → [link]\nLike us → [link]\nFollow us → [link]\nGet our newsletter → [link]\n\nWritten and Edited by Pavel Terehovsky ([link] pavel8866@gmail.com\nHosted by Ryan Arey ([link]\n\n#HighRepublic #Recap #Acolyte",
+      "flagExcerpt": ""
     }
   },
   "movies": [
@@ -13078,6 +13591,15 @@
         "Captain America: Brave New World"
       ],
       "releaseYear": 2025
+    },
+    {
+      "imdbID": "tt1228705",
+      "tmdbID": 10138,
+      "aliases": [
+        "Iron Man 2",
+        "Iron Man 2"
+      ],
+      "releaseYear": 2010
     }
   ]
 }
