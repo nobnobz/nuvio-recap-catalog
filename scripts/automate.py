@@ -242,11 +242,20 @@ def mixed_movie_format(title, description):
     link_only = re.compile(r'\s*(?:https?://\S+|\[link\])\s*$', re.I)
     heading = re.compile(
         r'(?:\bplaylist\b|\bcheck\s+out\s+more\s+movies\s+in\s+minutes\b|'
-        r'\b(?:every|all)\b.+\b(?:films?|movies?)\s+recap\s*:?)', re.I)
+        r'\b(?:every|all)\b.+\b(?:films?|movies?)\s+(?:recap|playlist)\s*:?)', re.I)
+    boilerplate = re.compile(
+        r'^\s*(?:'
+        r'more\s+(?:marvel|dc)\b.*\brecaps?\s+coming\s+soon\b.*|'
+        r'click\s+subscribe\b.*\b(?:every|all)\b.*\b(?:films?|movies?)\b|'
+        r'check\s+out\s+(?:more\s+movies\s+in\s+minutes|my\s+other\s+recaps?)\b.*'
+        r')\s*$', re.I)
     index = 0
     while index < len(lines):
         line = lines[index]
         stripped = line.strip()
+        if boilerplate.fullmatch(stripped):
+            index += 1
+            continue
         without_link = re.sub(r'\s*(?:https?://\S+|\[link\])\s*$', '', stripped).strip()
         if heading.search(without_link):
             if without_link != stripped or (index + 1 < len(lines) and link_only.fullmatch(lines[index + 1])):
@@ -255,11 +264,19 @@ def mixed_movie_format(title, description):
         kept.append(line)
         index += 1
     text = title + ' ' + '\n'.join(kept)
+    # Common single-film synopses say they cover "all of the major events";
+    # that is not a claim to cover all films. Remove only this scoped synopsis
+    # wording before checking the narrower collection patterns below.
+    text = re.sub(r'\ball\s+(?:of\s+the\s+)?(?:major\s+)?(?:plot\s+)?(?:events?|moments?|points?)\b',
+                  '[synopsis]', text, flags=re.I)
     if re.search(r'\b(?:trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|series recap)\b|#(?:shorts|highlights)\b', text, re.I):
         return True
     # A recap of a named film is admissible; a franchise/collection recap is
     # not representable as one movie identity.
-    return bool(re.search(r'\b(?:every|all)\b.{0,100}\b(?:films?|movies?)\b|\b(?:film|movie)\s+franchise\b|\b(?:complete|full)\s+(?:film|movie)\s+(?:saga|collection)\b|\bcompilation\b', text, re.I))
+    return bool(re.search(
+        r'\b(?:every|all)\b(?:\s+(?:of\s+the|the|single|original|[0-9]{1,2}|[A-Za-z][\w’:&./-]*)){0,6}\s+(?:films?|movies?)\b|'
+        r'\b(?:film|movie)\s+franchise\b|\b(?:complete|full)\s+(?:film|movie)\s+(?:saga|collection)\b|\bcompilation\b',
+        text, re.I))
 
 
 def content_description(description):

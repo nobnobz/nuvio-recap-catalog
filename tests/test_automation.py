@@ -182,6 +182,15 @@ class RuleTests(unittest.TestCase):
             'Fall (2022) in Minutes | Movie Recap',
             'This video covers every movie in the franchise.'))
 
+    def test_single_movie_synopsis_language_is_not_collection_scope(self):
+        synopsis = ('Forget all of the major plot events in the original Fall (2022). '
+                    'Just watch this movie recap and you will be caught up.')
+        self.assertFalse(a.mixed_movie_format('Fall (2022) in Minutes | Movie Recap', synopsis))
+        for description in ['This recap covers every Saw movie so far.',
+                            'This video includes all six Toy Story movies.']:
+            with self.subTest(description=description):
+                self.assertTrue(a.mixed_movie_format('Fall (2022) in Minutes | Movie Recap', description))
+
     def test_registry_has_unique_exact_identities(self):
         data = json.loads((ROOT / 'catalog.json').read_text())
         series = json.loads((ROOT / 'series.json').read_text())
