@@ -2,23 +2,19 @@
   "checkedAt": "2026-09-14",
   "policyVersion": 9,
   "catalogRevision": 65,
-  "candidatesChecked": 4,
-  "added": [
-    "D3QFDWToeSA"
-  ],
+  "candidatesChecked": 1,
+  "added": [],
   "withdrawn": [],
   "restored": [],
   "skipped": [
-    "GHxlMSwLfXA",
-    "_XUXJo1q3Ew",
-    "tY1YnDGSPOI"
+    "_XUXJo1q3Ew"
   ],
   "healthChecked": 60,
-  "apiCalls": 34,
+  "apiCalls": 28,
   "seriesResolutions": 1,
   "movieResolutions": 0,
   "identityResolutions": 1,
-  "identityErrors": 1,
+  "identityErrors": 0,
   "channelErrors": [
     {
       "channelID": "UCVuQhvLFoV1HaJXhkNzhEaw",
@@ -26,7 +22,7 @@
       "reason": "uploads_playlist_not_found"
     }
   ],
-  "pendingIdentities": 1,
+  "pendingIdentities": 0,
   "unchangedRechecks": 0,
   "rejectionsByReason": {
     "mixed_format_or_description_flag": 188,

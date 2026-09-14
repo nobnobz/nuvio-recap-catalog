@@ -22,7 +22,8 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNOUklJaEF6TVRoQk9FUkJNVFUxUVRreU5qQXc"
+      "nextPageToken": null,
+      "completedAt": "2026-09-14"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
@@ -5904,7 +5905,8 @@
     "series:gilmore girls": "2026-09-14",
     "movie:carnival row sdcc": "2026-09-14",
     "movie:jack ryan s1 e1": "2026-09-14",
-    "movie:the man in the high castle sdcc": "2026-09-14"
+    "movie:the man in the high castle sdcc": "2026-09-14",
+    "series:the expanse series cas anvar": "2026-09-14"
   },
   "series": [
     {
@@ -7005,9 +7007,7 @@
       ]
     }
   ],
-  "pending": {
-    "_XUXJo1q3Ew": "UCQJWtTnAHhEG5w4uN0udnUQ"
-  },
+  "pending": {},
   "checkedAt": "2026-09-14",
   "rejected": {
     "-07drzOov-M": {
