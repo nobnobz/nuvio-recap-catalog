@@ -7,15 +7,16 @@ body{font:16px system-ui;background:#101114;color:#f4f4f6;max-width:1160px;margi
 <h1>Recaps freigeben</h1><p id="summary"></p>
 <main><section><h2>Fundstück prüfen</h2><label for="candidate">Video</label><select id="candidate"></select>
 <p id="source"></p><a id="watch" target="_blank" rel="noopener noreferrer">Auf YouTube ansehen ↗</a>
-<p>Nur vollständige englische Staffelrückblicke aufnehmen. Keine Trailer, Shorts, Vorschauen, Buch- oder Spielspoiler und keine Handlung aus anderen Serien.</p>
+<p>Nur vollständige englische Staffel- oder einzelne Filmrückblicke aufnehmen. Keine Trailer, Shorts, Vorschauen, Buch- oder Spielspoiler und keine Handlung aus anderen Serien oder Filmen.</p>
 <label><input type="checkbox" id="language"> Englische Originalsprache geprüft</label>
-<label><input type="checkbox" id="coverage"> Abgedeckte Staffeln und spätere Spoiler geprüft</label>
-<label><input type="checkbox" id="identity"> Video, Kanal und Serienfassung stimmen</label>
+<label><input type="checkbox" id="coverage"> Abgedeckte Staffel(n) bzw. vollständige Filmhandlung und spätere Spoiler geprüft</label>
+<label><input type="checkbox" id="identity"> Video, Kanal und Serie/Film stimmen</label>
 </section><section><h2>Zuordnung</h2>
-<label for="imdb">IMDb-ID der Serie</label><input id="imdb" placeholder="tt11280740" pattern="tt[0-9]+">
-<label for="tmdb">TMDB-ID der Serie</label><input id="tmdb" type="number" min="1">
-<label for="first">Erste abgedeckte Staffel</label><input id="first" type="number" min="1" max="100" value="1">
-<label for="last">Letzte abgedeckte Staffel</label><input id="last" type="number" min="1" max="100" value="1">
+<label for="mediaType">Medientyp</label><select id="mediaType"><option value="series">Serie</option><option value="movie">Film</option></select>
+<label for="imdb">IMDb-ID</label><input id="imdb" placeholder="tt11280740" pattern="tt[0-9]+">
+<label for="tmdb">TMDB-ID</label><input id="tmdb" type="number" min="1">
+<div id="seasonFields"><label for="first">Erste abgedeckte Staffel</label><input id="first" type="number" min="1" max="100" value="1">
+<label for="last">Letzte abgedeckte Staffel</label><input id="last" type="number" min="1" max="100" value="1"></div>
 <label for="duration">Videolänge in Sekunden</label><input id="duration" type="number" min="30" max="7200">
 <button id="add">Zum Entwurf hinzufügen</button>
 </section></main>
@@ -30,19 +31,23 @@ $('summary').textContent=`${candidates.length} Fundstücke · Katalog ${draft.re
 for(const [index,v] of candidates.entries()){const option=document.createElement('option');option.value=index;option.textContent=v.title;$('candidate').append(option)}
 function selected(){return candidates[Number($('candidate').value)]}
 function change(){const v=selected();if(!v)return;$('source').textContent=draft.channels.find(c=>c.id===v.channelID).name;$('watch').href=`https://www.youtube.com/watch?v=${v.videoID}`;for(const key of ['language','coverage','identity'])$(key).checked=false;$('duration').value='';$('status').textContent=''}
+function updateType(){const movie=$('mediaType').value==='movie';$('seasonFields').hidden=movie;$('first').disabled=movie;$('last').disabled=movie}
 $('candidate').onchange=change;change();
 $('add').onclick=()=>{
- const v=selected(),first=Number($('first').value),last=Number($('last').value),duration=Number($('duration').value),tmdb=Number($('tmdb').value),imdb=$('imdb').value.trim();
+ const v=selected(),type=$('mediaType').value,first=Number($('first').value),last=Number($('last').value),duration=Number($('duration').value),tmdb=Number($('tmdb').value),imdb=$('imdb').value.trim();
  const fail=message=>{$('status').textContent=message};
  if(!v)return fail('Keine Fundstücke verfügbar.');
  if(!['language','coverage','identity'].every(k=>$(k).checked))return fail('Bitte das Video prüfen und alle drei Punkte bestätigen.');
- if(!/^tt[0-9]+$/.test(imdb)||!Number.isInteger(tmdb)||tmdb<=0)return fail('Gültige Serien-IDs eintragen.');
- if(![first,last,duration].every(Number.isInteger)||first<1||last<first||last>100||!(first===1||first===last)||duration<30||duration>7200)return fail('Einzelstaffel oder zusammenhängende Staffeln ab Staffel 1 und gültige Videolänge wählen.');
+ if(!/^tt[0-9]+$/.test(imdb)||!Number.isInteger(tmdb)||tmdb<=0)return fail('Gültige IMDb- und TMDB-IDs eintragen.');
+ if(!Number.isInteger(duration)||duration<30||duration>7200)return fail('Gültige Videolänge wählen.');
+ if(type==='series'&&(![first,last].every(Number.isInteger)||first<1||last<first||last>100||!(first===1||first===last)))return fail('Einzelstaffel oder zusammenhängende Staffeln ab Staffel 1 wählen.');
  if(draft.videos.some(x=>x.videoID===v.videoID))return fail('Dieses Video ist bereits im Entwurf.');
- if(draft.videos.some(x=>(x.imdbID===imdb&&x.tmdbID!==tmdb)||(x.tmdbID===tmdb&&x.imdbID!==imdb)))return fail('Serien-IDs widersprechen einem vorhandenen Eintrag.');
+ if(draft.videos.some(x=>(x.imdbID===imdb&&x.tmdbID!==tmdb)||(x.tmdbID===tmdb&&x.imdbID!==imdb)))return fail('Medien-IDs widersprechen einem vorhandenen Eintrag.');
  if(draft.videos.length>=3000)return fail('Kataloglimit erreicht.');
- draft.videos.push({videoID:v.videoID,imdbID:imdb,tmdbID:tmdb,firstSeason:first,lastSeason:last,channelID:v.channelID,language:'en',durationSeconds:duration,title:v.title,reviewedAt:new Date().toISOString().slice(0,10),enabled:true});
- added++;draft.revision=data.catalog.revision+1;const li=document.createElement('li');li.textContent=`${v.title} · ${imdb} · Staffeln ${first}–${last}`;$('pending').append(li);$('export').disabled=false;fail(`${added} Video(s) im Entwurf`);
+ const row={videoID:v.videoID,imdbID:imdb,tmdbID:tmdb,mediaType:type,channelID:v.channelID,language:'en',durationSeconds:duration,title:v.title,reviewedAt:new Date().toISOString().slice(0,10),enabled:true};
+ if(type==='series'){row.firstSeason=first;row.lastSeason=last} draft.videos.push(row);
+ added++;draft.revision=data.catalog.revision+1;const li=document.createElement('li');li.textContent=`${v.title} · ${imdb} · ${type==='movie'?'Film':'Staffeln '+first+'–'+last}`;$('pending').append(li);$('export').disabled=false;fail(`${added} Video(s) im Entwurf`);
 };
+$('mediaType').onchange=updateType;updateType();
 $('export').onclick=()=>{const text=JSON.stringify(draft,null,2)+'\n';if(new TextEncoder().encode(text).length>1048576){$('status').textContent='Katalog überschreitet 1 MiB.';return}const url=URL.createObjectURL(new Blob([text],{type:'application/json'})),a=document.createElement('a');a.href=url;a.download='catalog-draft.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
 </script></html>

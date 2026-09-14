@@ -9,6 +9,7 @@ spec = importlib.util.spec_from_file_location('automate', ROOT / 'scripts/automa
 a = importlib.util.module_from_spec(spec); spec.loader.exec_module(a)
 CHANNEL = 'UCNCTxLZ3EKKry-oWgLlsYsw'
 SHOW = {'imdbID': 'tt10986410', 'tmdbID': 97546, 'aliases': ['Ted Lasso']}
+MOVIE = {'imdbID': 'tt15325794', 'tmdbID': 985939, 'aliases': ['Fall', 'Fall (2022)'], 'releaseYear': 2022}
 
 
 def item(key='abcdefghijk', title='Ted Lasso Season 3 Recap'):
@@ -141,6 +142,34 @@ class RuleTests(unittest.TestCase):
             video = item(); video[group][key] = value
             with self.subTest(key=key):
                 self.assertIsNone(a.admissible(video, CHANNEL, [SHOW], '2026-09-07'))
+
+    def test_series_publisher_and_format_variants_remain_explicit(self):
+        for title in ['Ted Lasso | Season 1 Recap | Netflix',
+                      'Ted Lasso: Seasons 1 and 2 Recap | Prime Video',
+                      'Ted Lasso - Season 1 ULTIMATE RECAP!',
+                      'Ted Lasso Season 1 in Minutes | Recap']:
+            with self.subTest(title=title):
+                self.assertIsNotNone(a.coverage(title, [SHOW]))
+        for title in ['Ted Lasso Season 1 Recap | Season 2 Trailer',
+                      'Ted Lasso Season 1 Recap | Another Show Explained']:
+            with self.subTest(title=title):
+                self.assertIsNone(a.coverage(title, [SHOW]))
+
+    def test_single_movie_recaps_have_movie_identity_and_no_season_fields(self):
+        for title in ['Fall (2022) in Minutes | Movie Recap',
+                      'Fall (2022) in Minutes | Recap',
+                      'Fall (2022) - Full Movie Recap | Netflix',
+                      'Fall (2022) ULTIMATE RECAP!']:
+            with self.subTest(title=title):
+                self.assertEqual(a.movie_coverage(title, [MOVIE]), MOVIE)
+        self.assertIsNone(a.movie_coverage('EVERY John Wick Film INTENSE Recap before Chapter 4.', [MOVIE]))
+        self.assertEqual(a.movie_title_key('John Wick 3 - Parabellum'), a.movie_title_key('John Wick: Chapter 3 - Parabellum'))
+        video = item('mnopqrstuvw', 'Fall (2022) in Minutes | Movie Recap')
+        video['contentDetails']['duration'] = 'PT8M1S'
+        result = a.admissible(video, CHANNEL, [SHOW], '2026-09-07', [MOVIE])
+        self.assertEqual(result['mediaType'], 'movie')
+        self.assertNotIn('firstSeason', result)
+        self.assertNotIn('lastSeason', result)
 
     def test_registry_has_unique_exact_identities(self):
         data = json.loads((ROOT / 'catalog.json').read_text())
@@ -302,6 +331,33 @@ class IdentityResolutionTests(unittest.TestCase):
         resolver.results = Resolver.results
         resolver.meta = {**Resolver.meta, 'imdb_id': 'tt111111'}
         self.assertIsNone(resolver.resolve('New Show'))
+
+    def test_cinemeta_movie_resolution_supports_years_and_number_words(self):
+        class Resolver(a.Cinemeta):
+            results = [{'id': 'tt15239678', 'name': 'Dune: Part Two', 'type': 'movie', 'releaseInfo': '2024'}]
+            meta = {'imdb_id': 'tt15239678', 'name': 'Dune: Part Two', 'type': 'movie', 'moviedb_id': 693134, 'releaseInfo': '2024'}
+            def get(self, path): return {'metas': self.results} if path.startswith('catalog/') else {'meta': self.meta}
+        resolver = Resolver()
+        result = resolver.resolve_movie('Dune: Part 2')
+        self.assertEqual(result['tmdbID'], 693134)
+        self.assertIn('Dune: Part Two', result['aliases'])
+        resolver.results = Resolver.results + [{'id': 'tt888888', 'name': 'Dune: Part Two', 'type': 'movie', 'releaseInfo': '1984'}]
+        self.assertIsNone(resolver.resolve_movie('Dune: Part 2'))
+
+    def test_new_movie_is_resolved_once_and_persisted(self):
+        class Resolver:
+            calls = 0
+            def resolve_movie(self, name):
+                self.calls += 1
+                return {**MOVIE, 'aliases': [name, 'Fall']}
+        resolver = Resolver()
+        video = item('mnopqrstuvw', 'Fall (2022) in Minutes | Movie Recap')
+        updated, state, report = a.run(catalog(), {}, [SHOW], {}, FakeAPI([video]), '2026-09-07', resolver, [])
+        self.assertEqual(updated['videos'][0]['mediaType'], 'movie')
+        self.assertEqual(resolver.calls, 1)
+        self.assertEqual(len(state['movies']), 1)
+        a.run(updated, state, [SHOW], {}, FakeAPI([video]), '2026-09-08', resolver, [])
+        self.assertEqual(resolver.calls, 1)
 
     def test_expired_archive_cursor_recovers_without_losing_head(self):
         class Expired(FakeAPI):

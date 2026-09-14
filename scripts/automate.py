@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Deterministic YouTube discovery. No AI, scraping, or title-only identity guesses.
 
-Only approved channels and exact registered series aliases can auto-publish.
+Only approved channels and exact registered series/movie aliases can auto-publish.
 State and evidence are private build inputs, never public Worker assets.
 """
 import calendar
@@ -22,16 +22,62 @@ import urllib.error
 ROOT = Path(__file__).resolve().parents[1]
 MAX_CALLS = 180
 ARCHIVE_PAGES = min(20, max(1, int(os.environ.get('RECAP_ARCHIVE_PAGES', '4'))))
-POLICY_VERSION = 6
-DISCOVERY_VERSION = 1
+POLICY_VERSION = 7
+DISCOVERY_VERSION = 2
 REJECTION_RECHECK_DAYS = 30
 MAX_RECHECKS = 500
 MAX_RESOLUTIONS = min(32, max(1, int(os.environ.get('RECAP_IDENTITY_CHECKS', '8'))))
 TITLE_PATTERN = r'(.+?)\s*(?:[—–:-]\s*)?(?:RECAP\s*:\s*)?Seasons?\s+(\d{1,2})(?:\s*([-–&])\s*(\d{1,2}))?\s*(?:RECAP)?(?:\s*\|\s*(.*))?'
+SEASON_NUMBER = r'(?:\d{1,2}|one|two|three|four|five|six|seven|eight|nine|ten)'
+SEASON_SCOPE_PATTERN = re.compile(
+    r'\bSeasons?\s+(' + SEASON_NUMBER + r')(?:\s*([-–&]|and|to)\s*(' + SEASON_NUMBER + r'))?', re.I)
+SEASON_WORDS = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5,
+                'six': 6, 'seven': 7, 'eight': 8, 'nine': 9, 'ten': 10}
+MOVIE_RECAP_MARKER = re.compile(
+    r'\b(?:(?:ultimate|full)\s+)?(?:(?:story|movie|film)\s+)?recap\b', re.I)
+MOVIE_YEAR_PATTERN = re.compile(r'(?:\(((?:19|20)\d{2})\)|\s+((?:19|20)\d{2}))$')
+MOVIE_NUMBER_WORDS = re.compile(r'\b(one|two|three|four|five|six|seven|eight|nine|ten)\b', re.I)
 
 
 def normalize(text):
     return re.sub(r'[^a-z0-9]+', ' ', text.casefold()).strip()
+
+
+def numeric_word(value):
+    value = value.casefold()
+    return int(value) if value.isdigit() else SEASON_WORDS.get(value)
+
+
+def trim_delimiters(value):
+    return re.sub(r'\s*[|—–:-]\s*$', '', value.strip()).strip()
+
+
+def movie_year(value):
+    match = MOVIE_YEAR_PATTERN.search(value.strip())
+    return int(match[1] or match[2]) if match else None
+
+
+def movie_base_title(value):
+    value = value.strip()
+    value = re.sub(r'\s*\((?:19|20)\d{2}\)\s*$', '', value)
+    value = re.sub(r'\s+(?:19|20)\d{2}\s*$', '', value)
+    return value.strip()
+
+
+def movie_title_key(value):
+    value = re.sub(r'\bchapter\s+(?=\d{1,2}\b)', '', movie_base_title(value), flags=re.I)
+    value = MOVIE_NUMBER_WORDS.sub(lambda m: str(SEASON_WORDS[m[1].casefold()]), value)
+    return normalize(value)
+
+
+def movie_identity_matches(name, movie):
+    source_year = movie_year(name)
+    identity_year = movie.get('releaseYear')
+    if source_year is not None and identity_year is not None and source_year != identity_year:
+        return False
+    if source_year is not None and identity_year is None:
+        return False
+    return any(movie_title_key(name) == movie_title_key(alias) for alias in movie.get('aliases', []))
 
 
 def six_months_after(value):
@@ -89,6 +135,53 @@ def description_coverage(description):
     return spans[0]
 
 
+def parse_explicit_season_title(title):
+    """Return the existing match-shaped series result for common title layouts.
+
+    The canonical form remains ``Name Season 1-2 Recap | suffix``.  Keeping
+    that shape lets the strict coverage code below retain its fail-closed
+    behavior while accepting pipes, word-number ranges and publisher formats
+    used by the approved channels.
+    """
+    title = clean_title(title)
+    scopes = list(SEASON_SCOPE_PATTERN.finditer(title))
+    if not scopes:
+        return None
+    scope = scopes[0]
+    prefix = title[:scope.start()]
+    had_prefix_recap = bool(re.search(r'\brecap\b', prefix, re.I))
+    name = re.sub(r'\b(?:ultimate\s+)?recap\s*[:\-–—|]*\s*$', '', prefix, flags=re.I).strip()
+    name = trim_delimiters(name)
+    if not name or '|' in name:
+        return None
+    start = numeric_word(scope[1])
+    end = numeric_word(scope[3]) if scope[3] else start
+    if start is None or end is None:
+        return None
+    connector = scope[2].casefold() if scope[2] else None
+    separator = '&' if connector in ('&', 'and') else '-' if connector in ('-', '–', 'to') else None
+    rest = title[scope.end():].strip()
+    marker = MOVIE_RECAP_MARKER.search(rest)
+    if marker:
+        before = rest[:marker.start()].strip(' \t|—–:-!.,;')
+        # "in Minutes" is a format label, not coverage context. Other text
+        # remains in the suffix and is checked by valid_suffix().
+        suffix_parts = [] if not before or normalize(before) == 'in minutes' else [before]
+        suffix_parts.append(rest[marker.end():])
+        suffix = ' | '.join(piece for piece in suffix_parts if piece.strip()).strip().strip('—–:-!.,;|').strip()
+    elif had_prefix_recap:
+        suffix = rest.strip('—–:-!.,;|').strip()
+    else:
+        return None
+    canonical = f'{name} Season {start}'
+    if end != start:
+        canonical += f' {separator or "-"} {end}'
+    canonical += ' Recap'
+    if suffix:
+        canonical += f' | {suffix}'
+    return re.fullmatch(TITLE_PATTERN, canonical, re.I)
+
+
 def parse_title(title, description=''):
     title = clean_title(title)
     full = re.fullmatch(FULL_TITLE_PATTERN, title, re.I)
@@ -100,8 +193,32 @@ def parse_title(title, description=''):
         if span is None:
             return None
         title = f'{described[1].strip(" —–:-")} Season {span[0]}-{span[1]} Recap'
-    match = re.fullmatch(TITLE_PATTERN, title, re.I)
+    match = parse_explicit_season_title(title)
     return match if match and '|' not in match[1] else None
+
+
+def parse_movie_title(title):
+    """Parse a single-film recap heading without accepting series coverage."""
+    title = clean_title(title)
+    if re.search(r'\b(?:full\s+series|seasons?|episodes?)\b', title, re.I):
+        return None
+    in_minutes = re.search(r'\bin\s+minutes\b', title, re.I)
+    if in_minutes:
+        if not re.search(r'\brecap\b', title[in_minutes.end():], re.I):
+            return None
+        name = title[:in_minutes.start()]
+        suffix = title[in_minutes.end():]
+    else:
+        marker = MOVIE_RECAP_MARKER.search(title)
+        if not marker:
+            return None
+        name = title[:marker.start()]
+        suffix = title[marker.end():]
+    name = re.sub(r'\bfull\s*$', '', name, flags=re.I).strip()
+    name = trim_delimiters(name)
+    if not name or '|' in name:
+        return None
+    return {'name': name, 'suffix': suffix.strip(), 'inMinutes': bool(in_minutes)}
 
 
 def mixed_format(title, description):
@@ -115,9 +232,18 @@ def mixed_full_series(description):
     return bool(re.search(r'\b(?:film|movie|parts?|volumes?|miniseries|spin.?off)\b', description, re.I))
 
 
+def mixed_movie_format(title, description):
+    text = title + ' ' + description
+    if re.search(r'\b(?:trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|series recap)\b|#(?:shorts|highlights)\b', text, re.I):
+        return True
+    # A recap of a named film is admissible; a franchise/collection recap is
+    # not representable as one movie identity.
+    return bool(re.search(r'\b(?:every|all)\b.{0,100}\b(?:films?|movies?)\b|\b(?:film|movie)\s+franchise\b|\b(?:complete|full)\s+(?:film|movie)\s+(?:saga|collection)\b|\bcompilation\b', text, re.I))
+
+
 def content_description(description):
     # Publisher service advertisements are not a description of this video.
-    description = re.split(r'(?im)^About (?:HBO Max|Max):\s*$', description, maxsplit=1)[0]
+    description = re.split(r'(?im)^About (?:HBO Max|Max|Netflix|Prime Video|Disney(?: Plus|\+)?):\s*$', description, maxsplit=1)[0]
     # Ignore a standalone link to another recap, never an unlinked scope claim.
     return '\n'.join(line for line in description.splitlines() if not re.fullmatch(
         r'\s*Watch\b[^\n]*\brecap\b[^\n]*https?://\S+\s*', line, re.I))
@@ -125,12 +251,14 @@ def content_description(description):
 
 def valid_suffix(suffix, name, end):
     for piece in (suffix or '').split('|'):
-        piece = piece.strip()
+        piece = piece.strip().strip('—–:-!.,;').strip()
         if not piece or normalize(piece) == normalize(name):
             continue
-        if re.fullmatch(r'(?:Apple TV(?: Plus)?|Max|HBO Max|Netflix|HBO|Hulu|Starz|Showtime)', piece, re.I):
+        if re.fullmatch(r'(?:Apple TV(?: Plus)?|Max|HBO Max|Netflix|Prime Video|Disney(?: Plus|\+)?|HBO|Hulu|Starz|Showtime)', piece, re.I):
             continue
-        if re.fullmatch(r'(?:(?:TV|Apple|Apple TV(?: Plus)?|Netflix|HBO(?: Max)?|Hulu|Starz|Showtime|Amazon(?: Prime Video)?) )?Series Explained', piece, re.I):
+        if re.fullmatch(r'(?:(?:TV|Apple|Apple TV(?: Plus)?|Netflix|Prime Video|Disney(?: Plus|\+)?|HBO(?: Max)?|Hulu|Starz|Showtime|Amazon(?: Prime Video)?) )?Series Explained', piece, re.I):
+            continue
+        if re.fullmatch(r'in Minutes', piece, re.I):
             continue
         before = re.fullmatch(r'(?:Must Watch|Everything You Need To Know) Before (.*?)Season (\d{1,2})(?: Explained)?', piece, re.I)
         if before and (not before[1].strip() or normalize(before[1]) == normalize(name)) and int(before[2]) == end + 1:
@@ -139,7 +267,45 @@ def valid_suffix(suffix, name, end):
     return True
 
 
-def rejection_reason(item, channel, series):
+def valid_movie_suffix(suffix, name):
+    for piece in (suffix or '').split('|'):
+        piece = piece.strip().strip('—–:-!.,;').strip()
+        if not piece or movie_title_key(piece) == movie_title_key(name):
+            continue
+        if re.fullmatch(r'(?:Apple TV(?: Plus)?|Max|HBO Max|Netflix|Prime Video|Disney(?: Plus|\+)?|HBO|Hulu|Starz|Showtime)', piece, re.I):
+            continue
+        if re.fullmatch(r'(?:in Minutes|recap|(?:ultimate|full|story|movie|film)\s+recap)', piece, re.I):
+            continue
+        if re.fullmatch(r'\([^)]*\b(?:ultimate\s+)?(?:story\s+)?recap\b[^)]*\)', piece, re.I):
+            continue
+        if re.fullmatch(r'(?:watch|must watch|everything you need to know)\s+before\b.*', piece, re.I):
+            continue
+        return False
+    return True
+
+
+def movie_coverage(title, movies, description=''):
+    parsed = parse_movie_title(title)
+    if not parsed or not re.search(r'\brecap\b', title, re.I):
+        return None
+    name, suffix = parsed['name'], parsed['suffix']
+    if not valid_movie_suffix(suffix, name):
+        return None
+    description = content_description(description)
+    if mixed_movie_format(title, description):
+        return None
+    matches = [movie for movie in movies if movie_identity_matches(name, movie)]
+    if len(matches) != 1:
+        return None
+    movie = matches[0]
+    context = normalize(title + ' ' + description)
+    if movie.get('requiredContext') and not any(normalize(c) in context for c in movie['requiredContext']):
+        return None
+    return movie
+
+
+def rejection_reason(item, channel, series, movies=None):
+    movies = movies or []
     if not item:
         return 'metadata_unavailable'
     snippet, content, status = (item.get(k, {}) for k in ('snippet', 'contentDetails', 'status'))
@@ -157,6 +323,15 @@ def rejection_reason(item, channel, series):
     if not 60 <= duration(content.get('duration', '')) <= 7200:
         return 'duration_outside_limits'
     title, description = snippet.get('title', ''), content_description(snippet.get('description', ''))
+    movie = parse_movie_title(title)
+    if movie:
+        if not valid_movie_suffix(movie['suffix'], movie['name']) or mixed_movie_format(title, description):
+            return 'mixed_format_or_description_flag'
+        if not any(movie_identity_matches(movie['name'], entry) for entry in movies):
+            return 'movie_identity_unresolved'
+        if not movie_coverage(title, movies, description):
+            return 'movie_context_or_suffix_conflict'
+        return 'movie_context_or_suffix_conflict'
     match = parse_title(title, description)
     if not match or not re.search(r'\brecap\b', title, re.I):
         return 'coverage_title_not_explicit'
@@ -180,19 +355,35 @@ def rejection_reason(item, channel, series):
 
 
 def validate_series(series, catalog):
-    aliases, imdbs, tmdbs = set(), set(), set()
-    established = {v['imdbID']: v['tmdbID'] for v in catalog['videos']}
-    for show in series:
-        assert re.fullmatch(r'tt[0-9]+', show['imdbID'])
-        assert type(show['tmdbID']) is int and show['tmdbID'] > 0
-        assert show['imdbID'] not in imdbs and show['tmdbID'] not in tmdbs
-        assert established.get(show['imdbID'], show['tmdbID']) == show['tmdbID']
-        imdbs.add(show['imdbID']); tmdbs.add(show['tmdbID'])
-        assert show['aliases']
-        for alias in show['aliases']:
-            key = normalize(alias)
-            assert key and key not in aliases, 'Ambiguous series alias'
-            aliases.add(key)
+    validate_media_registry(series, catalog, 'series')
+
+
+def validate_movies(movies, catalog):
+    validate_media_registry(movies, catalog, 'movie')
+
+
+def validate_media_registry(entries, catalog, media_type):
+    aliases, imdbs, tmdbs = {}, set(), set()
+    established = {v['imdbID']: v['tmdbID'] for v in catalog['videos']
+                   if v.get('mediaType', 'series') == media_type}
+    for entry in entries:
+        assert re.fullmatch(r'tt[0-9]+', entry['imdbID'])
+        assert type(entry['tmdbID']) is int and entry['tmdbID'] > 0
+        assert entry['imdbID'] not in imdbs and entry['tmdbID'] not in tmdbs
+        assert established.get(entry['imdbID'], entry['tmdbID']) == entry['tmdbID']
+        if media_type == 'movie' and 'releaseYear' in entry:
+            assert type(entry['releaseYear']) is int and 1888 <= entry['releaseYear'] <= 2100
+        imdbs.add(entry['imdbID']); tmdbs.add(entry['tmdbID'])
+        assert entry['aliases']
+        for alias in entry['aliases']:
+            assert isinstance(alias, str)
+            if media_type == 'movie':
+                year = movie_year(alias) or entry.get('releaseYear')
+                key = f'{movie_title_key(alias)}|{year or ""}'
+            else:
+                key = normalize(alias)
+            assert key and (key not in aliases or aliases[key] == entry['imdbID']), f'Ambiguous {media_type} alias'
+            aliases[key] = entry['imdbID']
 
 
 def coverage(title, series, description=''):
@@ -244,7 +435,8 @@ def duration(value):
     return sum(int(v or 0) * multiplier for v, multiplier in zip(match.groups(), (3600, 60, 1))) if match else 0
 
 
-def admissible(item, channel, series, today):
+def admissible(item, channel, series, today, movies=None):
+    movies = movies or []
     snippet, content, status = (item.get(k, {}) for k in ('snippet', 'contentDetails', 'status'))
     if not re.fullmatch(r'[A-Za-z0-9_-]{11}', item.get('id', '')) or snippet.get('channelId') != channel:
         return None
@@ -257,11 +449,16 @@ def admissible(item, channel, series, today):
     seconds = duration(content.get('duration', ''))
     if not 60 <= seconds <= 7200:
         return None
+    movie = movie_coverage(snippet.get('title', ''), movies, snippet.get('description', ''))
+    if movie:
+        return {'videoID': item['id'], 'imdbID': movie['imdbID'], 'tmdbID': movie['tmdbID'],
+                'mediaType': 'movie', 'channelID': channel, 'language': 'en',
+                'durationSeconds': seconds, 'title': snippet['title'], 'reviewedAt': today, 'enabled': True}
     match = coverage(snippet.get('title', ''), series, snippet.get('description', ''))
     if not match:
         return None
     show, start, end = match
-    return {'videoID': item['id'], 'imdbID': show['imdbID'], 'tmdbID': show['tmdbID'],
+    return {'videoID': item['id'], 'imdbID': show['imdbID'], 'tmdbID': show['tmdbID'], 'mediaType': 'series',
             'firstSeason': start, 'lastSeason': end, 'channelID': channel, 'language': 'en',
             'durationSeconds': seconds, 'title': snippet['title'], 'reviewedAt': today, 'enabled': True}
 
@@ -271,7 +468,7 @@ class InvalidPageToken(RuntimeError):
 
 
 class Cinemeta:
-    """Resolve only a unique exact series title, confirmed by detail metadata."""
+    """Resolve only unique exact series/movie titles, confirmed by details."""
     def __init__(self):
         self.calls = 0
 
@@ -286,7 +483,7 @@ class Cinemeta:
                 raise ValueError('Oversized metadata response')
             return json.loads(raw)
         except Exception:
-            raise RuntimeError('Series metadata temporarily unavailable') from None
+            raise RuntimeError('Media metadata temporarily unavailable') from None
 
     def season_numbers(self, show):
         meta = self.get('meta/series/' + show['imdbID'] + '.json')['meta']
@@ -309,6 +506,46 @@ class Cinemeta:
         if type(tmdb) is not int or tmdb <= 0:
             return None
         return {'imdbID': identity, 'tmdbID': tmdb, 'aliases': [name]}
+
+    def resolve_movie(self, name):
+        query = movie_base_title(name) or name
+        results = self.get('catalog/movie/top/search=' + urllib.parse.quote(query, safe='') + '.json')['metas']
+        year = movie_year(name)
+        exact = {}
+        for value in results:
+            result_name = value.get('name', '')
+            if (value.get('type') != 'movie' or not isinstance(result_name, str) or
+                    movie_title_key(result_name) != movie_title_key(name)):
+                continue
+            release = str(value.get('releaseInfo', '')).strip()
+            if year is not None and release != str(year):
+                continue
+            identity = value.get('id', '')
+            if isinstance(identity, str) and re.fullmatch(r'tt[0-9]+', identity):
+                exact[identity] = value
+        if len(exact) != 1:
+            return None
+        identity = next(iter(exact))
+        if not re.fullmatch(r'tt[0-9]+', identity):
+            return None
+        meta = self.get('meta/movie/' + identity + '.json')['meta']
+        tmdb = meta.get('moviedb_id')
+        meta_year = str(meta.get('releaseInfo', '')).strip()
+        meta_name = meta.get('name', '')
+        if (meta.get('type') != 'movie' or meta.get('imdb_id') != identity or
+                not isinstance(meta_name, str) or movie_title_key(meta_name) != movie_title_key(name)):
+            return None
+        if year is not None and meta_year != str(year):
+            return None
+        if type(tmdb) is not int or tmdb <= 0:
+            return None
+        release_year = year
+        if release_year is None and re.fullmatch(r'(?:19|20)\d{2}', meta_year):
+            release_year = int(meta_year)
+        result = {'imdbID': identity, 'tmdbID': tmdb, 'aliases': [name, meta_name]}
+        if release_year is not None:
+            result['releaseYear'] = release_year
+        return result
 
 
 class YouTube:
@@ -353,14 +590,18 @@ def video_items(api, ids):
     return result
 
 
-def run(catalog, state, series, decisions, api, today, resolver=None):
+def run(catalog, state, series, decisions, api, today, resolver=None, movies=None):
+    movies = [] if movies is None else movies
     validate_series(series, catalog)
-    signature = digest({'policyVersion': POLICY_VERSION, 'series': series, 'channels': catalog['channels']})
+    validate_movies(movies, catalog)
+    signature = digest({'policyVersion': POLICY_VERSION, 'series': series, 'movies': movies,
+                        'channels': catalog['channels']})
     catalog, state = copy.deepcopy(catalog), copy.deepcopy(state)
     state.setdefault('channels', {})
     state.setdefault('health', {})
     state.setdefault('approved', {})
     series = copy.deepcopy(series)
+    movies = copy.deepcopy(movies)
     for show in state.get('series', []):
         if 'seasonNumbers' in show:
             show.setdefault('seasonNumbersCheckedAt', today)
@@ -370,7 +611,12 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
         elif 'seasonNumbers' in show:
             established['seasonNumbers'] = show['seasonNumbers']
             established['seasonNumbersCheckedAt'] = show.get('seasonNumbersCheckedAt', today)
+    for movie in state.get('movies', []):
+        established = next((v for v in movies if v['imdbID'] == movie['imdbID']), None)
+        if established is None:
+            movies.append(movie)
     validate_series(series, catalog)
+    validate_movies(movies, catalog)
     state.setdefault('identityChecks', {})
     state.setdefault('rejected', {})
     known = {v['videoID'] for v in catalog['videos']} | set(decisions)
@@ -426,7 +672,8 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
                     candidates[key] = channel_id
     details = video_items(api, candidates)
     added, pending = [], {}
-    resolutions, identity_errors, unchanged_rechecks = 0, 0, 0
+    resolutions, series_resolutions, movie_resolutions = 0, 0, 0
+    identity_errors, unchanged_rechecks = 0, 0
     attempted_names = set()
     for key, channel in sorted(candidates.items()):
         item = details.get(key)
@@ -441,37 +688,74 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
             continue
         fingerprint = digest({k: item.get(k) for k in ('snippet', 'contentDetails', 'status')} if item else None)
         prior = state['rejected'].get(key, {})
-        if prior.get('fingerprint') == fingerprint and prior.get('rulesSignature') == signature and key not in state.get('pending', {}) and prior.get('reason') not in ('series_identity_unresolved', 'season_numbering_unverified'):
+        retryable = ('series_identity_unresolved', 'movie_identity_unresolved', 'season_numbering_unverified')
+        if (prior.get('fingerprint') == fingerprint and prior.get('rulesSignature') == signature and
+                key not in state.get('pending', {}) and prior.get('reason') not in retryable):
             prior['checkedAt'] = today
             unchanged_rechecks += 1
             continue
+        format_supported = False
+        movie_format_supported = False
+        series_name = movie_name = ''
         if item and resolver:
             snippet = item.get('snippet', {})
-            title = parse_title(snippet.get('title', ''), snippet.get('description', ''))
-            name = title[1].strip(' —–:-') if title else ''
-            registered = any(normalize(name) in [normalize(a) for a in show['aliases']] for show in series)
-            format_supported = name and coverage(snippet.get('title', ''), [{'aliases': [name], 'seasonNumbers': list(range(1, 101))}], snippet.get('description', '')) is not None
+            parsed_series = parse_title(snippet.get('title', ''), snippet.get('description', ''))
+            series_name = parsed_series[1].strip(' —–:-') if parsed_series else ''
+            format_supported = bool(series_name and coverage(
+                snippet.get('title', ''), [{'aliases': [series_name], 'seasonNumbers': list(range(1, 101))}],
+                snippet.get('description', '')) is not None)
+            parsed_movie = parse_movie_title(snippet.get('title', ''))
+            movie_name = parsed_movie['name'] if parsed_movie else ''
+            movie_format_supported = bool(parsed_movie and valid_movie_suffix(parsed_movie['suffix'], movie_name) and
+                                          not mixed_movie_format(snippet.get('title', ''), content_description(snippet.get('description', ''))))
+            registered = any(normalize(series_name) in [normalize(a) for a in show['aliases']] for show in series)
             if format_supported and not registered and snippet.get('defaultAudioLanguage', '').lower().split('-')[0] == 'en':
-                checked = state['identityChecks'].get(normalize(name), '')
-                due = (key in state.get('pending', {}) or prior.get('rulesSignature') != signature or checked <= (dt.date.fromisoformat(today) - dt.timedelta(days=REJECTION_RECHECK_DAYS)).isoformat()) and normalize(name) not in attempted_names
-                if due and resolutions < MAX_RESOLUTIONS:
-                    resolutions += 1
-                    attempted_names.add(normalize(name))
+                identity_key = 'series:' + normalize(series_name)
+                checked = state['identityChecks'].get(identity_key, state['identityChecks'].get(normalize(series_name), ''))
+                due_identity = (key in state.get('pending', {}) or prior.get('rulesSignature') != signature or
+                                checked <= (dt.date.fromisoformat(today) - dt.timedelta(days=REJECTION_RECHECK_DAYS)).isoformat()) and identity_key not in attempted_names
+                if due_identity and resolutions < MAX_RESOLUTIONS:
+                    resolutions += 1; series_resolutions += 1
+                    attempted_names.add(identity_key)
                     try:
-                        show = copy.deepcopy(resolver.resolve(name))
+                        show = copy.deepcopy(resolver.resolve(series_name))
                         if show:
                             # Reject remapped IDs, alias collisions and sequels
                             # that resolve to an already known different title.
                             validate_series(series + [show], catalog)
                             series.append(show)
                             state.setdefault('series', []).append(show)
-                        state['identityChecks'][normalize(name)] = today
+                        state['identityChecks'][identity_key] = today
                     except (AssertionError, KeyError, ValueError):
-                        state['identityChecks'][normalize(name)] = today
+                        state['identityChecks'][identity_key] = today
                     except RuntimeError:
                         identity_errors += 1
                         pending[key] = channel
-                elif due:
+                elif due_identity:
+                    pending[key] = channel
+            registered_movie = any(movie_identity_matches(movie_name, movie) for movie in movies) if movie_name else False
+            if (movie_format_supported and not registered_movie and hasattr(resolver, 'resolve_movie') and
+                    snippet.get('defaultAudioLanguage', '').lower().split('-')[0] == 'en'):
+                identity_key = 'movie:' + movie_title_key(movie_name)
+                checked = state['identityChecks'].get(identity_key, '')
+                due_identity = (key in state.get('pending', {}) or prior.get('rulesSignature') != signature or
+                                checked <= (dt.date.fromisoformat(today) - dt.timedelta(days=REJECTION_RECHECK_DAYS)).isoformat()) and identity_key not in attempted_names
+                if due_identity and resolutions < MAX_RESOLUTIONS:
+                    resolutions += 1; movie_resolutions += 1
+                    attempted_names.add(identity_key)
+                    try:
+                        movie = copy.deepcopy(resolver.resolve_movie(movie_name))
+                        if movie:
+                            validate_movies(movies + [movie], catalog)
+                            movies.append(movie)
+                            state.setdefault('movies', []).append(movie)
+                        state['identityChecks'][identity_key] = today
+                    except (AssertionError, KeyError, ValueError):
+                        state['identityChecks'][identity_key] = today
+                    except RuntimeError:
+                        identity_errors += 1
+                        pending[key] = channel
+                elif due_identity:
                     pending[key] = channel
         if item and resolver and format_supported and full_series_title(item['snippet'].get('title', '')):
             parsed = parse_title(item['snippet']['title'], item['snippet'].get('description', ''))
@@ -479,7 +763,7 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
             stale_seasons = len(matches) == 1 and matches[0].get('seasonNumbersCheckedAt', '') <= (dt.date.fromisoformat(today) - dt.timedelta(days=REJECTION_RECHECK_DAYS)).isoformat()
             if len(matches) == 1 and ('seasonNumbers' not in matches[0] or stale_seasons):
                 if resolutions < MAX_RESOLUTIONS:
-                    resolutions += 1
+                    resolutions += 1; series_resolutions += 1
                     try:
                         matches[0]['seasonNumbers'] = resolver.season_numbers(matches[0])
                         matches[0]['seasonNumbersCheckedAt'] = today
@@ -494,7 +778,7 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
                         pending[key] = channel
                 else:
                     pending[key] = channel
-        video = admissible(item, channel, series, today) if item else None
+        video = admissible(item, channel, series, today, movies) if item else None
         if video:
             catalog['videos'].append(video)
             state['approved'][key] = {'policyVersion': POLICY_VERSION, 'checkedAt': today,
@@ -504,9 +788,9 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
         else:
             snippet = item.get('snippet', {}) if item else {}
             description = snippet.get('description', '')
-            flag = re.search(r'.{0,70}\b(?:trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|movie recap)\b.{0,70}', description, re.I)
+            flag = re.search(r'.{0,70}\b(?:trailer|teaser|prediction|theor(?:y|ies)|episode\s+\d|book spoilers|movie recap|series recap)\b.{0,70}', description, re.I)
             state['rejected'][key] = {'channelID': channel, 'title': snippet.get('title', ''),
-                'reason': rejection_reason(item, channel, series), 'checkedAt': today,
+                'reason': rejection_reason(item, channel, series, movies), 'checkedAt': today,
                 'fingerprint': fingerprint, 'rulesSignature': signature,
                 'audioLanguage': snippet.get('defaultAudioLanguage', ''),
                 'descriptionLead': re.sub(r'https?://\S+', '[link]', description)[:500],
@@ -549,7 +833,8 @@ def run(catalog, state, series, decisions, api, today, resolver=None):
     report = {'checkedAt': today, 'policyVersion': POLICY_VERSION, 'catalogRevision': catalog['revision'],
               'candidatesChecked': len(candidates), 'added': added, 'withdrawn': withdrawn, 'restored': restored,
               'skipped': sorted(set(candidates) - set(added)), 'healthChecked': len(batch),
-              'apiCalls': api.calls, 'seriesResolutions': resolutions, 'identityErrors': identity_errors,
+              'apiCalls': api.calls, 'seriesResolutions': series_resolutions, 'movieResolutions': movie_resolutions,
+              'identityResolutions': resolutions, 'identityErrors': identity_errors,
               'pendingIdentities': len(state['pending']), 'unchangedRechecks': unchanged_rechecks,
               'rejectionsByReason': dict(collections.Counter(v['reason'] for v in state['rejected'].values())),
               'rejectionsTracked': len(state['rejected']), 'archivesComplete': all(c.get('completedAt') and not c.get('nextPageToken') for c in state['channels'].values())}
@@ -575,8 +860,11 @@ def main():
     state_path = ROOT / 'review/automation-state.json'
     state = json.loads(state_path.read_text()) if state_path.exists() else {}
     series = json.loads((ROOT / 'series.json').read_text())
+    movies_path = ROOT / 'movies.json'
+    movies = json.loads(movies_path.read_text()) if movies_path.exists() else []
     decisions = json.loads((ROOT / 'review/decisions.json').read_text())
-    result, state, report = run(catalog, state, series, decisions, YouTube(key), dt.datetime.now(dt.timezone.utc).date().isoformat(), Cinemeta())
+    result, state, report = run(catalog, state, series, decisions, YouTube(key),
+                                dt.datetime.now(dt.timezone.utc).date().isoformat(), Cinemeta(), movies)
     # Validate the entire transaction before replacing any on-disk input.
     with tempfile.TemporaryDirectory() as directory:
         candidate = Path(directory) / 'catalog.json'

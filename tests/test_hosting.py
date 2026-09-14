@@ -40,6 +40,8 @@ class HostingTests(unittest.TestCase):
     def test_catalog_validation(self):
         result = build.validator.validate(ROOT / 'catalog.json')
         self.assertTrue(all(v['language'] == 'en' for v in result['videos']))
+        self.assertTrue({'Netflix', 'Prime Video', 'GameofThrones', 'Disney Plus', 'ScreenCrush',
+                         'Film Cram!', 'Movies in Minutes', 'Series Recap'} <= {c['name'] for c in result['channels']})
 
 
 class FreeHostingTests(unittest.TestCase):
@@ -111,6 +113,24 @@ class CatalogCompatibilityTests(unittest.TestCase):
                 data['videos'][0][key] = 1.5
                 path.write_text(json.dumps(data))
                 with self.assertRaises(AssertionError): build.validator.validate(path)
+
+    def test_movie_rows_use_explicit_media_type_without_season_fields(self):
+        import copy, json, tempfile
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'catalog.json'
+            data = json.loads((ROOT / 'catalog.json').read_text())
+            data['videos'] = [{
+                'videoID': 'mnopqrstuvw', 'imdbID': 'tt15325794', 'tmdbID': 985939,
+                'mediaType': 'movie', 'channelID': data['channels'][0]['id'], 'language': 'en',
+                'durationSeconds': 481, 'title': 'Fall (2022) in Minutes | Movie Recap',
+                'reviewedAt': '2026-09-14', 'enabled': True
+            }]
+            path.write_text(json.dumps(data))
+            self.assertEqual(build.validator.validate(path)['videos'][0]['mediaType'], 'movie')
+            invalid = copy.deepcopy(data)
+            invalid['videos'][0]['firstSeason'] = 1
+            path.write_text(json.dumps(invalid))
+            with self.assertRaises(AssertionError): build.validator.validate(path)
 
 if __name__ == '__main__':
     unittest.main()

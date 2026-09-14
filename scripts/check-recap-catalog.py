@@ -28,23 +28,32 @@ def validate(path):
         assert isinstance(channel['name'], str) and 0 < len(channel['name']) <= 64 and isinstance(channel['official'], bool)
         channels[key] = channel
     ids, imdb, tmdb = set(), {}, {}
+    media_identity_counts = {'series': set(), 'movie': set()}
+    media_counts = {'series': 0, 'movie': 0}
     for video in data['videos']:
         key = video['videoID']
         assert re.fullmatch(r'[A-Za-z0-9_-]{11}', key) and key not in ids, 'Duplicate/invalid video ID'
         ids.add(key)
         assert video['channelID'] in channels, f'{key}: unapproved channel'
         assert video['language'] == 'en', f'{key}: English only'
-        start, end = video['firstSeason'], video['lastSeason']
-        assert type(start) is int and type(end) is int and 0 < start <= end <= 100 and start in (1, end), f'{key}: invalid coverage'
+        media_type = video.get('mediaType', 'series')
+        assert media_type in media_counts, f'{key}: invalid media type'
+        media_counts[media_type] += 1
+        media_identity_counts[media_type].add(video['imdbID'])
+        if media_type == 'series':
+            start, end = video.get('firstSeason'), video.get('lastSeason')
+            assert type(start) is int and type(end) is int and 0 < start <= end <= 100 and start in (1, end), f'{key}: invalid series coverage'
+        else:
+            assert 'firstSeason' not in video and 'lastSeason' not in video, f'{key}: movies cannot carry season coverage'
         assert type(video['durationSeconds']) is int and 30 <= video['durationSeconds'] <= 7200 and isinstance(video['title'], str) and video['title'], f'{key}: invalid metadata'
         assert isinstance(video['enabled'], bool)
         assert isinstance(video['reviewedAt'], str) and re.fullmatch(r'\d{4}-\d{2}-\d{2}', video['reviewedAt']), f'{key}: invalid review date'
         datetime.date.fromisoformat(video['reviewedAt'])
         i, t = video['imdbID'], video['tmdbID']
-        assert re.fullmatch(r'tt[0-9]+', i) and type(t) is int and 0 < t <= 2147483647, f'{key}: invalid series identity'
+        assert re.fullmatch(r'tt[0-9]+', i) and type(t) is int and 0 < t <= 2147483647, f'{key}: invalid media identity'
         assert imdb.get(i, t) == t and tmdb.get(t, i) == i, f'{key}: conflicting identities'
         imdb[i], tmdb[t] = t, i
-    print(f"Valid catalog r{data['revision']}: {len(ids)} videos, {len(imdb)} series, {len(channels)} approved channels, {len(raw)} bytes")
+    print(f"Valid catalog r{data['revision']}: {len(ids)} videos, {len(media_identity_counts['series'])} series / {len(media_identity_counts['movie'])} movies, {len(channels)} approved channels, {len(raw)} bytes")
     return data
 
 

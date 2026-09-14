@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 30,
+  "revision": 31,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -15,6 +15,30 @@
       "rank": 0
     },
     {
+      "id": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "name": "Netflix",
+      "official": true,
+      "rank": 0
+    },
+    {
+      "id": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "name": "Prime Video",
+      "official": true,
+      "rank": 0
+    },
+    {
+      "id": "UCQzdMyuz0Lf4zo4uGcEujFw",
+      "name": "GameofThrones",
+      "official": true,
+      "rank": 0
+    },
+    {
+      "id": "UCIrgJInjLS2BhlHOMDW7v0g",
+      "name": "Disney Plus",
+      "official": true,
+      "rank": 0
+    },
+    {
       "id": "UCNCTxLZ3EKKry-oWgLlsYsw",
       "name": "Man of Recaps",
       "official": false,
@@ -25,6 +49,30 @@
       "name": "Recap & Chill",
       "official": false,
       "rank": 20
+    },
+    {
+      "id": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "name": "ScreenCrush",
+      "official": false,
+      "rank": 30
+    },
+    {
+      "id": "UCCNA8qUu57LQXm5L8EL5B-g",
+      "name": "Film Cram!",
+      "official": false,
+      "rank": 30
+    },
+    {
+      "id": "UCwOhOMxCC4Bi54W255Sczmg",
+      "name": "Movies in Minutes",
+      "official": false,
+      "rank": 30
+    },
+    {
+      "id": "UCVuQhvLFoV1HaJXhkNzhEaw",
+      "name": "Series Recap",
+      "official": false,
+      "rank": 30
     }
   ],
   "videos": [
