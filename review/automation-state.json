@@ -6,7 +6,7 @@
       "completedAt": "2026-09-14"
     },
     "UCx-KWLTKlB83hDI6UKECtJQ": {
-      "nextPageToken": "EAAaH1BUOkNLNHJJaEJDTWpZM01VWXhOVUV5UVVORlFUWXo",
+      "nextPageToken": "EAAaH1BUOkNLZ3RJaEEyUWpjek1UVkZRa1kzTXpBNFFrWXk",
       "discoveryVersion": 2
     },
     "UCNCTxLZ3EKKry-oWgLlsYsw": {
@@ -21,11 +21,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNLNHJJaEJFTURjMU5VVTFPRVl5TVVFeE9FWXc"
+      "nextPageToken": "EAAaH1BUOkNLZ3RJaEJFTURVeFJEUTNNRUpFTUVaRlFqTXg"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNLNHJJaEJCUVRZNE5UZzJPVEZGUkVZeE5ETkc"
+      "nextPageToken": "EAAaH1BUOkNLZ3RJaEF4UkROQ1FrSXhNek14TXpKRVJUZEY"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -1844,6 +1844,66 @@
       "checkedAt": "2026-09-14"
     },
     "MKcBRfMl8nU": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "cOHYM6Jb8qM": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "cUAG76qsuso": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "cVKfKHakO1Y": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "cvbKch-lLCk": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "cxaGznzq47s": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "d7M2Ak1VUCw": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "drDJKGfvu6Y": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "dxiuyOepeNY": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "fZeW-KUXHKY": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "fhlLQqTH3FM": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "g0GcBvnoJE8": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "hKf1Ta0xbEo": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "hOjY1diR-Tw": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "hZB0n9y8Lm8": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "hxyevtxHli0": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -4573,6 +4633,86 @@
       "policyVersion": 9,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en"
+    },
+    "dli1WoNU0pc": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "jPYsiG2Y-Wk": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "mC1JF5HBk4Q": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "nsQg04PVIH0": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "tN56GhXwtKg": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "tsqCnpMIspg": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "uCDEdqo1G2c": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "vP33_FDWdBY": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "vWmMf3raIUc": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "vzXdcU_IM8E": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "wAGq1ribRaA": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "wX1CNyKr2aw": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "wnPH3jFnYNA": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "xfiWZcz0ZVw": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "y6KNmQAPrnQ": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "yhzAytdeXgQ": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -5196,7 +5336,15 @@
     "movie:john wick 4": "2026-09-14",
     "movie:the black phone": "2026-09-14",
     "movie:now you see me": "2026-09-14",
-    "movie:28 days later": "2026-09-14"
+    "movie:28 days later": "2026-09-14",
+    "series:the summer i turned pretty": "2026-09-14",
+    "series:firefly lane": "2026-09-14",
+    "series:special": "2026-09-14",
+    "series:the lord of the rings the rings of power": "2026-09-14",
+    "movie:avatar the way of water": "2026-09-14",
+    "movie:m3gan": "2026-09-14",
+    "movie:scream 6": "2026-09-14",
+    "movie:harry potter and the sorcerer s stone": "2026-09-14"
   },
   "series": [
     {
@@ -6204,40 +6352,38 @@
       "aliases": [
         "Ragnarok"
       ]
+    },
+    {
+      "imdbID": "tt14016500",
+      "tmdbID": 194766,
+      "aliases": [
+        "The Summer I Turned Pretty"
+      ]
+    },
+    {
+      "imdbID": "tt9012876",
+      "tmdbID": 87049,
+      "aliases": [
+        "Firefly Lane"
+      ]
+    },
+    {
+      "imdbID": "tt9381622",
+      "tmdbID": 87194,
+      "aliases": [
+        "Special"
+      ]
+    },
+    {
+      "imdbID": "tt7631058",
+      "tmdbID": 84773,
+      "aliases": [
+        "The Lord of The Rings: The Rings of Power"
+      ]
     }
   ],
   "pending": {
-    "mC1JF5HBk4Q": "UCWOA1ZGywLbqmigxE4Qlvuw",
-    "nsQg04PVIH0": "UCwOhOMxCC4Bi54W255Sczmg",
-    "tN56GhXwtKg": "UCwOhOMxCC4Bi54W255Sczmg",
-    "tN8a6KfGFlk": "UC1Myj674wRVXB9I4c6Hm5zA",
-    "tiaoTgv2A-w": "UCwOhOMxCC4Bi54W255Sczmg",
-    "tsqCnpMIspg": "UCwOhOMxCC4Bi54W255Sczmg",
-    "uCDEdqo1G2c": "UCwOhOMxCC4Bi54W255Sczmg",
-    "uq0tHzMMme8": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "vP33_FDWdBY": "UCwOhOMxCC4Bi54W255Sczmg",
-    "vWmMf3raIUc": "UCWOA1ZGywLbqmigxE4Qlvuw",
-    "vaBeL5GLPlI": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "vq5MRtj70N0": "UCwOhOMxCC4Bi54W255Sczmg",
-    "vyu-tThNr7Q": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "vzXdcU_IM8E": "UCQJWtTnAHhEG5w4uN0udnUQ",
-    "w5UYofm5a-M": "UCwOhOMxCC4Bi54W255Sczmg",
-    "w6fiHHmKb2w": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "wAGq1ribRaA": "UCwOhOMxCC4Bi54W255Sczmg",
-    "wNRxA_ke_ME": "UCwOhOMxCC4Bi54W255Sczmg",
-    "wX1CNyKr2aw": "UCwOhOMxCC4Bi54W255Sczmg",
-    "wnPH3jFnYNA": "UCwOhOMxCC4Bi54W255Sczmg",
-    "xSxdB1m9MJM": "UCNCTxLZ3EKKry-oWgLlsYsw",
-    "xTQoeV_XHqs": "UCnFL_hmp-nc-l2QlLzxZdhg",
-    "xfiWZcz0ZVw": "UCwOhOMxCC4Bi54W255Sczmg",
-    "xkbsS8WMBOM": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "xspl5wzl9VA": "UCgMJGv4cQl8-q71AyFeFmtg",
     "y0gF5euuO2U": "UCwOhOMxCC4Bi54W255Sczmg",
-    "y20M9pCZO18": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "y2LABQGr_zk": "UCgMJGv4cQl8-q71AyFeFmtg",
-    "y6KNmQAPrnQ": "UCwOhOMxCC4Bi54W255Sczmg",
-    "yhzAytdeXgQ": "UCwOhOMxCC4Bi54W255Sczmg",
-    "yyfkSxLycwk": "UCNCTxLZ3EKKry-oWgLlsYsw",
     "z8UaIzJbFLc": "UCnFL_hmp-nc-l2QlLzxZdhg",
     "zRubfZ1Jb9Q": "UCwOhOMxCC4Bi54W255Sczmg",
     "znLtIuNO4d0": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -11129,17 +11275,6 @@
       "descriptionLead": "Want to be prepared for The Mandalorian Season 3? Or forget all of the major plot events in The Book of Boba Fett? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out more Movies in Minutes:\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nMarvel Phase Four Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming so",
       "flagExcerpt": ""
     },
-    "nsQg04PVIH0": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "X-Men 3: The Last Stand in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "731da278a7822d6019eabf4dd5170ed5588011b1447fedfa8b3b8f9ab04faf3c",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major plot events in the original X-Men: The Last Stand (2006)? Just watch this recap and you will be caught up and ready in no time!\n\nThe discovery of a cure for mutations leads to a turning point for Mutants. They may now choose to give up their powers and become fully human or retain their uniqueness and remain isolated. War looms between the followers of Charles Xavier, who preaches tolerance, and those of Magneto, who advocates survival of the fittest.\n\nCheck out more Movi",
-      "flagExcerpt": ""
-    },
     "peOOnpFinn4": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "Superman in Minutes | Recap",
@@ -11250,17 +11385,6 @@
       "descriptionLead": "It's the complete recap of all Toy Story movies before the latest, Toy Story 5! Catch up with Cowboy Woody, Buzz Lightyear, and friends, and refresh your memory of the iconic original, and the sequels you may have mostly forgotten the details of.\n\n00:00 Toy Story 1\n02:21 Toy Story 2\n04:10 Toy Story 3\n06:52 Toy Story 4\n\nSupport the channel:\n[link]",
       "flagExcerpt": ""
     },
-    "tN56GhXwtKg": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Mission: Impossible 6 – Fallout in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "505ca51a1b514168a104b63fab558bd9e0bdf20b9fb1f845884acc1f48821595",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Mission: Impossible – The Final Reckoning (2025)? Or forget all of the major plot events in Mission: Impossible – Fallout (2018)? Just watch this recap and you will be caught up and ready in no time!\n\nEvery Mission: Impossible Recap: [link]\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC ",
-      "flagExcerpt": ""
-    },
     "tiaoTgv2A-w": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "John Wick: Chapter 3 in Minutes | Recap",
@@ -11270,39 +11394,6 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
       "descriptionLead": "Want to be prepared for JOHN WICK: CHAPTER 4 (2023)? Or forget all of the major plot events in the original John Wick: Chapter 3 – Parabellum (2019)? Just watch this recap and you will be caught up and ready in no time!\n\nCheck out more Movies in Minutes:\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nMarvel Phase Four Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Ma",
-      "flagExcerpt": ""
-    },
-    "tsqCnpMIspg": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Scream 3 in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "4cb0472550d94f1a85d4ecaac61f5867db57cca2fe93ab2517e15ae8e0e5e82c",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for SCREAM 6 (2023)? Or forget all of the major plot events in the original SCREAM 3 (2000)? Just watch this recap and you will be caught up and ready in no time!\n\nEvery Scream Movie Playlist: [link]\n\nCheck out more Movies in Minutes:\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nMarvel Phase Four Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Ma",
-      "flagExcerpt": ""
-    },
-    "uCDEdqo1G2c": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Spectre in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "211621ce2aced7bfadb65b2f9cfe506c4a98cba49e5c275c22f81dbcfa6e63fe",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for NO TIME TO DIE (2021)? Or forget all of the major plot events in SPECTRE (2015)? Just watch this recap and you will be caught up and ready in no time!\n\nAll Daniel Craig James Bond Recaps: [link]\n\nA cryptic message from Bond’s past sends him on a trail to uncover a sinister organization. While M battles political forces to keep the secret service alive, Bond peels back the layers of deceit to reveal the terrible truth behind SPECTRE.\n\nCheck out more Movies in Minutes:\n\nSta",
-      "flagExcerpt": ""
-    },
-    "vP33_FDWdBY": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Casino Royale in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "d9819c2f52fdc5892d27be07f32395c765e5855f645a92be99b6b7e8bda93b93",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for NO TIME TO DIE (2021)? Or forget all of the major plot events in CASINO ROYALE (2006)? Just watch this recap and you will be caught up and ready in no time!\n\nAll Daniel Craig James Bond Recaps: [link]\n\nAfter receiving a license to kill, British Secret Service agent James Bond heads to Madagascar, where he uncovers a link to Le Chiffre, a man who finances terrorist organizations. Learning that Le Chiffre plans to raise money in a high-stakes poker game, MI6 sends Bond to p",
       "flagExcerpt": ""
     },
     "vZnnItbK9Ys": {
@@ -11349,17 +11440,6 @@
       "descriptionLead": "Want to be prepared for Season 2 of The Last of Us (2025)? Or forget all of the major plot events in the Season 1 of The Last of Us (2023)? Just watch this recap and you will be caught up and ready in no time!\n\nJoel and Ellie, a pair connected through the harshness of the world they live in, are forced to endure brutal circumstances and ruthless killers on a trek across a post-outbreak America.\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel P",
       "flagExcerpt": ""
     },
-    "wAGq1ribRaA": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Avatar: The Way of Water in Minutes | Movie Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "9f005aee45b8e73f3693b4000b7c801137dbfbf3189484495da09218adabbc7c",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for Avatar: Fire and Ash (2025)? Or forget all of the major plot events in Avatar: The Way of Water (2022)? Just watch this recap and you will be caught up and ready in no time!\n\nAvatar (2009) Recap: [link]\n\nJake Sully and Ney'tiri have formed a family and are doing everything to stay together. However, they must leave their home and explore the regions of Pandora. When an ancient threat resurfaces, Jake must fight a difficult war against the humans.\n\nMarvel Phase 5 Recaps: [",
-      "flagExcerpt": ""
-    },
     "wNRxA_ke_ME": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "The Penguin in Minutes | Recap",
@@ -11371,17 +11451,6 @@
       "descriptionLead": "Want to be prepared for The Batman Part II (2027)? Or forget all of the major plot events in the HBO show The Penguin (2024)? Just watch this recap and you will be caught up and ready in no time!\n\nFollowing the events of The Batman (2022), Oz Cobb, a.k.a. the Penguin, makes a play to seize the reins of the crime world in Gotham.\n\nThe Batman Recap: [link]\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Rec",
       "flagExcerpt": ""
     },
-    "wnPH3jFnYNA": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "M3GAN in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "05db83421a00c8166ad5ae5ed78e9d4a4aa404bbeb62a928ccfd0b575e428eab",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for M3GAN 2.0 (2025)? Or forget all of the major plot events in the original M3GAN (2022)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel mov",
-      "flagExcerpt": ""
-    },
     "y0gF5euuO2U": {
       "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
       "title": "28 Weeks Later in Minutes | Recap",
@@ -11391,17 +11460,6 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
       "descriptionLead": "Want to be prepared for 28 Years Later (2025)? Or forget all of the major plot events in 28 Weeks Later (2007)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel mo",
-      "flagExcerpt": ""
-    },
-    "y6KNmQAPrnQ": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Scream 6 in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "6eb873f60affbeabcb032a9ff2c1198401596fad1531bc46dbf7cd2a9054753c",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Want to be prepared for SCREAM 7 (2026)? Or forget all of the major plot events in SCREAM 6 (2023)? Just watch this recap and you will be caught up and ready in no time!\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n\nSumma",
       "flagExcerpt": ""
     },
     "yP8JV3-IAgk": {
@@ -11424,17 +11482,6 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
       "descriptionLead": "Want to be prepared for Karate Kid: Legends (2025)? Or forget all of the major plot events in the original Karate Kid (1984)? Just watch this recap and you will be caught up and ready in no time!\n\nEvery Karate Kid Recap: [link]\n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click s",
-      "flagExcerpt": ""
-    },
-    "yhzAytdeXgQ": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Harry Potter and the Philosopher's Stone in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "b882682eb89678e38a8fc9a28d4bc7d6b38e265151ce6dc81b04d2abe384eb7b",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in Harry Potter and the Philosopher's Stone (2001)? Well just sit back, relax, and enjoy the video, and you will be caught up in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!\n",
       "flagExcerpt": ""
     },
     "zo_MUl05pUQ": {
@@ -11776,28 +11823,6 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
       "descriptionLead": "Knives Out Recap! Expand your scientific horizon with Brilliant! Use our link [link] to get 20% off the annual premium subscription.\n\nExplore our merch store for movie & TV fan gear! From T-shirts to unique accessories, find your favorites. For 15% off your first order subscribe here! [link] \n\nBefore you see Wake Up Dead Man in theaters, catch up with suave detective Benoit Blanc’s previous adventures in Knives Out and Glass Onion!\n\nConnect with ScreenCrush\n[link]\n[link]\n[link]\n[link]\n[link]\n[li",
-      "flagExcerpt": ""
-    },
-    "wX1CNyKr2aw": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Star Wars: The Phantom Menace in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "63b7897ea520ff538ab69b18a5ac085f9028e865c98ffbf198dca9a36361c887",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events in Star Wars: Episode I – The Phantom Menace (1999)? Well just sit back, relax, and enjoy the video, and you will be caught up in no time!\n\nCheck out my other recaps...\n\nStar Wars Recap Playlist:\n[link]\n\nMarvel Phase One Recap Playlist: [link]\n\nMarvel Phase Two Recap Playlist: [link]\n\nMarvel Phase Three Recap Playlist: [link]\n\nDC Universe Recap Playlist: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscribe to get caught up on ALL the Marvel movies!",
-      "flagExcerpt": ""
-    },
-    "xfiWZcz0ZVw": {
-      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
-      "title": "Man of Steel in Minutes | Recap",
-      "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "5e9180bfcd48dd57a8d8969225b09d4a275e8bd0dce6a88b8aa436a8ad8af217",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Forget all of the major events of Man of Steel (2013)? Well just sit back, relax, and enjoy the video, and you'll be caught back up in no time!\n\nCheck out my other recaps...\n\n- Marvel Phase One Recap Playlist: [link]\n- Marvel Phase Two Recap Playlist: [link]\n- DC Universe Recap Playlist: [link]\n\nMore DC, Marvel and other recaps coming soon! Click subscribe to get caught up on ALL the DC Universe movies!\n\nSummary provided by Wikipedia.",
       "flagExcerpt": ""
     },
     "xkbsS8WMBOM": {
@@ -13802,17 +13827,6 @@
       "descriptionLead": "Follow the callings. Catch up on what's happened so far in Manifest before the new season drops on Netflix on November 4th.\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with 223 million paid memberships in over 190 countries enjoying TV series, documentaries, feature films and mobile games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anytime, anywhere, and can change their pla",
       "flagExcerpt": "Manifest | Official Series Recap | Netflix"
     },
-    "mC1JF5HBk4Q": {
-      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
-      "title": "Firefly Lane | Season 1 Recap | Netflix",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "252ffa5831b9a74e3c31755e22e1399eea47830648de9cb4cca9dd8f7009abb1",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Best friends Tully and Kate support each other through good times and bad with an unbreakable bond that carries them from their teens into their adult life.\r\n\r\nSUBSCRIBE: [link]\r\n\r\nAbout Netflix:\r\nNetflix is the world's leading streaming entertainment service with 223 million paid memberships in over 190 countries enjoying TV series, documentaries, feature films and mobile games across a wide variety of genres and languages. Members can play, pause and resume watching as much as they want, anyti",
-      "flagExcerpt": ""
-    },
     "qxeZN0rZP34": {
       "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
       "title": "Warrior Nun | Season 1 Official Recap | Netflix",
@@ -13833,17 +13847,6 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
       "descriptionLead": "@PayOrWait aka Sharronda Williams is back and better than ever! In this installment of PV Recaps, she walks us through the harrowing story of FROM seasons 1 and 2 to prepare us all for what's to come in season 3. Starring Hannah Cheramy, Harold Perrineau, Avery Konrad, and more, \n FROM season 3 is available now on Prime Video through MGM+.\n \n» Watch FROM on Prime Video: [link]\n» SUBSCRIBE: [link]\n \nAbout FROM: The weather grows colder, food is scarce, and every day is more difficult than the las",
-      "flagExcerpt": ""
-    },
-    "vzXdcU_IM8E": {
-      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
-      "title": "The Lord of The Rings: The Rings of Power | Season 1 Recap | Prime Video",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "fb580ab3494216570ed10d1e7815a209d354d114bf5819cbcf0e48a237638933",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en",
-      "descriptionLead": "Catch up on Season 1 to prepare for the second season debut of The Lord of The Rings: The Rings of Power, out this Thursday August 29. \n\n» Watch The Lord of the Rings: The Rings of Power on Prime Video: [link]\n» SUBSCRIBE: [link]\n \nAbout The Rings of Power Season 2: Sauron has returned. Cast out by Galadriel, without army or ally, the rising Dark Lord must now rely on his own cunning to rebuild his strength and oversee the creation of the Rings of Power, which will allow him to bind all the peop",
       "flagExcerpt": ""
     },
     "2SUWAV-ttOo": {
@@ -14044,17 +14047,6 @@
       "descriptionLead": "It's almost time, virgins! Never Have I Ever returns July 15th. Get ready with a very detailed recap of Season 1. \n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with 208 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members can play, pause and resume watc",
       "flagExcerpt": ""
     },
-    "vWmMf3raIUc": {
-      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
-      "title": "Special | Season 1 Recap | Netflix",
-      "reason": "series_identity_unresolved",
-      "checkedAt": "2026-09-14",
-      "fingerprint": "8614add13a26b509204b69e7e767ed41223ca6f8ac843317f7670985aec8a940",
-      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
-      "audioLanguage": "en-US",
-      "descriptionLead": "Special returns to Netflix for its second and final season on May 20th, 2021. Revisit Ryan’s journey from the beginning with this look back at the first season. \n\nWhy be normal when you can be Special? \n\nWatch Special Season 2, only on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with 208 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and langua",
-      "flagExcerpt": ""
-    },
     "uPAozGJmP8A": {
       "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
       "title": "Get Ready for Cobra Kai Season 3! Official Cast Recap of Season 1 & 2 | Netflix",
@@ -14064,6 +14056,39 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
       "descriptionLead": "New year. New season. Still badass. Season 3 of Cobra Kai premieres this January only on Netflix. And remember, Cobra Kai Never Dies.\n\nSeason 1 Recap: 0:00\nSeason 2 Recap: 9:05\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with over 195 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any",
+      "flagExcerpt": ""
+    },
+    "AvbDm29H6Gc": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Get Ready for The Kissing Booth 2 | Official Cast Recap | Netflix",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "0bb2afae8322ab847fd45dbecf45fee1889f970eb9034e612cd7b87336021361",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Joey King and Joel Courtney from The Kissing Booth movies give a recap of everything that happened in the first Kissing Booth movie so you can be ready to watch The Kissing Booth sequel! The Kissing Booth 2 premieres on July 24. \n\nWatch The Kissing Booth, Only on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with 183 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide ",
+      "flagExcerpt": ""
+    },
+    "ENNGpL9I8lg": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Jack and Cathy’s Relationship Recap | Jack Ryan | Prime Video",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "e4aa93a4b1a2a387b5d808e76bf42df6102e7bcca224edd1847243466b4dd14b",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "John Krasinski is the unbeatable Jack Ryan. Seasons 1-4 of Jack Ryan are now streaming on Prime Video.\n\n» Watch Jack Ryan on Prime Video: [link]\n» SUBSCRIBE: [link]\n\nAbout Jack Ryan: When CIA analyst Jack Ryan stumbles upon a suspicious series of bank transfers his search for answers pulls him from the safety of his desk job and catapults him into a deadly game of cat and mouse throughout Europe and the Middle East, with a rising terrorist figurehead preparing for a massive attack against the US",
+      "flagExcerpt": ""
+    },
+    "lxA3_0T51hM": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "The Umbrella Academy Recap | As Told By The Hargreeves | Netflix",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "9e3851366152d6d53bde940daefda839454a625297b66097a42f136fe74523f0",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Once upon a time there were a bunch of superpowered babies born on the same day. We'll let them tell you the rest of the story. \n\nGet caught up on The Umbrella Academy before Season 2 drops on July 31.\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading streaming entertainment service with 193 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anyti",
       "flagExcerpt": ""
     }
   },
@@ -16440,6 +16465,106 @@
         "Star Wars: Episode III - Revenge of the Sith"
       ],
       "releaseYear": 2005
+    },
+    {
+      "imdbID": "tt0376994",
+      "tmdbID": 36668,
+      "aliases": [
+        "X-Men 3: The Last Stand",
+        "X-Men: The Last Stand (2006)",
+        "X-Men: The Last Stand"
+      ],
+      "releaseYear": 2006
+    },
+    {
+      "imdbID": "tt4912910",
+      "tmdbID": 353081,
+      "aliases": [
+        "Mission: Impossible 6 – Fallout",
+        "Mission: Impossible – Fallout (2018)",
+        "Mission: Impossible - Fallout"
+      ],
+      "releaseYear": 2018
+    },
+    {
+      "imdbID": "tt0134084",
+      "tmdbID": 4234,
+      "aliases": [
+        "Scream 3",
+        "Scream 3 (2000)"
+      ],
+      "releaseYear": 2000
+    },
+    {
+      "imdbID": "tt2379713",
+      "tmdbID": 206647,
+      "aliases": [
+        "Spectre",
+        "Spectre (2015)"
+      ],
+      "releaseYear": 2015
+    },
+    {
+      "imdbID": "tt0381061",
+      "tmdbID": 36557,
+      "aliases": [
+        "Casino Royale",
+        "Casino Royale (2006)"
+      ],
+      "releaseYear": 2006
+    },
+    {
+      "imdbID": "tt1630029",
+      "tmdbID": 76600,
+      "aliases": [
+        "Avatar: The Way of Water"
+      ],
+      "releaseYear": 2022
+    },
+    {
+      "imdbID": "tt0120915",
+      "tmdbID": 1893,
+      "aliases": [
+        "Star Wars: The Phantom Menace",
+        "Star Wars: Episode I – The Phantom Menace (1999)",
+        "Star Wars: Episode I - The Phantom Menace"
+      ],
+      "releaseYear": 1999
+    },
+    {
+      "imdbID": "tt8760708",
+      "tmdbID": 536554,
+      "aliases": [
+        "M3GAN"
+      ],
+      "releaseYear": 2022
+    },
+    {
+      "imdbID": "tt0770828",
+      "tmdbID": 49521,
+      "aliases": [
+        "Man of Steel",
+        "Man of Steel (2013)"
+      ],
+      "releaseYear": 2013
+    },
+    {
+      "imdbID": "tt17663992",
+      "tmdbID": 934433,
+      "aliases": [
+        "Scream 6",
+        "Scream VI"
+      ],
+      "releaseYear": 2023
+    },
+    {
+      "imdbID": "tt0241527",
+      "tmdbID": 671,
+      "aliases": [
+        "Harry Potter and the Philosopher's Stone",
+        "Harry Potter and the Sorcerer's Stone"
+      ],
+      "releaseYear": 2001
     }
   ]
 }
