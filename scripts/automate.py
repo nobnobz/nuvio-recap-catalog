@@ -631,13 +631,19 @@ def run(catalog, state, series, decisions, api, today, resolver=None, movies=Non
     for channel in catalog['channels']:
         channel_id = channel['id']
         checkpoint = state['channels'].setdefault(channel_id, {})
-        info = api.get('channels', part='contentDetails', id=channel_id)['items']
+        try:
+            info = api.get('channels', part='contentDetails', id=channel_id)['items']
+        except RuntimeError as error:
+            raise RuntimeError(f'Approved channel {channel["name"]} ({channel_id}) lookup failed: {error}') from None
         if len(info) != 1 or info[0]['id'] != channel_id:
             raise RuntimeError('Approved channel unavailable; no changes saved')
         playlist = info[0]['contentDetails']['relatedPlaylists']['uploads']
         # Always inspect the newest page. Historical pages advance separately
         # so a large archive cannot starve recent releases or other creators.
-        head = api.get('playlistItems', part='snippet,contentDetails', playlistId=playlist, maxResults=50)
+        try:
+            head = api.get('playlistItems', part='snippet,contentDetails', playlistId=playlist, maxResults=50)
+        except RuntimeError as error:
+            raise RuntimeError(f'Approved channel {channel["name"]} ({channel_id}) uploads failed: {error}') from None
         pages = [head]
         token = checkpoint.get('nextPageToken')
         discovery_changed = checkpoint.get('discoveryVersion', DISCOVERY_VERSION) != DISCOVERY_VERSION
