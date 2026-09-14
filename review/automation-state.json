@@ -22,11 +22,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNQZzhJaEEzT0VNd05qVXhRMEpFTVRRMlFVRkY"
+      "nextPageToken": "EAAaH1BUOkNQSS1JaEF6TXpRelF6UTRNREkxTlVJMVJUUXg"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNQZzhJaEEzTVVaRVJqWTJRVE00TVVWRE5rRTE"
+      "nextPageToken": "EAAaH1BUOkNQSS1JaEEyTmpJNVJVSTVNekkzUmpaRU1ETTE"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -5035,6 +5035,16 @@
       "policyVersion": 9,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en"
+    },
+    "FAVaRPQ_NKg": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "NpB-h3hl6_I": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -5677,7 +5687,9 @@
     "series:lucifer recap get ready for": "2026-09-14",
     "series:the wilds": "2026-09-14",
     "series:john krasinski cast recap of jack ryan": "2026-09-14",
-    "series:undone": "2026-09-14"
+    "series:undone": "2026-09-14",
+    "series:the expanse": "2026-09-14",
+    "series:upload": "2026-09-14"
   },
   "series": [
     {
@@ -6754,6 +6766,20 @@
       "tmdbID": 86340,
       "aliases": [
         "Undone"
+      ]
+    },
+    {
+      "imdbID": "tt3230854",
+      "tmdbID": 63639,
+      "aliases": [
+        "The Expanse"
+      ]
+    },
+    {
+      "imdbID": "tt7826376",
+      "tmdbID": 86248,
+      "aliases": [
+        "Upload"
       ]
     }
   ],
@@ -14745,6 +14771,17 @@
       "audioLanguage": "en",
       "descriptionLead": "On the first episode of What Had Happened Was, the cast and creator of Dear White People discuss the aftermath of PTSD and how Reggie becomes a symbol for black men dealing with police violence everywhere. \n\nWatch Dear White People on Netflix: [link]\n\nFollow What Had Happened Was on Facebook: \n[link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with 130 million memberships in over 190 countries enjoying TV series, documentaries and feature film",
       "flagExcerpt": "What Had Happened Was | Episode 1: The Reggie Recap | Netflix"
+    },
+    "XniwgrugEuE": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Evangelion Recap | Anime Club | Prime Video",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "b6f2c29a34943b61299fd69cc4f35d85856f917549f7520dffd0daf9e8a9a79c",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Your plug for all things Anime on Prime Video, Cheyenne, is back for a recap filled episode to prepare you for latest Evangelion movie. Icon. If you like this video be sure to watch the rest of Anime Club here on YouTube and stream the Evangelion movies now, on Prime Video.\n\n» SUBSCRIBE: [link]\n\nEVANGELION:1.11 YOU ARE (NOT) ALONE [link]\nEVANGELION:2.22 YOU CAN (NOT) ADVANCE [link]\nEVANGELION:3.33 YOU CAN (NOT) REDO [link]\nEVANGELION:3.0+1.01 THRICE UPON A TIME [link]\n\nAbout Prime Video:\nWant to",
+      "flagExcerpt": ""
     }
   },
   "movies": [

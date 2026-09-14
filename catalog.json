@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 60,
+  "revision": 61,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7672,6 +7672,34 @@
       "language": "en",
       "durationSeconds": 96,
       "title": "Undone – Season 1 Recap | Prime Video",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "FAVaRPQ_NKg",
+      "imdbID": "tt3230854",
+      "tmdbID": 63639,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 5,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 238,
+      "title": "The Expanse Recap | Seasons 1 - 5 | Prime Video",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "NpB-h3hl6_I",
+      "imdbID": "tt7826376",
+      "tmdbID": 86248,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 116,
+      "title": "Upload Season 1 Recap | Prime Video",
       "reviewedAt": "2026-09-14",
       "enabled": true
     }
