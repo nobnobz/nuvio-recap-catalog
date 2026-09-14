@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 59,
+  "revision": 60,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7644,6 +7644,34 @@
       "language": "en",
       "durationSeconds": 372,
       "title": "The Wilds Season 2 Recap | Prime Video",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "329YEM9P3nk",
+      "imdbID": "tt8633062",
+      "tmdbID": 113367,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 156,
+      "title": "The Wilds - Season 1 Recap | Prime Video",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "oqjbNmUQkV4",
+      "imdbID": "tt8101850",
+      "tmdbID": 86340,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 96,
+      "title": "Undone – Season 1 Recap | Prime Video",
       "reviewedAt": "2026-09-14",
       "enabled": true
     }
