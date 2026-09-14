@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 29,
+  "revision": 30,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -39,7 +39,7 @@
       "durationSeconds": 412,
       "title": "Ted Lasso RECAP: Season 1",
       "reviewedAt": "2026-09-06",
-      "enabled": true
+      "enabled": false
     },
     {
       "videoID": "vX0JAT709Ds",
