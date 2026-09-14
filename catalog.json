@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 63,
+  "revision": 64,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7810,6 +7810,48 @@
       "language": "en",
       "durationSeconds": 63,
       "title": "Gilmore Girls | Season 1 Recap | Netflix",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "61souSkwDk4",
+      "imdbID": "tt1740299",
+      "tmdbID": 62017,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 2,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 1815,
+      "title": "The Man in the High Castle Seasons 1-2 Recap | Prime Video",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "adG3j9n5fl8",
+      "imdbID": "tt5788792",
+      "tmdbID": 70796,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 181,
+      "title": "The Marvelous Mrs. Maisel Season 1 Recap | Prime Video",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "zFQBzrseVRM",
+      "imdbID": "tt1740299",
+      "tmdbID": 62017,
+      "mediaType": "series",
+      "firstSeason": 3,
+      "lastSeason": 3,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 214,
+      "title": "The Man in the High Castle Season 3 Recap | Prime Video",
       "reviewedAt": "2026-09-14",
       "enabled": true
     }

@@ -22,11 +22,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNPQkVJaEJGTXpNMk5EbERNa1ZFTURFM1FqTkM"
+      "nextPageToken": "EAAaH1BUOkNOcEdJaEExUkRKRk5ETTFSRE13TlRReU5UUkc"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNPQkVJaEJCTjBVd016aERSVGt5TTBReU9FSTU"
+      "nextPageToken": "EAAaH1BUOkNOcEdJaEJHT0RRM1F6YzVSVGd3TmtRNFJqRkc"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -2209,6 +2209,10 @@
       "checkedAt": "2026-09-14"
     },
     "o3ehGLPe0-E": {
+      "misses": 0,
+      "checkedAt": "2026-09-14"
+    },
+    "FAVaRPQ_NKg": {
       "misses": 0,
       "checkedAt": "2026-09-14"
     }
@@ -5133,6 +5137,21 @@
       "policyVersion": 9,
       "checkedAt": "2026-09-14",
       "audioLanguage": "en-US"
+    },
+    "61souSkwDk4": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
+    },
+    "adG3j9n5fl8": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en-US"
+    },
+    "zFQBzrseVRM": {
+      "policyVersion": 9,
+      "checkedAt": "2026-09-14",
+      "audioLanguage": "en"
     }
   },
   "identityChecks": {
@@ -5780,7 +5799,10 @@
     "series:upload": "2026-09-14",
     "movie:coming to america": "2026-09-14",
     "series:last chance u": "2026-09-14",
-    "series:gilmore girls": "2026-09-14"
+    "series:gilmore girls": "2026-09-14",
+    "movie:carnival row sdcc": "2026-09-14",
+    "movie:jack ryan s1 e1": "2026-09-14",
+    "movie:the man in the high castle sdcc": "2026-09-14"
   },
   "series": [
     {
@@ -6881,7 +6903,9 @@
       ]
     }
   ],
-  "pending": {},
+  "pending": {
+    "_XUXJo1q3Ew": "UCQJWtTnAHhEG5w4uN0udnUQ"
+  },
   "checkedAt": "2026-09-14",
   "rejected": {
     "-07drzOov-M": {
@@ -14924,6 +14948,138 @@
       "audioLanguage": "",
       "descriptionLead": "The Boys unpack all of the gory madness from season 1 and give some juicy secrets from season 2. The Boys is streaming now on Prime Video.\n\n» Watch The Boys now exclusively with your Prime membership: [link]\n» SUBSCRIBE: [link]\n\nAbout The Boys:\nThe Boys is an irreverent take on what happens when superheroes, who are as popular as celebrities, as influential as politicians and as revered as Gods, abuse their superpowers rather than use them for good. It's the powerless against the super powerful ",
       "flagExcerpt": ""
+    },
+    "-aeU03wvGU4": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Carnival Row SDCC 2019 Recap | Prime Video",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "e4f73c391ef5a1b4ddead2ddf3b6c0ae14f329ac719c0ad19aaa4fd2170ccdb3",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "The Carnival Row cast and crew share show secrets at SDCC 2019.\n\n» Watch Carnival Row now exclusively with your Prime membership: [link]\n» SUBSCRIBE: [link]\n\nAbout Carnival Row: \nOrlando Bloom and Cara Delevingne star in Carnival Row, a Victorian fantasy world filled with mythological immigrant creatures. Feared by humans, they are forbidden to live, love, or fly with freedom. But even in darkness, hope lives, as a human detective and a faerie rekindle a dangerous affair. The city’s uneasy peace",
+      "flagExcerpt": ""
+    },
+    "B0zWIO0J0Kc": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Carnival Row Episode 1 Recap | Prime Video",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "f6569ea0d977303173366aa8a1a3b0a54f570aae121b60eed0fb3c805104402d",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Carnival Row is now streaming on Prime Video.\n \n» Watch Carnival Row now exclusively with your Prime membership: [link]\n» SUBSCRIBE: [link]\n\nAbout Long Story Short: \nDo you love Amazon Original series but you're kind of in a hurry? Don't worry, Long Story Short has got you covered.\n\nAbout Carnival Row: \nOrlando Bloom and Cara Delevingne star in Carnival Row, a Victorian fantasy world filled with mythological immigrant creatures. Feared by humans, they are forbidden to live, love, or fly with fre",
+      "flagExcerpt": "Carnival Row Episode 1 Recap | Prime Video"
+    },
+    "GW3OOc5MD98": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Fleabag Episode 1 Recap | Prime Video",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "f972326c9b684bd57c9a0b3fd6367746c6b2b7da2630abb1af4f8830654a8396",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Fleabag is now streaming on Prime Video.\n \n» Watch the new season of Fleabag now exclusively with your Prime membership. [link]\n» SUBSCRIBE: [link]\n\nAbout Long Story Short: \nNot sure which Amazon Original you want to binge next? Don't worry, Long Story Short has got you covered.\n\nAbout Fleabag:\nFleabag is a hilarious and poignant window into the mind of a dry-witted, sexual, angry, grief-riddled woman, as she hurls herself at modern living in London. Award-winning playwright Phoebe Waller-Bridge",
+      "flagExcerpt": "Fleabag Episode 1 Recap | Prime Video"
+    },
+    "LBohDIG1JNg": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Season 1 Recap | Modern Love | Prime Video",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "cfbbda20f28d3aeba89425aae7f8a8bae6811be60ef24769eacda4efcf01e90e",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Modern Love is now streaming on Prime Video.\n \n» Watch Modern Love now exclusively with your Prime Membership:[link]  \n» SUBSCRIBE: [link]\n \nAbout Modern Love:\nAn unlikely friendship. A lost love resurfaced. A marriage at its turning point. A date that might not have been a date. An unconventional new family. These are unique stories about the joys and tribulations of love, each inspired by a real-life personal essay from the beloved New York Times column “Modern Love.”\n \nAbout Prime Video:\nWant",
+      "flagExcerpt": ""
+    },
+    "WLjs41cqX9c": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Jack Ryan S1 E1 Recap | Prime Video",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "491f2a63c684b54786f8662aff85533e91ca293f92bb57c3582469484d3a6ab9",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Jack Ryan is now streaming on Prime Video.\n \n» Watch Tom Clancy's Jack Ryan Season 2 now exclusively with your Prime Membership: [link]\n» SUBSCRIBE: [link]\n\nAbout Long Story Short: \nDo you love Amazon Original series but you're kind of in a hurry? Don't worry, Long Story Short has got you covered.\n \nAbout Tom Clancy's Jack Ryan:\nWhen CIA analyst Tom Clancy's Jack Ryan stumbles upon a suspicious series of bank transfers his search for answers pulls him from the safety of his desk job and catapult",
+      "flagExcerpt": ""
+    },
+    "_XUXJo1q3Ew": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "The Expanse Series Cas Anvar Seasons 1&2 Recap | Prime Video",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "3f2060a09cd09505b2162a5dde5ed96e928df5771896ff756d1455612f66652d",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "As the Rocinante crew digs deeper into the search for Prax's missing daughter, in the Expanse, the war between Earth and Mars turns deadly in ways the solar system has never seen. But a new threat in the outer reaches of the Belt could prove much more dangerous, threatening to test the very future of humanity. Streaming now on Prime Video.\n\n» Watch the new season of The Expanse now exclusively with your Prime Membership: [link]\n» SUBSCRIBE: [link]\n\nAbout The Expanse:\nThe disappearance of rich-gi",
+      "flagExcerpt": ""
+    },
+    "cYPmZlSjXlE": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Jack Ryan Season 1 Recap | Prime Video",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "9652e462945d78e19547a51815eda4ce835fae450fcc3e47fe6cb4a99ed27368",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Strap in for this five-minute Tom Clancy’s Jack Ryan Season 1 recap. Jack Ryan, starring John Krasinski and Wendell Pierce is now streaming on Prime Video.\n \n» Watch Tom Clancy's Jack Ryan Season 2 now exclusively with your Prime Membership: [link]\n» SUBSCRIBE: [link]\n \nAbout Tom Clancy's Jack Ryan:\nWhen CIA analyst Tom Clancy's Jack Ryan stumbles upon a suspicious series of bank transfers his search for answers pulls him from the safety of his desk job and catapults him into a deadly game of ca",
+      "flagExcerpt": ""
+    },
+    "dcHQCEByshY": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Season 2 Recap with the Cast | The Marvelous Mrs. Maisel | Prime Video",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "6800fd78c1aafe3808528d3285b761e9eae01c57da5b06315449831e392b8c66",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Everything you need to know about Season 2 in 60 seconds flat. The Marvelous Mrs. Maisel is now streaming on Prime Video.\n\n» Watch the new season of The Marvelous Mrs.Maisel now exclusively with your Prime Membership: [link]\n» SUBSCRIBE: [link]\n\nAbout The Marvelous Mrs.Maisel:\nIn 1958 New York, Midge Maisel's life is on track- husband, kids, and elegant Yom Kippur dinners in their Upper West Side apartment. But when her life takes a surprise turn, she has to quickly decide what else she's good a",
+      "flagExcerpt": ""
+    },
+    "mFdi8NLXMys": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "Season 2 Recap | The Marvelous Mrs. Maisel | Prime Video",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "db9f6a189faee663ee6229d27cdce1a244517a817bb4a6731d00648a3a8bf102",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "What better opening act for The Marvelous Mrs. Maisel Season 3 than a Season 2 recap? Watch The Marvelous Mrs. Maisel now, only on Prime Video.\n\n» Watch the new season of The Marvelous Mrs.Maisel now exclusively with your Prime Membership: [link]\n» SUBSCRIBE: [link]\n\nAbout The Marvelous Mrs.Maisel:\nIn 1958 New York, Midge Maisel's life is on track- husband, kids, and elegant Yom Kippur dinners in their Upper West Side apartment. But when her life takes a surprise turn, she has to quickly decide ",
+      "flagExcerpt": ""
+    },
+    "ri46lMBEBuU": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "The Man in The High Castle SDCC 2019 Recap | Prime Video",
+      "reason": "movie_identity_unresolved",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "72f7ba98a5c0339269ea92e13a131cb9d6ff86bb30d7ea9c044192c7dae8fd3c",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "The Man in The High Castle is now streaming on Prime Video.\n\n» Watch the new season of The Man in the Castle now exclusively with your Prime Membership: [link]\n» SUBSCRIBE: [link]\n\nAbout The Man In The High Castle Season 4:\nThe final season of The Man in the High Castle will be rocked by war and revolution. The Resistance becomes a full-blown rebellion, driven by Juliana Crain's (Alexa Davalos) visions of a better world. A new Black insurgent movement emerges to fight the forces of Nazism and im",
+      "flagExcerpt": ""
+    },
+    "yOXhEL33-b4": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "Bloodline - Season 1| Recap [HD] | Netflix",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "73d68081370fd8dd7fef4f437825e01eed621255ebd8ed2762d93bae339b6d24",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Season 1 Now Streaming. \n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with 130 million memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members can play, pause and resume watching, all without commercials or commitments.\nConnect with Netflix Online:\nVisit Netflix WEBSITE",
+      "flagExcerpt": ""
+    },
+    "zQCvQzjkm0s": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "The Marvelous Mrs. Maisel Episode 1 Recap | Prime Video",
+      "reason": "coverage_title_not_explicit",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "0356927bd1de0d0720b0607dcae9df43c849ef362e72971885d7201ce1819d29",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "The Marvelous Mrs. Maisel is now streaming on Prime Video.\n\n» Watch The Marvelous Mrs.Maisel now exclusively with your Prime Membership: [link]\n» SUBSCRIBE: [link]\n\nAbout Long Story Short: \nDo you love Amazon Original series but you're kind of in a hurry? Don't worry, Long Story Short has got you covered.\n\nAbout The Marvelous Mrs.Maisel:\nIn 1958 New York, Midge Maisel's life is on track- husband, kids, and elegant Yom Kippur dinners in their Upper West Side apartment. But when her life takes a s",
+      "flagExcerpt": "The Marvelous Mrs. Maisel Episode 1 Recap | Prime Video"
     }
   },
   "movies": [

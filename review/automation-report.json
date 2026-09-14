@@ -1,28 +1,35 @@
 {
   "checkedAt": "2026-09-14",
   "policyVersion": 9,
-  "catalogRevision": 63,
-  "candidatesChecked": 8,
+  "catalogRevision": 64,
+  "candidatesChecked": 15,
   "added": [
-    "6Yl8eRcgzBM",
-    "760QR6Ktjeo",
-    "TY7HyL_Sd9s",
-    "XGYq7UU_wfE",
-    "cBq_XKWGCu0",
-    "hhVSkRW3h10",
-    "r4kiR2vsfAQ"
+    "61souSkwDk4",
+    "adG3j9n5fl8",
+    "zFQBzrseVRM"
   ],
   "withdrawn": [],
   "restored": [],
   "skipped": [
-    "-ga1vh4LnVI"
+    "-aeU03wvGU4",
+    "B0zWIO0J0Kc",
+    "GW3OOc5MD98",
+    "LBohDIG1JNg",
+    "WLjs41cqX9c",
+    "_XUXJo1q3Ew",
+    "cYPmZlSjXlE",
+    "dcHQCEByshY",
+    "mFdi8NLXMys",
+    "ri46lMBEBuU",
+    "yOXhEL33-b4",
+    "zQCvQzjkm0s"
   ],
   "healthChecked": 60,
   "apiCalls": 37,
-  "seriesResolutions": 1,
-  "movieResolutions": 0,
-  "identityResolutions": 1,
-  "identityErrors": 0,
+  "seriesResolutions": 2,
+  "movieResolutions": 3,
+  "identityResolutions": 5,
+  "identityErrors": 1,
   "channelErrors": [
     {
       "channelID": "UCVuQhvLFoV1HaJXhkNzhEaw",
@@ -30,20 +37,20 @@
       "reason": "uploads_playlist_not_found"
     }
   ],
-  "pendingIdentities": 0,
+  "pendingIdentities": 1,
   "unchangedRechecks": 0,
   "rejectionsByReason": {
     "mixed_format_or_description_flag": 188,
     "live_region_or_age_restriction": 17,
-    "coverage_title_not_explicit": 143,
+    "coverage_title_not_explicit": 149,
     "audio_language_missing": 59,
-    "series_identity_unresolved": 105,
-    "coverage_context_or_suffix_conflict": 93,
+    "series_identity_unresolved": 107,
+    "coverage_context_or_suffix_conflict": 94,
     "duration_outside_limits": 12,
-    "movie_identity_unresolved": 106,
+    "movie_identity_unresolved": 109,
     "season_numbering_unverified": 1,
     "movie_context_or_suffix_conflict": 7
   },
-  "rejectionsTracked": 731,
+  "rejectionsTracked": 743,
   "archivesComplete": false
 }
