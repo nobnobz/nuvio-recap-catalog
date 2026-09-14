@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 34,
+  "revision": 35,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -3592,6 +3592,96 @@
       "language": "en",
       "durationSeconds": 192,
       "title": "Bridgerton | Season 3 Recap | Netflix",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "QOG7RqRrAog",
+      "imdbID": "tt14513804",
+      "tmdbID": 822119,
+      "mediaType": "movie",
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "language": "en",
+      "durationSeconds": 1724,
+      "title": "Captain America: Brave New World RECAP - Everything You need to Know Before Cap 4!",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "Ww0e-_IYeo8",
+      "imdbID": "tt11280740",
+      "tmdbID": 95396,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "language": "en",
+      "durationSeconds": 711,
+      "title": "Severance Season 1 RECAP!",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "ZHv9XkrEpzs",
+      "imdbID": "tt11126994",
+      "tmdbID": 94605,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "language": "en",
+      "durationSeconds": 679,
+      "title": "ARCANE Season 1 Recap! - Everything You need to Know Before Season 2",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "ddt2wQ7pW1E",
+      "imdbID": "tt14513804",
+      "tmdbID": 822119,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 259,
+      "title": "Captain America: Brave New World in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "fE3WTehNryw",
+      "imdbID": "tt0800080",
+      "tmdbID": 1724,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 235,
+      "title": "The Incredible Hulk in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "ohkj_yhiFqA",
+      "imdbID": "tt1392190",
+      "tmdbID": 76341,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 258,
+      "title": "Mad Max: Fury Road in Minutes | Recap",
+      "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "pAsouBXd2m4",
+      "imdbID": "tt10919420",
+      "tmdbID": 93405,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "language": "en",
+      "durationSeconds": 633,
+      "title": "Squid Game Season 1 Recap! - Everything You Need to Know Before Season 2!",
       "reviewedAt": "2026-09-14",
       "enabled": true
     }
