@@ -22,11 +22,11 @@
     },
     "UCWOA1ZGywLbqmigxE4Qlvuw": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNJbzNJaEF5UTBVek1EaEJRME5GUkRjd1JEY3c"
+      "nextPageToken": "EAAaH1BUOkNJUTVJaEJGTnpZNVFrWTVNME5CUlVGQlF6TTA"
     },
     "UCQJWtTnAHhEG5w4uN0udnUQ": {
       "discoveryVersion": 2,
-      "nextPageToken": "EAAaH1BUOkNJbzNJaEJHUVRFME56UkVORVZEUmpOQlJUSTM"
+      "nextPageToken": "EAAaH1BUOkNJUTVJaEEyUlRBMU1VTXdRVUUwTlRJMFJqazE"
     },
     "UCQzdMyuz0Lf4zo4uGcEujFw": {
       "discoveryVersion": 2,
@@ -14540,6 +14540,39 @@
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
       "descriptionLead": "Sharronda Williams is here to give you a refresher on seasons 1 and 2 of Jack Ryan before season 3 hits Prime Video December 21st.\n \n» Watch Jack Ryan on Prime Video: [link]\n» SUBSCRIBE: [link]\n \nAbout Jack Ryan: When CIA analyst Jack Ryan stumbles upon a suspicious series of bank transfers his search for answers pulls him from the safety of his desk job and catapults him into a deadly game of cat and mouse throughout Europe and the Middle East, with a rising terrorist figurehead preparing for a",
+      "flagExcerpt": ""
+    },
+    "j_eTmBPtYb4": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "The Legend Of Vox Machina Season 1 Musical Recap | Prime Video",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "0557284ebb78a41ba581fcfbb34fd919dc8d660f26629c661b1331793b6c8b72",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Scanlan recaps the adventure for The Legend of Vox Machina Season 1.\n\n» Watch The Legend of Vox Machina on Prime Video: [link] \n\n» SUBSCRIBE: [link] \n\nAbout The Legend of Vox Machina: \nThey're rowdy, they're ragtag, they're misfits turned mercenaries for hire. Vox Machina is more interested in easy money and cheap ale than actually protecting the realm. But when the kingdom is threatened by evil, this boisterous crew realizes that they are the only ones capable of restoring justice. What began a",
+      "flagExcerpt": ""
+    },
+    "qsRGW6q5p-M": {
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "title": "A Christmas Prince | Recap Video [HD] | Netflix",
+      "reason": "mixed_format_or_description_flag",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "82b93901413fef3fa5e5e7d26ecef38339b1a91a6e08c45aab933c966c9c02b5",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Just in time for the long awaited Royal Wedding! Before Amber and Prince Richard walk down the aisle, relive your favorite moments from A Christmas Prince and how their relationship came to be.\n\nWatch A Christmas Prince only on Netflix: [link]\n\nSUBSCRIBE: [link]\n\nAbout Netflix:\nNetflix is the world's leading internet entertainment service with 130 million memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members c",
+      "flagExcerpt": ""
+    },
+    "ua4SU8oKjx8": {
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "title": "The Wheel of Time Season 1 Recap & Season 2 Sneak Peek | Prime Video",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-09-14",
+      "fingerprint": "43e9e804704676dd920df2fc146681139a81e15a02e60571a59b2bf4fc2211c4",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Watch The Wheel of Time, now on Prime Video.\n\n» Watch The Wheel of Time on Prime Video: [link]\n\n» SUBSCRIBE: [link]\n \nAbout The Wheel of Time: The lives of five young villagers change forever when a strange and powerful woman arrives, claiming one of them is the child of an ancient prophecy with the power to tip the balance between Light and Dark forever. They must choose whether to trust this stranger – and each other – with the fate of the world before the Dark One breaks out of His prison, an",
       "flagExcerpt": ""
     }
   },

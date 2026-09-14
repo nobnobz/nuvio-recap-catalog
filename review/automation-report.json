@@ -7,16 +7,16 @@
   "withdrawn": [],
   "restored": [],
   "skipped": [
-    "J_a4UDOw9Rc",
-    "dNRaFuN2aKg",
-    "vN-xDJXJkCQ",
-    "xKrg6mtKi74"
+    "j_eTmBPtYb4",
+    "qsRGW6q5p-M",
+    "ua4SU8oKjx8",
+    "vN-xDJXJkCQ"
   ],
   "healthChecked": 60,
   "apiCalls": 37,
-  "seriesResolutions": 3,
+  "seriesResolutions": 1,
   "movieResolutions": 0,
-  "identityResolutions": 3,
+  "identityResolutions": 1,
   "identityErrors": 1,
   "channelErrors": [
     {
@@ -28,17 +28,17 @@
   "pendingIdentities": 1,
   "unchangedRechecks": 0,
   "rejectionsByReason": {
-    "mixed_format_or_description_flag": 186,
+    "mixed_format_or_description_flag": 187,
     "live_region_or_age_restriction": 16,
     "coverage_title_not_explicit": 139,
     "audio_language_missing": 57,
     "series_identity_unresolved": 103,
-    "coverage_context_or_suffix_conflict": 89,
+    "coverage_context_or_suffix_conflict": 91,
     "duration_outside_limits": 12,
     "movie_identity_unresolved": 106,
     "season_numbering_unverified": 1,
     "movie_context_or_suffix_conflict": 7
   },
-  "rejectionsTracked": 716,
+  "rejectionsTracked": 719,
   "archivesComplete": false
 }
