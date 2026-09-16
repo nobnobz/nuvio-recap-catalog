@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 65,
+  "revision": 66,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7867,6 +7867,20 @@
       "durationSeconds": 233,
       "title": "The Man in the High Castle Season 1 Recap | Prime Video",
       "reviewedAt": "2026-09-14",
+      "enabled": true
+    },
+    {
+      "videoID": "j4Yp461emJE",
+      "imdbID": "tt27486290",
+      "tmdbID": 224263,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "language": "en",
+      "durationSeconds": 149,
+      "title": "Stranger Things: Tales From ‘85 | Season 1 Recap | Netflix",
+      "reviewedAt": "2026-09-16",
       "enabled": true
     }
   ],
