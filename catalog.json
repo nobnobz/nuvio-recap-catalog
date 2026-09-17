@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 66,
+  "revision": 67,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7881,6 +7881,20 @@
       "durationSeconds": 149,
       "title": "Stranger Things: Tales From ‘85 | Season 1 Recap | Netflix",
       "reviewedAt": "2026-09-16",
+      "enabled": true
+    },
+    {
+      "videoID": "OLv1cTxUJUQ",
+      "imdbID": "tt18546730",
+      "tmdbID": 194583,
+      "mediaType": "series",
+      "firstSeason": 3,
+      "lastSeason": 3,
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 414,
+      "title": "The Walking Dead: Dead City RECAP: Season 3",
+      "reviewedAt": "2026-09-17",
       "enabled": true
     }
   ],
