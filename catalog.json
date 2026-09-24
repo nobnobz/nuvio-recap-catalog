@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 67,
+  "revision": 68,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7895,6 +7895,18 @@
       "durationSeconds": 414,
       "title": "The Walking Dead: Dead City RECAP: Season 3",
       "reviewedAt": "2026-09-17",
+      "enabled": true
+    },
+    {
+      "videoID": "_D4STomB40U",
+      "imdbID": "tt8814476",
+      "tmdbID": 1081003,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 235,
+      "title": "Supergirl in Minutes | Recap",
+      "reviewedAt": "2026-09-24",
       "enabled": true
     }
   ],
