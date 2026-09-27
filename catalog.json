@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 68,
+  "revision": 69,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7907,6 +7907,20 @@
       "durationSeconds": 235,
       "title": "Supergirl in Minutes | Recap",
       "reviewedAt": "2026-09-24",
+      "enabled": true
+    },
+    {
+      "videoID": "uWULfOwpC8g",
+      "imdbID": "tt3281796",
+      "tmdbID": 54650,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 6,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 2413,
+      "title": "POWER Full Series Recap | Season 1-6 Ending Explained",
+      "reviewedAt": "2026-09-27",
       "enabled": true
     }
   ],
