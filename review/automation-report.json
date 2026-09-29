@@ -1,14 +1,16 @@
 {
-  "checkedAt": "2026-09-28",
+  "checkedAt": "2026-09-29",
   "policyVersion": 9,
   "catalogRevision": 69,
-  "candidatesChecked": 0,
+  "candidatesChecked": 1,
   "added": [],
   "withdrawn": [],
   "restored": [],
-  "skipped": [],
+  "skipped": [
+    "AQXfbgBmxXE"
+  ],
   "healthChecked": 60,
-  "apiCalls": 26,
+  "apiCalls": 27,
   "seriesResolutions": 0,
   "movieResolutions": 0,
   "identityResolutions": 0,
@@ -24,7 +26,7 @@
   "unchangedRechecks": 0,
   "rejectionsByReason": {
     "mixed_format_or_description_flag": 188,
-    "live_region_or_age_restriction": 18,
+    "live_region_or_age_restriction": 19,
     "coverage_title_not_explicit": 150,
     "audio_language_missing": 59,
     "series_identity_unresolved": 108,
@@ -34,6 +36,6 @@
     "season_numbering_unverified": 1,
     "movie_context_or_suffix_conflict": 7
   },
-  "rejectionsTracked": 748,
+  "rejectionsTracked": 749,
   "archivesComplete": false
 }
