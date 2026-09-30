@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 69,
+  "revision": 70,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7921,6 +7921,18 @@
       "durationSeconds": 2413,
       "title": "POWER Full Series Recap | Season 1-6 Ending Explained",
       "reviewedAt": "2026-09-27",
+      "enabled": true
+    },
+    {
+      "videoID": "M0DMKiLT1xU",
+      "imdbID": "tt1285016",
+      "tmdbID": 37799,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 260,
+      "title": "The Social Network in Minutes | Recap",
+      "reviewedAt": "2026-09-30",
       "enabled": true
     }
   ],
