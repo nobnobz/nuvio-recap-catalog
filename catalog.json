@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 70,
+  "revision": 71,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7933,6 +7933,20 @@
       "durationSeconds": 260,
       "title": "The Social Network in Minutes | Recap",
       "reviewedAt": "2026-09-30",
+      "enabled": true
+    },
+    {
+      "videoID": "LM9rve7RaI8",
+      "imdbID": "tt33043892",
+      "tmdbID": 259909,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 429,
+      "title": "DEXTER: RESURRECTION Season 1 Recap | Must Watch Before Season 2 | Series Explained",
+      "reviewedAt": "2026-10-02",
       "enabled": true
     }
   ],
