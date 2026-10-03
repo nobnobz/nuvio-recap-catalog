@@ -1,22 +1,17 @@
 {
-  "checkedAt": "2026-10-02",
+  "checkedAt": "2026-10-03",
   "policyVersion": 9,
   "catalogRevision": 71,
-  "candidatesChecked": 3,
-  "added": [
-    "LM9rve7RaI8"
-  ],
+  "candidatesChecked": 0,
+  "added": [],
   "withdrawn": [],
   "restored": [],
-  "skipped": [
-    "Dd858IcP8po",
-    "qznPddKgcS4"
-  ],
+  "skipped": [],
   "healthChecked": 60,
-  "apiCalls": 27,
-  "seriesResolutions": 3,
+  "apiCalls": 26,
+  "seriesResolutions": 0,
   "movieResolutions": 0,
-  "identityResolutions": 3,
+  "identityResolutions": 0,
   "identityErrors": 0,
   "channelErrors": [
     {
