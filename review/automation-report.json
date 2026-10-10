@@ -1,19 +1,17 @@
 {
-  "checkedAt": "2026-10-09",
+  "checkedAt": "2026-10-10",
   "policyVersion": 9,
   "catalogRevision": 71,
-  "candidatesChecked": 1,
+  "candidatesChecked": 0,
   "added": [],
   "withdrawn": [],
   "restored": [],
-  "skipped": [
-    "Xic3faS00Qs"
-  ],
+  "skipped": [],
   "healthChecked": 60,
-  "apiCalls": 27,
+  "apiCalls": 26,
   "seriesResolutions": 0,
-  "movieResolutions": 1,
-  "identityResolutions": 1,
+  "movieResolutions": 0,
+  "identityResolutions": 0,
   "identityErrors": 0,
   "channelErrors": [
     {
