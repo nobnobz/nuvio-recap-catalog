@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 71,
+  "revision": 72,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7947,6 +7947,18 @@
       "durationSeconds": 429,
       "title": "DEXTER: RESURRECTION Season 1 Recap | Must Watch Before Season 2 | Series Explained",
       "reviewedAt": "2026-10-02",
+      "enabled": true
+    },
+    {
+      "videoID": "O7lT3_DMhlk",
+      "imdbID": "tt0111301",
+      "tmdbID": 11667,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 291,
+      "title": "Street Fighter (1994) in Minutes | Recap",
+      "reviewedAt": "2026-10-13",
       "enabled": true
     }
   ],
