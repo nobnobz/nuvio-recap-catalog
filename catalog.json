@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 72,
+  "revision": 73,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7959,6 +7959,18 @@
       "durationSeconds": 291,
       "title": "Street Fighter (1994) in Minutes | Recap",
       "reviewedAt": "2026-10-13",
+      "enabled": true
+    },
+    {
+      "videoID": "1gYVxV58gV8",
+      "imdbID": "tt0770828",
+      "tmdbID": 49521,
+      "mediaType": "movie",
+      "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
+      "language": "en",
+      "durationSeconds": 263,
+      "title": "Man of Steel: RECAP",
+      "reviewedAt": "2026-10-14",
       "enabled": true
     }
   ],
