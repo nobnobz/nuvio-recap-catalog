@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 73,
+  "revision": 74,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7971,6 +7971,20 @@
       "durationSeconds": 263,
       "title": "Man of Steel: RECAP",
       "reviewedAt": "2026-10-14",
+      "enabled": true
+    },
+    {
+      "videoID": "weoZGV7PVi8",
+      "imdbID": "tt4406178",
+      "tmdbID": 81723,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 3,
+      "channelID": "UCx-KWLTKlB83hDI6UKECtJQ",
+      "language": "en",
+      "durationSeconds": 487,
+      "title": "The Gilded Age Seasons 1-3 Recap | The Gilded Age | HBO Max",
+      "reviewedAt": "2026-10-15",
       "enabled": true
     }
   ],
