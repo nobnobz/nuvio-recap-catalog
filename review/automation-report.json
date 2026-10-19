@@ -1,19 +1,15 @@
 {
-  "checkedAt": "2026-10-18",
+  "checkedAt": "2026-10-19",
   "policyVersion": 9,
   "catalogRevision": 74,
-  "candidatesChecked": 169,
+  "candidatesChecked": 162,
   "added": [],
   "withdrawn": [],
   "restored": [],
   "skipped": [
     "29lIWbAxamY",
-    "9vh1PbHuKfY",
     "BCdpg0ZNPCE",
     "BCxgafjR6UE",
-    "BO7shON7FOw",
-    "BqQ8IHR3iPw",
-    "C48Iw20U68I",
     "CMyNWq2pZjs",
     "ChoWINmpG74",
     "CoPngVyeB5M",
@@ -28,7 +24,6 @@
     "G5viTSzFClo",
     "G_ZIlXNwWtw",
     "GefZ45gXVq0",
-    "H1cUk44xP58",
     "HLFqV2YpJ4Q",
     "HUSGKWU3aRA",
     "HnhzLKMVaIo",
@@ -62,7 +57,6 @@
     "NQPXkp73qEc",
     "Nb5a-D89na4",
     "OFN3iBriAcM",
-    "OR90Q0aoMlo",
     "Opr0pleefos",
     "P7cxgunKTnw",
     "Patn0kCrL3k",
@@ -149,7 +143,6 @@
     "qqEcpjrPA0A",
     "rht9P0bYSFI",
     "ri46lMBEBuU",
-    "ryx4r9jqtLg",
     "sdpG8arhVpQ",
     "tLvRbLqXmMg",
     "tN8a6KfGFlk",
@@ -179,10 +172,10 @@
   ],
   "healthChecked": 60,
   "apiCalls": 30,
-  "seriesResolutions": 2,
-  "movieResolutions": 6,
+  "seriesResolutions": 3,
+  "movieResolutions": 5,
   "identityResolutions": 8,
-  "identityErrors": 4,
+  "identityErrors": 1,
   "channelErrors": [
     {
       "channelID": "UCVuQhvLFoV1HaJXhkNzhEaw",
@@ -190,7 +183,7 @@
       "reason": "uploads_playlist_not_found"
     }
   ],
-  "pendingIdentities": 162,
+  "pendingIdentities": 153,
   "unchangedRechecks": 0,
   "rejectionsByReason": {
     "mixed_format_or_description_flag": 188,
