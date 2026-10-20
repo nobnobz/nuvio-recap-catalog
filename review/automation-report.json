@@ -1,22 +1,16 @@
 {
-  "checkedAt": "2026-10-19",
+  "checkedAt": "2026-10-20",
   "policyVersion": 9,
-  "catalogRevision": 74,
-  "candidatesChecked": 162,
-  "added": [],
+  "catalogRevision": 75,
+  "candidatesChecked": 154,
+  "added": [
+    "xkdmDh7_P2s"
+  ],
   "withdrawn": [],
   "restored": [],
   "skipped": [
-    "29lIWbAxamY",
-    "BCdpg0ZNPCE",
-    "BCxgafjR6UE",
-    "CMyNWq2pZjs",
-    "ChoWINmpG74",
     "CoPngVyeB5M",
-    "DS83BnBZAJQ",
-    "Ecb8GH-k-PM",
     "EixoKpyGOms",
-    "FWk8g4fhQHo",
     "FZoB-raJ8cM",
     "FcbkTsflkv4",
     "Fh-jG9_323U",
@@ -87,7 +81,6 @@
     "XKvOcQV6E5c",
     "XX-rhBh1uQU",
     "Xkhv7CE_DYA",
-    "XmUAwc01Ktc",
     "YVh24zvBRmI",
     "Yd2A-Od994E",
     "Yj_yOd13JDg",
@@ -172,10 +165,10 @@
   ],
   "healthChecked": 60,
   "apiCalls": 30,
-  "seriesResolutions": 3,
-  "movieResolutions": 5,
+  "seriesResolutions": 2,
+  "movieResolutions": 6,
   "identityResolutions": 8,
-  "identityErrors": 1,
+  "identityErrors": 0,
   "channelErrors": [
     {
       "channelID": "UCVuQhvLFoV1HaJXhkNzhEaw",
@@ -183,7 +176,7 @@
       "reason": "uploads_playlist_not_found"
     }
   ],
-  "pendingIdentities": 153,
+  "pendingIdentities": 143,
   "unchangedRechecks": 0,
   "rejectionsByReason": {
     "mixed_format_or_description_flag": 188,
