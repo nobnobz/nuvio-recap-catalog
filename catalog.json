@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 75,
+  "revision": 76,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -7999,6 +7999,20 @@
       "durationSeconds": 755,
       "title": "NOBODY WANTS THIS Season 1 & 2 Recap | Must Watch Before Season 3 | Series Explained",
       "reviewedAt": "2026-10-20",
+      "enabled": true
+    },
+    {
+      "videoID": "4N-lrmmWesI",
+      "imdbID": "tt26933824",
+      "tmdbID": 250923,
+      "mediaType": "series",
+      "firstSeason": 2,
+      "lastSeason": 2,
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "language": "en",
+      "durationSeconds": 141,
+      "title": "Nobody Wants This | Season 2 Recap | Netflix",
+      "reviewedAt": "2026-10-21",
       "enabled": true
     }
   ],

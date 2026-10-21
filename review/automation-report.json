@@ -1,22 +1,14 @@
 {
-  "checkedAt": "2026-10-20",
+  "checkedAt": "2026-10-21",
   "policyVersion": 9,
-  "catalogRevision": 75,
-  "candidatesChecked": 154,
+  "catalogRevision": 76,
+  "candidatesChecked": 145,
   "added": [
-    "xkdmDh7_P2s"
+    "4N-lrmmWesI"
   ],
   "withdrawn": [],
   "restored": [],
   "skipped": [
-    "CoPngVyeB5M",
-    "EixoKpyGOms",
-    "FZoB-raJ8cM",
-    "FcbkTsflkv4",
-    "Fh-jG9_323U",
-    "Fs4JK0A5vWE",
-    "G5viTSzFClo",
-    "G_ZIlXNwWtw",
     "GefZ45gXVq0",
     "HLFqV2YpJ4Q",
     "HUSGKWU3aRA",
@@ -121,12 +113,12 @@
     "iaSHPkw741A",
     "irHGYZClcEo",
     "iz4UOoiaKHs",
+    "jprL3eLgVC0",
     "k2A_sQiMLdw",
     "lUnN-zVKPAw",
     "n7zdVXldB4s",
     "nBF9ldS7CoQ",
     "nGhxB4Jfhr0",
-    "nWIbtr0OVSk",
     "njJi4ngEf6E",
     "npCdpoNpMuk",
     "pLe_u4HJPeE",
@@ -160,13 +152,12 @@
     "yyfkSxLycwk",
     "z8UaIzJbFLc",
     "znLtIuNO4d0",
-    "zo_MUl05pUQ",
-    "ztce3GTRp2M"
+    "zo_MUl05pUQ"
   ],
   "healthChecked": 60,
-  "apiCalls": 30,
-  "seriesResolutions": 2,
-  "movieResolutions": 6,
+  "apiCalls": 29,
+  "seriesResolutions": 4,
+  "movieResolutions": 4,
   "identityResolutions": 8,
   "identityErrors": 0,
   "channelErrors": [
@@ -176,12 +167,12 @@
       "reason": "uploads_playlist_not_found"
     }
   ],
-  "pendingIdentities": 143,
+  "pendingIdentities": 135,
   "unchangedRechecks": 0,
   "rejectionsByReason": {
     "mixed_format_or_description_flag": 188,
     "live_region_or_age_restriction": 21,
-    "coverage_title_not_explicit": 151,
+    "coverage_title_not_explicit": 152,
     "audio_language_missing": 60,
     "series_identity_unresolved": 110,
     "coverage_context_or_suffix_conflict": 95,
@@ -191,6 +182,6 @@
     "movie_context_or_suffix_conflict": 7,
     "metadata_unavailable": 1
   },
-  "rejectionsTracked": 757,
+  "rejectionsTracked": 758,
   "archivesComplete": false
 }
