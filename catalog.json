@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 76,
+  "revision": 77,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -8013,6 +8013,20 @@
       "durationSeconds": 141,
       "title": "Nobody Wants This | Season 2 Recap | Netflix",
       "reviewedAt": "2026-10-21",
+      "enabled": true
+    },
+    {
+      "videoID": "JOcmMn87Njs",
+      "imdbID": "tt5770786",
+      "tmdbID": 70573,
+      "mediaType": "series",
+      "firstSeason": 2,
+      "lastSeason": 2,
+      "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
+      "language": "en",
+      "durationSeconds": 218,
+      "title": "GLOW | Season 2 Recap | Netflix",
+      "reviewedAt": "2026-10-22",
       "enabled": true
     }
   ],
