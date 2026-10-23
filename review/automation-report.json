@@ -1,21 +1,14 @@
 {
-  "checkedAt": "2026-10-22",
+  "checkedAt": "2026-10-23",
   "policyVersion": 9,
-  "catalogRevision": 77,
-  "candidatesChecked": 135,
+  "catalogRevision": 78,
+  "candidatesChecked": 125,
   "added": [
-    "JOcmMn87Njs"
+    "JGKx92hBHdo"
   ],
   "withdrawn": [],
   "restored": [],
   "skipped": [
-    "JDDkNeY4il8",
-    "JHRQmowslss",
-    "JHb2nojzc9U",
-    "JSzd6F5G9qk",
-    "JT6nkKfrtjQ",
-    "J_a4UDOw9Rc",
-    "Jw_Trm24mVc",
     "KN9-y1uYr24",
     "KUBt8cqCdwI",
     "KcQF3-cnzD0",
@@ -54,7 +47,6 @@
     "Uy6U051gNrU",
     "VDKcofUSfB8",
     "VP0iWSXb6ds",
-    "VswlpEs0pO4",
     "W5inyZ7I-1Y",
     "W6U-iB3HY1w",
     "WLjs41cqX9c",
@@ -66,7 +58,6 @@
     "Xkhv7CE_DYA",
     "YVh24zvBRmI",
     "Yd2A-Od994E",
-    "Yj_yOd13JDg",
     "YkIqAYRg5IE",
     "Ykwn11gtlR4",
     "YrL0uwotu-E",
@@ -74,7 +65,6 @@
     "Yv1_nWIjMJU",
     "ZHTcpx_XOPo",
     "Zhwo17UGDhc",
-    "Zsylnt3a-1E",
     "_5km00T0Pp0",
     "_XUXJo1q3Ew",
     "_sfTHTvfMWY",
@@ -107,7 +97,6 @@
     "k2A_sQiMLdw",
     "lUnN-zVKPAw",
     "n7zdVXldB4s",
-    "nBF9ldS7CoQ",
     "nGhxB4Jfhr0",
     "njJi4ngEf6E",
     "npCdpoNpMuk",
@@ -119,6 +108,7 @@
     "rht9P0bYSFI",
     "ri46lMBEBuU",
     "sdpG8arhVpQ",
+    "srdF3qN4HjQ",
     "tLvRbLqXmMg",
     "tN8a6KfGFlk",
     "tiaoTgv2A-w",
@@ -146,10 +136,10 @@
   ],
   "healthChecked": 60,
   "apiCalls": 29,
-  "seriesResolutions": 3,
-  "movieResolutions": 5,
+  "seriesResolutions": 5,
+  "movieResolutions": 3,
   "identityResolutions": 8,
-  "identityErrors": 0,
+  "identityErrors": 2,
   "channelErrors": [
     {
       "channelID": "UCVuQhvLFoV1HaJXhkNzhEaw",
@@ -157,14 +147,14 @@
       "reason": "uploads_playlist_not_found"
     }
   ],
-  "pendingIdentities": 123,
+  "pendingIdentities": 118,
   "unchangedRechecks": 0,
   "rejectionsByReason": {
     "mixed_format_or_description_flag": 188,
     "live_region_or_age_restriction": 21,
     "coverage_title_not_explicit": 152,
     "audio_language_missing": 60,
-    "series_identity_unresolved": 109,
+    "series_identity_unresolved": 110,
     "coverage_context_or_suffix_conflict": 95,
     "duration_outside_limits": 13,
     "movie_identity_unresolved": 110,
@@ -172,6 +162,6 @@
     "movie_context_or_suffix_conflict": 7,
     "metadata_unavailable": 1
   },
-  "rejectionsTracked": 757,
+  "rejectionsTracked": 758,
   "archivesComplete": false
 }

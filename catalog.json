@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 77,
+  "revision": 78,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -8027,6 +8027,18 @@
       "durationSeconds": 218,
       "title": "GLOW | Season 2 Recap | Netflix",
       "reviewedAt": "2026-10-22",
+      "enabled": true
+    },
+    {
+      "videoID": "JGKx92hBHdo",
+      "imdbID": "tt22084616",
+      "tmdbID": 969681,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 298,
+      "title": "Spider-Man: Brand New Day in Minutes | Recap",
+      "reviewedAt": "2026-10-23",
       "enabled": true
     }
   ],
