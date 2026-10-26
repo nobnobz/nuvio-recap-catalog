@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 78,
+  "revision": 79,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -8039,6 +8039,48 @@
       "durationSeconds": 298,
       "title": "Spider-Man: Brand New Day in Minutes | Recap",
       "reviewedAt": "2026-10-23",
+      "enabled": true
+    },
+    {
+      "videoID": "PobPi9i0RL8",
+      "imdbID": "tt5057054",
+      "tmdbID": 73375,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 2,
+      "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
+      "language": "en",
+      "durationSeconds": 656,
+      "title": "JACK RYAN Season 1 & 2 Recap | Must Watch Before Season 3 | Series Explained",
+      "reviewedAt": "2026-10-26",
+      "enabled": true
+    },
+    {
+      "videoID": "cYPmZlSjXlE",
+      "imdbID": "tt5057054",
+      "tmdbID": 73375,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 1,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 345,
+      "title": "Jack Ryan Season 1 Recap | Prime Video",
+      "reviewedAt": "2026-10-26",
+      "enabled": true
+    },
+    {
+      "videoID": "xKrg6mtKi74",
+      "imdbID": "tt5057054",
+      "tmdbID": 73375,
+      "mediaType": "series",
+      "firstSeason": 1,
+      "lastSeason": 2,
+      "channelID": "UCQJWtTnAHhEG5w4uN0udnUQ",
+      "language": "en",
+      "durationSeconds": 455,
+      "title": "Jack Ryan Recap - Seasons 1 & 2 | Prime Video",
+      "reviewedAt": "2026-10-26",
       "enabled": true
     }
   ],
