@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 79,
+  "revision": 80,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -8081,6 +8081,18 @@
       "durationSeconds": 455,
       "title": "Jack Ryan Recap - Seasons 1 & 2 | Prime Video",
       "reviewedAt": "2026-10-26",
+      "enabled": true
+    },
+    {
+      "videoID": "VP0iWSXb6ds",
+      "imdbID": "tt1502712",
+      "tmdbID": 166424,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 198,
+      "title": "Fantastic Four (2015) in Minutes | Recap",
+      "reviewedAt": "2026-10-27",
       "enabled": true
     }
   ],
