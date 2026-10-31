@@ -1,21 +1,12 @@
 {
-  "checkedAt": "2026-10-30",
+  "checkedAt": "2026-10-31",
   "policyVersion": 9,
   "catalogRevision": 81,
-  "candidatesChecked": 61,
-  "added": [
-    "bRvL-nhx-Ow",
-    "s02H52qvSKo"
-  ],
+  "candidatesChecked": 53,
+  "added": [],
   "withdrawn": [],
   "restored": [],
   "skipped": [
-    "_sfTHTvfMWY",
-    "bEKLXVH6g4s",
-    "bQ6O7QPMPQA",
-    "bkiRDuNnJ90",
-    "c0AfMcDhFfM",
-    "ch6UnwUa2wU",
     "cn_cdtTJxP0",
     "csTdjE1rQ4A",
     "ctCsajNw52w",
@@ -72,8 +63,8 @@
   ],
   "healthChecked": 60,
   "apiCalls": 28,
-  "seriesResolutions": 4,
-  "movieResolutions": 4,
+  "seriesResolutions": 3,
+  "movieResolutions": 5,
   "identityResolutions": 8,
   "identityErrors": 0,
   "channelErrors": [
@@ -83,7 +74,7 @@
       "reason": "uploads_playlist_not_found"
     }
   ],
-  "pendingIdentities": 53,
+  "pendingIdentities": 45,
   "unchangedRechecks": 0,
   "rejectionsByReason": {
     "mixed_format_or_description_flag": 188,
