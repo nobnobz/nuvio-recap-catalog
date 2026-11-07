@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 82,
+  "revision": 83,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -8147,6 +8147,18 @@
       "durationSeconds": 161,
       "title": "Godzilla Minus One in Minutes | Recap",
       "reviewedAt": "2026-11-06",
+      "enabled": true
+    },
+    {
+      "videoID": "JuvFs4PmtaA",
+      "imdbID": "tt0312528",
+      "tmdbID": 10588,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 209,
+      "title": "The Cat in the Hat in Minutes | Recap",
+      "reviewedAt": "2026-11-07",
       "enabled": true
     }
   ],
