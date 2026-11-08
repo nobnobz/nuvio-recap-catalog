@@ -1,14 +1,14 @@
 {
-  "checkedAt": "2026-11-07",
+  "checkedAt": "2026-11-08",
   "policyVersion": 9,
   "catalogRevision": 83,
   "candidatesChecked": 1,
-  "added": [
-    "JuvFs4PmtaA"
-  ],
+  "added": [],
   "withdrawn": [],
   "restored": [],
-  "skipped": [],
+  "skipped": [
+    "Xic3faS00Qs"
+  ],
   "healthChecked": 60,
   "apiCalls": 27,
   "seriesResolutions": 0,
