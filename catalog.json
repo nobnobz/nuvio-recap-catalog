@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 83,
+  "revision": 84,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -555,7 +555,7 @@
       "durationSeconds": 366,
       "title": "NOBODY WANTS THIS Season 1 Recap | Must Watch Before Season 2 | Series Explained",
       "reviewedAt": "2026-09-07",
-      "enabled": true
+      "enabled": false
     },
     {
       "videoID": "3FUZkslwFK4",

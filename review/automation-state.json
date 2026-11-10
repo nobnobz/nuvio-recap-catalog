@@ -56,8 +56,8 @@
       "completedAt": "2026-09-14"
     },
     "UCVuQhvLFoV1HaJXhkNzhEaw": {
-      "completedAt": "2026-11-09",
-      "uploadsUnavailableAt": "2026-11-09"
+      "completedAt": "2026-11-10",
+      "uploadsUnavailableAt": "2026-11-10"
     }
   },
   "health": {
@@ -152,27 +152,27 @@
     },
     "-pNtq9OvxNw": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "-u7mXJ7CFZo": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "0-1r9Oo7sEQ": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "2Y9gCjgMcRE": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "2fbdqabTZmc": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "3H57mIqK-P8": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "6ozR8k5Ga4g": {
       "misses": 0,
@@ -252,39 +252,40 @@
     },
     "-7Ee9hoRhvM": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "0O9kN_JoHUA": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "0PJ3van5yds": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "0Ss198dMaFE": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "0dB9I6lvEno": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "0q-_D6W7e8M": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "1JNMvzTsn20": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "1qtdqoo5vhs": {
-      "misses": 2,
-      "checkedAt": "2026-11-02"
+      "misses": 3,
+      "checkedAt": "2026-11-10",
+      "autoDisabled": true
     },
     "3FUZkslwFK4": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "4ZPkOCOzRaA": {
       "misses": 0,
@@ -328,31 +329,31 @@
     },
     "zZj951W7nPA": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "20ujdVwS7IU": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "3HyQ1eYQj40": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "3I1jGTUH6X0": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "3Jr33FcB9lA": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "3QSCkVTlipQ": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "3jS5VK7WJMY": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "5DLUM3zyXgs": {
       "misses": 0,
@@ -384,7 +385,7 @@
     },
     "3lBGUjXhFs0": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "4SFl2aXcwKI": {
       "misses": 0,
@@ -740,7 +741,7 @@
     },
     "zmTwTI9P9kY": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "DiOyps4eAh4": {
       "misses": 0,
@@ -812,27 +813,27 @@
     },
     "-LIeN443vAU": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "-bTumupgSAA": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "1f8hbwO4lRw": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "2An5ljBmJyg": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "2VeCbOIW1kQ": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "39rDUfUMTUU": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "6IAvHpaRrkA": {
       "misses": 0,
@@ -968,11 +969,11 @@
     },
     "-Ho92HBllDA": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "0Us_RLfsb7k": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "pQJayF2tNDg": {
       "misses": 0,
@@ -1452,23 +1453,23 @@
     },
     "3C7kUNWSdoI": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "3JDqYuFegU4": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "3KIDFAncNCQ": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "3TSX_prgvXU": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "3uDjxrVyY_c": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "3xYW4KI4hMM": {
       "misses": 0,
@@ -1592,79 +1593,79 @@
     },
     "-6MQqGSYbxs": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "-9oGHcz5zQg": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "-DwxgXsS1rA": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "-xx02V62chg": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "00UYCdoiADQ": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "02jiRD0LSLk": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "0UpWSSzgZtA": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "0cmrXBBo70U": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "0g7YNxV1emo": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "0ok1BnhAiNk": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "12WrUCiwRX4": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "15QK-mL4hio": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "1SmOPAlkVlI": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "1XgRxQKZjgo": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "2KzvA4cChEs": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "2RxqIwb69Jg": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "2nrRH3PKqEQ": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "2vYGzTmuQ68": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "37CQyCtTC8Q": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "8eNlumgnhu0": {
       "misses": 0,
@@ -2348,7 +2349,7 @@
     },
     "15rReWWPiDQ": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "dli1WoNU0pc": {
       "misses": 0,
@@ -2364,7 +2365,7 @@
     },
     "329YEM9P3nk": {
       "misses": 0,
-      "checkedAt": "2026-11-03"
+      "checkedAt": "2026-11-10"
     },
     "61souSkwDk4": {
       "misses": 0,
@@ -2564,7 +2565,7 @@
     },
     "1gYVxV58gV8": {
       "misses": 0,
-      "checkedAt": "2026-11-02"
+      "checkedAt": "2026-11-10"
     },
     "4N-lrmmWesI": {
       "misses": 0,
@@ -2605,6 +2606,10 @@
     "yNVq3Qimomg": {
       "misses": 0,
       "checkedAt": "2026-11-09"
+    },
+    "zwkXJD3tbkk": {
+      "misses": 0,
+      "checkedAt": "2026-11-10"
     }
   },
   "approved": {
@@ -6252,7 +6257,7 @@
     "movie:the hunger games": "2026-09-14",
     "movie:hunger games mockingjay part 2": "2026-10-30",
     "movie:the super mario bros movie": "2026-09-14",
-    "movie:agatha all along": "2026-10-11",
+    "movie:agatha all along": "2026-11-10",
     "movie:venom let there be carnage": "2026-09-14",
     "movie:the batman": "2026-09-14",
     "movie:your friendly neighborhood spider man": "2026-10-30",
@@ -6324,7 +6329,8 @@
     "series:lupin": "2026-11-03",
     "series:black doves": "2026-11-06",
     "movie:godzilla minus 1": "2026-11-06",
-    "movie:the cat in the hat": "2026-11-07"
+    "movie:the cat in the hat": "2026-11-07",
+    "series:rings of power recap everything you need to know before": "2026-11-10"
   },
   "series": [
     {
@@ -7491,7 +7497,7 @@
     }
   ],
   "pending": {},
-  "checkedAt": "2026-11-09",
+  "checkedAt": "2026-11-10",
   "rejected": {
     "-07drzOov-M": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -15725,7 +15731,7 @@
       "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
       "title": "Agatha All Along RECAP",
       "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-11-10",
       "fingerprint": "00a21c55610ec8bfd724c3bb5592f9490498c3b518276c0525459ef497f3890a",
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
@@ -15852,6 +15858,28 @@
       "audioLanguage": "en",
       "descriptionLead": "To me, my X-Men! This is the must watch recap of everything X-Men before Avengers: Doomsday. Re-live the iconic original trilogy from the 2000's that started it all! Then jump into the First Class era telling the story of young Charles Xavier, Magneto, and Mystique. Plus recap the Wolverine solo movies, and special bonus recaps of the Deadpool movies. I can reasonably say this is the X-Men Timeline Explained, though the timeline is so convoluted I'm not sure anyone can really explain it.\n\nMarvel",
       "flagExcerpt": ""
+    },
+    "MbVV82pHtb0": {
+      "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
+      "title": "Rings of Power RECAP - Everything You Need to Know Before Season 3!",
+      "reason": "series_identity_unresolved",
+      "checkedAt": "2026-11-10",
+      "fingerprint": "fc48f753fe877028f4eb85c8722f19f57f7677cb879f263ed40545ee9c14cc5b",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en-US",
+      "descriptionLead": "Check out Zocdoc and stop putting off those doctors appointments. Go to [link] to find and instantly book a top-rated doctor today. This message is sponsored by Zocdoc.\n\nVisit the ScreenCrush Merch Store to find fan merch that we designed just for you. From T-shirts to unique accessories, find your favorites. For 15% off your first order subscribe here! [link] \n\nRings of Power details the end of the Second Age of Middle-earth and the rise of Sauron. IN this video bwe break down seaons 1 and 2 of",
+      "flagExcerpt": ""
+    },
+    "ZTTTnUaS_JY": {
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "title": "The Rings of Power - Season 2 in Minutes | Lord of the Rings Recap",
+      "reason": "coverage_context_or_suffix_conflict",
+      "checkedAt": "2026-11-10",
+      "fingerprint": "48a5b5affb361e8c73cc687f3afe165eb6388299c04ee2795283851304b6bce9",
+      "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
+      "audioLanguage": "en",
+      "descriptionLead": "Want to be prepared for The Lord of the Rings: The Rings of Power Season 3 (2026)? Or forget all of the major plot events in Season 2? Just watch this recap and you will be caught up and ready in no time!\n\nSeason 1 Recap: \n\nMarvel Phase 5 Recaps: [link]\n\nMarvel Phase 4 Recaps: [link]\n\nMarvel Phase 3 Recaps: [link]\n\nMarvel Phase 2 Recaps: [link]\n\nMarvel Phase 1 Recaps: [link]\n\nStar Wars Recaps:\n[link]\n\nDC Extended Universe Recaps: [link]\n\nMore Marvel, DC and other recaps coming soon! Click subscr",
+      "flagExcerpt": "0:00 Episode 1"
     }
   },
   "movies": [
