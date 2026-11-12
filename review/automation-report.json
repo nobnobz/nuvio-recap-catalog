@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11",
+  "checkedAt": "2026-11-12",
   "policyVersion": 9,
   "catalogRevision": 84,
   "candidatesChecked": 1,
@@ -7,13 +7,13 @@
   "withdrawn": [],
   "restored": [],
   "skipped": [
-    "imGXyeljRWg"
+    "mD_vnA1Heb0"
   ],
   "healthChecked": 60,
   "apiCalls": 27,
-  "seriesResolutions": 1,
+  "seriesResolutions": 0,
   "movieResolutions": 0,
-  "identityResolutions": 1,
+  "identityResolutions": 0,
   "identityErrors": 0,
   "channelErrors": [
     {
@@ -23,7 +23,7 @@
     }
   ],
   "pendingIdentities": 0,
-  "unchangedRechecks": 0,
+  "unchangedRechecks": 1,
   "rejectionsByReason": {
     "mixed_format_or_description_flag": 190,
     "live_region_or_age_restriction": 23,
