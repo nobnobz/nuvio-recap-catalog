@@ -1,28 +1,26 @@
 {
-  "checkedAt": "2026-11-16",
+  "checkedAt": "2026-11-17",
   "policyVersion": 9,
   "catalogRevision": 84,
-  "candidatesChecked": 10,
+  "candidatesChecked": 8,
   "added": [],
   "withdrawn": [],
   "restored": [],
   "skipped": [
-    "7WwLwd63uU8",
-    "7ZoaZU853Jw",
-    "7uKFuzr1zDc",
-    "7x1oOPVHTt8",
-    "8KkyZP90Qbk",
-    "8WfDFtKr8r0",
-    "9VN_KyNa3kQ",
-    "JShvGpX4tGA",
-    "MSPm24vcAWs",
-    "kB_zt9eRbiQ"
+    "9vh1PbHuKfY",
+    "Aa48poBp598",
+    "BO7shON7FOw",
+    "BqQ8IHR3iPw",
+    "C48Iw20U68I",
+    "H1cUk44xP58",
+    "OR90Q0aoMlo",
+    "ryx4r9jqtLg"
   ],
   "healthChecked": 60,
   "apiCalls": 27,
-  "seriesResolutions": 3,
+  "seriesResolutions": 1,
   "movieResolutions": 4,
-  "identityResolutions": 7,
+  "identityResolutions": 5,
   "identityErrors": 0,
   "channelErrors": [
     {
@@ -41,11 +39,11 @@
     "series_identity_unresolved": 110,
     "coverage_context_or_suffix_conflict": 97,
     "duration_outside_limits": 13,
-    "movie_identity_unresolved": 108,
+    "movie_identity_unresolved": 109,
     "season_numbering_unverified": 1,
     "movie_context_or_suffix_conflict": 8,
     "metadata_unavailable": 1
   },
-  "rejectionsTracked": 764,
+  "rejectionsTracked": 765,
   "archivesComplete": false
 }
