@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": 84,
+  "revision": 85,
   "channels": [
     {
       "id": "UC1Myj674wRVXB9I4c6Hm5zA",
@@ -8159,6 +8159,18 @@
       "durationSeconds": 209,
       "title": "The Cat in the Hat in Minutes | Recap",
       "reviewedAt": "2026-11-07",
+      "enabled": true
+    },
+    {
+      "videoID": "aGLjKYn8G2I",
+      "imdbID": "tt0212338",
+      "tmdbID": 1597,
+      "mediaType": "movie",
+      "channelID": "UCwOhOMxCC4Bi54W255Sczmg",
+      "language": "en",
+      "durationSeconds": 175,
+      "title": "Meet the Parents in Minutes | Recap",
+      "reviewedAt": "2026-11-18",
       "enabled": true
     }
   ],
