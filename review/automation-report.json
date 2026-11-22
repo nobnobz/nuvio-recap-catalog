@@ -1,31 +1,26 @@
 {
-  "checkedAt": "2026-11-21",
+  "checkedAt": "2026-11-22",
   "policyVersion": 9,
-  "catalogRevision": 87,
-  "candidatesChecked": 12,
+  "catalogRevision": 88,
+  "candidatesChecked": 7,
   "added": [
-    "cKAOE1B0Htg"
+    "92kwhqsFGEc"
   ],
   "withdrawn": [],
   "restored": [],
   "skipped": [
-    "JDDkNeY4il8",
-    "JHRQmowslss",
-    "JHb2nojzc9U",
-    "JSzd6F5G9qk",
-    "JT6nkKfrtjQ",
-    "J_a4UDOw9Rc",
-    "Jw_Trm24mVc",
-    "VswlpEs0pO4",
-    "Yj_yOd13JDg",
-    "Zsylnt3a-1E",
-    "nBF9ldS7CoQ"
+    "KUBt8cqCdwI",
+    "KcQF3-cnzD0",
+    "Kl7yVuLiADI",
+    "KvCitIkjkZs",
+    "L93SCh8GTWo",
+    "lUnN-zVKPAw"
   ],
   "healthChecked": 60,
   "apiCalls": 27,
-  "seriesResolutions": 2,
-  "movieResolutions": 6,
-  "identityResolutions": 8,
+  "seriesResolutions": 3,
+  "movieResolutions": 3,
+  "identityResolutions": 6,
   "identityErrors": 0,
   "channelErrors": [
     {
