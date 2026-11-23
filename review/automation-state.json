@@ -56,8 +56,8 @@
       "completedAt": "2026-09-14"
     },
     "UCVuQhvLFoV1HaJXhkNzhEaw": {
-      "completedAt": "2026-11-22",
-      "uploadsUnavailableAt": "2026-11-22"
+      "completedAt": "2026-11-23",
+      "uploadsUnavailableAt": "2026-11-23"
     }
   },
   "health": {
@@ -127,11 +127,11 @@
     },
     "pgeVNbuRDB8": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "qTApgkJIpWo": {
-      "misses": 15,
-      "checkedAt": "2026-11-08",
+      "misses": 16,
+      "checkedAt": "2026-11-23",
       "autoDisabled": true
     },
     "uz9O8cIeDQ0": {
@@ -232,15 +232,15 @@
     },
     "nhHOmgbZow4": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "oYjSO3ng8Bw": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "ptq7zIt6Dyo": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "t70Ow9b_PYE": {
       "misses": 0,
@@ -321,7 +321,7 @@
     },
     "mgwe_tY-7v8": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "z98Pz41nb9k": {
       "misses": 0,
@@ -585,11 +585,11 @@
     },
     "o87sPnsnlZg": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "osgVw3T82Gc": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "u1QIBWg8AtA": {
       "misses": 0,
@@ -661,7 +661,7 @@
     },
     "p7YxwveUrjI": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "wHtZqojunC8": {
       "misses": 0,
@@ -709,15 +709,15 @@
     },
     "mU4RkxQl9lA": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "o4gwnuRbBMU": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "r682TrOVvj0": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "stauPK3FIaQ": {
       "misses": 0,
@@ -913,7 +913,7 @@
     },
     "nkxrUJP8KxA": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "JTgsywVgQoA": {
       "misses": 0,
@@ -941,7 +941,7 @@
     },
     "qR7wnJIwb0Q": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "snw96IMp-mI": {
       "misses": 0,
@@ -977,11 +977,11 @@
     },
     "pQJayF2tNDg": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "pgdJvnIEc44": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "DsYU2AmhxWc": {
       "misses": 0,
@@ -1089,15 +1089,15 @@
     },
     "mifli51yFfs": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "ohkj_yhiFqA": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "pAsouBXd2m4": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "vwOzGbMlvDk": {
       "misses": 0,
@@ -1245,19 +1245,19 @@
     },
     "mWCMPhlF2co": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "mYq_DO9kSZI": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "mdi8jpeHAd4": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "mhXXGMiVEbI": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "OlBpbu1-r-M": {
       "misses": 0,
@@ -1269,83 +1269,83 @@
     },
     "nFLz--neClk": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "nH_7G7M28wU": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "nckS52bztng": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "o8W5i_NcjZ0": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "oTbnT4cQ7lI": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "odlw0MmBdso": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "ouX-Vb55lSU": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "oxfgcdRmvAg": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "pB6ULQIgmfg": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "pC42xTkZl0s": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "pcQ1dBcSl6s": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "peglqUx0z_E": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "pmLcPDA51F8": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "r2WbLxzJ6Ps": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "rMB5ggyypE0": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "rYRllvl9d_0": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "rgGzLSdrGrA": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "rmK260wUu9E": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "rq8HDFzx_B4": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "ryc3to4Shk4": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "s-8shbJCqmE": {
       "misses": 0,
@@ -2017,23 +2017,23 @@
     },
     "pnghPfxz6_U": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "q67Lf3JX7Qw": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "q8x4ujLIvEw": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "qxAF2ENMj7o": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "rTaUmaHXCaA": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "s1BZM7cw4vU": {
       "misses": 0,
@@ -2169,15 +2169,15 @@
     },
     "oqjbNmUQkV4": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "pG0EC4-a-bs": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "p_BSGyzxG40": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "mC1JF5HBk4Q": {
       "misses": 0,
@@ -2185,35 +2185,35 @@
     },
     "moiGzdsWTDc": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "n6sDm4snenU": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "nMS-SY0sKss": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "nfYDe8hsT2Q": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "nj0PzOyQUu8": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "nq2jQyID-Gg": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "nsQg04PVIH0": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "o3ehGLPe0-E": {
       "misses": 0,
-      "checkedAt": "2026-11-18"
+      "checkedAt": "2026-11-23"
     },
     "FAVaRPQ_NKg": {
       "misses": 0,
@@ -2317,7 +2317,7 @@
     },
     "r4kiR2vsfAQ": {
       "misses": 0,
-      "checkedAt": "2026-11-08"
+      "checkedAt": "2026-11-23"
     },
     "xfiWZcz0ZVw": {
       "misses": 0,
@@ -5699,6 +5699,11 @@
       "policyVersion": 9,
       "checkedAt": "2026-11-22",
       "audioLanguage": "en"
+    },
+    "jtmffkSP_jQ": {
+      "policyVersion": 9,
+      "checkedAt": "2026-11-23",
+      "audioLanguage": "en-US"
     }
   },
   "identityChecks": {
@@ -5914,10 +5919,10 @@
     "series:what if": "2026-11-21",
     "movie:the book of boba fett": "2026-11-21",
     "movie:the incredible hulk": "2026-09-14",
-    "series:the night agent recap before": "2026-10-24",
+    "series:the night agent recap before": "2026-11-23",
     "series:the flash": "2026-11-22",
-    "series:my hero academia recap everything you need to know before": "2026-10-24",
-    "series:x men 97 recap everything you need to know before": "2026-10-24",
+    "series:my hero academia recap everything you need to know before": "2026-11-23",
+    "series:x men 97 recap everything you need to know before": "2026-11-23",
     "movie:survivor winners at war returning players": "2026-10-25",
     "series:invincible": "2026-10-25",
     "movie:iron man": "2026-10-25",
@@ -5931,15 +5936,15 @@
     "movie:pennywise": "2026-11-13",
     "movie:ironheart": "2026-11-15",
     "series:tyler perry s beauty in black": "2026-11-13",
-    "movie:black widow mcu": "2026-10-24",
-    "movie:jurassic park franchise": "2026-10-24",
+    "movie:black widow mcu": "2026-11-23",
+    "movie:jurassic park franchise": "2026-11-23",
     "movie:captain america brave new world": "2026-09-14",
     "series:gen v and the boys recap everything you need to know before": "2026-10-26",
     "movie:alien": "2026-11-16",
     "movie:deadpool and wolverine": "2026-11-17",
     "series:antonia gentry and brianne howey recap ginny georgia": "2026-11-20",
     "movie:cross s1": "2026-11-22",
-    "series:last of us": "2026-10-24",
+    "series:last of us": "2026-11-23",
     "series:peacemaker and superman dcu recap everything you need to know before": "2026-10-25",
     "series:recap house of cards": "2026-10-25",
     "movie:she hulk attorney at law": "2026-10-26",
@@ -6337,7 +6342,7 @@
     "series:carnival row": "2026-09-14",
     "series:harlem": "2026-09-14",
     "series:glow": "2026-10-22",
-    "movie:dear white people volume 2": "2026-10-24",
+    "movie:dear white people volume 2": "2026-11-23",
     "series:lucifer recap get ready for": "2026-11-21",
     "series:the wilds": "2026-09-14",
     "series:john krasinski cast recap of jack ryan": "2026-11-04",
@@ -7538,7 +7543,7 @@
     }
   ],
   "pending": {},
-  "checkedAt": "2026-11-22",
+  "checkedAt": "2026-11-23",
   "rejected": {
     "-07drzOov-M": {
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
@@ -8886,7 +8891,7 @@
       "channelID": "UCNCTxLZ3EKKry-oWgLlsYsw",
       "title": "The Night Agent RECAP before Season 3 #TheNightAgent #recap",
       "reason": "series_identity_unresolved",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-11-23",
       "fingerprint": "7459ad3930af69bb9b58fab34c01d3f59fef7a3f3189ad102d4979e61da0a615",
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
@@ -8963,7 +8968,7 @@
       "channelID": "UCnFL_hmp-nc-l2QlLzxZdhg",
       "title": "Black Widow MCU Recap | Everything You Need to Know Before Seeing Black Widow (MCU Explained)",
       "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-11-23",
       "fingerprint": "c3f7ae38b23cdab2c34e380437f5befb36279222ea0c765a99f692bd7c068822",
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
@@ -11911,7 +11916,7 @@
       "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
       "title": "X-Men 97 RECAP - Everything You Need to Know Before Season 2",
       "reason": "series_identity_unresolved",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-11-23",
       "fingerprint": "6f3e1ff050b753478b8e87314eaeb5755af5a191def59b765493669a1de5d013",
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
@@ -12769,7 +12774,7 @@
       "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
       "title": "My Hero Academia RECAP - Everything You Need to Know Before Season 8",
       "reason": "series_identity_unresolved",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-11-23",
       "fingerprint": "79097efb682ab9fc99111d21b20dfe63effe1b511199d993a85fd97cd0733b66",
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
@@ -13110,7 +13115,7 @@
       "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
       "title": "Multiverse Saga Recap - Everything You Need to Know Before Fantastic Four: First Steps!",
       "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-11-23",
       "fingerprint": "bae06842e7d290812f848f7439f6ad587392c5219dac8fe33fd5fbb843d12cea",
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
@@ -13121,7 +13126,7 @@
       "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
       "title": "Last of Us Season 1 RECAP - Everything You Need to Know Before Season 2!",
       "reason": "series_identity_unresolved",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-11-23",
       "fingerprint": "66768e392c4d9a4ba406f2997266b578d25874d5be91788858cf2c78b280381b",
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
@@ -13132,7 +13137,7 @@
       "channelID": "UCgMJGv4cQl8-q71AyFeFmtg",
       "title": "Jurassic Park Franchise Recap! Everything You Need to Know Before Jurassic World: Rebirth",
       "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-11-23",
       "fingerprint": "eea987365ea138b5060574c11ba6f494947113e7df74422bf872fda17a78468e",
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en-US",
@@ -15299,7 +15304,7 @@
       "channelID": "UCWOA1ZGywLbqmigxE4Qlvuw",
       "title": "Dear White People Volume 2 Ultimate Recap | Netflix",
       "reason": "movie_identity_unresolved",
-      "checkedAt": "2026-10-24",
+      "checkedAt": "2026-11-23",
       "fingerprint": "23b660a4c115c12cdaca5ed9206c6f5287517b74bb817b4e7800c3434cfe6acc",
       "rulesSignature": "21b4bb10394cedd1551bcc66da5198ce916af69f420fec9b6ca2815b2e11551f",
       "audioLanguage": "en",
