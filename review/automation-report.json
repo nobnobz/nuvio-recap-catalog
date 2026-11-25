@@ -1,27 +1,23 @@
 {
-  "checkedAt": "2026-11-24",
+  "checkedAt": "2026-11-25",
   "policyVersion": 9,
-  "catalogRevision": 89,
-  "candidatesChecked": 15,
-  "added": [],
+  "catalogRevision": 90,
+  "candidatesChecked": 10,
+  "added": [
+    "SzIePryAtLo"
+  ],
   "withdrawn": [],
   "restored": [],
   "skipped": [
-    "MMQzqahrKN8",
-    "MbuXGXmrHFM",
-    "NQPXkp73qEc",
-    "Nb5a-D89na4",
-    "OFN3iBriAcM",
-    "Opr0pleefos",
-    "P7cxgunKTnw",
-    "Patn0kCrL3k",
-    "Uy6U051gNrU",
-    "WtCv3C_bGhU",
-    "XKvOcQV6E5c",
-    "YrL0uwotu-E",
-    "iaSHPkw741A",
-    "oWt9pQbOQrE",
-    "tjnYV-MdhO0"
+    "PblalSQSksU",
+    "Pi8U3N9DmRw",
+    "QO_9pNsqA34",
+    "RXp2WSUIasc",
+    "RXvQVsSgT6s",
+    "SbKRzdHoniM",
+    "Sgc4oQoOq-Q",
+    "Xb6CRNM31Ic",
+    "oWt9pQbOQrE"
   ],
   "healthChecked": 60,
   "apiCalls": 27,
@@ -37,7 +33,7 @@
     }
   ],
   "pendingIdentities": 1,
-  "unchangedRechecks": 0,
+  "unchangedRechecks": 1,
   "rejectionsByReason": {
     "mixed_format_or_description_flag": 190,
     "live_region_or_age_restriction": 23,
